@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  background-image: url(images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+.stars--1 .star:first-child {
+  background-image: url(images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+
+.stars--2 .star:first-child,
+.stars--2 .star:nth-child(2) {
+  background-image: url(images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+
+.stars--3 .star:first-child,
+.stars--3 .star:nth-child(2),
+.stars--3 .star:nth-child(3) {
+  background-image: url(images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+
+.stars--4 .star:first-child,
+.stars--4 .star:nth-child(3),
+.stars--4 .star:nth-child(2n) {
+  background-image: url(images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
+
+.stars--5 .star:nth-child(2n),
+.stars--5 .star:nth-child(2n+1) {
+  background-image: url(images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+}
