@@ -25,5 +25,5 @@ body {
 .stars--3 .rate-star:nth-child(-n + 3),
 .stars--4 .rate-star:nth-child(-n + 4),
 .stars--5 .rate-star {
-  background-image: url(images/star-active.svg);
+  background-image: url("images/star-active.svg");
 }
