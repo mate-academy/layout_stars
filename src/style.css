@@ -13,10 +13,11 @@ body {
 
 .rate-star {
   width: 15px;
+  background: url("images/star.svg") no-repeat center;
+}
+
+.rate > .rate-star:not(:last-of-type) {
   margin-right: 4px;
-  background-image: url("images/star.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .stars--1 .rate-star:nth-child(1),
