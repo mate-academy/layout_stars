@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.star-height {
+  display: flex;
+  height: 15px;
+}
+
+.star {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(images/star.svg);
+}
+
+.stars--1 .star:first-child,
+.stars--2 .star:nth-child(-n+2),
+.stars--3 .star:nth-child(-n+3),
+.stars--4 .star:not(:last-child),
+.stars--5 .star {
+  background-image: url(images/star-active.svg);
+}
