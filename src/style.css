@@ -16,15 +16,8 @@ body {
   height: 15px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 4px;
-}
-
-.stars--1 .star,
-.stars--2 .star,
-.stars--3 .star,
-.stars--4 .star,
-.stars--5 .star {
   background-image: url("images/star-active.svg");
+  margin-right: 4px;
 }
 
 .stars--0 .star {
