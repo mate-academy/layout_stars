@@ -6,11 +6,6 @@ body {
   margin: 0;
 }
 
-.rating--wraper {
-  margin-top: 2px;
-  margin-left: 1px;
-}
-
 .stars {
   display: flex;
 }
