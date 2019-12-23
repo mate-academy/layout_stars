@@ -13,27 +13,10 @@ body {
   margin-right: 4px;
 }
 
-.stars--1 .star:first-child {
-  background: no-repeat center url(images/star-active.svg);
-}
-
-.stars--2 .star:first-child,
-.stars--2 .star:nth-child(2) {
-  background: no-repeat center url(images/star-active.svg);
-}
-
-.stars--3 .star:first-child,
-.stars--3 .star:nth-child(2),
-.stars--3 .star:nth-child(3) {
-  background: no-repeat center url(images/star-active.svg);
-}
-
-.stars--4 .star:first-child,
-.stars--4 .star:nth-child(3),
-.stars--4 .star:nth-child(2n) {
-  background: no-repeat center url(images/star-active.svg);
-}
-
+.stars--1 .star:first-child,
+.stars--2 .star:nth-child(-n+2),
+.stars--3 .star:nth-child(-n+3),
+.stars--4 .star:nth-child(-n+4),
 .stars--5 .star {
   background: no-repeat center url(images/star-active.svg);
 }
