@@ -10,8 +10,7 @@ body {
   background: url(./images/star.svg) no-repeat center;
   width: 15px;
   height: 15px;
-  margin: 0 4px 0 0;
-  padding: 0;
+  margin-right: 4px;
 }
 
 .stars--1 div:nth-child(1),
