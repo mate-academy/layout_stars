@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.rating--wraper {
+  margin-top: 2px;
+  margin-left: 1px;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars > div {
+  background: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+.stars--1 > div:nth-child(1),
+.stars--2 > div:nth-child(1),
+.stars--2 > div:nth-child(2),
+.stars--3 > div:nth-child(1),
+.stars--3 > div:nth-child(2),
+.stars--3 > div:nth-child(3),
+.stars--4 > div:nth-child(1),
+.stars--4 > div:nth-child(2),
+.stars--4 > div:nth-child(3),
+.stars--4 > div:nth-child(4),
+.stars--5 > div {
+  background-image: url(images/star-active.svg);
+}
