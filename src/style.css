@@ -2,12 +2,12 @@ body {
   margin: 0;
 }
 
-.rating {
+.stars {
   display: flex;
   height: 15px;
 }
 
-.rating div {
+.stars div {
   width: 15px;
   margin-right: 4px;
   background: url("images/star.svg") center no-repeat;
