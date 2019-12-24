@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.stars__row {
+.stars {
   display: flex;
 }
 
