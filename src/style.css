@@ -15,10 +15,10 @@ body {
   background: no-repeat center url(images/star.svg);
 }
 
-.row-star.stars--1 :first-child,
-.row-star.stars--2 :nth-child(-n+2),
-.row-star.stars--3 :nth-child(-n+3),
-.row-star.stars--4 :nth-child(-n+4),
-.row-star.stars--5 :nth-child(-n+5) {
+.row-star.row-stars--1 :first-child,
+.row-star.row-stars--2 :nth-child(-n+2),
+.row-star.row-stars--3 :nth-child(-n+3),
+.row-star.row-stars--4 :nth-child(-n+4),
+.row-star.row-stars--5 :nth-child(-n+5) {
   background: no-repeat center url(images/star-active.svg);
 }
