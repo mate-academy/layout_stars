@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.rating {
+.stars {
   display: flex;
   height: 15px;
 }
