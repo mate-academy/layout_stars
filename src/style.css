@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.stars-block {
+  display: flex;
+}
+
+.star {
+  height: 15px;
+  width: 15px;
+  margin-right: 4px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars-block__star--1 .star:nth-child(1) {
+  background-image: url(./images/star-active.svg);
+}
+
+.stars-block__star--2 .star:nth-child(-n+2) {
+  background-image: url(./images/star-active.svg);
+}
+
+.stars-block__star--3 .star:nth-child(-n+3) {
+  background-image: url(./images/star-active.svg);
+}
+
+.stars-block__star--4 .star:nth-child(-n+4) {
+  background-image: url(./images/star-active.svg);
+}
+
+.stars-block__star--5 .star:nth-child(-n+5) {
+  background-image: url(./images/star-active.svg);
+}
