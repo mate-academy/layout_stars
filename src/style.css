@@ -6,25 +6,25 @@ body {
   margin: 0;
 }
 
-.rate {
+.stars {
   display: flex;
   height: 15px;
 }
 
-.star {
+.stars__item {
   height: 100%;
   width: 15px;
   background: url("images/star.svg") no-repeat center;
 }
 
-.rate .star:not(:last-child) {
+.stars .stars__item:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars--1 .star:nth-child(1),
-.stars--2 .star:nth-child(-n + 2),
-.stars--3 .star:nth-child(-n + 3),
-.stars--4 .star:nth-child(-n + 4),
-.stars--5 .star {
+.stars--1 .stars__item:nth-child(1),
+.stars--2 .stars__item:nth-child(-n + 2),
+.stars--3 .stars__item:nth-child(-n + 3),
+.stars--4 .stars__item:nth-child(-n + 4),
+.stars--5 .stars__item {
   background-image: url("images/star-active.svg");
 }
