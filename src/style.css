@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.stars-general {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.stars-general {
+  position: relative;
+  height: 13px;
+  width: 90px;
+}
+
+.stars-general::after,
+.stars-general::before {
+  content: " ";
+  display: block;
+  height: 100%;
+  position: absolute;
+}
+
+.stars-general::before {
+  background: url(images/star.svg) repeat-x 0 50%;
+  left: 0;
+  width: 100%;
+}
+
+.stars-general::after {
+  background: url(images/star-active.svg) repeat-x  0 50%;
+  left: 0;
+}
+
+.stars--1::after {
+  width: 20%;
+}
+
+.stars--2::after {
+  width: 40%;
+}
+
+.stars--3::after {
+  width: 60%;
+}
+
+.stars--4::after {
+  width: 80%;
+}
+
+.stars--5::after {
+  width: 100%;
+}
