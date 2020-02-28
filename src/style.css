@@ -19,10 +19,10 @@ body {
   margin-right: 0;
 }
 
-.stars--1 .rating__star:nth-child(-n+1),
-.stars--2 .rating__star:nth-child(-n+2),
-.stars--3 .rating__star:nth-child(-n+3),
-.stars--4 .rating__star:nth-child(-n+4),
-.stars--5 .rating__star:nth-child(-n+5) {
+.rating--1 .rating__star:nth-child(-n+1),
+.rating--2 .rating__star:nth-child(-n+2),
+.rating--3 .rating__star:nth-child(-n+3),
+.rating--4 .rating__star:nth-child(-n+4),
+.rating--5 .rating__star:nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
 }
