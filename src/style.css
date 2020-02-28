@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.star {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  background-image: url("./images/star.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.one-active-star .star:nth-child(1) {
+  background-image: url("./images/star-active.svg");
+}
+
+.two-active-star .star:nth-child(-n + 2) {
+  background-image: url("./images/star-active.svg");
+}
+
+.three-active-star .star:nth-child(-n + 3) {
+  background-image: url("./images/star-active.svg");
+}
+
+.four-active-star .star:nth-child(-n + 4) {
+  background-image: url("./images/star-active.svg");
+}
+
+.five-active-star .star:nth-child(-n + 5) {
+  background-image: url("./images/star-active.svg");
+}
