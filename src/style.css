@@ -7,12 +7,12 @@ body {
 }
 
 .rating__star {
-  background-image: url(./images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
   height: 15px;
   width: 15px;
   margin-right: 4px;
+  background-image: url(./images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .rating__star:last-child {
