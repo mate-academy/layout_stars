@@ -17,22 +17,10 @@ body {
   margin-right: 0;
 }
 
-.stars--1 .star:first-child {
-  background: url(./images/star-active.svg) no-repeat 1px 2px;
-}
-
-.stars--2 .star:nth-child(-n+2) {
-  background: url(./images/star-active.svg) no-repeat 1px 2px;
-}
-
-.stars--3 .star:nth-child(-n+3) {
-  background: url(./images/star-active.svg) no-repeat 1px 2px;
-}
-
-.stars--4 .star:nth-child(-n+4) {
-  background: url(./images/star-active.svg) no-repeat 1px 2px;
-}
-
+.stars--1 .star:first-child,
+.stars--2 .star:nth-child(-n+2),
+.stars--3 .star:nth-child(-n+3),
+.stars--4 .star:nth-child(-n+4),
 .stars--5 .star:nth-child(-n+5) {
   background: url(./images/star-active.svg) no-repeat 1px 2px;
 }
