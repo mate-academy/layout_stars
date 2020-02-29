@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-star {
+  display: flex;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background-position: center;
+  background-image: url("images/star.svg");
+  background-repeat: no-repeat;
+}
+
+.star:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.stars--1 .star:nth-child(1) {
+  background-image: url("images/star-active.svg");
+
+}
+
+.stars--2 .star:nth-child(-n+2) {
+  background-image: url("images/star-active.svg");
+}
+
+.stars--3 .star:nth-child(-n+3) {
+  background-image: url("images/star-active.svg");
+}
+
+.stars--4 .star:nth-child(-n+4) {
+  background-image: url("images/star-active.svg");
+}
+
+.stars--5 .star:nth-child(n) {
+  background-image: url("images/star-active.svg");
+}
