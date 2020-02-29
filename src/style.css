@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.star-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.star-container div {
+  display: flex;
+  justify-content: space-between;
+  height: 15px;
+  width: 91px;
+}
