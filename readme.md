@@ -2,7 +2,7 @@
 1. Replace `<your_account>` with your Github username in the links
     - [DEMO LINK](https://Andreas-Just.github.io/layout_stars/) <br>
     - [TEST REPORT LINK](https://Andreas-Just.github.io/layout_stars/report/html_report/)
-    - [PULL REQUEST](https://github.com/mate-academy/layout_enclosures/pull/328/files)
+    - [PULL REQUEST](https://github.com/mate-academy/layout_stars/pull/58)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 
 > Disable `Multiplayer Cursors` in figma to hide other cursors ([Learn how](https://mate-academy.github.io/layout_task-guideline/figma.html#multiplayer-cursors))
