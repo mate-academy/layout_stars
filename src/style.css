@@ -2,12 +2,12 @@ body {
   margin: 0;
 }
 
-.stars__elem {
+.stars__element {
   display: flex;
 }
 
-.stars__elem div {
-  background-image: url("images/star.svg");
+.stars__element div {
+  background-image: url("./images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 15px;
@@ -20,5 +20,5 @@ body {
 .stars--3 div:nth-child(-n+3),
 .stars--4 div:nth-child(-n+4),
 .stars--5 div:nth-child(-n+5) {
-  background-image: url("images/star-active.svg");
+  background-image: url("./images/star-active.svg");
 }
