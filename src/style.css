@@ -3,24 +3,24 @@ body {
   margin: 0;
 }
 
-img {
-  width: 14px;
-  height: 16px;
-  padding-right: 5px;
-}
-
-div {
+.block {
   display: flex;
-  height: 15px;
+  flex-direction: row;
 }
 
-img:nth-child(1)[alt="shine-star"],
-img:nth-child(2)[alt="shine-star"],
-img:nth-child(3)[alt="shine-star"],
-img:nth-child(4)[alt="shine-star"],
-img:nth-child(5)[alt="shine-star"] {
-  /*I can't understand why yellow-stars don't passed this test?
-   how exactly change the active-stars in test ??? */
-  width: 14px; /* Should I change width: and height: ???*/
-  height: 16px;
+.block > div {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background-image: url(./src/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--1 .star:nth-child(-n+1),
+.stars--2 .star:nth-child(-n+2),
+.stars--3 .star:nth-child(-n+3),
+.stars--4 .star:nth-child(-n+4),
+.stars--5 .star:nth-child(-n+5) {
+  background-image: url(./src/images/Star-shine.svg);
 }
