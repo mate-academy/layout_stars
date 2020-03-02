@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+.stars__item {
+  width: 15px;
+  height: 14px;
+  justify-content: start;
+  padding-right: 3px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+}
