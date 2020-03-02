@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.div__block {
+  display: flex;
+}
+
+img {
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  margin-left: 1px;
+}
