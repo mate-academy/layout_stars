@@ -2,13 +2,24 @@ body {
   margin: 0;
 }
 
-.div__block {
+.item__block {
   display: flex;
 }
 
-img {
-  padding-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 1px;
-  margin-left: 1px;
+.div__block {
+  height: 15px;
+  width: 15px;
+  margin-right: 4px;
+  background-position: 50% 50%;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--1 > :nth-child(1),
+.stars--2 > :nth-child(-1n+2),
+.stars--3 > :nth-child(-1n+3),
+.stars--4 > :nth-child(-1n+4),
+.stars--5 > :nth-child(-1n+5) {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
 }
