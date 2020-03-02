@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .star-block {
   display: flex;
   flex-direction: column;
