@@ -2,14 +2,28 @@ body {
   margin: 0;
 }
 
-.star-container {
+.stars {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.star-container div {
+.stars-block {
   display: flex;
-  justify-content: space-between;
+}
+
+.stars-block div {
+  background: url("images/star.svg") no-repeat center;
   height: 15px;
-  width: 91px;
+  width: 15px;
+  margin-right: 4px;
+}
+
+.stars--1 :nth-child(1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
+  background-image: url("images/star-active.svg");
 }
