@@ -4,16 +4,21 @@ body {
 
 .stars {
   display: flex;
-  margin: 0;
-  padding: 0;
-
 }
 
 .stars__item {
   width: 15px;
-  height: 14px;
-  justify-content: start;
-  padding-right: 3px;
-  padding-bottom: 1px;
-  padding-left: 1px;
+  height: 15px;
+  margin-right: 4px;
+  background-image: url("images/star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--1 .stars__item:nth-child(1),
+.stars--2 .stars__item:nth-child(-n+2),
+.stars--3 .stars__item:nth-child(-n+3),
+.stars--4 .stars__item:nth-child(-n+4),
+.stars--5 .stars__item:nth-child(n) {
+  background-image: url("images/star-active.svg");
 }
