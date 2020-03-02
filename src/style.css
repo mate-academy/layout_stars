@@ -6,7 +6,7 @@ body {
   display: flex;
 }
 
-.unactive-star {
+.stars_block span {
   display: inline-block;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
@@ -16,10 +16,10 @@ body {
   height: 15px;
 }
 
-.stars--1 .unactive-star:nth-child(-n+1),
-.stars--2 .unactive-star:nth-child(-n+2),
-.stars--3 .unactive-star:nth-child(-n+3),
-.stars--4 .unactive-star:nth-child(-n+4),
-.stars--5 .unactive-star:nth-child(-n+5) {
+.stars--1 span:nth-child(-n+1),
+.stars--2 span:nth-child(-n+2),
+.stars--3 span:nth-child(-n+3),
+.stars--4 span:nth-child(-n+4),
+.stars--5 span:nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
 }
