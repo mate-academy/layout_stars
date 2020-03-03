@@ -8,7 +8,7 @@ body {
   flex-direction: row;
 }
 
-.block > div {
+.block > .star {
   width: 15px;
   height: 15px;
   margin-right: 4px;
