@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.stars__card {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.star__items {
+  height: 15px;
+}
+
+.star {
+  display: inline-block;
+  background-image: url("images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+}
+
+.star--0 .star:nth-child(-n),
+.star--1 .star:nth-child(-n+1),
+.star--2 .star:nth-child(-n+2),
+.star--3 .star:nth-child(-n+3),
+.star--4 .star:nth-child(-n+4),
+.star--5 .star:nth-child(-n+5) {
+  background-image: url("images/star-active.svg");
+}
