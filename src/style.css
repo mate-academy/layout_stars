@@ -9,6 +9,7 @@ div {
 .star {
   width: 15px;
   height: 15px;
+  background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
@@ -16,19 +17,6 @@ div {
 
 .star:last-child {
   margin-right: 0;
-}
-
-.stars--0 .star,
-.stars--1 .star:nth-child(even),
-.stars--1 .star:nth-child(3),
-.stars--1 .star:nth-child(5),
-.stars--2 .star:nth-child(3),
-.stars--2 .star:nth-child(4),
-.stars--2 .star:nth-child(5),
-.stars--3 .star:nth-child(4),
-.stars--3 .star:nth-child(5),
-.stars--4 .star:nth-child(5) {
-  background-image: url(./images/star.svg);
 }
 
 .stars--1 .star:nth-child(1),
