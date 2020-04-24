@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+.cont_item {
+  display: flex;
+}
+
+:root {
+  --star: url(images/star.svg);
+  --activ_star: url(images/star-active.svg);
+}
+
+.stars--0 .star,
+.stars--1 .star:nth-child(even),
+.stars--1 .star:nth-child(3),
+.stars--1 .star:nth-child(5),
+.stars--2 .star:nth-child(3),
+.stars--2 .star:nth-child(4),
+.stars--2 .star:nth-child(5),
+.stars--3 .star:nth-child(4),
+.stars--3 .star:nth-child(5),
+.stars--4 .star:nth-child(5) {
+  background: var(--star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--5 .star,
+.stars--4 .star:nth-child(even),
+.stars--4 .star:nth-child(1),
+.stars--4 .star:nth-child(3),
+.stars--1 .star:nth-child(1),
+.stars--2 .star:nth-child(1),
+.stars--2 .star:nth-child(2),
+.stars--3 .star:nth-child(1),
+.stars--3 .star:nth-child(2),
+.stars--3 .star:nth-child(3) {
+  background: var(--activ_star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
