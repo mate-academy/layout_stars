@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+:root {
+  --star: url(images/star.svg);
+  --active_star: url(images/star-active.svg);
+}
+
 .rate {
   display: flex;
 }
@@ -9,7 +14,7 @@ body {
 .rate__item {
   width: 15px;
   height: 15px;
-  background: url(images/star.svg) no-repeat center;
+  background: var(--star) no-repeat center;
   margin-right: 4px;
 }
 
@@ -17,22 +22,10 @@ body {
   margin-right: 0;
 }
 
-.stars--1 > :nth-child(-n+1) {
-  background: url(images/star-active.svg) no-repeat center;
-}
-
-.stars--2 > :nth-child(-n+2) {
-  background: url(images/star-active.svg) no-repeat center;
-}
-
-.stars--3 > :nth-child(-n+3) {
-  background: url(images/star-active.svg) no-repeat center;
-}
-
-.stars--4 > :nth-child(-n+4) {
-  background: url(images/star-active.svg) no-repeat center;
-}
-
+.stars--1 > :nth-child(-n+1),
+.stars--2 > :nth-child(-n+2),
+.stars--3 > :nth-child(-n+3),
+.stars--4 > :nth-child(-n+4),
 .stars--5 > :nth-child(-n+5) {
-  background: url(images/star-active.svg) no-repeat center;
+  background: var(--active_star) no-repeat center;
 }
