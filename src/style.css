@@ -15,11 +15,10 @@ body {
   width: 15px;
   height: 15px;
   background: var(--star) no-repeat center;
-  margin-right: 4px;
 }
 
-.rate:not(:last-child) {
-  margin-right: 0;
+.rate__item:not(:first-child) {
+  margin-left: 4px;
 }
 
 .stars--1 > :nth-child(-n+1),
