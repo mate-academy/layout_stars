@@ -1,0 +1,35 @@
+:root {
+  --grayStar: url(./images/star.svg);
+  --goldStar: url(./images/star-active.svg);
+}
+
+.rating {
+  display: flex;
+}
+
+.aloneStar {
+  background-image: var(--grayStar);
+  background-size: 15px;
+  width: 14px;
+  height: 14px;
+}
+
+.rateNum1 > :nth-child(-n+1) {
+  background-image: var(--goldStar);
+}
+
+.rateNum2 > :nth-child(-n+2) {
+  background-image: var(--goldStar);
+}
+
+.rateNum3 > :nth-child(-n+3) {
+  background-image: var(--goldStar);
+}
+
+.rateNum4 > :nth-child(-n+4) {
+  background-image: var(--goldStar);
+}
+
+.rateNum5 > :nth-child(-n+5) {
+  background-image: var(--goldStar);
+}
