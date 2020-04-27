@@ -6,27 +6,21 @@ body {
   display: flex;
 }
 
-.stars div {
+.stars .stars__item {
   width: 15px;
   height: 15px;
   background: url(images/star.svg) center no-repeat;
   margin-right: 4px;
 }
 
-.stars div:last-child {
+.stars .stars__item:last-child {
   margin-right: 0;
 }
 
-.stars--1 div:first-child,
-.stars--2 div:first-child,
-.stars--2 div:nth-child(2),
-.stars--3 div:first-child,
-.stars--3 div:nth-child(2),
-.stars--3 div:nth-child(3),
-.stars--4 div:first-child,
-.stars--4 div:nth-child(2),
-.stars--4 div:nth-child(3),
-.stars--4 div:nth-child(4),
-.stars--5 div {
+.stars--1 .stars__item:first-child,
+.stars--2 .stars__item:nth-child(-n + 2),
+.stars--3 .stars__item:nth-child(-n + 3),
+.stars--4 .stars__item:nth-child(-n + 4),
+.stars--5 .stars__item {
   background: url(images/star-active.svg) center no-repeat;
 }
