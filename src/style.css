@@ -19,15 +19,10 @@ div {
   margin-right: 0;
 }
 
-.stars--1 .star:nth-child(1),
-.stars--2 .star:nth-child(1),
-.stars--2 .star:nth-child(2),
-.stars--3 .star:nth-child(1),
-.stars--3 .star:nth-child(2),
-.stars--3 .star:nth-child(3),
-.stars--4 .star:nth-child(1),
-.stars--4 .star:nth-child(even),
-.stars--4 .star:nth-child(3),
-.stars--5 .star {
+.stars--1 .star:nth-child(-n+1),
+.stars--2 .star:nth-child(-n+2),
+.stars--3 .star:nth-child(-n+3),
+.stars--4 .star:nth-child(-n+4),
+.stars--5 .star:nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
 }
