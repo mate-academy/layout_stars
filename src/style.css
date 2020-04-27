@@ -25,8 +25,8 @@ body {
 
 .stars--5 .star,
 .stars--4 .star:nth-child(-n+4),
-.stars--1 .star:nth-child(1),
 .stars--2 .star:nth-child(-n+2),
+.stars--1 .star:nth-child(1),
 .stars--3 .star:nth-child(-n+3) {
   background: var(--activ_star);
   background-repeat: no-repeat;
