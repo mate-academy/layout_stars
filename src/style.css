@@ -3,16 +3,13 @@ body {
 }
 
 .stars {
-  width: 91px;
   display: flex;
-  justify-content: space-between;
-  /*padding only to pass tests*/
-  padding-right: 9px;
 }
 
 .stars__star {
   width: 15px;
   height: 15px;
+  margin-right: 4px;
   background: url("images/star-active.svg") center no-repeat;
 }
 
