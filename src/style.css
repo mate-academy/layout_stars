@@ -1,3 +1,8 @@
+:root {
+  --star: url(images/star.svg);
+  --activ_star: url(images/star-active.svg);
+}
+
 body {
   margin: 0;
 }
@@ -8,13 +13,8 @@ body {
   margin-right: 4px;
 }
 
-.cont_item {
+.stars__row {
   display: flex;
-}
-
-:root {
-  --star: url(images/star.svg);
-  --activ_star: url(images/star-active.svg);
 }
 
 .star {
