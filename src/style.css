@@ -8,16 +8,18 @@ body {
 .stars--3,
 .stars--4,
 .stars--5 {
-  height: 15px;
+  display: flex;
 }
 
 .star {
   display: inline-block;
+  justify-content: space-between;
   height: 15px;
   width: 15px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 4px;
 }
 
 .stars--1 .star:nth-child(-n + 1),
