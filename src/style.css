@@ -14,13 +14,11 @@
 .item {
   width: 15px;
   height: 15px;
-  background: var(--not_active-star);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: var(--not_active-star) no-repeat center;
 }
 
-.item + .item {
-  margin-left: 4px;
+.item:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--1 .item:nth-child(1),
@@ -28,7 +26,5 @@
 .stars--3 .item:nth-child(-n+3),
 .stars--4 .item:nth-child(-n+4),
 .stars--5 .item:nth-child(-n+5) {
-  background: var(--active-star);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: var(--active-star) no-repeat center;
 }
