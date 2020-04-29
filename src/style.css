@@ -12,17 +12,15 @@ body {
 }
 
 .aloneStar:first-child {
-  margin-left: 0 !important;
+  margin-left: 0;
 }
 
 .aloneStar {
   margin-left: 4px;
   height: 15px;
   width: 15px;
+  background: no-repeat center var(--starGray);
   background-size: 13px;
-  background-image: var(--starGray);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .stars--1 > :nth-child(-n + 1),
