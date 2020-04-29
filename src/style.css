@@ -18,7 +18,6 @@ body {
 
 .block-rate {
   display: flex;
-
 }
 
 .stars--1 .star:nth-child(-n + 1),
