@@ -11,11 +11,11 @@ body {
   display: flex;
 }
 
-.aloneStar:first-child {
+.alone_star:first-child {
   margin-left: 0;
 }
 
-.aloneStar {
+.alone_star {
   margin-left: 4px;
   height: 15px;
   width: 15px;
