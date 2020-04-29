@@ -4,7 +4,6 @@ body {
 
 .wrapper__star {
   display: flex;
-  height: 15px;
 }
 
 .star {
