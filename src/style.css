@@ -16,10 +16,6 @@ body {
   background-repeat: no-repeat;
 }
 
-div {
-  height: 15px;
-}
-
 .stars--1 .star:first-child,
 .stars--2 .star:nth-child(-n+2),
 .stars--3 .star:nth-child(-n+3),
