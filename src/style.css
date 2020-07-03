@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  height: 15px;
+}
+
+.stars__item {
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+  content: url(images/star.svg);
+  margin: 0 1px;
+}
+
+.stars--1 > :nth-child(-n+1) {
+  content: url(images/star-active.svg);
+}
+
+.stars--2 > :nth-child(-n+2) {
+  content: url(images/star-active.svg);
+}
+
+.stars--3 :nth-child(-n+3) {
+  content: url(images/star-active.svg);
+}
+
+.stars--4 :nth-child(-n+4) {
+  content: url(images/star-active.svg);
+}
+
+.stars--5 :nth-child(-n+5) {
+  content: url(images/star-active.svg);
+}
