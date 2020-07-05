@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+.rating {
+  height: 15px;
+}
+
+.star {
+  height: 15px;
+  width: 15px;
+  background-image: url(./images/star.svg);
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--1 .star:first-child,
+.stars--2 .star:nth-child(-n+2),
+.stars--3 .star:nth-child(-n+3),
+.stars--4 .star:nth-child(-n+4),
+.stars--5 .star {
+  background-image: url(./images/star-active.svg);
+}
