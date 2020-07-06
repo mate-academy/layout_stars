@@ -18,6 +18,6 @@ body {
 .stars--2 .stars__item:nth-child(-n+2),
 .stars--3 .stars__item:nth-child(-n+3),
 .stars--4 .stars__item:nth-child(-n+4),
-.stars--5 .stars__item:nth-child(-n+1) {
+.stars--5 .stars__item:nth-child(-n+5) {
   background: url("./images/star-active.svg") center no-repeat;
 }
