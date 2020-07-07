@@ -2,9 +2,8 @@ body {
   margin: 0;
 }
 
-.stars {
+.stars div {
   display: flex;
-  align-items: center;
 }
 
 .stars--0 div,
@@ -21,10 +20,11 @@ body {
   margin-right: 4px;
 }
 
-/* .stars--1 > div:nth-child(1),
+.stars--1 > :nth-child(1),
 .stars--2 > :nth-child(-n+2),
 .stars--3 > :nth-child(-n+3),
 .stars--4 > :nth-child(-n+4),
-.stars--5 {
+.stars--5 div {
   background-image: url("images/star-active.svg");
-} */
+  background-repeat: no-repeat;
+}
