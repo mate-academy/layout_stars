@@ -11,12 +11,8 @@ body {
   width: 15px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  margin-left: 4px;
-  margin-top: 2px;
-}
-
-.stars :first-of-type {
-  margin-left: 0.5px;
+  margin-right: 4px;
+  background-position: center center;
 }
 
 .stars--1 :first-child,
