@@ -13,7 +13,7 @@ body {
   height: 15px;
 }
 
-.stars--1 .stars__item:nth-child(-n + 1),
+.stars--1 .stars__item:first-child,
 .stars--2 .stars__item:nth-child(-n + 2),
 .stars--3 .stars__item:nth-child(-n + 3),
 .stars--4 .stars__item:nth-child(-n + 4),
