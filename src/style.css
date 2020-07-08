@@ -17,22 +17,10 @@ body {
   margin-right: 4px;
 }
 
-.stars--5 .row__star:nth-child(-n+5) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--4 .row__star:nth-child(-n+4) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--3 .row__star:nth-child(-n+3) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--2 .row__star:nth-child(-n+2) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--1 .row__star:nth-child(-n+1) {
+.stars--5 .row__star,
+.stars--4 .row__star:nth-child(-n+4),
+.stars--3 .row__star:nth-child(-n+3),
+.stars--2 .row__star:nth-child(-n+2),
+.stars--1 .row__star:first-child {
   background-image: url(./images/star-active.svg);
 }
