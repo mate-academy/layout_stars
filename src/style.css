@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+}
+
+.rating__star {
+  width: 15px;
+  height: 15px;
+  margin-left: 4px;
+  background: url(images/star.svg) no-repeat;
+  background-position: 50% 50%;
+}
+
+.rating__star:first-child {
+  margin-left: 0;
+}
+
+.stars--1 > .rating__star:nth-child(-n+1),
+.stars--2 > .rating__star:nth-child(-n+2),
+.stars--3 > .rating__star:nth-child(-n+3),
+.stars--4 > .rating__star:nth-child(-n+4),
+.stars--5 > .rating__star:nth-child(-n+5) {
+  background-image: url(./images/star-active.svg);
+}
