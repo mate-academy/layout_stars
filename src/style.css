@@ -1,0 +1,27 @@
+
+body {
+  margin: 0;
+}
+
+.rate {
+  display: flex;
+}
+
+.rate__star {
+  width: 15px;
+  height: 15px;
+  margin-left: 4px;
+  background: url("images/star-active.svg") no-repeat center;
+}
+
+.rate__star:first-child {
+  margin-left: 0;
+}
+
+.stars--0 .rate__star,
+.stars--1 .rate__star:nth-child(1n+2),
+.stars--2 .rate__star:nth-child(1n+3),
+.stars--3 .rate__star:nth-child(1n+4),
+.stars--4 .rate__star:nth-child(1n+5) {
+  background: url("./images/star.svg") no-repeat center;
+}
