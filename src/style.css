@@ -11,10 +11,9 @@ body {
 }
 
 .stars__item {
-  background: url(images/star.svg);
+  background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 0.5px;
 
   height: 15px;
   width: 15px;
@@ -26,8 +25,5 @@ body {
 .stars--3 :nth-child(-n+3) ,
 .stars--4 :nth-child(-n+4) ,
 .stars--5 :nth-child(n) {
-  background: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 0.5px;
+  background-image: url(images/star-active.svg);
 }
