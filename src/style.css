@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+}
+
+body {
   margin: 0;
 }
 
@@ -8,7 +11,7 @@
 }
 
 .star {
-  background-image: url(images/star.svg);
+  background: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 15px;
