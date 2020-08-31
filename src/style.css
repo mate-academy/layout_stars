@@ -10,7 +10,7 @@
 .star {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   width: 15px;
   height: 15px;
   margin-right: 4px;
@@ -22,5 +22,4 @@
 .stars--4 .star:nth-child(-n + 4),
 .stars--5 .star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
 }
