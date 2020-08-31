@@ -7,6 +7,7 @@
 > Disable `Multiplayer Cursors` in figma to hide other cursors ([Learn how](https://mate-academy.github.io/layout_task-guideline/figma.html#multiplayer-cursors))
 ___
 
+
 ## The task
 Implement the `stars` block used in [the card](https://www.figma.com/file/bS8N1lTT0Ew0Brf1Nfl36iMV/Product-Cards?node-id=0%3A1).
 - Reset browser's default `margin`
