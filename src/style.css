@@ -17,22 +17,10 @@ body {
   background: url(images/star-active.svg) no-repeat center;
 }
 
-.stars--0 .star {
-  background-image: url(images/star.svg);
-}
-
-.stars--1 :nth-child(1) ~ .star {
-  background-image: url(images/star.svg);
-}
-
-.stars--2 :nth-child(2) ~ .star {
-  background-image: url(images/star.svg);
-}
-
-.stars--3 :nth-child(3) ~ .star {
-  background-image: url(images/star.svg);
-}
-
+.stars--0 .star,
+.stars--1 :nth-child(1) ~ .star,
+.stars--2 :nth-child(2) ~ .star,
+.stars--3 :nth-child(3) ~ .star,
 .stars--4 :nth-child(4) ~ .star {
   background-image: url(images/star.svg);
 }
