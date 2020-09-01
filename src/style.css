@@ -8,22 +8,19 @@ body {
   margin: 0;
 }
 
-.stars {
-  padding: 1px 1px 0;
-}
-
 .stars__block {
   display: flex;
   justify-content: center;
-  padding-right: 2px;
+  padding-right: 10px;
 }
 
 .star {
+  width: 20px;
   height: 15px;
-  width: 15px;
-  padding-right: 19px;
   background-image: url(images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
 .stars__block.stars--5 .star {
