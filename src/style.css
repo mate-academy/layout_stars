@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   padding-right: 10px;
+  gap: 3px;
 }
 
 .star {
