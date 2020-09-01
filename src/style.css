@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.stars--0 .rate__star,
+.stars--1 .rate__star,
+.stars--2 .rate__star,
+.stars--3 .rate__star,
+.stars--4 .rate__star,
+.stars--5 .rate__star {
+  margin-right: 4px;
+  width: 15px;
+  height: 15px;
+
+  background: url("images/star.svg") center no-repeat;
+}
+
+.stars--1 .rate__star:nth-child(1),
+.stars--2 .rate__star:nth-child(1),
+.stars--3 .rate__star:nth-child(1),
+.stars--4 .rate__star:nth-child(1),
+.stars--5 .rate__star:nth-child(1),
+
+.stars--2 .rate__star:nth-child(2),
+.stars--3 .rate__star:nth-child(2),
+.stars--4 .rate__star:nth-child(2),
+.stars--5 .rate__star:nth-child(2),
+
+.stars--3 .rate__star:nth-child(3),
+.stars--4 .rate__star:nth-child(3),
+.stars--5 .rate__star:nth-child(3),
+
+.stars--4 .rate__star:nth-child(4),
+.stars--5 .rate__star:nth-child(4),
+
+.stars--5 .rate__star:nth-child(5) {
+  background: url("images/star-active.svg") center no-repeat;
+}
