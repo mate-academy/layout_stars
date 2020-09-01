@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.stars--1 .starline:first-child,
+.stars--1 .starline:nth-child(-n+1),
 
 .stars--2 .starline:nth-child(-n+2),
 
@@ -24,7 +24,5 @@ body {
 .stars--4 .starline:nth-child(-n+4),
 
 .stars--5 .starline:nth-child(-n+5) {
-
   background-image: url(./images/star-active.svg);
-
 }
