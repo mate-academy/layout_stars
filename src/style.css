@@ -6,21 +6,21 @@ body {
   margin: 0;
 }
 
-.columns {
+.stars-block {
   display: flex;
 }
 
-.columns_part {
+.stars__part {
   background: center url(images/star.svg) no-repeat;
   width: 15px;
   height: 15px;
   margin-right: 4px;
 }
 
-.stars--1 .columns_part:first-child,
-.stars--2 .columns_part:nth-child(-n+2),
-.stars--3 .columns_part:nth-child(-n+3),
-.stars--4 .columns_part:nth-child(-n+4),
-.stars--5 .columns_part:nth-child(-n+5) {
+.stars--1 .stars__part:first-child,
+.stars--2 .stars__part:nth-child(-n+2),
+.stars--3 .stars__part:nth-child(-n+3),
+.stars--4 .stars__part:nth-child(-n+4),
+.stars--5 .stars__part:nth-child(-n+5) {
   background-image: url(images/star-active.svg);
 }
