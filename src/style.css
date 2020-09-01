@@ -7,7 +7,8 @@
 }
 
 .star {
-  background: url(./images/star.svg) no-repeat;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
   height: 15px;
   width: 15px;
   margin-right: 4px;
@@ -19,9 +20,5 @@
 .stars--3 > .star:nth-child(-n+3),
 .stars--4 > .star:nth-child(-n+4),
 .stars--5 > .star:nth-child(-n+5) {
-  background: url(./images/star-active.svg) no-repeat;
-  height: 15px;
-  width: 15px;
-  margin-right: 4px;
-  background-position: 50% 50%;
+  background-image: url(./images/star-active.svg);
 }
