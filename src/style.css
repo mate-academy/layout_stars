@@ -3,60 +3,23 @@ body {
 }
 
 .stars {
-  width: 100px;
+  display: flex;
+}
+
+.stars__item {
+  width: 15px;
   height: 15px;
+
+  margin: 0 4px 0 0;
+
+  background: url(./images/star.svg) no-repeat center;
 }
 
-.stars:nth-child(1) {
-  background: url("./images/star.svg") 1px,
-    url("./images/star.svg") 20px,
-    url("./images/star.svg") 39px,
-    url("./images/star.svg") 58px,
-    url("./images/star.svg") 77px;
-  background-repeat: no-repeat;
-}
-
-.stars:nth-child(2) {
-  background: url("./images/star-active.svg") 1px,
-    url("./images/star.svg") 20px,
-    url("./images/star.svg") 39px,
-    url("./images/star.svg") 58px,
-    url("./images/star.svg") 77px;
-  background-repeat: no-repeat;
-}
-
-.stars:nth-child(3) {
-  background: url("./images/star-active.svg") 1px,
-    url("./images/star-active.svg") 20px,
-    url("./images/star.svg") 39px,
-    url("./images/star.svg") 58px,
-    url("./images/star.svg") 77px;
-  background-repeat: no-repeat;
-}
-
-.stars:nth-child(4) {
-  background: url("./images/star-active.svg") 1px,
-    url("./images/star-active.svg") 20px,
-    url("./images/star-active.svg") 39px,
-    url("./images/star.svg") 58px,
-    url("./images/star.svg") 77px;
-  background-repeat: no-repeat;
-}
-
-.stars:nth-child(5) {
-  background: url("./images/star-active.svg") 1px,
-    url("./images/star-active.svg") 20px,
-    url("./images/star-active.svg") 39px,
-    url("./images/star-active.svg") 58px,
-    url("./images/star.svg") 77px;
-  background-repeat: no-repeat;
-}
-
-.stars:nth-child(6) {
-  background: url("./images/star-active.svg") 1px,
-    url("./images/star-active.svg") 20px,
-    url("./images/star-active.svg") 39px,
-    url("./images/star-active.svg") 58px,
-    url("./images/star-active.svg") 77px;
-  background-repeat: no-repeat;
+.stars--1 .stars__item:nth-child(1),
+.stars--2 .stars__item:nth-child(-n+2),
+.stars--3 .stars__item:nth-child(-n+3),
+.stars--4 .stars__item:nth-child(-n+4),
+.stars--5 .stars__item:nth-child(-n+5),
+.stars--6 .stars__item:nth-child(-n+6) {
+  background-image: url(./images/star-active.svg);
 }
