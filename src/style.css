@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.stars {
+  padding: 1px 1px 0;
+}
+
+.stars__block {
+  display: flex;
+  justify-content: center;
+  padding-right: 2px;
+}
+
+.star {
+  height: 15px;
+  width: 15px;
+  padding-right: 19px;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars__block.stars--5 .star {
+  background-image: url(images/star-active.svg);
+}
+
+.stars__block.stars--0 .star {
+  background-image: url(images/star.svg);
+}
+
+.stars__block.stars--4 .star:nth-child(4) ~ .star {
+  background-image: url(images/star.svg);
+}
+
+.stars__block.stars--3 .star:nth-child(3) ~ .star {
+  background-image: url(images/star.svg);
+}
+
+.stars__block.stars--2 .star:nth-child(2) ~ .star {
+  background-image: url(images/star.svg);
+}
+
+.stars__block.stars--1 .star:nth-child(1) ~ .star {
+  background-image: url(images/star.svg);
+}
