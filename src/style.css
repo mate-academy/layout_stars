@@ -2,12 +2,12 @@
   box-sizing: border-box;
 }
 
-.stars {
-  display: flex;
-}
-
 body {
   margin: 0;
+}
+
+.stars {
+  display: flex;
 }
 
 .stars__star {
@@ -16,11 +16,11 @@ body {
   background-position: center center;
   height: 15px;
   width: 15px;
-  margin-left: 4px;
+  margin-right: 4px;
 }
 
-.stars__star:first-child {
-  margin-left: 0;
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 > .stars__star:nth-child(-n+1),
