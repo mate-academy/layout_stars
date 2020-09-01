@@ -10,17 +10,17 @@ body {
   display: flex;
 }
 
-.star {
+.stars__star {
   width: 15px;
   height: 15px;
   margin-right: 4px;
-  background: url(images/star-active.svg) no-repeat center;
+  background: url(images/star.svg) no-repeat center;
 }
 
-.stars--0 .star,
-.stars--1 :nth-child(1) ~ .star,
-.stars--2 :nth-child(2) ~ .star,
-.stars--3 :nth-child(3) ~ .star,
-.stars--4 :nth-child(4) ~ .star {
-  background-image: url(images/star.svg);
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(n) {
+  background-image: url(images/star-active.svg);
 }
