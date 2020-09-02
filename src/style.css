@@ -10,12 +10,7 @@ body {
   display: flex;
 }
 
-.stars--0 .rate__star,
-.stars--1 .rate__star,
-.stars--2 .rate__star,
-.stars--3 .rate__star,
-.stars--4 .rate__star,
-.stars--5 .rate__star {
+.rate__star {
   margin-right: 4px;
   width: 15px;
   height: 15px;
