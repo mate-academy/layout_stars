@@ -10,17 +10,15 @@ body {
 
 .stars__block {
   display: flex;
-  justify-content: center;
-  padding-right: 10px;
 }
 
 .star {
-  width: 20px;
+  width: 15px;
   height: 15px;
   background-image: url(images/star-active.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  margin-right: 4px;
 }
 
 .stars__block.stars--5 .star {
