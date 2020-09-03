@@ -1,8 +1,5 @@
 * {
   box-sizing: border-box;
-}
-
-body {
   margin: 0;
 }
 
@@ -17,7 +14,7 @@ body {
   margin-right: 4px;
 }
 
-.stars--1 .block__star:nth-child(-n+1),
+.stars--1 .block__star:nth-child(1),
 .stars--2 .block__star:nth-child(-n+2),
 .stars--3 .block__star:nth-child(-n+3),
 .stars--4 .block__star:nth-child(-n+4),
