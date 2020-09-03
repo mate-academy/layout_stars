@@ -1,31 +1,26 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  
 }
 
-.starsblock {
+.stars {
   display: flex;
-  /* flex-direction: row; */
-  
 }
 
-.single__star {
-  background-image: url(images/star.svg);
+.star {
   width: 15px;
   height: 15px;
   border-radius: 0.5px;
+  margin-right: 4px;
+  background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 4px;
 }
 
-.stars--1 .single__star:first-child,
-.stars--2 .single__star:nth-child(-1n+2),
-.stars--3 .single__star:nth-child(-1n+3),
-.stars--4 .single__star:nth-child(-1n+4),
-.stars--5 .single__star:nth-child(1n-5) {
+.stars--1 .star:first-child,
+.stars--2 .star:nth-child(-1n+2),
+.stars--3 .star:nth-child(-1n+3),
+.stars--4 .star:nth-child(-1n+4),
+.stars--5 .star:nth-child(1n-5) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 } 
