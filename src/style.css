@@ -11,7 +11,7 @@ body {
 }
 
 .stars__element {
-  background-image: url("./images/star.png");
+  background-image: url("./images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 15px;
@@ -24,6 +24,6 @@ body {
 .stars--3 .stars__element:nth-child(-n+3),
 .stars--2 .stars__element:nth-child(-n+2),
 .stars--1 .stars__element:nth-child(1) {
-  background-image: url("./images/star_active.png");
+  background-image: url("./images/star-active.svg");
   background-repeat: no-repeat;
 }
