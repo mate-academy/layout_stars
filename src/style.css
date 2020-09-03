@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-.stars {
+.stars__row {
   display: flex;
 }
 
@@ -21,20 +21,17 @@ body {
   margin-right: 4px;
 }
 
-/* 
-Юра в курсе моего синтаксиса ниже, и он сказал я могу оставить его,
-я посмотрю решение с использованием селектора "+" и буду использовать его 
-в дальнейшем :) 
-*/
+.stars--0 .star {
+  background-image: url(images/star.svg);
+}
 
-.stars.stars--5 .star {
+.stars--5 .star {
   background-image: url(images/star-active.svg);
 }
 
-.stars.stars--0 .star,
-.stars.stars--4 .star:nth-child(4) ~ .star,
-.stars.stars--3 .star:nth-child(3) ~ .star,
-.stars.stars--2 .star:nth-child(2) ~ .star,
-.stars.stars--1 .star:nth-child(1) ~ .star {
+.stars--4 .star:nth-child(4) ~ .star,
+.stars--3 .star:nth-child(3) ~ .star,
+.stars--2 .star:nth-child(2) ~ .star,
+.stars--1 .star:nth-child(1) ~ .star {
   background-image: url(images/star.svg);
 }
