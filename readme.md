@@ -1,5 +1,5 @@
 # Product cards
-1. Replace `<your_account>` with your Github username in the links
+1. Replace `<your_account>` with your Github username in the links<br>
     - [DEMO LINK](https://Serhii-Alieksieievych.github.io/layout_stars/) <br>
     - [TEST REPORT LINK](https://Serhii-Alieksieievych.github.io/layout_stars/report/html_report/)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
