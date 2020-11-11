@@ -6,25 +6,25 @@ body {
   margin: 0;
 }
 
-.stars_block {
+.stars {
   display: flex;
 }
 
-.main_block {
+.stars__block {
   margin-right: 4px;
   width: 15px;
   height: 15px;
   background: url(./images/star.svg) no-repeat center;
 }
 
-.main_block:last-child {
+.stars__block:last-child {
   margin-right: 0;
 }
 
-.stars--1 .main_block:nth-child(1),
-.stars--2 .main_block:nth-child(-n+2),
-.stars--3 .main_block:nth-child(-n+3),
-.stars--4 .main_block:nth-child(-n+4),
-.stars--5 .main_block:nth-child(-n+5) {
+.stars--1 .stars__block:nth-child(1),
+.stars--2 .stars__block:nth-child(-n+2),
+.stars--3 .stars__block:nth-child(-n+3),
+.stars--4 .stars__block:nth-child(-n+4),
+.stars--5 .stars__block:nth-child(-n+5) {
   background: url(./images/star-active.svg) no-repeat center;
 }
