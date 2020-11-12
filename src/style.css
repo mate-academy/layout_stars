@@ -1,0 +1,69 @@
+:root {
+  --star: url(images/star.svg);
+  --star-active: url(images/star-active.svg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.stars-block {
+  display: flex;
+  padding-top: 2px;
+}
+
+.stars-block > * {
+  height: 13px;
+  width: 13px;
+  background-repeat: no-repeat;
+  margin: 0 3px;
+
+}
+
+.stars-block > :first-child {
+  margin-left: 1px;
+}
+
+.stars--0 > * {
+  background-image: var(--star);
+}
+
+.stars--1 :nth-child(n) {
+  background-image: var(--star-active);
+}
+
+.stars--1 :nth-child(n + 2) {
+  background-image: var(--star);
+}
+
+.stars--2 :nth-child(n) {
+  background-image: var(--star-active);
+}
+
+.stars--2 :nth-child(n + 3) {
+  background-image: var(--star);
+}
+
+.stars--3 :nth-child(n) {
+  background-image: var(--star-active);
+}
+
+.stars--3 :nth-child(n + 4) {
+  background-image: var(--star);
+}
+
+.stars--4 :nth-child(n) {
+  background-image: var(--star-active);
+}
+
+.stars--4 :nth-child(5) {
+  background-image: var(--star);
+}
+
+.stars--5 > * {
+  background-image: var(--star-active);
+}
