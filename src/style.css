@@ -32,43 +32,31 @@ body {
   background-image: var(--star);
 }
 
-.stars--1 :nth-child(1) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--1 :nth-child(2),
-.stars--1 :nth-child(3),
-.stars--1 :nth-child(4),
-.stars--1 :nth-child(5) {
-  background-image: var(--star);
-}
-
-.stars--2 :nth-child(1),
-.stars--2 :nth-child(2) {
+.stars--1 :nth-child(n) {
   background-image: var(--star-active);
 }
 
-.stars--2 :nth-child(3),
-.stars--2 :nth-child(4),
-.stars--2 :nth-child(5) {
+.stars--1 :nth-child(n + 2) {
   background-image: var(--star);
 }
 
-.stars--3 :nth-child(1),
-.stars--3 :nth-child(2),
-.stars--3 :nth-child(3) {
+.stars--2 :nth-child(n) {
   background-image: var(--star-active);
 }
 
-.stars--3 :nth-child(4),
-.stars--3 :nth-child(5) {
+.stars--2 :nth-child(n + 3) {
   background-image: var(--star);
 }
 
-.stars--4 :nth-child(1),
-.stars--4 :nth-child(2),
-.stars--4 :nth-child(3),
-.stars--4 :nth-child(4) {
+.stars--3 :nth-child(n) {
+  background-image: var(--star-active);
+}
+
+.stars--3 :nth-child(n + 4) {
+  background-image: var(--star);
+}
+
+.stars--4 :nth-child(n) {
   background-image: var(--star-active);
 }
 
