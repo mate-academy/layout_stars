@@ -6,14 +6,27 @@ body {
   margin: 0;
 }
 
-.stars > * {
-  height: 15px;
+.stars-block {
+  display: flex;
+  padding-top: 2px;
 }
 
-.stars > * > :nth-child(1),
-.stars > * > :nth-child(2),
-.stars > * > :nth-child(3),
-.stars > * > :nth-child(4),
-.stars > * > :nth-child(5) {
-  margin: 0 1px;
+.stars-block > * {
+  height: 13px;
+  width: 13px;
+  background-repeat: no-repeat;
+  margin: 0 3px;
+
+}
+
+.stars-block > :first-child {
+  margin-left: 1px;
+}
+
+.star {
+  background-image: url(images/star.svg);
+}
+
+.star-active {
+  background-image: url(images/star-active.svg);
 }
