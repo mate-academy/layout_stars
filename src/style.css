@@ -8,13 +8,12 @@ body {
 
 .rating {
   display: flex;
-  flex-flow: row nowrap;
 }
 
 .rating__item {
   width: 15px;
   height: 15px;
-  background: url(/images/star.svg) no-repeat center;
+  background: url(./images/star.svg) no-repeat center;
 }
 
 .rating :not(:last-child) {
@@ -26,5 +25,5 @@ body {
 .stars--3 .rating__item:nth-child(-n+3),
 .stars--4 .rating__item:nth-child(-n+4),
 .stars--5 .rating__item:nth-child(-n+5) {
-  background-image: url(images/star-active.svg);
+  background-image: url(./images/star-active.svg);
 }
