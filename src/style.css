@@ -1,16 +1,12 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
 }
 
-.container-rating {
+.stars {
   display: flex;
 }
 
-.container-rating__stars {
+.stars__star {
   width: 15px;
   height: 15px;
   background: url("images/star.svg");
@@ -18,14 +14,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.container-rating__stars:not(:last-child) {
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars--1 .container-rating__stars:first-child,
-.stars--2 .container-rating__stars:nth-child(-n+2),
-.stars--3 .container-rating__stars:nth-child(-n+3),
-.stars--4 .container-rating__stars:nth-child(-n+4),
-.stars--5 .container-rating__stars:nth-child(-n+5) {
+.stars--1 .stars__star:first-child,
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
   background-image: url("images/star-active.svg");
 }
