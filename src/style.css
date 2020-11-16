@@ -3,22 +3,20 @@ body {
 }
 
 .stars {
-  margin-bottom: -4px;
+  display: flex;
 }
 
-.stars__insideStars {
-  display: inline-block;
+.stars__item {
   height: 15px;
   width: 15px;
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  margin-right: 4px;
+  background: url(./images/star.svg) no-repeat center;
 }
 
-.stars--1 .stars__insideStars:nth-child(1),
-.stars--2 .stars__insideStars:nth-child(-n+2),
-.stars--3 .stars__insideStars:nth-child(-n+3),
-.stars--4 .stars__insideStars:nth-child(-n+4),
-.stars--5 .stars__insideStars:nth-child(-n+5) {
+.stars--1 .stars__item:nth-child(1),
+.stars--2 .stars__item:nth-child(-n+2),
+.stars--3 .stars__item:nth-child(-n+3),
+.stars--4 .stars__item:nth-child(-n+4),
+.stars--5 .stars__item:nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
 }
