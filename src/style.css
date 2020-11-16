@@ -6,25 +6,25 @@ body {
   margin: 0;
 }
 
-.item {
+.stars__item {
   display: flex;
 }
 
-.item__star {
+.stars__rate {
   height: 15px;
   width: 15px;
   margin-left: 4px;
   background: url("/images/star.svg") center no-repeat;
 }
 
-.item .item__star:first-child {
+.stars__item .stars__rate:first-child {
   margin-left: 0;
 }
 
-.stars--1 .item__star:nth-child(-n+1),
-.stars--2 .item__star:nth-child(-n+2),
-.stars--3 .item__star:nth-child(-n+3),
-.stars--4 .item__star:nth-child(-n+4),
-.stars--5 .item__star:nth-child(-n+5) {
+.stars--1 .stars__rate:nth-child(-n+1),
+.stars--2 .stars__rate:nth-child(-n+2),
+.stars--3 .stars__rate:nth-child(-n+3),
+.stars--4 .stars__rate:nth-child(-n+4),
+.stars--5 .stars__rate:nth-child(-n+5) {
   background: url("/images/star-active.svg") center no-repeat;
 }
