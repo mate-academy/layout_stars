@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.star {
+.stars__item {
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -15,11 +15,11 @@
   margin-right: 4px;
 }
 
-.stars--1 .star:nth-child(1),
-.stars--2 .star:nth-child(-n+2),
-.stars--3 .star:nth-child(-n+3),
-.stars--4 .star:nth-child(-n+4),
-.stars--5 .star:nth-child(-n+5) {
+.stars--1 .stars__item:nth-child(1),
+.stars--2 .stars__item:nth-child(-n+2),
+.stars--3 .stars__item:nth-child(-n+3),
+.stars--4 .stars__item:nth-child(-n+4),
+.stars--5 .stars__item:nth-child(-n+5) {
   background: url("images/star-active.svg");
   background-repeat: no-repeat;
   background-position: center;
