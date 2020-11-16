@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
 }
 
@@ -6,21 +6,22 @@
   display: flex;
 }
 
-.stars__item {
+.stars__star {
   width: 15px;
   height: 15px;
-  background: url("/images/star.svg");
+  background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars--1 .stars__item:nth-child(1),
-.stars--2 .stars__item:nth-child(-n+2),
-.stars--3 .stars__item:nth-child(-n+3),
-.stars--4 .stars__item:nth-child(-n+4),
-.stars--5 .stars__item:nth-child(n) {
-  background: url("/images/star-active.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+.stars--1 :first-child,
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
+  background-image: url(./images/star-active.svg);
 }
