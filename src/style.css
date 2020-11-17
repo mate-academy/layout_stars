@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-.stars__item {
+.stars {
   display: flex;
 }
 
@@ -17,7 +17,7 @@ body {
   background: url("/images/star.svg") center no-repeat;
 }
 
-.stars__item .stars__rate:first-child {
+.stars .stars__rate:first-child {
   margin-left: 0;
 }
 
