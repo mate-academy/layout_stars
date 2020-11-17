@@ -2,23 +2,21 @@ body {
   margin: 0;
 }
 
-.evaluation {
+.stars {
   display: flex;
 }
 
-.evaluation__star {
+.stars__evaluation {
   height: 15px;
   width: 15px;
   margin-right: 4px;
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(images/star.svg) no-repeat center;
 }
 
-.stars--1 > .evaluation__star:nth-child(1),
-.stars--2 > .evaluation__star:nth-child(-n+2),
-.stars--3 > .evaluation__star:nth-child(-n+3),
-.stars--4 > .evaluation__star:nth-child(-n+4),
-.stars--5 > .evaluation__star:nth-child(-n+5) {
+.stars--1 > .stars__evaluation:nth-child(1),
+.stars--2 > .stars__evaluation:nth-child(-n+2),
+.stars--3 > .stars__evaluation:nth-child(-n+3),
+.stars--4 > .stars__evaluation:nth-child(-n+4),
+.stars--5 > .stars__evaluation:nth-child(-n+5) {
   background-image: url(images/star-active.svg);
 }
