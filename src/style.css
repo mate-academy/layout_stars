@@ -1,6 +1,4 @@
-*,
-::before,
-::after {
+body {
   margin: 0;
 }
 
@@ -11,12 +9,8 @@
 .stars__item {
   width: 15px;
   height: 15px;
-  margin-left: 4px;
+  margin-right: 4px;
   background: no-repeat center url(./images/star.svg);
-}
-
-.stars__item:nth-child(0n+1) {
-  margin: 0;
 }
 
 .stars--1 .stars__item:nth-child(-n+1),
