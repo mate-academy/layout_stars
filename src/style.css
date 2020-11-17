@@ -15,7 +15,7 @@ body {
   height: 15px;
 }
 
-.star__item {
+.stars__item {
   position: relative;
   background: url(/images/star.svg) center no-repeat;
   display: inline-block;
@@ -23,10 +23,10 @@ body {
   width: 15px;
 }
 
-.stars--1 > .star__item:nth-child(1),
-.stars--2 > .star__item:nth-child(-n+2),
-.stars--3 > .star__item:nth-child(-n+3),
-.stars--4 > .star__item:nth-child(-n+4),
-.stars--5 > .star__item:nth-child(n) {
+.stars--1 > .stars__item:nth-child(1),
+.stars--2 > .stars__item:nth-child(-n+2),
+.stars--3 > .stars__item:nth-child(-n+3),
+.stars--4 > .stars__item:nth-child(-n+4),
+.stars--5 > .stars__item:nth-child(n) {
   background: url(/images/star-active.svg) center no-repeat;
 }
