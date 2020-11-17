@@ -6,12 +6,12 @@ body {
   margin: 0;
 }
 
-.stars__block {
+.stars {
   display: flex;
   flex-direction: column;
 }
 
-.stars__block > * {
+.stars > * {
   height: 15px;
 }
 
