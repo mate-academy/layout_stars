@@ -6,24 +6,24 @@ body {
   box-sizing: border-box;
 }
 
-.rating {
+.stars {
   display: flex;
 }
 
-.rating__item {
+.stars__item {
   width: 15px;
   height: 15px;
   background: url(./images/star.svg) no-repeat center;
 }
 
-.rating :not(:last-child) {
+.stars :not(:last-child) {
   margin-right: 4px;
 }
 
-.stars--1 .rating__item:nth-child(1),
-.stars--2 .rating__item:nth-child(-n+2),
-.stars--3 .rating__item:nth-child(-n+3),
-.stars--4 .rating__item:nth-child(-n+4),
-.stars--5 .rating__item:nth-child(-n+5) {
+.stars--1 .stars__item:nth-child(1),
+.stars--2 .stars__item:nth-child(-n+2),
+.stars--3 .stars__item:nth-child(-n+3),
+.stars--4 .stars__item:nth-child(-n+4),
+.stars--5 .stars__item:nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
 }
