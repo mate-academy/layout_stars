@@ -25,11 +25,11 @@ body {
   margin-right: 4px;
 }
 
-.stars--1 .block__star:nth-child(1),
-.stars--2 .block__star:nth-child(-n+2),
-.stars--3 .block__star:nth-child(-n+3),
-.stars--4 .block__star:nth-child(-n+4),
-.stars--5 .block__star:nth-child(-n+5) {
+.block__stars--1 .block__star:nth-child(1),
+.block__stars--2 .block__star:nth-child(-n+2),
+.block__stars--3 .block__star:nth-child(-n+3),
+.block__stars--4 .block__star:nth-child(-n+4),
+.block__stars--5 .block__star:nth-child(-n+5) {
   background: url(images/star-active.svg);
   background-repeat: no-repeat;
   background-position: center;
