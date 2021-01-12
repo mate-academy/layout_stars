@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.star {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.stars__star {
+  
+  margin: 0 5px -3px 1px;
+}
