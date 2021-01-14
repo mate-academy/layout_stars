@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.stars--0 {
+  display: flex;
+}
+
+.stars--1 {
+  display: flex;
+}
+
+.stars--2 {
+  display: flex;
+}
+
+.stars--3 {
+  display: flex;
+}
+
+.stars--4 {
+  display: flex;
+}
+
+.stars--5 {
+  display: flex;
+}
+
+.stars__star {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
