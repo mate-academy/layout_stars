@@ -4,9 +4,10 @@ body {
 
 .stars__star {
   width: 15px;
+  max-width: 15px;
   height: 15px;
+  margin-right: 4px;
   background-position: center;
-
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
 }
