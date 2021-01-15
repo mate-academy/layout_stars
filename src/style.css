@@ -11,9 +11,7 @@ body {
 .stars__star {
   height: var(--img-height);
   width: var(--img-width);
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: 20%;
+  background: url(./images/star.svg) 20% no-repeat;
   padding-left: 4px;
 }
 
