@@ -4,16 +4,13 @@ body {
 
 .stars {
   height: 15px;
-  /* width: 95px; */
   display: flex;
 }
 
 .stars_star {
   margin-right: 4px;
   width: 15px;
-  background: url(/images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(/images/star.svg) center no-repeat;
 }
 
 .stars--1 .stars_star:nth-child(-n+1),
@@ -21,7 +18,5 @@ body {
 .stars--3 .stars_star:nth-child(-n+3),
 .stars--4 .stars_star:nth-child(-n+4),
 .stars--5 .stars_star:nth-child(-n+5) {
-  background-image: url(/images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(/images/star-active.svg) center no-repeat;
 }
