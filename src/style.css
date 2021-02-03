@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stars li {
+  margin-right: 4px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars li:last-of-type {
+  margin-right: 0;
+}
