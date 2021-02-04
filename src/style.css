@@ -11,8 +11,9 @@ body {
   background-image: url(./images/star-active.svg);
   width: 15px;
   height: 15px;
+  margin-right: 4px;
   background-repeat: no-repeat;
-  margin-right: 5px;
+  background-position: center;
 }
 
 .stars--0 .stars_star:nth-child(n),
