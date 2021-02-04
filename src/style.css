@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.stars__star {
+  margin: 0 4px 0 0;
+  width: 15px;
+  height: 15px;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+  margin: 0;
+}
+
+svg {
+  object-fit: contain;
+}
+
+.one {
+  margin-left: 1px;
+}
