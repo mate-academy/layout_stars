@@ -1,0 +1,23 @@
+html {
+  margin: 0;
+}
+
+div[class*="stars--"] {
+  display: flex;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.disabled {
+  background-image: url("/images/star.svg");
+}
+
+.active {
+  background-image: url("/images/star-active.svg");
+}
+
+div.stars__star {
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 15px;
+}
