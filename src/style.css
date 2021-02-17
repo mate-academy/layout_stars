@@ -1,20 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
 
-.stars__star {
-  background-image: url(./images/star.svg);
-  width: 15px;
-  height: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 4px 0 0;
+.person {
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 12px;
 }
 
-.stars {
+.container {
+  max-width: 890px;
+  margin: 30px auto 0;
+}
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 250px);
+  grid-gap: 15px;
+  border-radius: 12px;
+}
+
+.person__img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 8px;
+  transition: 1s;
+}
+
+.person:hover .person__img {
+  border-radius: 60px;
+}
+
+.person:hover {
+  border-radius: 12px;
+  background-color: #eee;
+  height: 300px;
+  transform: scale(1.1);
+  z-index: 10;
+  width: 210px;
+}
+
+.person__rank {
   display: flex;
+  position: absolute;
+  top: 88px;
+  right: 12px;
+  height: 32px;
+  width: 32px;
+  background-color: white;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8b0000;
 }
 
-.stars__star--active {
-  background-image: url(./images/star-active.svg);
+.person__details {
+  color: #2f4f4f;
+}
+
+.person__name {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.person:hover .person__name {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.person__extra {
+  font-size: 22px;
+  line-height: 25px;
+  visibility: hidden;
+}
+
+.person:hover .person__sport {
+  visibility: visible;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.person:hover .person__pay {
+  visibility: visible;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.person__pay::before {
+  content: "$";
+}
+
+.person__sport::after {
+  content: ",";
+}
+
+@media screen and (max-width: 899px) {
+  .container {
+    max-width: 430px;
+    margin: 30px auto 0;
+  }
+
+  .people {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(4, 250px);
+    gap: 15px;
+  }
 }

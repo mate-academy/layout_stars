@@ -4,51 +4,191 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Product cards</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Most paid athletes</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="stars">
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-    </div>
-    <div class="stars">
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-    </div>
-    <div class="stars">
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-    </div>
-    <div class="stars">
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star"></div>
-      <div class="stars__star"></div>
-    </div>
-    <div class="stars">
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star"></div>
-    </div>
-    <div class="stars">
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-      <div class="stars__star stars__star--active"></div>
-    </div>
+    <main class="people container">
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Mayweather.jpg"
+            alt="Floyd Mayweather"
+            class="person__img"
+          >
+          <span class="person__rank">1</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Floyd Mayweather</a>
+          <section class="person__extra">
+            <span class="person__sport">Boxing</span>
+            <span class="person__pay">285</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Messi.jpg"
+            alt="Lionel Messi"
+            class="person__img"
+          >
+          <span class="person__rank">2</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Lionel Messi</a>
+          <section class="person__extra">
+            <span class="person__sport">Soccer</span>
+            <span class="person__pay">111</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Ronaldo.jpg"
+            alt="Cristiano Ronaldo"
+            class="person__img"
+          >
+          <span class="person__rank">3</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Cristiano Ronaldo</a>
+          <section class="person__extra">
+            <span class="person__sport">Soccer</span>
+            <span class="person__pay">108</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/McGregor.jpg"
+            alt="Conor McGregor"
+            class="person__img"
+          >
+          <span class="person__rank">4</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Conor McGregor</a>
+          <section class="person__extra">
+            <span class="person__sport">Mixed Martial Arts</span>
+            <span class="person__pay">99</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Neymar.jpg"
+            alt="Neymar"
+            class="person__img"
+          >
+          <span class="person__rank">5</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Neymar</a>
+          <section class="person__extra">
+            <span class="person__sport">Soccer</span>
+            <span class="person__pay">90</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/James.jpg"
+            alt="LeBron James"
+            class="person__img"
+          >
+          <span class="person__rank">6</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">LeBron James</a>
+          <section class="person__extra">
+            <span class="person__sport">Basketball</span>
+            <span class="person__pay">85.5</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Federer.jpg"
+            alt="Roger Federer"
+            class="person__img"
+          >
+          <span class="person__rank">7</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Roger Federer</a>
+          <section class="person__extra">
+            <span class="person__sport">Tennis</span>
+            <span class="person__pay">77.2</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Curry.jpg"
+            alt="Stephen Curry"
+            class="person__img"
+          >
+          <span class="person__rank">8</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Stephen Curry</a>
+          <section class="person__extra">
+            <span class="person__sport">Basketball</span>
+            <span class="person__pay">76.9</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Ryan.jpg"
+            alt="Matt Ryan"
+            class="person__img"
+          >
+          <span class="person__rank">9</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Matt Ryan</a>
+          <section class="person__extra">
+            <span class="person__sport">Football</span>
+            <span class="person__pay">67.3</span>
+          </section>
+        </section>
+      </article>
+
+      <article class="person">
+        <section class="person__photo">
+          <img
+            src="https://mate-academy.github.io/fe-program/css/tasks/athletes/people/Stafford.jpg"
+            alt="Matthew Stafford"
+            class="person__img"
+          >
+          <span class="person__rank">10</span>
+        </section>
+        <section class="person__details">
+          <a class="person__name">Matthew Stafford,</a>
+          <section class="person__extra">
+            <span class="person__sport">Football</span>
+            <span class="person__pay">59.5</span>
+          </section>
+        </section>
+      </article>
+    </main>
   </body>
 </html>
