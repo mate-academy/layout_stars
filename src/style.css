@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  padding: 2px 1px 1px;
+}
+
+.stars__star {
+  margin-right: 6px;
+}
