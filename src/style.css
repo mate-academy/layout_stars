@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  height: 15px;
+}
+
+.stars_star {
+  width: 15px;
+  height: 15px;
+  object-fit: none;
+}
