@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  width: 100px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars__star {
+  object-fit: contain;
+  object-position: center;
+  width: 13px;
+}
+
+.stars :last-of-type {
+  margin-right: 10px;
+}
+
+.stars :first-of-type {
+  margin-left: 1px;
+}
