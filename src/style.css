@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  height: 15px;
+  width: 15px;
+  margin-right: 4px;
+  position: relative;
+}
+
+.stars__star img {
+  display: block;
+  position: absolute;
+  top: 2px;
+  right: 1px;
+}
