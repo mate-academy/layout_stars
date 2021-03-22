@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  /* width: px; */
+
+}
+
+.stars__star {
+  margin: 2px 5px 1px 1px;
+}
