@@ -10,16 +10,18 @@ body {
   width: 15px;
   height: 15px;
   margin-right: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .normal-star {
   background-image: url(images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.active-star {
+.stars--1 .active-star:nth-child(n),
+.stars--2 .active-star:nth-child(n),
+.stars--3 .active-star:nth-child(n),
+.stars--4 .active-star:nth-child(n),
+.stars--5 .active-star:nth-child(n) {
   background-image: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
