@@ -9,7 +9,7 @@ body {
 .stars__star {
   width: 15px;
   height: 15px;
-  margin: 0 4px 0 0;
+  margin-right: 4px;
   background-image: url(images\star-active.svg);
   background-repeat: no-repeat;
   background-position: center;
