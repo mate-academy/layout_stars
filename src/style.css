@@ -3,19 +3,12 @@
   width: 13px;
   margin-right: 6px;
   margin-bottom: 3px;
+  background-image: url("images/star.svg");
   background-size: 100%;
 }
 
 .stars {
   display: flex;
-}
-
-.stars--0 :nth-child(n),
-.stars--1 :nth-child(n + 1),
-.stars--2 :nth-child(n + 2),
-.stars--3 :nth-child(n + 3),
-.stars--4 :nth-child(n + 3) {
-  background-image: url("images/star.svg");
 }
 
 .stars--1 :nth-child(1),
