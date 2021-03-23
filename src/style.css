@@ -9,7 +9,7 @@ body {
   justify-content: space-between;
 }
 
-.stars__star {
+.stars :nth-child(n) {
   object-fit: contain;
   object-position: center;
   width: 13px;
