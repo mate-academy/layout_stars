@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+[class^="stars--"] {
+  width: 91px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 9px;
+}
+
+.stars_star {
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.star_active {
+  background-image: url(images/star-active.svg);
+}
+
+.star {
+  background-image: url(images/star.svg);
+}
