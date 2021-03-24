@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  --clear-star: url(images/star.svg);
+  --golden-star: url(images/star-active.svg);
+}
+
+.stars {
+  display: flex;
+  height: 15px;
+}
+
+.star {
+  width: 15px;
+  margin-right: 4px;
+}
+
+.stars.stars--0 > * {
+  background: var(--clear-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--1 :not(:nth-child(n+2)) {
+  background: var(--golden-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--1 :nth-child(n+2) {
+  background: var(--clear-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--2 :not(:nth-child(n+3)) {
+  background: var(--golden-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--2 :nth-child(n+3) {
+  background: var(--clear-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--3 :not(:nth-child(n+4)) {
+  background: var(--golden-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--3 :nth-child(n+4) {
+  background: var(--clear-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--4 :not(:nth-child(n+5)) {
+  background: var(--golden-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--4 :nth-child(n+5) {
+  background: var(--clear-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars.stars--5 > * {
+  background: var(--golden-star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
