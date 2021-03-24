@@ -7,12 +7,13 @@ body {
 }
 
 .stars__star {
-  height: 13px;
-  width: 12px;
+  width: 15px;
+  height: 15px;
   margin-right: 4px;
   background-image: url(images/star-active.svg);
-  background-repeat: 50%;
+  background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 .stars--0 :nth-child(n),
