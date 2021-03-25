@@ -12,7 +12,7 @@ body {
 .star {
   width: 15px;
   margin-right: 4px;
-  background: var(--clear-star);
+  background-image: var(--clear-star);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -21,13 +21,9 @@ body {
 .stars.stars--2 :nth-child(-n+2),
 .stars.stars--3 :nth-child(-n+3),
 .stars.stars--4 :nth-child(-n+4) {
-  background: var(--golden-star);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: var(--golden-star);
 }
 
 .stars.stars--5 > * {
-  background: var(--golden-star);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: var(--golden-star);
 }
