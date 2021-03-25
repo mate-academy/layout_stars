@@ -1,7 +1,7 @@
 # Stars block
 1. Replace `<your_account>` with your Github username in the links
-    - [DEMO LINK](https://<your_account>.github.io/layout_stars/) <br>
-    - [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+    - [DEMO LINK](https://vyacheslav-sergienko.github.io/layout_stars/) <br>
+    - [TEST REPORT LINK](https://vyacheslav-sergienko.github.io/layout_stars/report/html_report/)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 
 > Disable `Multiplayer Cursors` in figma to hide other cursors ([Learn how](https://mate-academy.github.io/layout_task-guideline/figma.html#multiplayer-cursors))
@@ -12,7 +12,7 @@ Implement the `stars` block used in [the card](https://www.figma.com/file/bS8N1l
 You DON'T need to implement the card now, just the stars block.
 
 - You can find star images in `images` folder
-- Reset browser's default `margin`
+- Reset browser's default `margin`git
 - Implement 6 blocks with `stars` class
   - The first should have `stars--0` class
   - The next 5 blocks should have an extra class `stars--1`, `stars--2` ... `stars--5` (one extra class per block)
