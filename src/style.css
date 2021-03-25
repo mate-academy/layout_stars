@@ -17,25 +17,10 @@ body {
   background-position: center;
 }
 
-.stars.stars--1 :not(:nth-child(n+2)) {
-  background: var(--golden-star);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.stars.stars--2 :not(:nth-child(n+3)) {
-  background: var(--golden-star);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.stars.stars--3 :not(:nth-child(n+4)) {
-  background: var(--golden-star);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.stars.stars--4 :not(:nth-child(n+5)) {
+.stars.stars--1 :nth-child(-n+1),
+.stars.stars--2 :nth-child(-n+2),
+.stars.stars--3 :nth-child(-n+3),
+.stars.stars--4 :nth-child(-n+4) {
   background: var(--golden-star);
   background-repeat: no-repeat;
   background-position: center;
