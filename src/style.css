@@ -1,0 +1,16 @@
+* {
+  margin: unset;
+}
+
+.container {
+  display: flex;
+}
+
+.stars__star {
+  width: 13px;
+  height: 12px;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-top: 2px;
+}
