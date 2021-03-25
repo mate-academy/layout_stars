@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  height: 15px;
+}
+
+.stars__star {
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  background-position: center;
+  background-size: cover;
+}
