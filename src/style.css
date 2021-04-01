@@ -1,0 +1,12 @@
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  margin-right: 4px;
+  margin-top: 3px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
