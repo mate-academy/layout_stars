@@ -15,22 +15,22 @@
   display: flex;
 }
 
-.stars--1 .stars-star:not(:nth-of-type(n + 2)) {
+.stars--1 .stars-star:nth-child(-n + 1) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--2 .stars-star:not(:nth-of-type(n + 3)) {
+.stars--2 .stars-star:nth-child(-n + 2) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--3 .stars-star:not(:nth-of-type(n + 4)) {
+.stars--3 .stars-star:nth-child(-n + 3) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--4 .stars-star:not(:nth-of-type(n + 5)) {
+.stars--4 .stars-star:nth-child(-n + 4) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--5 .stars-star:not(:nth-of-type(n + 6)) {
+.stars--5 .stars-star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
 }
