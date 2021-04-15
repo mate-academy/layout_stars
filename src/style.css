@@ -8,54 +8,29 @@ body {
 
 .stars__star {
   background-image: url(images/star.svg);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   width: 15px;
   height: 15px;
-  margin: 4px;
+  margin-right: 4px;
 }
 
 .stars--1 :first-child {
   background-image: url(images/star-active.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
-  margin: 4px;
 }
 
 .stars--2 :not(:nth-child(n + 3)) {
   background-image: url(images/star-active.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
-  margin: 4px;
 }
 
 .stars--3 :not(:nth-child(n + 4)) {
   background-image: url(images/star-active.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
-  margin: 4px;
 }
 
 .stars--4 :not(:nth-child(n + 5)) {
   background-image: url(images/star-active.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
-  margin: 4px;
 }
 
 .stars--5 > * {
   background-image: url(images/star-active.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
-  margin: 4px;
 }
