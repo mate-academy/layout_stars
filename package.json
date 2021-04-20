@@ -12,7 +12,8 @@
     "deploy": "mate-scripts deploy",
     "update": "mate-scripts update",
     "postinstall": "npm run update",
-    "test": "npm run lint && npm run test:only"
+    "test": "npm run lint && npm run test:only",
+    "lint:html": "linthtml --config ./node_modules/@mate-academy/linthtml-config/.linthtmlrc.json"
   },
   "keywords": [],
   "author": "Mate Academy",
@@ -22,8 +23,8 @@
     "@mate-academy/backstop-config": "*",
     "@mate-academy/bemlint": "^0.1.1",
     "@mate-academy/eslint-config": "*",
-    "@mate-academy/linthtml-config": "0.0.1",
-    "@mate-academy/scripts": "^0.2.0",
+    "@mate-academy/linthtml-config": "^0.0.1",
+    "@mate-academy/scripts": "^0.8.8",
     "@mate-academy/stylelint-config": "*",
     "backstopjs": "^5.0.1",
     "eslint": "^5.16.0",
@@ -38,6 +39,5 @@
     "linters": {
       "bem": false
     }
-  },
-  "dependencies": {}
+  }
 }
