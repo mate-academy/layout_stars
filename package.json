@@ -18,20 +18,20 @@
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@linthtml/linthtml": "^0.3.2",
+    "@linthtml/linthtml": "^0.7.0",
     "@mate-academy/backstop-config": "*",
     "@mate-academy/bemlint": "^0.1.1",
-    "@mate-academy/eslint-config": "*",
+    "@mate-academy/eslint-config": "0.0.16",
     "@mate-academy/linthtml-config": "0.0.1",
-    "@mate-academy/scripts": "^0.2.0",
+    "@mate-academy/scripts": "^0.8.8",
     "@mate-academy/stylelint-config": "*",
-    "backstopjs": "^5.0.1",
+    "backstopjs": "^5.3.0",
     "eslint": "^5.16.0",
     "eslint-plugin-node": "^8.0.1",
     "node-sass": "^4.14.1",
     "parcel": "^1.12.4",
-    "stylelint": "^13.5.0",
-    "stylelint-scss": "^3.17.2"
+    "stylelint": "^13.12.0",
+    "stylelint-scss": "^3.19.0"
   },
   "mateAcademy": {
     "projectType": "layout",
@@ -39,5 +39,7 @@
       "bem": false
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "mate-scripts": "0.0.1"
+  }
 }
