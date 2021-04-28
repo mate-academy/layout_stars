@@ -1,15 +1,22 @@
 body {
   margin: 0;
+  padding: 0;
   --content-stars-active: url(images/star-active.svg);
   --content-stars: url(images/star.svg);
 }
 
 .stars__star {
-  margin: 0 6px 3px 0;
+  margin: 0 6px 0 0;
 }
 
-.stars--0, .stars--1, .stars--2, .stars--3, .stars--4, .stars--5 {
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
   display: flex;
+  margin: 2px 0 3px 1px;
 }
 
 .stars--0 > :nth-child(-n + 5) {
@@ -51,6 +58,3 @@ body {
 .stars--5 > :nth-child(-n + 5) {
   content: var(--content-stars-active);
 }
-
-
-
