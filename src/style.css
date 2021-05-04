@@ -7,13 +7,6 @@
   display: flex;
 }
 
-/* .stars__star {
-  background-image: url("../src/images/star.svg");
-  background-size: contain;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-} */
 .stars__star {
   background-image: url("../src/images/star.svg");
   background-position: center;
