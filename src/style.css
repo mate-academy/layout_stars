@@ -21,22 +21,10 @@ ul {
   margin-right: 4px;
 }
 
-.stars--1 li:first-child {
-  background-image: url("../src/images/star-active.svg");
-}
-
-.stars--2 li:nth-child(-n+2) {
-  background-image: url("../src/images/star-active.svg");
-}
-
-.stars--3 li:nth-child(-n+3) {
-  background-image: url("../src/images/star-active.svg");
-}
-
-.stars--4 li:nth-child(-n+4) {
-  background-image: url("../src/images/star-active.svg");
-}
-
-.stars--5 li:nth-child(-n+5) {
+.stars--1 .stars__star:first-child,
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
   background-image: url("../src/images/star-active.svg");
 }
