@@ -1,0 +1,9 @@
+/* body {
+  margin: 0;
+} */
+
+.stars__star {
+  height: 15px;
+  width: 15px;
+  margin-right: 4px;
+}
