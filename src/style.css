@@ -26,100 +26,18 @@
   background-image: url(./images/star-active.svg);
 }
 
-.stars--2 .stars__star:nth-child(1) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
+.stars--2 .stars__star:nth-child(-n+2) {
   background-image: url(./images/star-active.svg);
 }
 
-.stars--2 .stars__star:nth-child(2) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
+.stars--3 .stars__star:nth-child(-n+3) {
   background-image: url(./images/star-active.svg);
 }
 
-.stars--3 .stars__star:nth-child(1) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
+.stars--4 .stars__star:nth-child(-n+4) {
   background-image: url(./images/star-active.svg);
 }
 
-.stars--3 .stars__star:nth-child(2) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--3 .stars__star:nth-child(3) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--4 .stars__star:nth-child(1) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--4 .stars__star:nth-child(2) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--4 .stars__star:nth-child(3) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--4 .stars__star:nth-child(4) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--5 .stars__star:nth-child(1) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--5 .stars__star:nth-child(2) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--5 .stars__star:nth-child(3) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--5 .stars__star:nth-child(4) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--5 .stars__star:nth-child(5) {
-  width: 50px;
-  height: 50px;
-  background-size: cover;
+.stars--5 .stars__star:nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
 }
