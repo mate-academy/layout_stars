@@ -22,4 +22,5 @@ body {
 .stars--3 .star:nth-child(n + 4),
 .stars--4 .star:nth-child(n + 5) {
   background: url(images/star.svg) no-repeat center;
+  width: 15px;
 }
