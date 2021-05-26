@@ -16,54 +16,18 @@ body {
   margin-right: 4px;
 }
 
-/* First line stylization */
-
-.stars--0 .stars__star {
-  background: url(./images/star.svg) no-repeat center;
-}
-
-/* Second line stylization */
-
-.stars--1 .stars__star:first-child {
-  background: url(./images/star-active.svg) no-repeat center;
-}
-
-.stars--1 .stars__star:nth-child(n+2) {
-  background: url(./images/star.svg) no-repeat center;
-}
-
-/* Third line stylization */
-
-.stars--2 .stars__star:nth-child(n) {
-  background: url(./images/star-active.svg) no-repeat center;
-}
-
-.stars--2 .stars__star:nth-child(n+3) {
-  background: url(./images/star.svg) no-repeat center;
-}
-
-/* Fourth line stylization */
-
-.stars--3 .stars__star:nth-child(n) {
-  background: url(./images/star-active.svg) no-repeat center;
-}
-
-.stars--3 .stars__star:nth-child(n+4) {
-  background: url(./images/star.svg) no-repeat center;
-}
-
-/* Fifth line stylization */
-
-.stars--4 .stars__star:nth-child(n) {
-  background: url(./images/star-active.svg) no-repeat center;
-}
-
-.stars--4 .stars__star:nth-child(n+5) {
-  background: url(./images/star.svg) no-repeat center;
-}
-
-/* Sixth line stylization */
-
+.stars--1 .stars__star:first-child,
+.stars--2 .stars__star:nth-child(n),
+.stars--3 .stars__star:nth-child(n),
+.stars--4 .stars__star:nth-child(n),
 .stars--5 .stars__star:nth-child(n) {
   background: url(./images/star-active.svg) no-repeat center;
+}
+
+.stars.stars--0 .stars__star,
+.stars.stars--1 .stars__star:nth-child(n+2),
+.stars.stars--2 .stars__star:nth-child(n+3),
+.stars.stars--3 .stars__star:nth-child(n+4),
+.stars.stars--4 .stars__star:nth-child(n+5) {
+  background: url(./images/star.svg) no-repeat center;
 }
