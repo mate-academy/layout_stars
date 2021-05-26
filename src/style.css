@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.bgimg {
+  background: url(../reference/stars.png) no-repeat;
+}
+
+.stars {
+  display: flex;
+}
+/* 
+.stars--0 {
+}
+.stars--1 {
+  
+}
+.stars--2 {
+  
+}
+.stars--3 {
+  
+}
+.stars--4 {
+  
+}
+.stars--5 {
+  
+} */
+
+.stars__star {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
