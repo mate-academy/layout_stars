@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+
+.star {
+  display: flex;
+  height: 15px;
+}
+
+.stars__star {
+  background: url(images/star.svg/) no-repeat center;
+  width: 15px;
+}
