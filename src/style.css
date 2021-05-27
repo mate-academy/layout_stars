@@ -1,0 +1,30 @@
+
+body {
+  margin: 0;
+}
+
+.star:not(:last-child) {
+  margin-right: 4px;
+}
+  
+.star-grey {
+  width: 15px;
+  background: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+ 
+.stars-raw {
+  display: flex;
+  height: 15px;
+
+}
+  
+.star-gold {
+  width: 15px;
+  background: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
