@@ -3,28 +3,29 @@ body {
   margin: 0;
 }
 
-.star:not(:last-child) {
-  margin-right: 4px;
-}
-  
-.star-grey {
-  width: 15px;
-  background: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
- 
 .stars-raw {
   display: flex;
   height: 15px;
+}
+
+.star {
+  background: url(./images/star.svg) no-repeat center;
+  width: 15px;
+  height: 15px;
+  background-position: 50%;
+  
+}
+
+.star:not(:last-child) {
+  margin-right: 4px;
 
 }
-  
-.star-gold {
-  width: 15px;
-  background: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  
+
+.stars--0:not(:nth-child(n)),
+.stars--1 :first-child,
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
+  background: url(./images/star-active.svg) no-repeat center;
 }
