@@ -13,7 +13,7 @@
   margin-left: 4px;
 }
 
-.stars span:first-child {
+.stars .stars__star:first-child {
   margin-left: 0;
 }
 
