@@ -1,18 +1,17 @@
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
   margin: 0;
 }
 
-.container {
+/* .container {
   display: flex;
   height: 90px;
   width: 95px;
   flex-wrap: wrap;
-}
+} */
 
 .stars {
   display: flex;
