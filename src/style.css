@@ -6,13 +6,6 @@ body {
   margin: 0;
 }
 
-/* .container {
-  display: flex;
-  height: 90px;
-  width: 95px;
-  flex-wrap: wrap;
-} */
-
 .stars {
   display: flex;
 }
