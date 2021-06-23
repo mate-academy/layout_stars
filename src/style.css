@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.main {
+  position: relative;
+  height: 160px;
+  width: 140px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  margin: 2px;
+  border-radius: 0.5px;
+}
+
+.stars--1 > .stars__star:nth-of-type(1) {
+  height: 16px;
+  width: 16px;
+  background: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  margin: 2px;
+  border-radius: 0.5px;
+}
+
+.stars--2 > .stars__star:nth-of-type(-n+2) {
+  height: 16px;
+  width: 16px;
+  background: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  margin: 2px;
+  border-radius: 0.5px;
+}
+
+.stars--3 > .stars__star:nth-of-type(-n+3) {
+  height: 16px;
+  width: 16px;
+  background: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  margin: 2px;
+  border-radius: 0.5px;
+}
+
+.stars--4 > .stars__star:nth-of-type(-n+4) {
+  height: 16px;
+  width: 16px;
+  background: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  margin: 2px;
+  border-radius: 0.5px;
+}
+
+.stars--5 > .stars__star:nth-of-type(-n+5) {
+  height: 16px;
+  width: 16px;
+  background: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  margin: 2px;
+  border-radius: 0.5px;
+}
