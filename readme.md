@@ -1,6 +1,6 @@
 # Product cards
 1. Replace `<your_account>` with your Github username in the links
-    - [DEMO LINK](https://<your_account>.github.io/layout_stars/) <br>
+    - [DEMO LINK](https://Dinexpod.github.io/layout_stars/) <br>
     - [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
 2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
 
