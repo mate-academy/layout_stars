@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  margin-left: 2px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 12px;
+  background-image: url(./images/star.svg);
+  background-position: center;
+}
+
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(n) {
+  background-image: url(./images/star-active.svg);
+}
