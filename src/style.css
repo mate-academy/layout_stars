@@ -8,7 +8,7 @@ body {
 }
 
 .star {
-  height: 15opx;
+  height: 15px;
   width: 15px;
   background-image: url("images/star.svg");
   padding-left: 4px;
