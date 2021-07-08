@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  height: 100vh;
+}
+
+.rating-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 160px;
+  background-color: #fff;
+}
+
+.stars > .stars__star {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  background-image: url(images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.3s;
+  border-radius: 0.5px;
+}
+
+.stars--5 > .stars__star,
+.stars--1 > .stars__star:not(:nth-child(n+2)),
+.stars--2 > .stars__star:not(:nth-child(n+3)),
+.stars--3 > .stars__star:not(:nth-child(n+4)),
+.stars--4 > .stars__star:not(:nth-child(n+5)) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars > .stars__star:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+}
