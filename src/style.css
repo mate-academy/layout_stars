@@ -2,12 +2,7 @@ body {
   margin: 0;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
   flex-direction: row;
   width: 100px;
@@ -32,10 +27,4 @@ body {
 .stars--2 > .stars__star:nth-child(-n + 2),
 .stars--1 > .stars__star:first-child {
   background-image: url(./images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  width: 16px;
-  margin-right: 4px;
-  text-align: center;
 }
