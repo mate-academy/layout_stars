@@ -2,13 +2,12 @@
   margin: 0;
 }
 
-body {
+.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #e5e5e5;
   height: 100vh;
-
 }
 
 .rating-wrapper {
