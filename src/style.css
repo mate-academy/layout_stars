@@ -10,14 +10,6 @@ body {
 
 .star {
   width: 16px;
-}
-
-.stars--0 > .star,
-.stars--1 > .star,
-.stars--2 > .star,
-.stars--3 > .star,
-.stars--4 > .star,
-.stars--5 > .star {
   background-image: url(images/star.svg);
   background-position: 10% 50%;
   background-repeat: no-repeat;
