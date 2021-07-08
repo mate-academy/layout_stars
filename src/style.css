@@ -20,7 +20,7 @@ body {
   background-color: #fff;
 }
 
-.stars > span {
+.stars > .stars__star {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -33,13 +33,13 @@ body {
   border-radius: 0.5px;
 }
 
-.stars > span:hover {
-  cursor: pointer;
-  transform: scale(1.4);
-}
-
 .stars--5 > .stars__star {
   background-image: url(images/star-active.svg);
+}
+
+.stars > .stars__star:hover {
+  cursor: pointer;
+  transform: scale(1.4);
 }
 
 .stars--1 > .stars__star:not(:nth-child(n+2)) {
