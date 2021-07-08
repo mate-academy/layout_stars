@@ -4,15 +4,13 @@ body {
 
 .container {
   width: 96px;
-  height: 140px;
   margin: auto;
 }
 
 .stars {
   display: flex;
-  width: 96px;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
 }
 
 .stars__star {
@@ -21,7 +19,6 @@ body {
   background-position: center;
   width: 16px;
   height: 16px;
-  padding: 4px;
 }
 
 .stars--1 .stars__star:nth-child(-n+1),
