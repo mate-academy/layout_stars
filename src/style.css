@@ -5,20 +5,20 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: white;
-  width: 108px;
-  height: 108px;
+  width: 98px;
+  height: 98px;
+  padding: 2px;
 }
 
 img {
-  margin: 3px 4px;
+  margin: 2px;
 }
 
 .stars {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  align-items: baseline;
-  align-content: center;
+  align-items: stretch;
 }
