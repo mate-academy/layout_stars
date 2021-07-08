@@ -3,8 +3,12 @@ body {
 }
 
 .container {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: white;
+  width: 108px;
+  height: 108px;
 }
 
 img {
