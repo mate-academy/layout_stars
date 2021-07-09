@@ -5,20 +5,99 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  background-color: white;
-  width: 98px;
-  height: 98px;
-  padding: 2px;
-}
-
-img {
-  margin: 2px;
+  justify-content: flex-start;
 }
 
 .stars {
+  height: 16px;
+  width: 96px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: stretch;
+  /* border: black 1px solid; */
+}
+
+.stars--0 {
+  background-image: url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: 2px,
+    22px,
+    42px,
+    62px,
+    82px;
+}
+
+.stars--1 {
+  background-image: url(./images/star-active.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: 2px,
+    22px,
+    42px,
+    62px,
+    82px;
+}
+
+.stars--2 {
+  background-image: url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: 2px,
+    22px,
+    42px,
+    62px,
+    82px;
+}
+
+.stars--3 {
+  background-image: url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star.svg),
+    url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: 2px,
+    22px,
+    42px,
+    62px,
+    82px;
+}
+
+.stars--4 {
+  background-image: url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: 2px,
+    22px,
+    42px,
+    62px,
+    82px;
+}
+
+.stars--5 {
+  background-image: url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: 2px,
+    22px,
+    42px,
+    62px,
+    82px;
 }
