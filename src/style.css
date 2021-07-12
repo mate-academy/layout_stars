@@ -6,26 +6,21 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-  margin: auto;
+  width: 96px;
+  height: 96px;
 }
 
 .stars {
-  position: relative;
   display: flex;
-  flex-direction: row;
-  height: 16px;
   justify-content: space-between;
 }
 
 .stars__star {
   background-image: url(images/star.svg);
-  background-size: cover;
-  width: 13px;
-  height: 12px;
-  margin: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
 }
 
 .stars--1 :first-child,
@@ -35,5 +30,7 @@
 .stars--5 > :nth-child(n) {
   background-image: url(images/star-active.svg);
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
 }
