@@ -1,18 +1,27 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
-.stars {
-  display: flex;
+body {
+  background-color: #e5e5e5;
+}
+
+.stars_wrapper {
+  background-color: #fff;
+  width: fit-content;
 }
 
 .stars_inline {
+  display: inline-block;
   width: 16px;
   height: 16px;
-  margin: 2px;
   background: url(images/star.svg) no-repeat;
   list-style-type: none;
+}
+
+.stars_inline:not(:last-child) {
+  margin-right: 2px;
 }
 
 .stars--5 > .stars_inline,
