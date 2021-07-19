@@ -11,14 +11,51 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   height: 100vh;
-}
-
-.stars {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.stars svg {
-  margin: 5px 3px 0;
+.stars {
+  height: 16px;
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  margin-left: 4px;
+  margin-top: 4px;
+  background: center / contain no-repeat url("./images/star.svg");
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars--2 > .stars__star:nth-child(2),
+.stars--3 > .stars__star:nth-child(2),
+.stars--4 > .stars__star:nth-child(2),
+.stars--5 > .stars__star:nth-child(2) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--3 > .stars__star:nth-child(3),
+.stars--4 > .stars__star:nth-child(3),
+.stars--5 > .stars__star:nth-child(3) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--4 > .stars__star:nth-child(4),
+.stars--5 > .stars__star:nth-child(4) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--5 > .stars__star:nth-child(5) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars:not(:first-child) > .stars__star:first-child {
+  background-image: url("./images/star-active.svg");
 }
