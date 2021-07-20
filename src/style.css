@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.stars--0 {
+  background-image: url(./images/star.svg), url(./images/star.svg);
+  background-position: 22px 22px;
+  background-repeat: no-repeat;
+  background-size: 16px, 160px;
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+}
