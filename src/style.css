@@ -1,0 +1,54 @@
+* {
+  margin: initial;
+  box-sizing: content-box;
+}
+
+.box {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars {
+  width: 96px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--0 :nth-child(n) {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--1 :nth-child(n + 2) {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--2 :nth-child(n + 3) {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--3 :nth-child(n + 4) {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--4 :nth-child(n + 5) {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
