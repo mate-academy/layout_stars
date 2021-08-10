@@ -6,20 +6,13 @@ h1 {
   margin: 0;
 }
 
-.container {
-  width: 140px;
-  height: 160px;
-
-  background: #fff;
-}
-
 .stars__star {
   background-image: url(images/star.svg);
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 2px;
+  margin-right: 4px;
 }
 
 .stars {
