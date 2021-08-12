@@ -4,7 +4,6 @@
 
 .stars {
   display: flex;
-  flex-direction: row;
 }
 
 .stars__star {
@@ -14,22 +13,10 @@
   background: url(images/star-active.svg) no-repeat center;
 }
 
-.stars--0 :nth-child(n) {
-  background: url(images/star.svg) no-repeat center;
-}
-
-.stars--1 :nth-child(n + 2) {
-  background: url(images/star.svg) no-repeat center;
-}
-
-.stars--2 :nth-child(n + 3) {
-  background: url(images/star.svg) no-repeat center;
-}
-
-.stars--3 :nth-child(n + 4) {
-  background: url(images/star.svg) no-repeat center;
-}
-
+.stars--0 :nth-child(n),
+.stars--1 :nth-child(n + 2),
+.stars--2 :nth-child(n + 3),
+.stars--3 :nth-child(n + 4),
 .stars--4 :nth-child(n + 5) {
   background: url(images/star.svg) no-repeat center;
 }
