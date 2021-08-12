@@ -17,17 +17,16 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: stretch;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .stars__star,
-.stars--0 .stars__star:first-child {
+.stars__star:first-child {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
   height: 16px;
   width: 16px;
-  /* padding: 4px; */
 }
 
 .stars--1 .stars__star:nth-child(1),
@@ -36,10 +35,6 @@
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(n+1) {
   background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
 }
 
 .stars--5:last-child {
