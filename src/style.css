@@ -20,8 +20,7 @@
   margin-bottom: 4px;
 }
 
-.stars__star,
-.stars__star:first-child {
+.stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
