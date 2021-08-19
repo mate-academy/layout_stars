@@ -4,13 +4,6 @@ body {
 
 .stars {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.stars > * {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
