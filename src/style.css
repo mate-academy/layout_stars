@@ -10,8 +10,9 @@ body {
 
 .starsblock {
   display: flex;
-  margin: auto;
   flex-direction: column;
+
+  margin: auto;
 }
 
 .stars {
@@ -19,13 +20,14 @@ body {
 }
 
 .stars__star {
-  box-sizing: border-box;
   content: url("./images/star.svg");
+
+  box-sizing: border-box;
   width: 17px;
   height: 16px;
-  padding: 2px 1px;
 
   margin: 0 3px 0 0;
+  padding: 2px 1px;
 }
 
 .stars--1 .stars__star:first-child,
