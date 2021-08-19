@@ -19,22 +19,10 @@ body {
   display: flex;
 }
 
-.stars--5 :nth-child(-n+5) {
-  background-image: var(--active);
-}
-
-.stars--4 :nth-child(-n+4) {
-  background-image: var(--active);
-}
-
-.stars--3 :nth-child(-n+3) {
-  background-image: var(--active);
-}
-
-.stars--2 :nth-child(-n+2) {
-  background-image: var(--active);
-}
-
+.stars--5 :nth-child(-n+5),
+.stars--4 :nth-child(-n+4),
+.stars--3 :nth-child(-n+3),
+.stars--2 :nth-child(-n+2),
 .stars--1 :nth-child(-n+1) {
   background-image: var(--active);
 }
