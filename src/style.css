@@ -5,36 +5,36 @@ body {
   --not-active: url("images/star.svg");
 }
 
-div[class^="stars--"] {
+.star {
   display: flex;
 }
 
 .stars__star {
-  content: var(--not-active);
+  background-image: var(--not-active);
+  background-repeat: no-repeat;
   background-position: 50%;
   margin-right: 4px;
-  padding: 1px;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   display: flex;
 }
 
 .stars--5 :nth-child(-n+5) {
-  content: var(--active);
+  background-image: var(--active);
 }
 
 .stars--4 :nth-child(-n+4) {
-  content: var(--active);
+  background-image: var(--active);
 }
 
 .stars--3 :nth-child(-n+3) {
-  content: var(--active);
+  background-image: var(--active);
 }
 
 .stars--2 :nth-child(-n+2) {
-  content: var(--active);
+  background-image: var(--active);
 }
 
 .stars--1 :nth-child(-n+1) {
-  content: var(--active);
+  background-image: var(--active);
 }
