@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 160px;
+  margin: auto;
+  padding: 22px;
+}
+
+.stars {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 4px 0;
+}
+
+.stars__star {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.stars--5 .stars__star {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  padding-left: 16px;
+  background: url("./images/star-active.svg");
+}
+
+.stars--1 .stars__star:first-of-type {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  padding-left: 16px;
+  background: url("./images/star-active.svg") no-repeat;
+}
+
+.stars--4 .stars__star:not(.stars--4 .stars__star:last-child) {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  padding-left: 16px;
+  background: url("./images/star-active.svg") no-repeat;
+}
+
+.stars--2 .stars__star:not(.stars--2 .stars__star:nth-of-type(n + 3)) {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  padding-left: 16px;
+  background: url("./images/star-active.svg") no-repeat;
+}
+
+.stars--3 .stars__star:not(.stars--3 .stars__star:nth-of-type(n + 4)) {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  padding-left: 16px;
+  background: url("./images/star-active.svg") no-repeat;
+}
