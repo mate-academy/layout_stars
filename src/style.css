@@ -8,13 +8,6 @@ body {
   padding: 0;
 }
 
-.starsblock {
-  display: flex;
-  flex-direction: column;
-
-  margin: auto;
-}
-
 .stars {
   display: flex;
 }
