@@ -2,25 +2,16 @@ body {
   margin: 0;
 }
 
-/* .container {
-  max-width: 140px;
-  max-height: 160px;
-} */
-
 .stars {
   content: "";
-
   display: flex;
-  
   border-radius: 0.5px;
 }
 
 .stars__star {
   content: "";
-  /* position: relative; */
   width: 16px;
   height: 16px;
-  /* margin-right: 4px; */
   background-image: url(/src/images/star.svg);
   background-repeat: no-repeat;
 }
