@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stars__star {
+  content: url(images/star-active.svg);
+}
+
+span {
+  position: relative;
+  margin: 0 4px;
+  height: 16px;
+  width: 16px;
+  content: url(images/star.svg);
+}
