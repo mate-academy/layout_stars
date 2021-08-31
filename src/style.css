@@ -8,21 +8,39 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 96px;
 }
 
 .stars {
+  box-sizing: border-box;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  height: 16px;
 }
 
 .stars__star {
+  padding: 0 1.5px;
+  width: 13px;
+  content: url(images/star.svg);
+}
+
+.stars--1 span:first-child {
   content: url(images/star-active.svg);
 }
 
-span {
-  position: relative;
-  margin: 0 4px;
-  height: 16px;
-  width: 16px;
-  content: url(images/star.svg);
+.stars--2 span:nth-child(-n + 2) {
+  content: url(images/star-active.svg);
+}
+
+.stars--3 span:nth-child(-n + 3) {
+  content: url(images/star-active.svg);
+}
+
+.stars--4 span:nth-child(-n + 4) {
+  content: url(images/star-active.svg);
+}
+
+.stars--5 span:nth-child(n) {
+  content: url(images/star-active.svg);
 }
