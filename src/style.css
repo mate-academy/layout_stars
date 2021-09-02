@@ -9,38 +9,29 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 96px;
 }
 
 .stars {
-  box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
-  height: 16px;
 }
 
 .stars__star {
-  padding: 0 1.5px;
-  width: 13px;
-  content: url(images/star.svg);
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.stars--1 span:first-child {
-  content: url(images/star-active.svg);
+.stars_star:last-child {
+  margin-right: 0;
 }
 
-.stars--2 span:nth-child(-n + 2) {
-  content: url(images/star-active.svg);
-}
-
-.stars--3 span:nth-child(-n + 3) {
-  content: url(images/star-active.svg);
-}
-
-.stars--4 span:nth-child(-n + 4) {
-  content: url(images/star-active.svg);
-}
-
-.stars--5 span:nth-child(n) {
-  content: url(images/star-active.svg);
+.stars--1 .stars__star:first-child,
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(n) {
+  background-image: url(images/star-active.svg);
 }
