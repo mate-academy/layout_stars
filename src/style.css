@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-around;
+  height: 16px;
+  width: 100px;
+}
+
+.stars_star {
+  background: url("./images/star.svg") no-repeat;
+  width: 16px;
+  margin: 2px 0 0;
+}
+
+.active {
+  background: url("./images/star-active.svg") no-repeat;
+}
