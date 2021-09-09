@@ -13,14 +13,11 @@ body {
 .stars__star {
   height: 16px;
   width: 16px;
+  margin-right: 4px;
 
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.stars__star + .stars__star {
-  margin: 0 0 0 4px;
 }
 
 .stars--1 > :nth-child(-n + 1),
