@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 16px;
+  width: 100px;
+}
+
+.stars__star {
+  height: 12px;
+  width: 16px;
+
+  background-image: url("../src/images/star.svg");
+  background-repeat: no-repeat;
+}
+
+.stars--1 > :nth-of-type(-n + 1),
+.stars--2 > :nth-of-type(-n + 2),
+.stars--3 > :nth-of-type(-n + 3),
+.stars--4 > :nth-of-type(-n + 4),
+.stars--5 > :nth-of-type(-n + 5) {
+  background-image: url("../src/images/star-active.svg");
+}
