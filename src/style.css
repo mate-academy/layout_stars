@@ -3,29 +3,23 @@ body {
 }
 
 .container {
-  /* Display */
   display: flex;
   flex-direction: column;
 }
 
 .stars {
-  /* Display */
   display: flex;
 }
 
 .stars__star {
-  /* Size */
   width: 16px;
   height: 16px;
-
-  /* Background */
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .stars__star:not(:last-child) {
-  /* Positioning */
   margin-right: 4px;
 }
 
