@@ -17,9 +17,7 @@ body {
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  background-position: center;
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
+  background: url(./images/star.svg) center no-repeat;
 }
 
 .stars--1 > :nth-child(-n + 1) {
