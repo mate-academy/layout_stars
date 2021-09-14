@@ -2,15 +2,8 @@ body {
   margin: 0;
 }
 
-.starbox {
-  display: flex;
-  padding: 22px;
-  /* width: ;
-  height: ; */
-}
-
 .stars {
-  display: block;
+  display: flex;
 }
 
 .stars__star {
