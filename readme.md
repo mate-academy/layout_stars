@@ -1,7 +1,7 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://robert-krukau.github.io/layout_stars/)
+- [TEST REPORT LINK](https://robert-krukau.github.io/layout_stars/report/html_report/)
 
 > Follow [this instructions](https://github.com/mate-academy/layout_task-guideline#how-to-solve-the-layout-tasks-on-github)
 ___
@@ -23,7 +23,7 @@ ___
 - Each block should have exactly 5 stars styled as in the card design
 - The number of active (yellow) stars should be different for all 6 blocks depending on modifier class
   - The first block (with just `stars` class) don't have active stars
-  - The other 5 blocks have exactly N fisrt stars active where N is a numbers in an additional css class (modifier) `stars--N`
+  - The other 5 blocks have exactly N first stars active where N is a numbers in an additional css class (modifier) `stars--N`
   - Add images in CSS, instead of using the HTML "img" or "svg" tags
 - Each star in a block should have a class `stars__star` and no extra classes or inline styles
   - The star size is fixed (see in the design)
