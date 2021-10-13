@@ -6,7 +6,6 @@
 
 .stars {
   display: flex;
-  /* column-gap: 4px; I wish column-gap was working too :<*/
 }
 
 .stars__star {
