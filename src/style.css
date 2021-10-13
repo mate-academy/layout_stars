@@ -1,4 +1,8 @@
 * {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
 }
@@ -11,7 +15,7 @@
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
-  margin: 0 2px;
+  margin-left: 4px;
   background-position: center;
   background-image: url("./images/star.svg");
 }
