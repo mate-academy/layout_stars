@@ -14,7 +14,7 @@
   height: 16px;
 }
 
-div .stars__star:not(:first-child) {
+.stars .stars__star:not(:first-child) {
   margin-left: 4px;
 }
 
