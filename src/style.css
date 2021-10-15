@@ -2,13 +2,6 @@ body {
   margin: 0;
 }
 
-.container {
-  width: 96px;
-  height: 96px;
-  display: flex;
-  flex-direction: column;
-}
-
 .stars {
   display: flex;
 }
