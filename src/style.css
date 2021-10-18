@@ -2,6 +2,13 @@ body {
   margin: 0;
 }
 
+.stars {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-right: 4px;
+}
+
 .stars_star {
   background-repeat: no-repeat;
   background-position: 50%;
@@ -29,19 +36,4 @@ body {
 .stars--3 > :nth-child(n+4),
 .stars--4 > :nth-child(n+5) {
   background-image: url(./images/star.svg);
-}
-
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  margin-right: 4px;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* margin-right: 4px; */
 }
