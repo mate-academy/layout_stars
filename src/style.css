@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  /* box-sizing: border-box; */
+  display: flex;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  background-position: center;
+
+}
+
+.container {
+  display: flex;
+}
+
+.active {
+  background-image: url(./images/star-active.svg);
+  /* background-size: 16px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
