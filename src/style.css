@@ -3,8 +3,7 @@ body {
   padding: 0;
 }
 
-.stars {
-  /* box-sizing: border-box; */
+.stars__star {
   display: flex;
   width: 16px;
   height: 16px;
@@ -15,7 +14,7 @@ body {
 
 }
 
-.container {
+.stars {
   display: flex;
 }
 
