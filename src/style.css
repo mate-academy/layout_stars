@@ -28,6 +28,18 @@ body {
   background-repeat: no-repeat;
 }
 
-div {
+.stars--1 {
+  height: 16px;
+}
+
+.stars--2 {
+  height: 16px;
+}
+
+.stars--3 {
+  height: 16px;
+}
+
+.stars--4 {
   height: 16px;
 }
