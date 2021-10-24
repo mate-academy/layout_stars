@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.stars {
+.stars--0 {
   display: flex;
 }
 
@@ -15,7 +15,7 @@ body {
   height: 16px;
 }
  
-.stars .stars__star:not(:last-child) {
+.stars--0 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
