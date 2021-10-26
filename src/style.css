@@ -16,6 +16,7 @@
   margin-left: 2px;
   margin-right: 2px;
   background-size: cover;
+  background-position: center;
 }
 
 .stars--1 .stars__star:nth-child(1) {
