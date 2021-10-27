@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display : flex; 
+}
+.stars_star_0 {
+    width : 13px;
+    height : 12px;
+    background-image: url("C:/git_hub_project/layout_stars/layout_stars/src/images/star.svg");
+}
+.stars1 {
+    width : 13px;
+    height : 12px;
+    background-image: url("C:/git_hub_project/layout_stars/layout_stars/src/images/star-active.svg");
+}
+.stars2 {
+    width : 26px;
+    height : 12px;
+    background-image: url("C:/git_hub_project/layout_stars/layout_stars/src/images/star-active.svg");
+}
+.stars3 {
+    width : 39px;
+    height : 12px;
+    background-image: url("C:/git_hub_project/layout_stars/layout_stars/src/images/star-active.svg");
+}
+.stars4 {
+    width : 52px;
+    height : 12px;
+    background-image: url("C:/git_hub_project/layout_stars/layout_stars/src/images/star-active.svg");
+}
+.stars5 {
+    width : 65px;
+    height : 12px;
+    background-image: url("C:/git_hub_project/layout_stars/layout_stars/src/images/star-active.svg");
+}
+
