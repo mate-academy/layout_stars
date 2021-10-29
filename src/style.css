@@ -2,21 +2,12 @@
   margin: 0;
 }
 
-body {
+.stars {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-grow: 0;
-}
-
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
-  display: flex;
 }
 
 .stars__star {
@@ -28,22 +19,10 @@ body {
   padding: 0 2px;
 }
 
-.stars--1 > :first-child {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--2 > div:nth-child(-n+2) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--3 > div:nth-child(-n+3) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--4 > div:not(:last-child) {
-  background-image: url(images/star-active.svg);
-}
-
+.stars--1 > :first-child,
+.stars--2 > div:nth-child(-n+2),
+.stars--3 > div:nth-child(-n+3),
+.stars--4 > div:not(:last-child),
 .stars--5 > * {
   background-image: url(images/star-active.svg);
 }
