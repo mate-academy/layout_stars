@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.stars__star {
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.wrapper {
+  width: 140px;
+  height: 160px;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+}
+
+.stars {
+  flex-flow: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+}
