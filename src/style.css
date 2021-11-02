@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 .stars__star {
@@ -8,11 +9,10 @@ body {
   background-position: center;
   width: 16px;
   height: 16px;
+  margin: 0 2px;
 }
 
 .wrapper {
-  width: 140px;
-  height: 160px;
   background-color: #fff;
   display: flex;
   flex-flow: column;
@@ -21,6 +21,25 @@ body {
 .stars {
   flex-flow: row;
   display: flex;
-  justify-content: space-between;
-  padding: 0 22px;
+  justify-content: center;
+}
+
+.stars--1 > div:first-child {
+  background-image: url(/images/star-active.svg);
+}
+
+.stars--2 > div:nth-child(-n + 2) {
+  background-image: url(/images/star-active.svg);
+}
+
+.stars--3 > div:nth-child(-n + 3) {
+  background-image: url(/images/star-active.svg);
+}
+
+.stars--4 > div:nth-child(-n + 4) {
+  background-image: url(/images/star-active.svg);
+}
+
+.stars--5 > div:nth-child(n) {
+  background-image: url(/images/star-active.svg);
 }
