@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stars div {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background: url("./images/star.svg") no-repeat 50% 50%;
+  margin-right: 4px;
+}
+
+.stars--N {
+  background: url("./images/star-active.svg") no-repeat 50% 50%;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
