@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  padding: 2px 1.5px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
