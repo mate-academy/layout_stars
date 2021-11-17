@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+  /*Ниже выстраиваем звезды задом на перед.
+   Иначе :nth-child не получается использовать */
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(images/star.svg);
+  background-size: cover;
+  margin: 2px;
+}
+
+.stars--1 > .stars__star:nth-child(n+5) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--2 > .stars__star:nth-child(n+4) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--3 > .stars__star:nth-child(n+3) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--4 > .stars__star:nth-child(n+2) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--5 > .stars__star:nth-child(n) {
+  background-image: url(images/star-active.svg);
+}
