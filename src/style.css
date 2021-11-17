@@ -11,7 +11,7 @@
 .stars {
   display: flex;
   /*Ниже выстраиваем звезды задом на перед.
-   Иначе :nth-child не получается использовать */
+   Иначе :nth-child не получается использовать*/
   flex-direction: row-reverse;
   justify-content: flex-end;
 }
