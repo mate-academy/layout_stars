@@ -1,0 +1,20 @@
+
+* {
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+}
