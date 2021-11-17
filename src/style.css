@@ -1,0 +1,23 @@
+body {
+  margin: auto;
+}
+
+.stars {
+  display: flex;
+}
+
+.img {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 2px;
+}
+
+.inactive {
+  background-image: url(images/star.svg);
+}
+
+.active {
+  background-image: url(images/star-active.svg);
+}
