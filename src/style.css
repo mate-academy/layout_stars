@@ -4,11 +4,10 @@ body {
 
 .stars {
   display: flex;
-  width: 96px;
-  justify-content: space-between;
 }
 
 .stars__star {
+  margin-right: 4px;
   display: flex;
   height: 16px;
   width: 16px;
