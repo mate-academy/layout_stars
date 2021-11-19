@@ -5,7 +5,6 @@ body {
 .container__star {
   display: flex;
   gap: 4px;
-
 }
 
 .star {
@@ -21,7 +20,4 @@ body {
 .stars--4 .star:nth-child(-n+4),
 .stars--5 .star:nth-child(-n+5) {
   background-image: url(../src/images/star-active.svg);
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
 }
