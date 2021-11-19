@@ -1,7 +1,6 @@
 .body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   height: 100vh;
   display: flex;
 }
@@ -10,14 +9,8 @@
   margin: auto;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
-  width: 100px;
 }
 
 .stars__star {
