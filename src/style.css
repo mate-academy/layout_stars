@@ -11,11 +11,11 @@ body {
 .star {
   width: 16px;
   height: 16px;
-  background-image: url(images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: no-repeat center url(images/star.svg);
+  /* background-position: center;
+  background-repeat: no-repeat; */
 }
 
 .star-active {
-  background-image: url(images/star-active.svg);
+  background: no-repeat center url(images/star-active.svg);
 }
