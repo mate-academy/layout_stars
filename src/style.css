@@ -1,11 +1,14 @@
-.stars__star {
+:root {
   --size: 16px;
+}
+
+.stars__star {
   height: var(--size);
   width: var(--size);
   margin-right: 4px;
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: contain
+    url(./images/star.svg)
+    no-repeat;
 }
 
 .container {
@@ -17,7 +20,7 @@
   display: flex;
 }
 
-.stars .stars__star:not(:nth-child(-n + 4)) {
+.stars__star:last-child {
   margin-right: 0;
 }
 
