@@ -14,6 +14,23 @@ body {
   background: no-repeat center url(images/star.svg);
 }
 
-.star-active {
+.stars--5 .star {
+  background: no-repeat center url(images/star-active.svg);
+}
+
+.stars--1 .star:first-child {
+  background: no-repeat center url(images/star-active.svg);
+}
+
+.stars--4 .star:not(:last-child) {
+  background: no-repeat center url(images/star-active.svg);
+}
+
+.stars--2 .star:first-child,
+.stars--2 .star:nth-child(2) {
+  background: no-repeat center url(images/star-active.svg);
+}
+
+.stars--3 .star:not(:last-child):not(:nth-of-type(4)) {
   background: no-repeat center url(images/star-active.svg);
 }
