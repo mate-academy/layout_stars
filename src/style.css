@@ -15,12 +15,16 @@ body {
 
 .stars {
   display: flex;
-  gap: 4px;
+}
+
+.stars:last-child {
+  margin-bottom: 4px;
 }
 
 .stars__star {
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   background: center no-repeat url("./images/star.svg");
 }
 
