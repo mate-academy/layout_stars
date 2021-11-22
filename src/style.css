@@ -1,5 +1,5 @@
 body {
-  display: inline-block;
+  display: inline-block;/* del */
   margin: 0;
 }
 
@@ -11,27 +11,17 @@ body {
   list-style: none;
 }
 
-.stars--0,
-.stars--1:nth-child(n + 2),
-.stars--2:nth-child(n + 3),
-.stars--3:nth-child(n + 4),
-.stars--4:nth-child(n + 5) {
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-}
-
-.stars--1:first-child,
-.stars--2:nth-child(-n + 2),
-.stars--3:nth-child(-n + 3),
-.stars--4:nth-child(-n + 4),
-.stars--5 {
-  background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-}
-
 .stars__star {
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  background-position: center;
+  background: url(images/star.svg) no-repeat center;
+}
+
+.stars--1 > :first-child,
+.stars--2 > :nth-child(-n + 2),
+.stars--3 > :nth-child(-n + 3),
+.stars--4 > :nth-child(-n + 4),
+.stars--5 > :nth-child(-n + 5) {
+  background: url(images/star-active.svg) no-repeat center;
 }
