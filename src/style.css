@@ -26,10 +26,5 @@ body {
 .stars--3 > .stars--star:nth-child(-n + 3),
 .stars--4 > .stars--star:nth-child(-n + 4),
 .stars--5 > .stars--star:nth-child(n) {
-  display: inline-block;
   background-image: url(/images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
 }
