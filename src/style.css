@@ -1,0 +1,28 @@
+
+* {
+  margin: 0;
+}
+
+.star {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.stars__star {
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  list-style-type: none;
+  background-position: center;
+  margin-right: 4px;
+}
+
+.stars--1 > li.stars__star:nth-of-type(-n+1),
+.stars--2 > li.stars__star:nth-of-type(-n+2),
+.stars--3 > li.stars__star:nth-of-type(-n+3),
+.stars--4 > li.stars__star:nth-of-type(-n+4),
+.stars--5 > li.stars__star:nth-of-type(-n+5) {
+  background-image: url(/images/star-active.svg);
+}
