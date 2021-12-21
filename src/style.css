@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.starsbox {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+  height: 16px;
+  width: 96px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars__star {
+  margin: 0;
+  width: 13px;
+  height: 12px;
+}
