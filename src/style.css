@@ -10,6 +10,7 @@ body {
 .stars__star {
   height: 16px;
   width: 16px;
+  padding-left: 4px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
 }
