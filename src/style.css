@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.stars--0 {
+  display: flex;
+  flex-direction: row;
+  height: 16px;
+}
+
+.stars--1 {
+  display: flex;
+  flex-direction: row;
+  height: 16px;
+}
+
+.stars--2 {
+  display: flex;
+  flex-direction: row;
+  height: 16px;
+}
+
+.stars--3 {
+  display: flex;
+  flex-direction: row;
+  height: 16px;
+}
+
+.stars--4 {
+  display: flex;
+  flex-direction: row;
+  height: 16px;
+}
+
+.stars--5 {
+  display: flex;
+  flex-direction: row;
+  height: 16px;
+}
+
+.activeStar {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+  line-height: 16px;
+  width: 16px;
+}
+
+.star {
+  display: flex;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+  line-height: 16px;
+  width: 16px;
+}
