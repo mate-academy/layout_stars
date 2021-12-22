@@ -7,22 +7,31 @@ body {
 }
 
 .starsbox {
+  display: flex;
+  flex-wrap: wrap;
   width: 96px;
   height: 96px;
-  display: flex;
-  flex-direction: column;
 }
 
 .stars {
   display: flex;
-  height: 16px;
-  width: 96px;
+  width: 100%;
   justify-content: space-between;
-  align-items: center;
+  padding-right: 0.5px;
 }
 
-.stars__star {
-  margin: 0;
-  width: 13px;
-  height: 12px;
+.star__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--1 > .star__star:nth-child(-n+1),
+.stars--2 > .star__star:nth-child(-n+2),
+.stars--3 > .star__star:nth-child(-n+3),
+.stars--4 > .star__star:nth-child(-n+4),
+.stars--5 > .star__star:nth-child(-n+5) {
+  background-image: url(images/star-active.svg);
 }
