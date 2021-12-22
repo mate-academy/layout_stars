@@ -12,16 +12,13 @@ body {
   margin-right: 0;
 }
 
-ul[class*="stars--"] {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+div[class*="stars--"] {
   width: 96px;
   display: flex;
   justify-content: space-between;
 }
 
-ul[class*="stars--"] .stars__star {
+div[class*="stars--"] .stars__star {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
   background-position: center;
