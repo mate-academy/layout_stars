@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+
+.container-stars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 96px;
+}
+
+.stars--0 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars--0 > div {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars--1 > :first-child {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--1 > :not(:first-child) {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars--2 > :nth-child(-n+3) {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--2 > :nth-last-child(-n+3) {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars--3 > :nth-child(-n+4) {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--3 > :nth-last-child(-n+2) {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars--4 > :not(:last-child) {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--4 > :last-child {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars--5 > div {
+  width: 16px;
+  height: 16px;
+  background-image: url(/images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
