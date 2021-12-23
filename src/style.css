@@ -1,0 +1,28 @@
+body {
+  margin: 0%;
+  background: #E5E5E5;
+}
+.container {
+  background-color: #fff;
+  width: 96px;
+  height: 96px;
+  margin-left: 22px;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.star {
+  display: flex;  
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+}
+
+.starfirst {
+  margin-left: 0px;
+}
+
+.image {
+  margin: auto;
+}
