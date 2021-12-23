@@ -20,28 +20,19 @@
 .stars--2 > :first-child,
 .stars--3 > :first-child,
 .stars--4 > :first-child,
-.stars--5 > :first-child {
-  background-image: url(images/star-active.svg);
-}
+.stars--5 > :first-child,
 
 .stars--2 > :nth-child(2),
 .stars--3 > :nth-child(2),
 .stars--4 > :nth-child(2),
-.stars--5 > :nth-child(2) {
-  background-image: url(images/star-active.svg);
-}
+.stars--5 > :nth-child(2),
 
 .stars--3 > :nth-child(3),
 .stars--4 > :nth-child(3),
-.stars--5 > :nth-child(3) {
-  background-image: url(images/star-active.svg);
-}
+.stars--5 > :nth-child(3),
 
 .stars--4 > :nth-child(4),
-.stars--5 > :nth-child(4) {
-  background-image: url(images/star-active.svg);
-}
-
+.stars--5 > :nth-child(4),
 .stars--5 > :last-child {
   background-image: url(images/star-active.svg);
 }
