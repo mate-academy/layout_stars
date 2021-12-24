@@ -4,12 +4,6 @@ body {
 
 .stars {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.stars > [class^="stars--"] {
-  display: flex;
 }
 
 .stars__star {
