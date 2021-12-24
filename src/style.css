@@ -3,12 +3,6 @@
   padding: 0;
 }
 
-.container {
-  width: 96px;
-  height: 96px;
-
-}
-
 .stars {
   display: flex;
 }
