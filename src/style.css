@@ -2,99 +2,36 @@ body {
   margin: 0;
 }
 
-.container-stars {
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: center;*/
-  width: 96px;
-}
-
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-.stars--0 > .stars__star {
+.stars__star {
   width: 16px;
   height: 16px;
+  margin-right: 4px;
   background-image: url(/images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .stars--1 > :first-child {
-  width: 16px;
-  height: 16px;
   background-image: url(/images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.stars--1 > :not(:first-child) {
-  width: 16px;
-  height: 16px;
-  background-image: url(/images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.stars--2 > :nth-child(-n+3) {
-  width: 16px;
-  height: 16px;
+.stars--2 > :nth-child(-n+2) {
   background-image: url(/images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.stars--2 > :nth-last-child(-n+3) {
-  width: 16px;
-  height: 16px;
-  background-image: url(/images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.stars--3 > :nth-child(-n+4) {
-  width: 16px;
-  height: 16px;
+.stars--3 > :nth-child(-n+3) {
   background-image: url(/images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.stars--3 > :nth-last-child(-n+2) {
-  width: 16px;
-  height: 16px;
-  background-image: url(/images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .stars--4 > :not(:last-child) {
-  width: 16px;
-  height: 16px;
   background-image: url(/images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.stars--4 > :last-child {
-  width: 16px;
-  height: 16px;
-  background-image: url(/images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .stars--5 > .stars__star {
-  width: 16px;
-  height: 16px;
   background-image: url(/images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
