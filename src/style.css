@@ -1,7 +1,8 @@
 body {
   margin: 0%;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
+
 .container {
   background-color: #fff;
   width: 96px;
@@ -10,17 +11,38 @@ body {
   margin-top: 22px;
   display: flex;
   flex-direction: row;
-  flex-flow: wrap;
+  flex-wrap: wrap;
 }
+
 .star {
-  display: flex;  
+  display: flex;
   width: 16px;
   height: 16px;
   margin-left: 4px;
 }
 
-.starfirst {
-  margin-left: 0px;
+.star:nth-child(1) {
+  margin-left: 0;
+}
+
+.star:nth-child(6) {
+  margin-left: 0;
+}
+
+.star:nth-child(11) {
+  margin-left: 0;
+}
+
+.star:nth-child(16) {
+  margin-left: 0;
+}
+
+.star:nth-child(21) {
+  margin-left: 0;
+}
+
+.star:nth-child(26) {
+  margin-left: 0;
 }
 
 .image {
