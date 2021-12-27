@@ -4,12 +4,9 @@ body {
 }
 
 .container {
-  /* margin: 32px 22px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 96px;
-  width: 96px;
 }
 
 .stars {
@@ -33,8 +30,6 @@ body {
 .stars--6 > :nth-child(n+1):nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
-  height: 16px;
-  width: 16px;
   background-size: contain;
   display: inline-block;
 }
