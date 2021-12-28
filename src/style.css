@@ -1,6 +1,5 @@
 body {
   margin: 0;
-
 }
 
 .container {
@@ -10,7 +9,8 @@ body {
 }
 
 .stars {
-  height: 16px;
+  display: flex;
+  gap: 4px;
 }
 
 .stars__star {
@@ -18,9 +18,7 @@ body {
   background-repeat: no-repeat;
   height: 16px;
   width: 16px;
-  background-size: contain;
-  display: inline-block;
-
+  background-position: center;
 }
 
 .stars--2 > :nth-child(n+1):nth-child(-n+1),
@@ -30,6 +28,4 @@ body {
 .stars--6 > :nth-child(n+1):nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
 }
