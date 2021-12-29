@@ -1,50 +1,29 @@
 body {
-  margin: 0%;
-  background: #e5e5e5;
+  margin: 0;
 }
 
-.container {
-  background-color: #fff;
-  width: 96px;
-  height: 96px;
-  margin-left: 22px;
-  margin-top: 22px;
+.stars {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
-.star {
-  display: flex;
+.stars__star {
   width: 16px;
   height: 16px;
-  margin-left: 4px;
+  margin-right: 4px;
+
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.star:nth-child(1) {
-  margin-left: 0;
+.stars__star:last-child {
+  margin-right: 0;
 }
 
-.star:nth-child(6) {
-  margin-left: 0;
-}
-
-.star:nth-child(11) {
-  margin-left: 0;
-}
-
-.star:nth-child(16) {
-  margin-left: 0;
-}
-
-.star:nth-child(21) {
-  margin-left: 0;
-}
-
-.star:nth-child(26) {
-  margin-left: 0;
-}
-
-.image {
-  margin: auto;
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url(./images/star-active.svg);
 }
