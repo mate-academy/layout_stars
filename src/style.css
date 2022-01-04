@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2px 0 0 2px;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  margin: 0 7px 4px 0;
+}
+
+/* .stars--0 {
+  background-image: url(./images/star.svg);
+  background-repeat: repeat-x;
+  width: 80px;
+  height: 16px;
+} */
