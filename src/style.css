@@ -10,7 +10,6 @@ div {
 
 .stars {
   display: flex;
-  justify-content: center;
 }
 
 .stars__star {
