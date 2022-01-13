@@ -13,12 +13,7 @@ body {
   width: 96px;
 }
 
-.stars--1 .stars--star:nth-child(-n + 1),
-.stars--2 .stars--star:nth-child(-n + 2),
-.stars--3 .stars--star:nth-child(-n + 3),
-.stars--4 .stars--star:nth-child(-n + 4),
-.stars--5 .stars--star:nth-child(n) {
-  background-image: url(images/star-active.svg);
+.stars--star {
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
@@ -27,16 +22,18 @@ body {
   display: flex;
 }
 
+.stars--1 .stars--star:nth-child(-n + 1),
+.stars--2 .stars--star:nth-child(-n + 2),
+.stars--3 .stars--star:nth-child(-n + 3),
+.stars--4 .stars--star:nth-child(-n + 4),
+.stars--5 .stars--star:nth-child(n) {
+  background-image: url(images/star-active.svg);
+}
+
 .stars--0 .stars--star:nth-child(n),
 .stars--1 .stars--star:nth-child(n + 2),
 .stars--2 .stars--star:nth-child(n + 3),
 .stars--3 .stars--star:nth-child(n + 4),
 .stars--4 .stars--star:nth-child(n + 5) {
   background-image: url(images/star.svg);
-  width: 16px;
-  height: 16px;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  display: flex;
 }
