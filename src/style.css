@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.stars {
+  display: flex;
+}
+
 .stars--star {
   height: 16px;
   width: 16px;
@@ -10,10 +14,6 @@ body {
 
 .stars--star:not(:last-child) {
   margin-right: 4px;
-}
-
-.stars {
-  display: flex;
 }
 
 .stars--1 :first-child,
