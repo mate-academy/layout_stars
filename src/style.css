@@ -4,48 +4,21 @@
 
 .stars {
   display: flex;
-  margin-left: 3px;
-
-}
-
-.stars:nth-child(1) {
-  margin-top: 1.5px;
-}
-
-.stars:nth-child(n+2) {
-  margin-top: 3px;
 }
 
 .stars__star {
-  margin-right: 7px;
-}
-
-.stars--0 .stars__star::after,
-.stars--1 .stars__star:nth-child(n+2)::after,
-.stars--2 .stars__star:nth-child(n+3)::after,
-.stars--3 .stars__star:nth-child(n+4)::after,
-.stars--4 .stars__star:nth-child(n+5)::after {
-  content: "";
-  display: block;
-  height: 13px;
-  width: 13px;
+  margin-right: 4px;
+  height: 16px;
+  width: 16px;
   background-image: url("./images/star.svg");
-  background-repeat: initial;
-  background-size: 13px 13px;
-  background-position: initial;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.stars--1 .stars__star:first-of-type::after,
-.stars--2 .stars__star:nth-child(-n+2)::after,
-.stars--3 .stars__star:nth-child(-n+3)::after,
-.stars--4 .stars__star:nth-child(-n+4)::after,
-.stars--5 .stars__star:nth-child(-n+5)::after {
-  content: "";
-  display: block;
-  height: 13px;
-  width: 13px;
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
   background-image: url("./images/star-active.svg");
-  background-repeat: initial;
-  background-size: 13px 13px;
-  background-position: initial;
 }
