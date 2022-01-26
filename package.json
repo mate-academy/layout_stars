@@ -39,5 +39,7 @@
     "linters": {
       "bem": false
     }
+      },
+  "dependencies": {}
   }
 }
