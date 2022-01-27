@@ -6,9 +6,13 @@
   display: flex;
 }
 
-.container {
-  margin-top: 2px;
-  margin-left: 2px;
+.stars__star {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-position: center;
 }
 
 .stars--1 > :nth-child(-n + 1),
@@ -17,14 +21,4 @@
 .stars--4 > :nth-child(-n + 4),
 .stars--5 > :nth-child(n + 1) {
   background-image: url(images/star-active.svg);
-}
-
-.stars__star {
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
-  margin-left: 1px;
-  margin-top: 1px;
 }
