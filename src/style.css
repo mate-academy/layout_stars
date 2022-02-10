@@ -4,14 +4,13 @@
 
 .stars--block {
   display: flex;
-  justify-content: space-between;
-  width: 96px;
 }
 
 .stars__star {
   background-repeat: no-repeat;
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   background-position: center;
 }
 
