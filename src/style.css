@@ -1,6 +1,5 @@
-.container {
+body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
@@ -13,7 +12,9 @@
   width: 16px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  padding: 0 4px;
+  background-position: center;
+  margin-right: 4px;
+
 }
 
 .stars--1 > :nth-child(-n+1),
