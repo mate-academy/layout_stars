@@ -21,7 +21,5 @@ body {
 
 .star-is-active {
   background-image: url("./images/star-active.svg");
-  height: 16px;
-  width: 16px;
   background-repeat: no-repeat;
 }
