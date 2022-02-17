@@ -6,9 +6,12 @@ body {
   display: flex;
 }
 
+.stars :not(:last-child) {
+  margin-right: 4px;
+}
+
 .stars__star {
   display: flex;
-  margin-right: 4px;
   width: 16px;
   height: 16px;
   background-image: url(images/star.svg);
