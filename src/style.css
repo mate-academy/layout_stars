@@ -1,11 +1,14 @@
 * {
+  box-sizing: border-box;
+}
+
+.body {
   margin: 0;
 }
 
 .stars__star {
   height: 16px;
   width: 16px;
-  box-sizing: border-box;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -13,8 +16,6 @@
 
 .stars {
   display: flex;
-  /* Don`t past a tests but looks correct */
-  /* gap: 4px; */
 }
 
 .stars :not(:last-child) {
