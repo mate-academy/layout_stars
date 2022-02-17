@@ -3,20 +3,19 @@ body {
 }
 
 .stars {
+  width: min-content;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
-  align-items: center;
-  width: 100px;
-  height: 16px;
 }
 
-.empty {
-  width: 13px;
-  height: 12px;
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+
   background-image: url(/images/star.svg);
-  background-size: 100%;
-  object-fit: none;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stars--1 :nth-child(n+5),
