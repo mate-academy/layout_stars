@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.for-srats {
+  display: flex;
+  flex-direction: column;
+  margin: 22px 0 0 32px;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.activ {
+  background: url(images/star-active.svg) no-repeat;
+  background-size: contain;
+}
+
+.disactiv {
+  background: url(images/star.svg) no-repeat;
+  background-size: contain;
+}
