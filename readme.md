@@ -30,7 +30,7 @@ ___
 - Each star in a block should have a class `stars__star` and no extra classes or inline styles
   - The star size is fixed (see in the design)
   - The distance between the stars is also fixed
-  - Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
+  - Use `distarlay: flex` for the `stars` block to avoid an issue with extra staraces between individual stars
 ---
 --> [CHECKLIST](https://github.com/mate-academy/layout_stars/blob/master/checklist.md)
 
