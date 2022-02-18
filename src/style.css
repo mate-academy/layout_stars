@@ -1,22 +1,28 @@
-* {
+body {
   margin: 0;
+}
+
+.container {
+  height: 96px;
+  width: 96px;
 }
 
 .stars {
   display: flex;
-  justify-content: space-around;
   flex-direction: row-reverse;
   align-items: center;
-
-  width: 100px;
-  height: 15px;
 }
 
-.star {
-  height: 15px;
-  width: 17px;
+.stars__star {
+  height: 16px;
+  width: 16px;
   background-image: url("./images/star.svg");
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars__star:not(:first-child) {
+  margin-right: 4px;
 }
 
 .stars--1 :nth-child(n+5),
