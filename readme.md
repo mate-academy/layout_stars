@@ -1,7 +1,7 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://<kurochka-vladyslav>.github.io/layout_stars/)
+- [TEST REPORT LINK](https://<kurochka-vladyslav>.github.io/layout_stars/report/html_report/)
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
@@ -30,7 +30,7 @@ ___
 - Each star in a block should have a class `stars__star` and no extra classes or inline styles
   - The star size is fixed (see in the design)
   - The distance between the stars is also fixed
-  - Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
+  - Use `distarlay: flex` for the `stars` block to avoid an issue with extra staraces between individual stars
 ---
 --> [CHECKLIST](https://github.com/mate-academy/layout_stars/blob/master/checklist.md)
 
