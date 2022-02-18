@@ -8,12 +8,7 @@ body {
   margin: 22px 0 0 32px;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
 }
 
@@ -21,9 +16,40 @@ body {
   height: 16px;
   width: 16px;
   margin-right: 4px;
+
+  background: url(images/star-active.svg) no-repeat;
+  background-size: contain;
 }
 
-.activ {
+.stars--0 > * {
+  background: url(images/star.svg) no-repeat;
+  background-size: contain;
+}
+
+.stars--1 > *:not(:first-child) {
+  background: url(images/star.svg) no-repeat;
+  background-size: contain;
+}
+
+.stars--2 :nth-child(3),
+.stars--2 :nth-child(4),
+.stars--2 :nth-child(5) {
+  background: url(images/star.svg) no-repeat;
+  background-size: contain;
+}
+
+.stars--3 :nth-child(4),
+.stars--3 :last-child {
+  background: url(images/star.svg) no-repeat;
+  background-size: contain;
+}
+
+.stars--4 :last-child {
+  background: url(images/star.svg) no-repeat;
+  background-size: contain;
+}
+
+/*.activ {
   background: url(images/star-active.svg) no-repeat;
   background-size: contain;
 }
@@ -31,4 +57,4 @@ body {
 .disactiv {
   background: url(images/star.svg) no-repeat;
   background-size: contain;
-}
+}*/
