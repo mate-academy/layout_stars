@@ -1,12 +1,6 @@
 body {
   margin: 0;
-  padding: 0 5px;
 }
-
-/* .stars-card {
-  display: flex;
-
-} */
 
 .stars {
   display: flex;
@@ -15,12 +9,10 @@ body {
 }
 
 .stars__star {
-  margin: 2px;
-  width: 13px;
-  height: 13px;
+  width: 16px;
+  height: 16px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
 }
 
@@ -35,6 +27,5 @@ body {
 .stars--5 :nth-child(n) {
   background-image: url(images/star-active.svg);
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
 }
