@@ -2,11 +2,6 @@ body {
   margin: 0;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 .stars {
   display: flex;
   flex-wrap: nowrap;
