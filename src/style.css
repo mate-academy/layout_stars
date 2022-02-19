@@ -1,13 +1,11 @@
-.container {
-  display: flex;
+body {
   margin: 0;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .stars {
   display: flex;
-  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin: 0;
 }
 
 .stars__star {
@@ -22,11 +20,10 @@
   background-position: 50%;
 }
 
-.stars--1 :nth-child(n+5),
-.stars--2 :nth-child(n+4),
-.stars--3 :nth-child(n+3),
-.stars--4 :nth-child(n+2),
-.stars--5 :nth-child(n) {
+.stars--1 :nth-child(-n+1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
   background-image: url(images/star-active.svg);
-  background-position: 50%;
 }
