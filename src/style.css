@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
 }
@@ -16,6 +19,10 @@
   background-position: 50%;
   background-repeat: no-repeat;
   margin-right: 4px;
+}
+
+.stars :last-child {
+  margin-right: 0;
 }
 
 .stars--1 :nth-child(-n+1),
