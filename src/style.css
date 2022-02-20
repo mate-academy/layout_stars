@@ -1,27 +1,22 @@
-/* * {
-  box-sizing: border-box;
+* {
   margin: 0;
-  padding: 0;
-} */
-
-.frame {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 140px;
-  height: 160px;
 }
 
 .stars {
   display: flex;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
 }
 
 .stars__star {
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
   width: 16px;
   height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  background-position: 50%;
 }
 
 .stars--1 .stars__star:nth-child(-n+1) {
