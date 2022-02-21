@@ -1,12 +1,10 @@
 body {
   margin: 0;
-  box-sizing: border-box;
 }
 
 .stars {
   display: flex;
   flex-direction: row;
-  margin: 0;
 }
 
 .stars__star {
@@ -15,6 +13,7 @@ body {
   width: 16px;
   background-repeat: no-repeat;
   background-position: center;
+
   margin-right: 4px;
 }
 
