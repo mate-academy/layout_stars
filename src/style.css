@@ -11,16 +11,15 @@
   height: 16px;
   width: 16px;
   margin-right: 4px;
-}
-
-.grey {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.bright {
+.stars--1 .stars-star:nth-child(1),
+.stars--2 .stars-star:nth-child(-n+2),
+.stars--3 .stars-star:nth-child(-n+3),
+.stars--4 .stars-star:nth-child(-n+4),
+.stars--5 .stars-star:nth-child(n) {
   background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
