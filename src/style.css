@@ -1,8 +1,8 @@
-html {
+body {
   margin: 0;
 }
 
-.stars .star {
+.star {
   margin-right: 4px;
   height: 16px;
   width: 16px;
@@ -21,4 +21,8 @@ html {
 .stars--4 :nth-child(-n+4),
 .stars--5 :nth-child(n) {
   background-image: url(images/star-active.svg);
+}
+
+.star:last-child {
+  margin-right: 0;
 }
