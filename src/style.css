@@ -1,50 +1,63 @@
 body {
   margin: 0;
+  box-sizing: border-box;
+  width: min-content;
 }
 
-.for-srats {
+.for-stars {
   display: flex;
   flex-direction: column;
-  margin: 22px 0 0 32px;
+  justify-content: flex-start;
+  width: min-content;
 }
 
 .stars {
+  margin: 0;
   display: flex;
 }
 
 .stars__star {
   height: 16px;
   width: 16px;
-  margin-right: 4px;
 
-  background: url(images/star-active.svg) no-repeat;
-  background-size: contain;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--0 > * {
-  background: url(images/star.svg) no-repeat;
-  background-size: contain;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .stars--1 > *:not(:first-child) {
-  background: url(images/star.svg) no-repeat;
-  background-size: contain;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .stars--2 :nth-child(3),
 .stars--2 :nth-child(4),
 .stars--2 :nth-child(5) {
-  background: url(images/star.svg) no-repeat;
-  background-size: contain;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .stars--3 :nth-child(4),
 .stars--3 :last-child {
-  background: url(images/star.svg) no-repeat;
-  background-size: contain;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .stars--4 :last-child {
-  background: url(images/star.svg) no-repeat;
-  background-size: contain;
+  background: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
