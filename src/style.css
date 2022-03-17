@@ -1,0 +1,58 @@
+html {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars--0 {
+  background-image: url("./images/star.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body > .stars--1 {
+  background-image: url("./images/star-active.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg");
+}
+
+.stars--2 {
+  background-image: url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg");
+}
+
+.stars--3 {
+  background-image: url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star.svg"),
+    url("./images/star.svg");
+}
+
+.stars--4 {
+  background-image: url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star.svg");
+}
+
+.stars--5 {
+  background-image: url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star-active.svg"),
+    url("./images/star-active.svg");
+}
