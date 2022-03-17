@@ -12,7 +12,11 @@ body {
   background-size: cover;
   height: 12px;
   width: 12px;
-  margin: 2px 6px 2px 2px;
+  margin: 2px 4px;
+}
+
+.stars__star:first-child {
+  margin-left: 2px;
 }
 
 .stars--1 :nth-child(1) {
