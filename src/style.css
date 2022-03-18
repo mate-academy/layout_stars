@@ -1,9 +1,11 @@
-html {
+* {
   margin: 0;
 }
 
 .stars {
   display: flex;
+  padding-top: 1%;
+  background-repeat: no-repeat;
 }
 
 .stars--0 {
@@ -12,12 +14,9 @@ html {
     url("./images/star.svg"),
     url("./images/star.svg"),
     url("./images/star.svg");
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
-body > .stars--1 {
+.stars--1 {
   background-image: url("./images/star-active.svg"),
     url("./images/star.svg"),
     url("./images/star.svg"),
