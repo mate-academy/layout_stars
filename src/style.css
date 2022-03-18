@@ -1,24 +1,18 @@
 body {
   margin: 0;
-  /* box-sizing: border-box; */
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 100px;
-  height: 100px;
 }
 
 .stars {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 .stars__star {
-  content: url(images/star.svg);
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
 }
 
 .stars--1 :nth-child(1),
@@ -26,5 +20,5 @@ body {
 .stars--3 :nth-child(-n+3),
 .stars--4 :nth-child(-n+4),
 .stars--5 :nth-child(-n+5) {
-  content: url(images/star-active.svg);
+  background-image: url(images/star-active.svg);
 }
