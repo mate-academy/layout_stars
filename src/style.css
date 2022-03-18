@@ -1,25 +1,30 @@
 body {
   margin: 0;
+  /* box-sizing: border-box; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 100px;
 }
 
 .stars {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
-  width: 140px;
-  height: 160px;
-  border: 1px solid transparent;
 }
 
-.star {
+.stars__star {
   content: url(images/star.svg);
-  height: 16px;
-  width: 16px;
 }
 
-.star--active {
+.stars--1 :nth-child(1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
   content: url(images/star-active.svg);
-  height: 16px;
-  width: 16px;
 }
