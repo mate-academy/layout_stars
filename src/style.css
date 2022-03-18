@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -9,12 +7,11 @@
 }
 
 .stars_star {
-  display: inline-block;
   margin: 2px 6px 2px 2px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 0.5%;
+  border-radius: 0.5px;
   width: 12px;
   height: 12px;
 }
@@ -23,7 +20,6 @@
 .stars--2 :nth-child(-n+2),
 .stars--3 :nth-child(-n+3),
 .stars--4 :nth-child(-n+4),
-.stars--5 :nth-child(-n+5),
-.stars--6 :nth-child(-n+6) {
+.stars--5 :nth-child(-n+5) {
   background-image: url(images/star-active.svg);
 }
