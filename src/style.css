@@ -1,14 +1,16 @@
+body {
+  margin: 0;
+}
+
 .stars {
   display: flex;
 }
 
 .stars__star {
-  /* display: inline-block; */
   height: 16px;
   width: 16px;
-  margin-right: 6px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
-  /* background-size:; */
   background-repeat: no-repeat;
   background-position: center;
 }
