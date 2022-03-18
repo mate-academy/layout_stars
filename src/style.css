@@ -1,16 +1,17 @@
 body {
   margin: 0;
-  font-size: 0;
+  /* font-size: 0; */
 }
 
-.container {
+/* comment .stars and uncomment the others, font-size metters there which i am curios about, why?*/
+.stars {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   width: 100px;
 }
 
 .stars__star {
-  display: inline-block;
+  /* display: inline-block; */
   background-image: url(images/star.svg);
   background-size: cover;
   height: 12px;
