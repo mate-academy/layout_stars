@@ -4,15 +4,14 @@ body {
 
 .star-container {
   display: flex;
-  width: 100%;
 }
 
 .stars__star {
   background-image: url(images/star.svg);
-  background-size: cover;
   height: 12px;
   width: 12px;
   margin: 2px 4px;
+  background-size: cover;
 }
 
 .stars__star:first-child {
