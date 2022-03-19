@@ -1,11 +1,11 @@
-* {
-  margin: 0;
+body {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .stars {
+  margin: auto;
   display: flex;
-  height: 16px;
   width: auto;
 }
 
@@ -13,11 +13,7 @@
   background-image: url(images/star.svg);
   height: 12px;
   width: 13px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  margin-left: 2px;
-  margin-right: 5px;
-  background-size: auto;
+  margin: 2px 5px 2px 2px;
   background-position: center;
 }
 
