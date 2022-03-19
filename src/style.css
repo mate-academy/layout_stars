@@ -1,17 +1,12 @@
 body {
   margin: 0;
-  /* font-size: 0; */
 }
 
-/* comment .stars and uncomment the others, font-size metters there which i am curios about, why?*/
 .stars {
   display: flex;
-  flex-flow: row wrap;
-  width: 100px;
 }
 
 .stars__star {
-  /* display: inline-block; */
   background-image: url(images/star.svg);
   background-size: cover;
   height: 12px;
@@ -23,6 +18,6 @@ body {
 .stars--2 :nth-child(-n+2),
 .stars--3 :nth-child(-n+3),
 .stars--4 :nth-child(-n+4),
-.stars--5 :nth-child(n) {
+.stars--5 :nth-child(-n+5) {
   background-image: url(images/star-active.svg);
 }
