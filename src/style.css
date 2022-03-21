@@ -1,84 +1,33 @@
-* {
+body {
   margin: 0;
-}
-
-.container {
-  width: 96px;
-  height: auto;
-  margin: 2px;
-  /* border: 1px solid #000; */
 }
 
 .stars {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
+  margin-right: 4px;
 }
 
-.stars--0 .stars__star {
+.stars--0 .stars__star:nth-child(n),
+.stars--1 .stars__star:nth-child(n + 2),
+.stars--2 .stars__star:nth-child(n + 3),
+.stars--3 .stars__star:nth-child(n + 4),
+.stars--4 .stars__star:nth-child(n + 5) {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-.stars--5 .stars__star {
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(n) {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
-}
-
-.stars--1 .stars__star:nth-of-type(1) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-}
-
-/* .stars--1 .stars__star:nth-of-type(1), */
-.stars--1 .stars__star:nth-of-type(2),
-.stars--1 .stars__star:nth-of-type(3),
-.stars--1 .stars__star:nth-of-type(4),
-.stars--1 .stars__star:nth-of-type(5) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-}
-
-.stars--2 .stars__star:nth-of-type(1),
-.stars--2 .stars__star:nth-of-type(2) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-}
-
-.stars--2 .stars__star:nth-of-type(3),
-.stars--2 .stars__star:nth-of-type(4),
-.stars--2 .stars__star:nth-of-type(5) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-}
-
-.stars--3 .stars__star:nth-of-type(1),
-.stars--3 .stars__star:nth-of-type(2),
-.stars--3 .stars__star:nth-of-type(3) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-}
-
-.stars--3 .stars__star:nth-of-type(4),
-.stars--3 .stars__star:nth-of-type(5) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-}
-
-.stars--4 .stars__star:nth-of-type(1),
-.stars--4 .stars__star:nth-of-type(2),
-.stars--4 .stars__star:nth-of-type(3),
-.stars--4 .stars__star:nth-of-type(4) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-}
-
-.stars--4 .stars__star:nth-of-type(5) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
+  background-position: center;
 }
