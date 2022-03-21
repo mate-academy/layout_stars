@@ -4,9 +4,7 @@ body {
 }
 
 .stars {
-  margin: auto;
   display: flex;
-  width: auto;
 }
 
 .stars__star {
