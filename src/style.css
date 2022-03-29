@@ -4,8 +4,6 @@ body {
 
 .stars {
   display: flex;
-  justify-content: space-between;
-  width: 96px;
 }
 
 .star {
@@ -14,6 +12,8 @@ body {
   background-image: url(images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
+  margin-right: 4px;
+
 }
 
 .stars--1 .star:nth-child(1),
