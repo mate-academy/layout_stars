@@ -12,7 +12,7 @@ body {
   width: 16px;
   margin: 0 4px 0 0;
   background-image: url(images/star-active.svg);
-  border-radius: 0.5px;
+  background-repeat: no-repeat;
   color: #e5e5e5;
 }
 
