@@ -5,7 +5,6 @@ body {
 .stars {
   display: flex;
   justify-content: space-around;
-  align-items: stretch;
 
   width: 96px;
 }
