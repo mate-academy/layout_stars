@@ -10,7 +10,6 @@ body {
 }
 
 .stars__star {
-  display: inline-flex;
   height: 16px;
   width: 16px;
   border-radius: 0.5px;
