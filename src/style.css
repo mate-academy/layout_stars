@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   height: 160px;
-  width: 140px;
 }
 
 .stars {
@@ -12,7 +11,6 @@
 }
 
 .stars__star {
-  display: inline-flex;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
