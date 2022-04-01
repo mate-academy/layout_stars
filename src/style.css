@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-body {
-  margin: 0;
-}
-
 .star {
   height: 16px;
   width: 16px;
@@ -16,6 +12,10 @@ body {
 
   background-position: center;
   background-repeat: no-repeat;
+}
+
+body {
+  margin: 0;
 }
 
 .stars--1 .star:nth-child(1),
