@@ -4,27 +4,21 @@ body {
 
 .stars {
   display: flex;
-  margin: 0;
 }
 
 .star {
   width: 16px;
   height: 16px;
-  margin: 0 2px;
-  
-  background: url(./images/star.svg) no-repeat;
+  margin-right: 4px;
+  background-image: url("./images/star.svg");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
-.stars > :first-child {
-  margin-left: 0;
-}
-
-.stars--1 .star:nth-child(1),
+.stars--1 .star:nth-child(-n+1),
 .stars--2 .star:nth-child(-n+2),
 .stars--3 .star:nth-child(-n+3),
 .stars--4 .star:nth-child(-n+4),
 .stars--5 .star:nth-child(-n+5) {
-  background: url(./images/star-active.svg) no-repeat;
-  background-position: center;
+  background-image: url("./images/star-active.svg");
 }
