@@ -14,7 +14,7 @@ body {
 .stars--4,
 .stars--5 {
   display: flex;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .stars__star {
