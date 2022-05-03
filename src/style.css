@@ -22,8 +22,4 @@ body {
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(..\src\images\star-active.svg);
-  height: 16px;
-  width: 16px;
-  border-radius: 0.5px;
-  background-repeat: no-repeat;
 }
