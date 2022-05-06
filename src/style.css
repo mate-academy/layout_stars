@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  display: none;
+}
+
 .stars {
   display: flex;
 }
@@ -15,6 +19,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 
+}
+
+.stars .stars--star:first-child {
+  margin-left: 0;
+}
+
+.stars .stars--star:last-child {
+  margin-right: 0;
 }
 
 .stars--0 .stars--star:nth-child(n) {
