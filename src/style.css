@@ -1,19 +1,33 @@
-body {
-  background-color: #949293;
-  margin: 0;
-
+* {
+  box-sizing: border-box;
 }
 
-.collum-- {
+.stars {
   display: flex;
-  flex-direction: column;
-  background-color: rgb(82, 18, 18);
 }
 
-.star--active,
-.star {
-  background-color: #479b47;
+body {
   margin: 0;
-  height: 16px;
-  width: 16px;
 }
+
+.stars .stars__star {
+  background-image: url("../src/images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__star:not(:first-child) {
+  margin-left: 4px;
+}
+
+.stars--5 .stars__star,
+.stars--1 .stars__star:first-child,
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:not(:last-child) {
+  background-image: url("./images/star-active.svg");
+}
+
+/* first-child 1*/
