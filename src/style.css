@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+.stars {
+  padding: 0;
+}
+
+.container {
+  height: 96px;
+  width: 96px;
+}
+
+.stars__star {
+  padding: 2px 1.5px;
+}
+
+.stars--0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stars--1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stars--2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stars--3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stars--4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stars--5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
