@@ -4,12 +4,6 @@
 
 .stars {
   display: flex;
-  flex-basis: content;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #fff;
-  width: fit-content;
 }
 
 .stars__star {
@@ -19,15 +13,6 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
-}
-
-.container > * {
-  display: flex;
-  flex-direction: row;
-}
-
-.container > * :first-child {
-  margin-left: 0;
 }
 
 .stars--1 :nth-child(1),
