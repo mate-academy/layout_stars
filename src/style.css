@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
 .stars--0,
@@ -12,11 +13,10 @@ body {
 }
 
 .stars__star {
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
 }
 
