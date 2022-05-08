@@ -15,19 +15,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0.5px;
-
 }
 
-.stars--0 .stars__star:nth-child(1),
-.stars--1 .stars__star:nth-child(1),
-.stars--2 .stars__star:nth-child(1),
-.stars--3 .stars__star:nth-child(1),
-.stars--4 .stars__star:nth-child(1),
-.stars--5 .stars__star:nth-child(1) {
+.stars__star:first-child {
   margin-left: 0;
 }
 
-.stars--1 .stars__star:nth-child(0n+1),
+.stars--1 .stars__star:nth-child(1),
 .stars--2 .stars__star:nth-child(-n+2),
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4),
