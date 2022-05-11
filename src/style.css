@@ -4,13 +4,12 @@ body {
 
 .stars {
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-position: center;
   height: 16px;
   width: 16px;
   margin-right: 4px;
