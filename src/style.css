@@ -7,7 +7,6 @@ body {
 }
 
 .stars__star {
-  display: flex;
   width: 16px;
   height: 16px;
   background-image: url(./images/star.svg);
