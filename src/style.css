@@ -9,13 +9,16 @@ body {
 .star {
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0 4px;
-  /* margin: 0 5px 0 0; */
 }
 
-.active {
+.stars--5 .star,
+.stars--1 .star:nth-child(-n+1),
+.stars--2 .star:nth-child(-n+2),
+.stars--3 .star:nth-child(-n+3),
+.stars--4 .star:nth-child(-n+4) {
   background-image: url(images/star-active.svg);
 }
