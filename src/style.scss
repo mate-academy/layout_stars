@@ -1,0 +1,24 @@
+$size: 16px;
+
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-around;
+
+  &__star {
+    margin-right: 4px;
+    // padding-right: 4px;
+    height: $size;
+    width: $size;
+    background: center center no-repeat url(./images/star.svg);
+  }
+
+  @for $counter from 1 through 5 {
+    &--#{$counter} .stars__star:not(:nth-of-type(n + #{$counter + 1})) {
+      background: url("images/star-active.svg") no-repeat center;
+    }
+  }
+}
