@@ -12,7 +12,6 @@
 
 .stars--0 {
   height: 16px;
-  width: 96px;
   background-image: url(images/star.svg),
     url(images/star.svg),
     url(images/star.svg),
@@ -28,7 +27,6 @@
 
 .stars--1 {
   height: 16px;
-  width: 96px;
   background-image: url(images/star-active.svg),
     url(images/star.svg),
     url(images/star.svg),
@@ -44,7 +42,6 @@
 
 .stars--2 {
   height: 16px;
-  width: 96px;
   background-image: url(images/star-active.svg),
     url(images/star-active.svg),
     url(images/star.svg),
@@ -60,7 +57,6 @@
 
 .stars--3 {
   height: 16px;
-  width: 96px;
   background-image: url(images/star-active.svg),
     url(images/star-active.svg),
     url(images/star-active.svg),
@@ -76,7 +72,6 @@
 
 .stars--4 {
   height: 16px;
-  width: 96px;
   background-image: url(images/star-active.svg),
     url(images/star-active.svg),
     url(images/star-active.svg),
@@ -92,7 +87,6 @@
 
 .stars--5 {
   height: 16px;
-  width: 96px;
   background-image: url(images/star-active.svg),
     url(images/star-active.svg),
     url(images/star-active.svg),
