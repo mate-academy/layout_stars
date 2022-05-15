@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  width: 96px;
+  height: 96px;
+  margin: 2px 0 0 2px;
+}
+
+.stars--0 {
+  height: 16px;
+  width: 96px;
+  background-image: url(images/star.svg),
+    url(images/star.svg),
+    url(images/star.svg),
+    url(images/star.svg),
+    url(images/star.svg);
+  background-position: top 0 left 0,
+    top 0 left 20px,
+    top 0 left 40px,
+    top 0 left 60px,
+    top 0 left 80px;
+  background-repeat: no-repeat;
+}
+
+.stars--1 {
+  height: 16px;
+  width: 96px;
+  background-image: url(images/star-active.svg),
+    url(images/star.svg),
+    url(images/star.svg),
+    url(images/star.svg),
+    url(images/star.svg);
+  background-position: top 0 left 0,
+    top 0 left 20px,
+    top 0 left 40px,
+    top 0 left 60px,
+    top 0 left 80px;
+  background-repeat: no-repeat;
+}
+
+.stars--2 {
+  height: 16px;
+  width: 96px;
+  background-image: url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star.svg),
+    url(images/star.svg),
+    url(images/star.svg);
+  background-position: top 0 left 0,
+    top 0 left 20px,
+    top 0 left 40px,
+    top 0 left 60px,
+    top 0 left 80px;
+  background-repeat: no-repeat;
+}
+
+.stars--3 {
+  height: 16px;
+  width: 96px;
+  background-image: url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star.svg),
+    url(images/star.svg);
+  background-position: top 0 left 0,
+    top 0 left 20px,
+    top 0 left 40px,
+    top 0 left 60px,
+    top 0 left 80px;
+  background-repeat: no-repeat;
+}
+
+.stars--4 {
+  height: 16px;
+  width: 96px;
+  background-image: url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star.svg);
+  background-position: top 0 left 0,
+    top 0 left 20px,
+    top 0 left 40px,
+    top 0 left 60px,
+    top 0 left 80px;
+  background-repeat: no-repeat;
+}
+
+.stars--5 {
+  height: 16px;
+  width: 96px;
+  background-image: url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star-active.svg),
+    url(images/star-active.svg);
+  background-position: top 0 left 0,
+    top 0 left 20px,
+    top 0 left 40px,
+    top 0 left 60px,
+    top 0 left 80px;
+  background-repeat: no-repeat;
+}
