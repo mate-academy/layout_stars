@@ -1,17 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  list-style-type: none;
-}
-
-.container {
-  width: 96px;
-  height: 96px;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
