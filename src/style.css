@@ -1,0 +1,65 @@
+* body {
+  margin: 0;
+}
+
+.conteiner-stars {
+  margin-left: 2px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 96px;
+  height: 96px;
+  background: rgb(255, 255, 255);
+}
+
+.stars {
+  height: 16px;
+}
+
+.stars--0 {
+  background: url(images/star.svg) left / 13px 12px no-repeat,
+    url(images/star.svg) 20px / 13px 12px no-repeat,
+    url(images/star.svg) 40px / 13px 12px no-repeat,
+    url(images/star.svg) 60px / 13px 12px no-repeat,
+    url(images/star.svg) 80px / 13px 12px no-repeat;
+}
+
+.stars--1 {
+  background: url(images/star-active.svg) left / 13px 12px no-repeat,
+    url(images/star.svg) 20px / 13px 12px no-repeat,
+    url(images/star.svg) 40px / 13px 12px no-repeat,
+    url(images/star.svg) 60px / 13px 12px no-repeat,
+    url(images/star.svg) 80px / 13px 12px no-repeat;
+}
+
+.stars--2 {
+  background: url(images/star-active.svg) left / 13px 12px no-repeat,
+    url(images/star-active.svg) 20px / 13px 12px no-repeat,
+    url(images/star.svg) 40px / 13px 12px no-repeat,
+    url(images/star.svg) 60px / 13px 12px no-repeat,
+    url(images/star.svg) 80px / 13px 12px no-repeat;
+}
+
+.stars--3 {
+  background: url(images/star-active.svg) left / 13px 12px no-repeat,
+    url(images/star-active.svg) 20px / 13px 12px no-repeat,
+    url(images/star-active.svg) 40px / 13px 12px no-repeat,
+    url(images/star.svg) 60px / 13px 12px no-repeat,
+    url(images/star.svg) 80px / 13px 12px no-repeat;
+}
+
+.stars--4 {
+  background: url(images/star-active.svg) left / 13px 12px no-repeat,
+    url(images/star-active.svg) 20px / 13px 12px no-repeat,
+    url(images/star-active.svg) 40px / 13px 12px no-repeat,
+    url(images/star-active.svg) 60px / 13px 12px no-repeat,
+    url(images/star.svg) 80px / 13px 12px no-repeat;
+}
+
+.stars--5 {
+  background: url(images/star-active.svg) left / 13px 12px no-repeat,
+    url(images/star-active.svg) 20px / 13px 12px no-repeat,
+    url(images/star-active.svg) 40px / 13px 12px no-repeat,
+    url(images/star-active.svg) 60px / 13px 12px no-repeat,
+    url(images/star-active.svg) 80px / 13px 12px no-repeat;
+}
