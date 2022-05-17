@@ -2,10 +2,8 @@ body {
   margin: 0;
 }
 
-.stars-item {
+.stars {
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 
 .stars__star {
@@ -15,7 +13,6 @@ body {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  list-style-type: none;
 }
 
 .stars__star:last-of-type {
