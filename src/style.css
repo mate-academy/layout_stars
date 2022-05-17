@@ -11,8 +11,6 @@ body {
 
 .stars {
   display: flex;
-  flex-direction: row;
-  justify-content: start;
 }
 
 .stars__star {
@@ -20,6 +18,7 @@ body {
   width: var(--star-width);
   height: var(--star-height);
   background-repeat: var(--star-bg);
+  background-position: center;
   margin-right: 4px;
 }
 
