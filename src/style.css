@@ -2,100 +2,105 @@
   margin: 0;
 }
 
-.stars {
+.stars--0 {
   display: flex;
-  flex-direction: column;
-  width: 96px;
-  height: 96px;
-  margin: 2px 0 0 2px;
 }
 
-.stars--0 {
+.card__star {
   height: 16px;
-  background-image: url(images/star.svg),
-    url(images/star.svg),
-    url(images/star.svg),
-    url(images/star.svg),
-    url(images/star.svg);
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-  background-repeat: no-repeat;
+  width: 16px;
+  background: url(/images/star.svg) no-repeat center;
+  margin-right: 4px;
+}
+
+.stars--0 .card__star:nth-child(-n + 1),
+.stars--0 .card__star:nth-child(-n + 2),
+.stars--0 .card__star:nth-child(-n + 3),
+.stars--0 .card__star:nth-child(-n + 4) {
+  background-image: url(/images/star.svg);
 }
 
 .stars--1 {
+  display: flex;
+}
+
+.card__star--1 {
   height: 16px;
-  background-image: url(images/star-active.svg),
-    url(images/star.svg),
-    url(images/star.svg),
-    url(images/star.svg),
-    url(images/star.svg);
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-  background-repeat: no-repeat;
+  width: 16px;
+  background: url(/images/star.svg) no-repeat center;
+  margin-right: 4px;
+}
+
+.stars--1 .card__star--1:nth-child(-n + 1) {
+  background-image: url(images/star-active.svg);
 }
 
 .stars--2 {
+  display: flex;
+}
+
+.card__star--2 {
   height: 16px;
-  background-image: url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star.svg),
-    url(images/star.svg),
-    url(images/star.svg);
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-  background-repeat: no-repeat;
+  width: 16px;
+  background: url(/images/star.svg) no-repeat center;
+  margin-right: 4px;
+}
+
+.stars--2 .card__star--2:nth-child(-n + 1),
+.stars--2 .card__star--2:nth-child(-n + 2) {
+  background-image: url(/images/star-active.svg);
 }
 
 .stars--3 {
+  display: flex;
+}
+
+.card__star--3 {
   height: 16px;
-  background-image: url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star.svg),
-    url(images/star.svg);
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-  background-repeat: no-repeat;
+  width: 16px;
+  background: url(/images/star.svg) no-repeat center;
+  margin-right: 4px;
+}
+
+.stars--3 .card__star--3:nth-child(-n + 1),
+.stars--3 .card__star--3:nth-child(-n + 2),
+.stars--3 .card__star--3:nth-child(-n + 3) {
+  background-image: url(images/star-active.svg);
 }
 
 .stars--4 {
+  display: flex;
+}
+
+.card__star--4 {
   height: 16px;
-  background-image: url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star.svg);
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-  background-repeat: no-repeat;
+  width: 16px;
+  background: url(/images/star.svg) no-repeat center;
+  margin-right: 4px;
+}
+
+.stars--4 .card__star--4:nth-child(-n + 1),
+.stars--4 .card__star--4:nth-child(-n + 2),
+.stars--4 .card__star--4:nth-child(-n + 3),
+.stars--4 .card__star--4:nth-child(-n + 4) {
+  background-image: url(/images/star-active.svg);
 }
 
 .stars--5 {
+  display: flex;
+}
+
+.card__star--5 {
   height: 16px;
-  background-image: url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star-active.svg),
-    url(images/star-active.svg);
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-  background-repeat: no-repeat;
+  width: 16px;
+  background: url(/images/star.svg) no-repeat center;
+  margin-right: 4px;
+}
+
+.stars--5 .card__star--5:nth-child(-n + 1),
+.stars--5 .card__star--5:nth-child(-n + 2),
+.stars--5 .card__star--5:nth-child(-n + 3),
+.stars--5 .card__star--5:nth-child(-n + 4),
+.stars--5 .card__star--5:nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
 }
