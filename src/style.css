@@ -2,61 +2,31 @@
   margin: 0;
 }
 
-.conteiner {
+.container {
   display: flex;
   flex-direction: column;
-  background: rgb(255, 255, 255);
 }
 
 .stars {
-  height: 16px;
+  display: flex;
+  justify-content: space-between;
   width: 96px;
 }
 
-.stars--0 {
-  background: url(images/star.svg) 1.5px/13px auto no-repeat,
-    url(images/star.svg) 21.5px / 13px auto no-repeat,
-    url(images/star.svg) 41.5px / 13px auto no-repeat,
-    url(images/star.svg) 61.5px / 13px auto no-repeat,
-    url(images/star.svg) 81.5px / 13px auto no-repeat;
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.stars--1 {
-  background: url(images/star-active.svg) 1.5px/ 13px 12px no-repeat,
-    url(images/star.svg) 21.5px / 13px auto no-repeat,
-    url(images/star.svg) 41.5px / 13px auto no-repeat,
-    url(images/star.svg) 61.5px / 13px auto no-repeat,
-    url(images/star.svg) 81.5px / 13px auto no-repeat;
-}
-
-.stars--2 {
-  background: url(images/star-active.svg) 1.5px/ 13px auto no-repeat,
-    url(images/star-active.svg) 21.5px / 13px auto no-repeat,
-    url(images/star.svg) 41.5px / 13px auto no-repeat,
-    url(images/star.svg) 61.5px / 13px auto no-repeat,
-    url(images/star.svg) 81.5px / 13px auto no-repeat;
-}
-
-.stars--3 {
-  background: url(images/star-active.svg) 1.5px/ 13px 12px no-repeat,
-    url(images/star-active.svg) 21.5px / 13px 12px no-repeat,
-    url(images/star-active.svg) 41.5px / 13px 12px no-repeat,
-    url(images/star.svg) 61.5px / 13px 12px no-repeat,
-    url(images/star.svg) 81.5px / 13px 12px no-repeat;
-}
-
-.stars--4 {
-  background: url(images/star-active.svg) 1.5px/ 13px 12px no-repeat,
-    url(images/star-active.svg) 21.5px / 13px 12px no-repeat,
-    url(images/star-active.svg) 41.5px / 13px 12px no-repeat,
-    url(images/star-active.svg) 61.5px / 13px 12px no-repeat,
-    url(images/star.svg) 81.5px / 13px 12px no-repeat;
-}
-
-.stars--5 {
-  background: url(images/star-active.svg) 1.5px/ 13px auto no-repeat,
-    url(images/star-active.svg) 21.5px / 13px auto no-repeat,
-    url(images/star-active.svg) 41.5px / 13px auto no-repeat,
-    url(images/star-active.svg) 61.5px / 13px auto no-repeat,
-    url(images/star-active.svg) 81.5px / 13px auto no-repeat;
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
