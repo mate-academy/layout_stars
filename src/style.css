@@ -3,31 +3,30 @@ body {
 }
 
 .stars-container {
-  padding-top: 2px;
   display: flex;
   flex-direction: column;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
-  height: 16px;
+  flex-direction: row;
 }
 
-.image-star {
+.stars__star {
   height: 16px;
   width: 16px;
-  margin: 0 2px;
-}
-
-.active {
-  background: url(./images/star-active.svg) no-repeat;
-}
-
-.grey {
   background: url(./images/star.svg) no-repeat;
+  background-position: 50%;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars--1 :first-child,
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
+  background-image: url("./images/star-active.svg");
 }
