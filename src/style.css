@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: column;
+  width: 96px;
+  height: 96px;
+}
+
+.stars {
+  display: flex;
+  height: 16px;
+  margin: 0;
+}
+
+.image-star {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
