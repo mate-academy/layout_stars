@@ -20,3 +20,11 @@ body {
   width: 16px;
   margin-right: 4px;
 }
+
+.active {
+  background: url(./images/star-active.svg) no-repeat;
+}
+
+.grey {
+  background: url(./images/star.svg) no-repeat;
+}
