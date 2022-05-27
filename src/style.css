@@ -8,52 +8,24 @@ li {
   all: unset;
 }
 
-.stars__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 95px;
-  height: 95px;
-  padding-top: 1px;
-  padding-left: 1px;
-}
-
 .stars > * {
-  margin: 0;
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
-  background-size: auto;
   background-position: center;
 }
 
-.stars--0 .stars__star:nth-child(n) {
-  background-image: url(./images/star.svg);
-}
-
-.stars--1 .stars__star:nth-child(n+2) {
-  background-image: url(./images/star.svg);
-}
-
-.stars--2 .stars__star:nth-child(n+3) {
-  background-image: url(./images/star.svg);
-}
-
-.stars--3 .stars__star:nth-child(n+4) {
-  background-image: url(./images/star.svg);
-}
-
-.stars--4 .stars__star:nth-child(n+5) {
-  background-image: url(./images/star.svg);
-}
-
+.stars--0 .stars__star:nth-child(n),
+.stars--1 .stars__star:nth-child(n+2),
+.stars--2 .stars__star:nth-child(n+3),
+.stars--3 .stars__star:nth-child(n+4),
+.stars--4 .stars__star:nth-child(n+5),
 .stars--5 .stars__star:nth-child(n+6) {
   background-image: url(./images/star.svg);
 }
