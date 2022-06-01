@@ -7,7 +7,7 @@ body {
 }
 
 .stars__star {
-  margin-right: 2px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -15,12 +15,7 @@ body {
   height: 16px;
 }
 
-.stars--0 :last-child,
-.stars--1 :last-child,
-.stars--2 :last-child,
-.stars--3 :last-child,
-.stars--4 :last-child,
-.stars--5 :last-child {
+.stars__star :last-child {
   margin-right: 0;
 }
 
