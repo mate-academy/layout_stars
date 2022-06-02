@@ -20,6 +20,5 @@ body {
 .stars--3 div:nth-child(-n+3),
 .stars--4 div:nth-child(-n+4),
 .stars--5 div:nth-child(-n+5) {
-  display: inline-block;
   background-image: url(./images/star-active.svg);
 }
