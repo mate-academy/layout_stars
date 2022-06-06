@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars__star:hover {
+  background: #e5e5e5;
+  border-radius: 0.5px;
+}
+
+.stars__star.is-active {
+  background-image: url(./images/star-active.svg);
+}
