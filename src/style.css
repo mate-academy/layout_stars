@@ -1,4 +1,4 @@
-body {
+.main_body {
   margin: 0;
 }
 
@@ -13,6 +13,10 @@ body {
   height: 16px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.stars__star:last-child {
+  margin: 0;
 }
 
 .stars--1 > :first-child ,
