@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.stars > div {
+.stars {
   display: flex;
 }
 
