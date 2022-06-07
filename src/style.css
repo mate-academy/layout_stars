@@ -21,6 +21,7 @@
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-size: auto;
+  background-position: center;
 }
 
 .stars :last-child {
