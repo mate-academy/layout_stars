@@ -1,4 +1,4 @@
-body {
+.body {
   margin: 0;
 }
 
@@ -11,6 +11,10 @@ body {
   margin-right: 4px;
   width: 16px;
   height: 16px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 :first-child,
