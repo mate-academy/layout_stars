@@ -1,35 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
 
-.container {
-  width: 140px;
-  height: 160px;
-  background-color: #fff;
-  display: flex;
-}
-
-.inner_container {
+.inner_box {
   width: 96px;
   height: 96px;
-  margin: auto;
+  background-color: #fff;
 }
 
 .stars {
   display: flex;
+  justify-content: space-between;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
-  margin-right: 4px;
+  padding: 2px;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: initial;
   border-radius: 0.5px;
-}
-
-.stars__star:last-child {
-  margin-right: 0;
 }
 
 .stars--3 .stars__star,
