@@ -12,6 +12,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-content: space-between;
+  
 }
 
 .stars__star {
@@ -22,10 +23,10 @@ body {
   width: 16px;
 }
 
-.stars--0 > .stars__star:nth-child(n+1),
-.stars--1 > .stars__star:nth-child(n+2),
-.stars--2 > .stars__star:nth-child(n+3),
-.stars--3 > .stars__star:nth-child(n+4),
-.stars--4 > .stars__star:nth-child(n+5) {
+.stars--0 :nth-child(n+1),
+.stars--1 :nth-child(n+2),
+.stars--2 :nth-child(n+3),
+.stars--3 :nth-child(n+4),
+.stars--4 :nth-child(n+5) {
   background-image: url(./images/star.svg);
 }
