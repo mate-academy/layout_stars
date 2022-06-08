@@ -5,10 +5,7 @@ body {
 
 .stars {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 96px;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 .stars__star {
@@ -19,7 +16,11 @@ body {
   display: block;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 13px 12px;
+  background-size: content;
+}
+
+.stars__star:not(:last-child) {
+  padding-right: 4px;
 }
 
 .stars--1 .stars__star:first-child,
