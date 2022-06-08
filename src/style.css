@@ -8,16 +8,6 @@ body {
 
 .stars {
   display: flex;
-  flex-direction: column;
-}
-
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
-  display: flex;
 }
 
 .stars__star {
