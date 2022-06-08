@@ -11,7 +11,11 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  margin: 2px;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n+1),
