@@ -25,5 +25,4 @@
 
 .stars--5 > .stars--star:nth-child(n) {
   background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
 }
