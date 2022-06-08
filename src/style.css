@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.stars__star.active {
+  background-image: url(./images/star-active.svg);
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
