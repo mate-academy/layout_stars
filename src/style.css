@@ -7,7 +7,7 @@ body {
 }
 
 .stars {
-  width: 96px;
+  width: min-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -21,6 +21,10 @@ body {
   background-position: center;
   height: 16px;
   width: 16px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--0 :nth-child(n+1),
