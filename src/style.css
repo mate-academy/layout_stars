@@ -10,6 +10,7 @@
 
 .stars {
   display: flex;
+  padding: 0;
 }
 
 .stars__star {
@@ -19,6 +20,15 @@
   background-size: inherit;
   background-repeat: no-repeat;
   margin: 0 2px;
+}
+
+.container .stars__star:last-child ,
+.stars--1 .stars__star:last-child ,
+.stars--2 .stars__star:last-child  ,
+.stars--3 .stars__star:last-child  ,
+.stars--4 .stars__star:last-child ,
+.stars--5 .stars__star:last-child {
+  margin: 0;
 }
 
 .stars--1 .stars__star:first-child ,
