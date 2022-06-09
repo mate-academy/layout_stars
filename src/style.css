@@ -15,6 +15,9 @@
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
+}
+
+.stars:not(:last-child) {
   margin-right: 4px;
 }
 
