@@ -23,3 +23,7 @@
 .stars--5 :nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
 }
+
+.star:last-child {
+  margin: 0;
+}
