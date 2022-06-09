@@ -1,17 +1,9 @@
 body {
   margin: 0;
-  padding: 2px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
 }
 
 .stars {
   display: flex;
-  flex-direction: row;
 }
 
 .stars__star {
