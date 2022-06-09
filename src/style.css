@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
 }
 
@@ -13,6 +13,10 @@
   width: 16px;
   margin-right: 4px;
   background-repeat: no-repeat;
+}
+
+.star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 :nth-child(-n+1),
