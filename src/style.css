@@ -10,7 +10,6 @@
 
 .stars {
   display: flex;
-  flex-direction: row;
 }
 
 .stars__star {
@@ -19,6 +18,7 @@
   background-image: url("./images/star.svg");
   background-size: inherit;
   background-repeat: no-repeat;
+  margin: 0 2px;
 }
 
 .stars--1 .stars__star:first-child ,
