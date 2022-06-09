@@ -6,16 +6,13 @@ body {
   display: flex;
 }
 
-/* .stars :nth-child(n) {
-  background: no-repeat center url("images/star.svg");
-  width: 16px;
-  height: 16px;
-  margin-right: 4px;
-} */
 .stars__star {
   background: no-repeat center url("images/star.svg");
   width: 16px;
   height: 16px;
+}
+
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
