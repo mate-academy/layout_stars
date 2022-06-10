@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  box-sizing: border-box;
 }
 
 .stars {
@@ -16,7 +15,7 @@ body {
   background-position: center;
 }
 
-.stars__star :last-child {
+.stars__star:last-child {
   margin-right: 0;
 }
 
