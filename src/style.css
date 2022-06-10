@@ -14,11 +14,14 @@
   background-image: url(./images/star-active.svg);
 }
 
-.starOne {
+.star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
   height: 16px;
   width: 16px;
+}
+
+.star:not(:last-child) {
   margin-right: 4px;
 }
