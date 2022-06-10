@@ -1,0 +1,36 @@
+
+.mstar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: grey;
+  border: 3px solid red; */
+}
+
+.star {
+  display: flex;
+  height: 16px;
+  background-position: center;
+  /* background-color: rgb(149, 149, 97);
+  border: 1px solid rgb(20, 10, 100); */
+}
+
+.stars_star {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-size: 100% 100%;
+  /* border: 1px solid green; */
+  background-image: url(./images/star.svg);
+  background-repeat: repeat-x;
+}
+
+.stars_starY {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-size: 100% 100%;
+  /* border: 1px solid green; */
+  background-image: url(./images/star-active.svg);
+  background-repeat: repeat-x;
+}
