@@ -4,7 +4,6 @@ body {
 
 .stars {
   display: flex;
-
 }
 
 .stars__star {
@@ -12,6 +11,10 @@ body {
   width: 16px;
   margin-right: 4px;
   background: url(./images/star.svg) center no-repeat;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
