@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
 }
 
@@ -14,7 +14,7 @@
   background-image: url(./images/star-active.svg);
 }
 
-.star {
+.stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -22,6 +22,6 @@
   width: 16px;
 }
 
-.star:not(:last-child) {
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
