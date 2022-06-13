@@ -1,9 +1,9 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://kosserzh.github.io/layout_stars/)
+- [TEST REPORT LINK](https://kosserzh.github.io/layout_stars/report/html_report/)
 
-> Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
+> Follow [this instructions](https://mate-academy.github.io/layout_task-guidelkoss
 ___
 
 > Disable `Multiplayer Cursors` in figma to hide other cursors ([Learn how](https://mate-academy.github.io/layout_task-guideline/figma.html#multiplayer-cursors))
@@ -19,9 +19,9 @@ You DON'T need to implement the card now, just the stars block.
 ___
 - You can find star images in `images` folder
 - Reset browser's default `margin`
-- Implement 6 blocks with `stars` class
-  - The first should have `stars--0` class
-  - The next 5 blocks should have an extra class `stars--1`, `stars--2` ... `stars--5` (one extra class per block)
+- Implement 6 blocks with `stars` class +
+  - The first should have `stars--0` class +
+  - The next 5 blocks should have an extra class `stars--1`, `stars--2` ... `stars--5` (one extra class per block) +
 - Each block should have exactly 5 stars styled as in the card design
 - The number of active (yellow) stars should be different for all 6 blocks depending on modifier class
   - The first block (with just `stars` class) don't have active stars
