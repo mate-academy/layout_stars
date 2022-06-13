@@ -2,25 +2,45 @@ body {
   margin: 0;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.star {
   display: flex;
 }
 
 .stars__star {
   background-image: url(images/star.svg);
-  width: 13px;
-  height: 12px;
-  margin: 2px 5px 2px 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
 }
 
-.stars__star-active {
+.stars--0 div:nth-child(n) {
+  display: inline-block;
+  /* background-image: url(images/star.svg); */
+}
+
+.stars--1 div:nth-child(-n + 1) {
+  display: inline-block;
   background-image: url(images/star-active.svg);
-  width: 13px;
-  height: 12px;
-  margin: 2px 5px 2px 2px;
+}
+
+.stars--2 div:nth-child(-n + 2) {
+  display: inline-block;
+  background-image: url(images/star-active.svg);
+}
+
+.stars--3 div:nth-child(-n + 3) {
+  display: inline-block;
+  background-image: url(images/star-active.svg);
+}
+
+.stars--4 div:nth-child(-n + 4) {
+  display: inline-block;
+  background-image: url(images/star-active.svg);
+}
+
+.stars--5 div:nth-child(n) {
+  display: inline-block;
+  background-image: url(images/star-active.svg);
 }
