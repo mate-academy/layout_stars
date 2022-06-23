@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 96px;
+  height: 96px;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars--star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--5 .stars--star,
+.stars--4 .stars--star:nth-child(1),
+.stars--4 .stars--star:nth-child(2),
+.stars--4 .stars--star:nth-child(3),
+.stars--4 .stars--star:nth-child(4),
+.stars--3 .stars--star:nth-child(1),
+.stars--3 .stars--star:nth-child(2),
+.stars--3 .stars--star:nth-child(3),
+.stars--2 .stars--star:nth-child(1),
+.stars--2 .stars--star:nth-child(2),
+.stars--1 .stars--star:nth-child(1) {
+  background-image: url(images/star-active.svg);
+}
