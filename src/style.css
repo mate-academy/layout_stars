@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+.stars_block {
+  display: flex;
+  flex-direction: column;
+  height: 96px;
+  width: 96px;
+  margin: 32px 22px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  display: flex;
+}
+
+.s0_0,
+.s0_1,
+.s0_2,
+.s0_3,
+.s0_4 {
+  background-image: url(images/star.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s1_0 {
+  background-image: url(images/star-active.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s1_1,
+.s1_2,
+.s1_3,
+.s1_4 {
+  background-image: url(images/star.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s2_0,
+.s2_1 {
+  background-image: url(images/star-active.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s2_2,
+.s2_3,
+.s2_4 {
+  background-image: url(images/star.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s3_0,
+.s3_1,
+.s3_2 {
+  background-image: url(images/star-active.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s3_3,
+.s3_4 {
+  background-image: url(images/star.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s4_0,
+.s4_1,
+.s4_2,
+.s4_3 {
+  background-image: url(images/star-active.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s4_4 {
+  background-image: url(images/star.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
+
+.s5_0,
+.s5_1,
+.s5_2,
+.s5_3,
+.s5_4 {
+  background-image: url(images/star-active.svg);
+  height: 12px;
+  width: 13px;
+  display: flex;
+  margin: auto;
+}
