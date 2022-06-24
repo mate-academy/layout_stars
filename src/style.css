@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+}
+
+.star-not-activ,
+.star-activ {
+  margin-right: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.star-not-activ {
+  background-image: url(./images/star.svg);
+}
+
+.star-activ {
+  background-image: url(./images/star-active.svg);
+}
