@@ -8,12 +8,7 @@ body {
   height: 96px;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
   justify-content: space-between;
 }
@@ -27,15 +22,9 @@ body {
 }
 
 .stars--5 .stars--star,
-.stars--4 .stars--star:nth-child(1),
-.stars--4 .stars--star:nth-child(2),
-.stars--4 .stars--star:nth-child(3),
-.stars--4 .stars--star:nth-child(4),
-.stars--3 .stars--star:nth-child(1),
-.stars--3 .stars--star:nth-child(2),
-.stars--3 .stars--star:nth-child(3),
-.stars--2 .stars--star:nth-child(1),
-.stars--2 .stars--star:nth-child(2),
+.stars--4 .stars--star:nth-child(-n+4),
+.stars--3 .stars--star:nth-child(-n+3),
+.stars--2 .stars--star:nth-child(-n+2),
 .stars--1 .stars--star:nth-child(1) {
   background-image: url(images/star-active.svg);
 }
