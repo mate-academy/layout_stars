@@ -3,19 +3,14 @@ body {
   padding: 0;
 }
 
-.card {
-  width: 96px;
-  height: 96px;
-}
-
 .stars {
   display: flex;
-  justify-content: space-between;
 }
 
 .stars--star {
   width: 16px;
   height: 16px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
