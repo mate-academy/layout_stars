@@ -12,46 +12,14 @@ div {
   margin-top: 0;
   margin-right: 4px;
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-image: url(./images/star-active.svg);
   background-position: center;
 }
 
-.stars--0 .stars-star {
-  background-image: url(./images/star.svg);
-}
-
-.stars--1 .stars-star {
-  background-image: url(./images/star.svg);
-}
-
-.stars--1 :first-child {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--2 .stars-star {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--2 :nth-child(n+3) {
-  background-image: url(./images/star.svg);
-}
-
-.stars--3 .stars-star {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--3 :nth-child(n+4) {
-  background-image: url(./images/star.svg);
-}
-
-.stars--4 .stars-star {
-  background-image: url(./images/star-active.svg);
-}
-
+.stars--0 .stars-star,
+.stars--1 :nth-child(n+2),
+.stars--2 :nth-child(n+3),
+.stars--3 :nth-child(n+4),
 .stars--4 :nth-child(n+5) {
   background-image: url(./images/star.svg);
-}
-
-.stars--5 .stars-star {
-  background-image: url(./images/star-active.svg);
 }
