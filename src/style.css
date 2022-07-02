@@ -13,7 +13,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(images/star.svg);
-
 }
 
 .stars--1 :first-child,
