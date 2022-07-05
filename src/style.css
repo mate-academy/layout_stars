@@ -3,35 +3,18 @@
   background-color: white;
 }
 
-.body--child {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .stars {
   display: flex;
-  justify-content: space-between;
-  width: 96px;
-  height: 16px;
+
 }
 
 .stars__star {
-  display: flex;
   height: 16px;
   width: 16px;
-  justify-content: space-between;
-  background-position: center;
-}
-
-.stars--0 :nth-child(n+1),
-.stars--1 :nth-child(n+1),
-.stars--2 :nth-child(n+1),
-.stars--3 :nth-child(n+1),
-.stars--4 :nth-child(n+1),
-.stars--5 :nth-child(n+1) {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--1 :nth-child(1),
