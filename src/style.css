@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 13px;
+  width: 60px;
+}
+
+.star {
+  background-image: url(images/star.svg), url(images/star-active.svg);
+}
+
+.star {
+  width: 65px;
+  height: 13px;
+}
+
+.star--0 {
+  background-image: url(images/star.svg);
+  background-repeat: repeat;
+  color: transparent;
+}
+
+.star--1 {
+  background-image: url(images/star-active.svg), url(images/star.svg);
+  background-repeat: no-repeat, repeat;
+  color: transparent;
+}
+
+.star--2 {
+  background-image: url(images/star-active.svg);
+  color: transparent;
+  flex-basis: 28px;
+}
