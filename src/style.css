@@ -8,17 +8,11 @@ body {
 }
 
 .stars__star {
-  /* display: flex; */
   background-image: url("./images/star.svg");
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: contain; */
-  /* background-size: 13px 13px; */
-  background-size: auto;
-  color: #000;
   height: 16px;
   width: 16px;
-  border-radius: 0.5px;
   margin-right: 4px;
 }
 
