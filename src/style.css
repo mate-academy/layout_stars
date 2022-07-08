@@ -4,16 +4,14 @@
 }
 
 .container {
+  background-image: url(images/star.svg);
   display: flex;
   height: 13px;
-  width: 60px;
+  width: 65px;
 }
 
 .star {
   background-image: url(images/star.svg), url(images/star-active.svg);
-}
-
-.star {
   width: 65px;
   height: 13px;
 }
@@ -34,4 +32,22 @@
   background-image: url(images/star-active.svg);
   color: transparent;
   flex-basis: 28px;
+}
+
+.star--3 {
+  background-image: url(images/star-active.svg);
+  color: transparent;
+  flex-basis: 43px;
+}
+
+.star--4 {
+  background-image: url(images/star-active.svg);
+  color: transparent;
+  flex-basis: 53px;
+}
+
+.star--5 {
+  background-image: url(images/star-active.svg);
+  color: transparent;
+  flex-basis: 65px;
 }
