@@ -3,51 +3,22 @@
   padding: 0;
 }
 
-.container {
-  background-image: url(images/star.svg);
+.box {
   display: flex;
-  height: 13px;
-  width: 65px;
 }
 
-.star {
-  background-image: url(images/star.svg), url(images/star-active.svg);
-  width: 65px;
-  height: 13px;
-}
-
-.star--0 {
+.stars {
   background-image: url(images/star.svg);
-  background-repeat: repeat;
   color: transparent;
+  height: 12px;
+  width: 14px;
+  margin: 0.2em;
 }
 
-.star--1 {
-  background-image: url(images/star-active.svg), url(images/star.svg);
-  background-repeat: no-repeat, repeat;
-  color: transparent;
-}
-
-.star--2 {
+.stars-active {
   background-image: url(images/star-active.svg);
   color: transparent;
-  flex-basis: 28px;
-}
-
-.star--3 {
-  background-image: url(images/star-active.svg);
-  color: transparent;
-  flex-basis: 43px;
-}
-
-.star--4 {
-  background-image: url(images/star-active.svg);
-  color: transparent;
-  flex-basis: 53px;
-}
-
-.star--5 {
-  background-image: url(images/star-active.svg);
-  color: transparent;
-  flex-basis: 65px;
+  height: 12px;
+  width: 14px;
+  margin: 0.2em;
 }
