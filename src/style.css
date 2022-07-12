@@ -3,7 +3,12 @@ body {
   padding: 0;
 }
 
-div[class*="stars--"] {
+.stars--1,
+.stars--0,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
   width: 100px;
   height: 14px;
   display: flex;
@@ -22,25 +27,6 @@ div[class*="stars--"] {
   margin-left: 2px;
 }
 
-/* div[class*="stars--"] {
-  width: 100px;
-  height: 14px;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 1px;
-  margin-left: 2px;
-  align-items: flex-start;
-}
-
-.stars__star {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  width: 13px;
-  height: 13px;
-  padding: 0 4px;
-  margin-top: 2px;
-  margin-left: 2px;
-} */
 .stars--1 .stars__star:first-child {
   background-image: url(./images/star-active.svg);
 
