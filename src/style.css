@@ -8,11 +8,15 @@ div[class*="stars--"] {
 
 .stars__star {
   background-image: url(./images/star.svg);
-  height: 12px;
-  width: 13px;
   background-repeat: no-repeat;
   background-position: center;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
 
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 > .stars__star:nth-last-child(n + 5),
