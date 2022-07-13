@@ -3,16 +3,8 @@
   margin: 0;
 }
 
-.container {
-  max-width: fit-content;
-  display: flex;
-  flex-direction: column;
-}
-
 .stars {
-  width: 96px;
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
@@ -20,7 +12,8 @@
   height: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--5 > .stars__star {
