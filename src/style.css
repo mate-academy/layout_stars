@@ -6,21 +6,18 @@ body {
 .stars_block {
   display: flex;
   flex-direction: column;
-  height: 96px;
-  width: 96px;
   min-width: 96px;
 }
    
 .stars {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
   
 .stars__star {
   display: flex;
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
