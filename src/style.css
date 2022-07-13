@@ -6,13 +6,16 @@ body {
   display: flex;
 }
 
+.stars :not(:last-child) {
+  margin-right: 4px;
+}
+
 .stars__star {
   display: flex;
   height: 16px;
   width: 16px;
   align-items: center;
   justify-content: center;
-  margin-right: 4px;
 }
 
 .stars__star::after {
@@ -23,14 +26,10 @@ body {
   height: 12px;
 }
 
-.stars--5 .stars__star::after,
-.stars--1 .stars__star:first-of-type::after,
-.stars--2 .stars__star:nth-of-type(-n+2)::after,
-.stars--3 .stars__star:nth-of-type(-n+3)::after,
-.stars--4 .stars__star:nth-child(-n+4)::after {
-  position: fixed;
-  content: "";
+.stars--5 ::after,
+.stars--1 > :first-child::after,
+.stars--2 > :nth-child(-n+2)::after,
+.stars--3 > :nth-child(-n+3)::after,
+.stars--4 > :nth-child(-n+4)::after {
   background: url(images/star-active.svg);
-  width: 13px;
-  height: 12px;
 }
