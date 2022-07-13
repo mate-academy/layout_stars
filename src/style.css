@@ -22,20 +22,10 @@ body {
   margin-right: 4px;
 }
 
-.stars--1 .stars__star:first-child,
-.stars--2 .stars__star:first-child,
-.stars--2 .stars__star:nth-child(2),
-.stars--3 .stars__star:first-child,
-.stars--3 .stars__star:nth-child(2),
-.stars--3 .stars__star:nth-child(3),
-.stars--4 .stars__star:first-child,
-.stars--4 .stars__star:nth-child(2),
-.stars--4 .stars__star:nth-child(3),
-.stars--4 .stars__star:nth-child(4),
-.stars--5 .stars__star:first-child,
-.stars--5 .stars__star:nth-child(2),
-.stars--5 .stars__star:nth-child(3),
-.stars--5 .stars__star:nth-child(4),
-.stars--5 .stars__star:nth-child(5) {
-  background-image: url(images/star-active.svg);
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background: url("images/star-active.svg") center no-repeat;
 }
