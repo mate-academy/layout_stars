@@ -1,0 +1,36 @@
+/* Расстояние между звёздами фиксированное, задавать самому,
+   Размеры звёзд фиксированные, задавать самому,
+   использовать картинки в CSS background-images,
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.star-item {
+  margin-right: 4px;
+  background: url("images/star.svg") no-repeat center;
+  height: 16px;
+  width: 16px;
+}
+
+.star-item:last-child {
+  margin-right: 0;
+}
+
+.stars--1 > .star-item:nth-child(-n + 1),
+.stars--2 > .star-item:nth-child(-n + 2),
+.stars--3 > .star-item:nth-child(-n + 3),
+.stars--4 > .star-item:nth-child(-n + 4),
+.stars--5 > .star-item:nth-child(-n + 5) {
+  background-image: url("images/star-active.svg");
+}
