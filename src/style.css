@@ -4,14 +4,14 @@ body {
 }
 
 .stars__star {
-  top: 13%;
-  transform: translateY(13%);
+
   display: block;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
   height: 16px;
   width: 16px;
-  margin: 0 2px;
+  margin-right: 4px;
 }
 
 .stars {
@@ -24,7 +24,6 @@ body {
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
   background: url(images/star-active.svg) ;
-  height: 16px;
-  width: 16px;
   background-repeat: no-repeat;
+  background-position: center;
 }
