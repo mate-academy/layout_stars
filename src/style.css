@@ -4,11 +4,8 @@ body {
 }
 
 .stars__star {
-
   display: block;
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(images/star.svg) no-repeat center;
   height: 16px;
   width: 16px;
   margin-right: 4px;
@@ -23,7 +20,5 @@ body {
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
-  background: url(images/star-active.svg) ;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(images/star-active.svg) no-repeat center;
 }
