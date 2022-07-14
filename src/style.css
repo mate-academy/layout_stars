@@ -4,11 +4,8 @@
 }
 
 .stars {
-  /*background: #000;*/
   display: flex;
-  /*width: 100%;*/
   justify-content: center;
-  /*margin-left: -2px;*/
 }
 
 .stars__star {
@@ -17,8 +14,6 @@
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
-  /*background: #a42f2f;*/
-  /*border: 1px solid #e10000;*/
   margin: 0 4px 0 0;
 }
 
