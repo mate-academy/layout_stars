@@ -7,11 +7,16 @@ body {
 }
 
 .stars__star {
-  padding-right: 4px;
+  margin-left: 4px;
   width: 16px;
   height: 16px;
   background-image: url(./images/star.svg);
+  background-position: center;
   background-repeat: no-repeat;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
 }
 
 .stars--1 > .stars__star:nth-child(-n+1),
