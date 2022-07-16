@@ -4,7 +4,6 @@ body {
 }
 
 .stars__star {
-  display: flex;
   background-image: url(./images/star-active.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -12,34 +11,8 @@ body {
   width: 16px;
 }
 
-.stars--0 {
+.stars {
   display: flex;
-  flex-direction: row;
-}
-
-.stars--1 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--2 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--3 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--4 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--5 {
-  display: flex;
-  flex-direction: row;
 }
 
 .stars--4 > .stars__star:nth-child(5),
