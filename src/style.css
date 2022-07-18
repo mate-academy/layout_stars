@@ -6,11 +6,12 @@ body {
   display: flex;
   flex-direction: row;
   width: 100px;
-  height: 16px;
+
 }
 
 .stars__star {
   width: 16px;
+  height: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -23,7 +24,6 @@ body {
 .stars--4 > .stars__star:nth-child(-n+4),
 .stars--5 > .stars__star:nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
-  background-position: center;
 }
 
 .stars .stars__star:nth-child(5) {
