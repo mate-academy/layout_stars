@@ -20,11 +20,11 @@ body {
   margin-right: 0;
 }
 
-.stars--0 .stars_star:nth-of-type(n+1),
-.stars--1 .stars_star:nth-child(n+2),
-.stars--2 .stars_star:nth-child(n+3),
-.stars--3 .stars_star:nth-child(n+4),
-.stars--4 .stars_star:nth-child(n+5),
-.stars--5 .stars_star:nth-child(n+6) {
+.stars--0 :nth-child(n+1),
+.stars--1 :nth-child(n+2),
+.stars--2 :nth-child(n+3),
+.stars--3 :nth-child(n+4),
+.stars--4 :nth-child(n+5),
+.stars--5 :nth-child(n+6) {
   background-image: url("images/star.svg");
 }
