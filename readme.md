@@ -1,7 +1,7 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://yevhenii-stanchenko.github.io/layout_stars/)
+- [TEST REPORT LINK](https://yevhenii-stanchenko.github.io/layout_stars/report/html_report/)
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
@@ -38,3 +38,26 @@ ___
 container?
 - There's no need to add vertical margins between rows of stars.
 - !!! DON'T use `gap` property because it does not work in tests
+
+
+- Вы можете найти изображения звезд в папке «images».
+- Сброс браузера по умолчанию `margin`
+- Реализовать 6 блоков с классом `звезды`
+  - Каждый блок должен иметь дополнительный класс `звезды--0`, `звезды--1`, `звезды--2` ... `звезды--5` (один дополнительный класс на блок)
+- В каждом блоке должно быть ровно 5 звезд, оформленных в соответствии с дизайном карты.
+- Количество активных (желтых) звездочек должно быть разным для всех 6 блоков в зависимости от класса модификатора
+  - В первом блоке (с модификатором `stars--0`) нет активных звездочек
+  - Остальные 5 блоков имеют ровно N первых активных звезд, где N - числа в дополнительном классе css (модификатор) `stars--N`
+  - Добавляйте звезды как фоновые изображения, а не как теги «img» или «svg».
+- Каждая звезда в блоке должна иметь класс `stars__star` и никаких дополнительных классов или встроенных стилей.
+  - Размер звезды исправлен (см. в дизайне)
+  - Расстояние между звездами также исправлено
+  - Используйте «display: flex» для блока «stars», чтобы избежать проблемы с дополнительными пробелами между отдельными звездами.
+---
+--> [КОНТРОЛЬНЫЙ СПИСОК] (https://github.com/mate-academy/layout_stars/blob/master/checklist.md)
+
+## Советы и подсказки
+- Проверьте дизайн еще раз. Посмотрите разницу в размерах между изображением звезды и ее
+контейнер?
+- Нет необходимости добавлять вертикальные поля между рядами звезд.
+- !!! НЕ используйте свойство `gap`, потому что оно не работает в тестах.
