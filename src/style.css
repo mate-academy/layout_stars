@@ -5,33 +5,35 @@
 
 .block {
   background-color: #fff;
-  width: 140px;
-  max-width: 100%;
-  margin: auto;
-  margin-top: 4px;
+  width: 100px;
+  padding: 0 22px;
+  margin: 0 auto;
 }
 
 .stars {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .stars__star {
-  background: url(./images/star.svg);
+  background-image: url("./images/star.svg");
   background-repeat: no-repeat;
+  background-position: center center;
   list-style: none;
-  border-radius: 0.5px;
   width: 16px;
   height: 16px;
   color: #e5e5e5;
-  padding-left: 4px;
+  margin-right: 4px;
 }
 
-.stars--1 .stars__star:nth-child(-n + 1),
-.stars--2 .stars__star:nth-child(-n + 2),
-.stars--3 .stars__star:nth-child(-n + 3),
-.stars--4 .stars__star:nth-child(-n + 4),
-.stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url(./images/star-active.svg);
+.stars__star :first-child {
+  margin-right: 0;
+}
+
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
+  background-image: url("./images/star-active.svg");
 }
