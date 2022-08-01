@@ -4,19 +4,13 @@
 }
 
 .frame {
-  box-sizing: border-box;
-  width: 140px;
-  height: 160px;
+  display: flex;
+  flex-direction: column;
   background: #fff;
-  padding: 32px 22px;
-  /* border: 1px solid blue; */
 }
 
 .stars {
   display: flex;
-  justify-content: center;
-  height: 16px;
-  width: 96px;
 }
 
 .stars_star {
@@ -26,23 +20,16 @@
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  padding-top: 1px;
 }
 
 .stars_star:last-child {
   margin-right: 0;
 }
 
-.stars_stara {
-  background: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  margin-right: 4px;
-  padding-top: 1px;
-}
-
-.stars_stara:last-child {
-  margin-right: 0;
+.stars--1 :nth-child(1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
+  background-image: url(/images/star-active.svg);
 }
