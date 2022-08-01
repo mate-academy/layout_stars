@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  background-color: #fff;
+  width: 100px;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.stars__star {
+  background-image: url("./images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  list-style: none;
+  width: 16px;
+  height: 16px;
+  color: #e5e5e5;
+  margin-right: 4px;
+}
+
+.stars__star :first-child {
+  margin-right: 0;
+}
+
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
+  background-image: url("./images/star-active.svg");
+}
