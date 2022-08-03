@@ -22,30 +22,13 @@ body {
   background-image: url("./images/star-active.svg");
 }
 
-.stars--1 .stars__star:first-child {
-  background-image: url("./images/star-active.svg");
-}
-
-.stars--2 .stars__star:first-child {
-  background-image: url("./images/star-active.svg");
-}
-
-.stars--2 .stars__star:nth-child(2) {
-  background-image: url("./images/star-active.svg");
-}
-
-.stars--3 .stars__star:first-child {
-  background-image: url("./images/star-active.svg");
-}
-
-.stars--3 .stars__star:nth-child(2) {
-  background-image: url("./images/star-active.svg");
-}
-
-.stars--3 .stars__star:nth-child(3) {
-  background-image: url("./images/star-active.svg");
-}
-
-.stars--4 .stars__star:not(:last-child) {
+.stars--1 :first-child,
+.stars--2 :first-child,
+.stars--3 :first-child,
+.stars--4 :first-child,
+.stars--2 :nth-child(2),
+.stars--3 :nth-child(2),
+.stars--3 :nth-child(3),
+.stars--4 :not(:last-child) {
   background-image: url("./images/star-active.svg");
 }
