@@ -28,27 +28,9 @@
   background-image: url(images/star-active.svg);
 }
 
-.stars--1 .stars__star:first-child {
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 4px;
-  background-image: url(images/star-active.svg);
-}
-
-.stars--4 .stars__star:not(:last-child) {
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 4px;
-  background-image: url(images/star-active.svg);
-}
-
-.stars--3 .stars__star:not(:last-child):not(:nth-child(4)) {
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 4px;
-  background-image: url(images/star-active.svg);
-}
-
+.stars--1 .stars__star:first-child,
+.stars--4 .stars__star:not(:last-child),
+.stars--3 .stars__star:not(:last-child):not(:nth-child(4)),
 .stars--2 .stars__star:not(:last-child):not(:nth-child(4)):not(:nth-child(3)) {
   background-repeat: no-repeat;
   background-position: center;
