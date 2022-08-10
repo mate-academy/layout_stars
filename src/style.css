@@ -3,9 +3,9 @@ body {
   padding: 0;
 }
 
-.container {
-  padding: 2px;
-}
+/* .container {
+
+} */
 
 .stars-row {
   display: flex;
@@ -16,6 +16,7 @@ body {
   height: 16px;
   background: url(images/star.svg) no-repeat;
   margin-right: 4px;
+  background-position: center center;
 }
 
 .stars:last-child {
@@ -24,4 +25,5 @@ body {
 
 .stars.active {
   background: url(images/star-active.svg) no-repeat;
+  background-position: center center;
 }
