@@ -3,10 +3,6 @@ body {
   padding: 0;
 }
 
-/* .container {
-
-} */
-
 .stars-row {
   display: flex;
 }
@@ -23,7 +19,11 @@ body {
   margin-right: 0;
 }
 
-.stars.active {
+.stars--5 .stars,
+.stars--1 .stars:first-child,
+.stars--2 .stars:not(:nth-child(n+3)),
+.stars--3 .stars:not(:nth-child(n+4)),
+.stars--4 .stars:not(:nth-child(n+5)) {
   background: url(images/star-active.svg) no-repeat;
   background-position: center center;
 }
