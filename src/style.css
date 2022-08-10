@@ -4,9 +4,7 @@ body {
 }
 
 .container {
-  padding: 2px 22px 0;
-  width: 96px;
-  margin: 0 auto;
+  padding: 2px;
 }
 
 .stars-row {
