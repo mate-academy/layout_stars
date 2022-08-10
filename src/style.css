@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 32px 22px;
+  width: 96px;
+  margin: 0 auto;
+}
+
+.stars-row {
+  display: flex;
+}
+
+.stars {
+  width: 16px;
+  height: 16px;
+  background: url(images/star.svg) no-repeat;
+  margin-right: 4px;
+}
+
+.stars:last-child {
+  margin-right: 0;
+}
+
+.stars.active {
+  background: url(images/star-active.svg) no-repeat;
+}
