@@ -11,8 +11,8 @@
 .stars__star {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  height: 12px;
-  width: 13px;
+  height: 16px;
+  width: 16px;
   background-position: 50%;
   margin-right: 4px;
 }
