@@ -12,7 +12,6 @@ body {
 }
 
 .stars__star {
-  /* margin-right: var(--star-margin-right); */
   height: var(--star-size);
   width: var(--star-size);
   background: url(/images/star.svg);
