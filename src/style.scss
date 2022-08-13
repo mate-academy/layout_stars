@@ -1,24 +1,28 @@
-@import "utils/reset";
-
-$size: 16px;
+:root {
+  --star-size: 16px;
+  --star-margin-left: 4px;
+}
 
 .stars {
   display: flex;
 
   &__star {
-    margin-left: 4px;
-    height: $size;
-    width: $size;
-    background: center no-repeat url(images/star.svg);
+    height: var(--star-size);
+    width: var(--star-size);
+    background: url("/images/star.svg");
+    background-position: center;
+    background-repeat: no-repeat;
 
-    &:first-child {
-      margin-left: 0;
+    &:not(:first-child) {
+      margin-left: 4px;
     }
   }
 
   @for $counter from 1 through 5 {
-    &--#{$counter} .stars__star:not(:nth-of-type(n + #{$counter + 1})) {
-      background: center no-repeat url(images/star-active.svg);
+    &--#{$counter} &__star:not(:nth-of-type(n + #{$counter + 1})) {
+      background: url("/images/star-active.svg");
+      background-position: center;
+      background-repeat: no-repeat;
     }
   }
 }
