@@ -27,31 +27,11 @@ body {
   margin-right: 4px;
 }
 
-.stars--0 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.stars--1 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.stars--2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.stars--3 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.stars--4 {
-  display: flex;
-  justify-content: space-between;
-}
-
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
 .stars--5 {
   display: flex;
   justify-content: space-between;
