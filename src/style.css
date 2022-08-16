@@ -9,7 +9,6 @@
 
 .stars {
   display: flex;
-  /* padding-right: 1.5px; */
 }
 
 .stars__star {
@@ -25,40 +24,30 @@
 
 .stars--1 > :first-child {
   display: flex;
-  /* width: 16px;
-  height: 16px; */
   background-repeat: no-repeat;
   background-image: url("images/star-active.svg");
 }
 
 .stars--2 > :nth-child(n+0):nth-last-child(n+4) {
   display: flex;
-  /* width: 16px;
-  height: 16px; */
   background-repeat: no-repeat;
   background-image: url("images/star-active.svg");
 }
 
 .stars--3 > :nth-child(n+0):nth-last-child(n+3) {
   display: flex;
-  /* width: 16px;
-  height: 16px; */
   background-repeat: no-repeat;
   background-image: url("images/star-active.svg");
 }
 
 .stars--4 > :nth-child(n+0):nth-last-child(n+2) {
   display: flex;
-  /* width: 16px;
-  height: 16px; */
   background-repeat: no-repeat;
   background-image: url("images/star-active.svg");
 }
 
 .stars--5 > :nth-child(n+0):nth-last-child(n) {
   display: flex;
-  /* width: 16px;
-  height: 16px; */
   background-repeat: no-repeat;
   background-image: url("images/star-active.svg");
 }
