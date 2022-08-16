@@ -19,9 +19,7 @@
 .stars--3 > :nth-child(-n+3),
 .stars--4 > :nth-child(-n+4),
 .stars--5 > :nth-child(-n+5) {
-  display: flex;
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
 }
 
 .stars_star:not(:last-child) {
