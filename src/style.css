@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars-star-isactive {
+  width: 16px;
+  height: 16px;
+  background-image: url("./images/star-active.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+
+.stars-star-notactive {
+  width: 16px;
+  height: 16px;
+  background-image: url("./images/star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
