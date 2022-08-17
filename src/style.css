@@ -13,7 +13,7 @@ body {
 
   width: 16px;
   height: 16px;
-  
+
   margin-right: 4px;
 }
 
@@ -39,8 +39,4 @@ body {
 
 .stars--4 > .stars__star:last-child {
   background-image: url(./images/star.svg);
-}
-
-.stars--5 > .stars__star:nth-child(n) {
-  background-image: url(./images/star-active.svg);
 }
