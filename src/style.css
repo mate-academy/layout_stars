@@ -1,11 +1,12 @@
-* {
+body {
   margin: 0;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
   width: 96px;
+  justify-content: space-between;
+
 }
 
 .stars div {
