@@ -1,7 +1,7 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://oleksandr-korobko.github.io/layout_stars/)
+- [TEST REPORT LINK](https://oleksandr-korobko.github.io/layout_stars/report/html_report/)
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
@@ -37,4 +37,4 @@ ___
 - Check the design again. See the difference in size between star image and its
 container?
 - There's no need to add vertical margins between rows of stars.
-- !!! DON'T use `gap` property because it does not work in tests
+- !!! DON'T use `gap` property because it does not work in tests.
