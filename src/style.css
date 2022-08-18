@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+.stars--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars-star {
+  height: 16px;
+  width: 16px;
+
+  margin-right: 4px;
+
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--2 > .stars-star {
+  background-image: url(./images/star.svg);
+}
+
+.stars--0 > .stars-star {
+  background-image: url(./images/star.svg);
+
+}
+
+.stars--1 :not(:first-of-type) {
+  background-image: url(./images/star.svg);
+}
+
+.stars--2 :first-child,
+.stars--2 :last-child {
+  order: -1;
+  background-image: url(./images/star-active.svg);
+}
+
+.stars--3 :first-child,
+.stars--3 :last-child {
+  order: 1;
+  background-image: url(./images/star.svg);
+}
+
+.stars--4 :last-child {
+  background-image: url(./images/star.svg);
+}
