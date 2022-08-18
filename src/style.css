@@ -8,11 +8,11 @@ body {
 
 .stars__star {
   margin-left: 4px;
-  display: flex;
+  display: block;
   background-image: url("images/star.svg");
-  color: #ffde6a;
-  height: 12px;
-  width: 13px;
+  background-size: cover;
+  height: 16px;
+  width: 16px;
   border-radius: 0.5px;
 }
 
