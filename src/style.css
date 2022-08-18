@@ -1,6 +1,5 @@
-* {
+body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
@@ -23,5 +22,4 @@
 .stars--4 :nth-child(-n+4),
 .stars--5 > * {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
 }
