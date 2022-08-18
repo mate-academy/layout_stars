@@ -2,7 +2,7 @@
   --bg-active: url("./images/star-active.svg") center no-repeat;
   --bg-inactive: url("./images/star.svg") center no-repeat;
   --size: 16px;
-  --star-margin: 4px;
+  --star-distance: 4px;
 }
 
 .body {
@@ -17,7 +17,7 @@
   height: var(--size);
   width: var(--size);
   background: var(--bg-inactive);
-  margin-right: var(--star-margin);
+  margin-right: var(--star-distance);
 }
 
 .inactive {
