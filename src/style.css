@@ -22,28 +22,19 @@
   background-position: center;
 }
 
-.stars--2 > .stars-star {
-  background-image: url(./images/star.svg);
-}
-
 .stars--0 > .stars-star {
   background-image: url(./images/star.svg);
-
 }
 
-.stars--1 :not(:first-of-type) {
+.stars--1 :not(:first-child) {
   background-image: url(./images/star.svg);
 }
 
-.stars--2 :first-child,
-.stars--2 :last-child {
-  order: -1;
-  background-image: url(./images/star-active.svg);
+.stars--2 > .stars-star:nth-child(n+3){
+  background-image: url(./images/star.svg);
 }
 
-.stars--3 :first-child,
-.stars--3 :last-child {
-  order: 1;
+.stars--3 > .stars-star:nth-child(n+4) {
   background-image: url(./images/star.svg);
 }
 
