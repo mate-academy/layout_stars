@@ -1,10 +1,9 @@
-body {
+* {
   margin: 0;
 }
 
 .stars {
   display: flex;
-
 }
 
 .stars__star {
@@ -12,7 +11,7 @@ body {
   height: 16px;
   background-repeat: no-repeat;
   background-image: url(./images/star.svg);
-  margin-right: 4px;
+  background-position: 50%;
 }
 
 .stars--5 > .stars__star,
