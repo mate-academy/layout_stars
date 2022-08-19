@@ -16,22 +16,14 @@
 .stars__star {
   height: var(--size);
   width: var(--size);
-  background: var(--bg-inactive);
+  background: var(--bg-active);
   margin-right: var(--star-distance);
 }
 
-.inactive {
+.stars--0 > .stars__star:nth-child(n + 1),
+.stars--1 > .stars__star:nth-child(n + 2),
+.stars--2 > .stars__star:nth-child(n + 3),
+.stars--3 > .stars__star:nth-child(n + 4),
+.stars--4 > .stars__star:nth-child(n + 5) {
   background: var(--bg-inactive);
-}
-
-.active {
-  background: var(--bg-active);
-}
-
-.stars--1 > .stars__star:not(:nth-child(n + 2)),
-.stars--2 > .stars__star:not(:nth-child(n + 3)),
-.stars--3 > .stars__star:not(:nth-child(n + 4)),
-.stars--4 > .stars__star:not(:nth-child(n + 5)),
-.stars--5 > .stars__star:not(:nth-child(n + 6)) {
-  background: var(--bg-active);
 }
