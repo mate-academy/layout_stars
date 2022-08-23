@@ -19,10 +19,10 @@ body {
   margin-left: 0;
 }
 
-.star--0 :nth-child(n),
-.star--1 :nth-child(n+2),
-.star--2 :nth-child(n+3),
-.star--3 :nth-child(n+4),
-.star--4 :nth-child(n+5) {
+.stars--0 :nth-child(n),
+.stars--1 :nth-child(n+2),
+.stars--2 :nth-child(n+3),
+.stars--3 :nth-child(n+4),
+.stars--4 :nth-child(n+5) {
   background-image: url(images/star.svg);
 }
