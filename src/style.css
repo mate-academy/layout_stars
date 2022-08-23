@@ -2,19 +2,18 @@ body {
   margin: 0;
 }
 
-.container {
-  width: 96px;
-  height: 96px;
-}
-
 .stars {
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
   height: 16px;
   width: 16px;
+  margin-left: 4px;
+}
+
+.stars__star:first-child {
+  margin: 0;
 }
 
 .star--0 :nth-child(1) {
