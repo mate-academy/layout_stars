@@ -15,7 +15,7 @@
   margin-right: 4px;
 }
 
-.stars--N {
+.stars__star--stars_n {
   height: 16px;
   width: 16px;
   background-image: url(images/star-active.svg);
