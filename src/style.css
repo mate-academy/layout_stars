@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .stars {
   display: flex;
 }
@@ -9,6 +13,11 @@
   background-image: url(images/star-active.svg);
   margin-right: 4px;
   border-radius: 0.5px;
+  background-position: center;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--0 .stars__star,
