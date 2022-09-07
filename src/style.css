@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+body {
+  margin: 2px;
+}
+
 .stars {
   display: flex;
 }
@@ -11,7 +15,7 @@
   width: 16px;
   background-repeat: no-repeat;
   background-image: url(images/star-active.svg);
-  margin-right: 4px;
+  margin-right: 6px;
 }
 
 .stars--0 .stars__star {
