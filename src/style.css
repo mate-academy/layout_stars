@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.stars__star {
+  display: none;
+  margin: 0;
+}
+
+.labelStar::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("images/star.svg");
+  background-position: center;
+}
+
+.stars__star:checked + .labelStar::before {
+  background-image: url("images/star-active.svg");
+}
+
+.stars__star:checked ~ .labelStar::before {
+  background-image: url("images/star-active.svg");
+}
+
+.labelStar {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+
+.labelStar:not(:first-child) {
+  margin-right: 4px;
+}
