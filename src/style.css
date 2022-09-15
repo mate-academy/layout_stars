@@ -2,12 +2,6 @@ body {
   margin: 0;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
 .stars {
   display: flex;
   margin: 0;
@@ -37,5 +31,6 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
-  padding: 0 4px;
+  background-position: 50%;
+  margin-right: 4px;
 }
