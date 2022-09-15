@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.star-array {
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.stars__star {
+  display: inline-block;
+  background-image: url(images/star.svg);
+  height: 12px;
+  width: 13px;
+  padding: 2px 1.5px;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  border-radius: 0.5px;
+}
+
+.stars {
+  display: flex;
+  list-style-type: none;
+}
+
+.stars--5 > .stars__star {
+  background-image: url(images/star-active.svg);
+}
+
+.stars .stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--1 > .stars__star:first-child {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--2 > .stars__star:first-child,
+.stars--2 > .stars__star:nth-child(2) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--3 > .stars__star:first-child,
+.stars--3 > .stars__star:nth-child(2),
+.stars--3 > .stars__star:nth-child(3) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--4 > .stars__star:first-child,
+.stars--4 > .stars__star:nth-child(2),
+.stars--4 > .stars__star:nth-child(3),
+.stars--4 > .stars__star:nth-child(4) {
+  background-image: url(images/star-active.svg);
+}
