@@ -8,39 +8,24 @@
 
 .stars {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
 }
 
-.stars__star {
-  display: none;
-  margin: 0;
-}
-
-.labelStar::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
+.stars_star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  background-image: url("images/star.svg");
   background-position: center;
 }
 
-.stars__star:checked + .labelStar::before {
-  background-image: url("images/star-active.svg");
+.stars_star:not(:first-child) {
+  margin-left: 4px;
 }
 
-.stars__star:checked ~ .labelStar::before {
-  background-image: url("images/star-active.svg");
-}
-
-.labelStar {
-  width: 16px;
-  height: 16px;
-  position: relative;
-}
-
-.labelStar:not(:first-child) {
-  margin-right: 4px;
+.stars--1 :not(:nth-of-type(n+2)),
+.stars--2 :not(:nth-of-type(n+3)),
+.stars--3 :not(:nth-of-type(n+4)),
+.stars--4 :not(:nth-of-type(n+5)),
+.stars--5 :not(:nth-of-type(n+6)) {
+  background-image: url(images/star-active.svg);
 }
