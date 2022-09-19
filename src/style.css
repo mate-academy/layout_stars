@@ -6,10 +6,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* margin: 4px; */
-  /* width: 96px; */
-  /* height: 96px; */
 }
 
 .stars {
@@ -25,15 +21,6 @@
   height: 16px;
   margin-right: 4px;
   color: #e5e5e5;
-}
-
-.stars--0 ,
-.stars--1 ,
-.stars--2 ,
-.stars--3 ,
-.stars--4 ,
-.stars--5 {
-  display: flex;
 }
 
 .stars--1 > :first-child,
