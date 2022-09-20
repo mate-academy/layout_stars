@@ -11,15 +11,28 @@ body {
   margin: 0 2px;
 }
 
-.stars__star__first,
-.stars__star__active__first {
-  margin: 0 2px 0 0;
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
 }
 
-.stars__star__active {
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(n) {
   background-image: url("images/star-active.svg");
 }
 
-.stars {
-  display: flex;
+.stars--0 .stars__star:nth-child(1),
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(1),
+.stars--3 .stars__star:nth-child(1),
+.stars--4 .stars__star:nth-child(1),
+.stars--5 .stars__star:nth-child(1) {
+  margin: 0 2px 0 0;
 }
