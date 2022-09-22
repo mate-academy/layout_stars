@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Entire_document.png",
-        "test": "..\\bitmaps_test\\20220922-010626\\Entire_document.png",
+        "test": "..\\bitmaps_test\\20220922-235127\\Entire_document.png",
         "selector": "document",
         "fileName": "Entire_document.png",
         "label": "Entire document",
@@ -28,7 +28,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\stars--0.png",
-        "test": "..\\bitmaps_test\\20220922-010626\\stars--0.png",
+        "test": "..\\bitmaps_test\\20220922-235127\\stars--0.png",
         "selector": ".stars--0",
         "fileName": "stars--0.png",
         "label": "stars--0",
@@ -52,7 +52,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\stars--1.png",
-        "test": "..\\bitmaps_test\\20220922-010626\\stars--1.png",
+        "test": "..\\bitmaps_test\\20220922-235127\\stars--1.png",
         "selector": ".stars--1",
         "fileName": "stars--1.png",
         "label": "stars--1",
@@ -76,7 +76,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\stars--2.png",
-        "test": "..\\bitmaps_test\\20220922-010626\\stars--2.png",
+        "test": "..\\bitmaps_test\\20220922-235127\\stars--2.png",
         "selector": ".stars--2",
         "fileName": "stars--2.png",
         "label": "stars--2",
@@ -100,7 +100,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\stars--3.png",
-        "test": "..\\bitmaps_test\\20220922-010626\\stars--3.png",
+        "test": "..\\bitmaps_test\\20220922-235127\\stars--3.png",
         "selector": ".stars--3",
         "fileName": "stars--3.png",
         "label": "stars--3",
@@ -124,7 +124,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\stars--4.png",
-        "test": "..\\bitmaps_test\\20220922-010626\\stars--4.png",
+        "test": "..\\bitmaps_test\\20220922-235127\\stars--4.png",
         "selector": ".stars--4",
         "fileName": "stars--4.png",
         "label": "stars--4",
@@ -148,7 +148,7 @@ report({
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\stars--5.png",
-        "test": "..\\bitmaps_test\\20220922-010626\\stars--5.png",
+        "test": "..\\bitmaps_test\\20220922-235127\\stars--5.png",
         "selector": ".stars--5",
         "fileName": "stars--5.png",
         "label": "stars--5",
