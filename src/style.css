@@ -18,7 +18,6 @@
 .stars--4,
 .stars--5 {
   display: flex;
-  flex-direction: row;
 }
 
 .stars--0 .stars__star:nth-child(n+1),
