@@ -2,10 +2,6 @@
   margin: 0;
 }
 
-.container {
-  padding: auto;
-}
-
 .stars {
   display: flex;
 }
