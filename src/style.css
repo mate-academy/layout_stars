@@ -13,7 +13,7 @@ body {
   margin-right: 4px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-  background-size: 16px;
+  background-position: 50%;
 }
 
 .stars--1 :first-child,
