@@ -16,6 +16,6 @@ body {
   border-radius: 0.5px;
 }
 
-.active {
+.stars__star--active {
   background-image: url(./images/star-active.svg);
 }
