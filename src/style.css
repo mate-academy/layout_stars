@@ -8,7 +8,7 @@ body {
 }
 
 .stars__star {
-  background: url(./images/star.svg) no-repeat center;
+  background: url(./images/star.svg) center no-repeat;
   width: 16px;
   height: 16px;
   border-radius: 0.5px;
@@ -23,5 +23,5 @@ body {
 .stars--3 :nth-child(-n+3),
 .stars--4 :nth-child(-n+4),
 .stars--5 :nth-child(-n+5) {
-  background: url(./images/star-active.svg) no-repeat center;
+  background: url(./images/star-active.svg) center no-repeat;
 }
