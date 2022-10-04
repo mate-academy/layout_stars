@@ -10,12 +10,12 @@ body {
 
 .stars {
   display: flex;
-  /* Should I write "flex-direction: row" if it's default */
 }
 
 .stars__star {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
 
   width: 16px;
   height: 16px;
@@ -45,8 +45,3 @@ body {
 .stars--4 .stars__star:nth-child(n + 5) {
   background-image: url(./images/star.svg);
 }
-
-/* Is there a function to select tags
-(classes) one by one as in JS function (for (const letter in string) {})?
-Because I find only calc (), but i don't understand how to
-calculate names of classes.*/
