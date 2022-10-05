@@ -1,10 +1,13 @@
 
 * {
   padding: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -13,22 +16,31 @@ body {
 
 .star-list-container {
   width: 96px;
+
 }
 
 .stars {
   display: flex;
   margin: 0;
-  align-items: flex-start;
-  justify-content: space-evenly;
+  padding: -2;
+  align-items: center;
+  justify-content: space-around;
+  background-position: center;
 }
 
 .stars__star {
+  margin-left: 4px;
   height: 16px;
   width: 16px;
   list-style: none;
   background-image: url(../src/images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.5px;
+}
 
+.stars__star:first-child {
+  margin-left: 0 ;
 }
 
 .stars--1 .stars__star:nth-child(1) {
