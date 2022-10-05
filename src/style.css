@@ -14,17 +14,12 @@ body {
   display: none;
 }
 
-.star-list-container {
-  width: 96px;
-
-}
-
 .stars {
   display: flex;
   margin: 0;
   padding: -2;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-position: center;
 }
 
