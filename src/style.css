@@ -18,10 +18,7 @@ body {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.stars + .stars {
-  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .stars--one :first-child,
@@ -30,5 +27,4 @@ body {
 .stars--four :nth-child(-n+4),
 .stars--five :nth-child(-n+5) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
 }
