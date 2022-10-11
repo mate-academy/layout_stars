@@ -1,0 +1,32 @@
+body {
+  margin: 0 auto;
+  height: 160px;
+  width: 140px;
+}
+.container {
+  margin-top: 32px;
+  margin-left: 22px;
+  margin-bottom: 32px;
+  margin-right: 22px;
+  height: 96px;
+  width: 96px;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(../star_1.svg);
+  background-position: center;
+  background-size: cover;
+}
+.stars--0 {
+  width: 16px;
+  height: 16px;
+  background-image: url(../star_2.svg);
+  background-position: center;
+  background-size: cover;
+}
