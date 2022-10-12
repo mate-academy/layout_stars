@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.stars--0 {
+  display: flex;
+}
+
+.stars--1 {
+  display: flex;
+}
+
+.stars--2 {
+  display: flex;
+}
+
+.stars--3 {
+  display: flex;
+}
+
+.stars--4 {
+  display: flex;
+}
+
+.stars--5 {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: 16px;
+  border-radius: 0.5px;
+  margin-right: 4px;
+}
+
+.stars__star__active {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: 16px;
+  border-radius: 0.5px;
+  margin-right: 4px;
+}
