@@ -3,11 +3,6 @@ body {
   padding: 0;
 }
 
-.stars__inner {
-  display: flex;
-  flex-direction: column;
-}
-
 .container {
   display: flex;
 }
