@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+h1 {
+  display: flex;
+}
+
 .stars__star {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
