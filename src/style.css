@@ -1,8 +1,6 @@
 
 * {
-  padding: 0;
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
@@ -10,16 +8,15 @@ body {
   padding: 0;
 }
 
-.title {
-  display: none;
+.star-list-container {
+  margin: 0;
+  padding: 0;
 }
 
 .stars {
   display: flex;
   margin: 0;
-  padding: -2;
-  align-items: center;
-  justify-content: flex-start;
+  padding: 0;
   background-position: center;
 }
 
