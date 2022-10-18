@@ -8,11 +8,6 @@ body {
   padding: 0;
 }
 
-.star-list-container {
-  margin: 0;
-  padding: 0;
-}
-
 .stars {
   display: flex;
   margin: 0;
@@ -28,7 +23,6 @@ body {
   background-image: url(../src/images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 0.5px;
 }
 
 .stars__star:first-child {
