@@ -1,21 +1,8 @@
-body {
-  box-sizing: border-box;
-}
-
-.stars-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
 .stars {
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
-  display: inline-block;
   background-image: url(./images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
