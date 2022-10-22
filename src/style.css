@@ -14,22 +14,10 @@ body {
   justify-content: space-between;
 }
 
-.stars--1 .stars__star:not(:nth-of-type(n+2)) {
-  background: url(images/star-active.svg) no-repeat center;
-}
-
-.stars--2 .stars__star:not(:nth-of-type(n+3)) {
-  background: url(images/star-active.svg) no-repeat center;
-}
-
-.stars--3 .stars__star:not(:nth-of-type(n+4)) {
-  background: url(images/star-active.svg) no-repeat center;
-}
-
-.stars--4 .stars__star:not(:last-of-type) {
-  background: url(images/star-active.svg) no-repeat center;
-}
-
-.stars--5 > .stars__star:nth-child(-n+5) {
+.stars--1 :first-child,
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
   background: url(images/star-active.svg) no-repeat center;
 }
