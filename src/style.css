@@ -9,6 +9,8 @@ body {
 .stars {
   display: flex;
   justify-content: center;
+
+  margin-top: 1px;
 }
 
 .stars__star {
@@ -16,7 +18,8 @@ body {
   width: 16px;
   height: 16px;
   background-image: url("images/star.svg");
-  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 4px;
 }
 
 .stars.stars--5 .stars__star {
