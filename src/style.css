@@ -2,12 +2,9 @@ body {
   margin: 0;
 }
 
-.block_stars {
-  margin-left: 0;
-}
-
 .stars {
   display: flex;
+  margin-left: 0;
 }
 
 .stars__star {
