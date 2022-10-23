@@ -1,13 +1,9 @@
 body {
   margin: 0;
-  box-sizing: border-box;
-  padding: 0;
 }
 
 .stars {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
 }
 
 .stars__star {
@@ -16,7 +12,6 @@ body {
   background-position: center;
   height: 16px;
   width: 16px;
-  border-radius: 0.5px;
 }
 
 .stars__star:not(:last-child) {
