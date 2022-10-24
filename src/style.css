@@ -5,6 +5,7 @@ body,
 *:after {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,15 +13,12 @@ body {
 }
 
 .container {
-  padding: 25px;
   width: 100%;
-  margin: auto;
 }
 
 .stars {
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
 }
 
 .stars--star {
@@ -28,8 +26,8 @@ body {
   height: 20px;
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
-  background-size: 20px;
-  margin-right: 4px;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
 .stars--1 > .stars--star:first-child {
@@ -37,37 +35,32 @@ body {
   height: 20px;
   background-image: url("images/star-active.svg");
   background-repeat: no-repeat;
-  background-size: 20px;
 }
 
-.stars--2 > .stars--star:nth-child(-n+2) {
+.stars--2 > .stars--star:nth-child(-n + 2) {
   width: 20px;
   height: 20px;
   background-image: url("images/star-active.svg");
   background-repeat: no-repeat;
-  background-size: 20px;
 }
 
-.stars--3 > .stars--star:nth-child(-n+3) {
+.stars--3 > .stars--star:nth-child(-n + 3) {
   width: 20px;
   height: 20px;
   background-image: url("images/star-active.svg");
   background-repeat: no-repeat;
-  background-size: 20px;
 }
 
-.stars--4 > .stars--star:nth-child(-n+4) {
+.stars--4 > .stars--star:nth-child(-n + 4) {
   width: 20px;
   height: 20px;
   background-image: url("images/star-active.svg");
   background-repeat: no-repeat;
-  background-size: 20px;
 }
 
-.stars--5 > .stars--star:nth-child(-n+5) {
+.stars--5 > .stars--star:nth-child(-n + 5) {
   width: 20px;
   height: 20px;
   background-image: url("images/star-active.svg");
   background-repeat: no-repeat;
-  background-size: 20px;
 }
