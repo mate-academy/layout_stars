@@ -3,13 +3,8 @@ body,
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  width: 100%;
 }
 
 .container {
@@ -19,6 +14,10 @@ body {
 .stars {
   display: flex;
   align-items: center;
+}
+
+.stars:not(:first-child) {
+  margin-top: -6px;
 }
 
 .stars--star {
