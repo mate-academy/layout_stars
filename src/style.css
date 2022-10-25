@@ -2,12 +2,12 @@ body {
   margin: 0;
 }
 
-.stars {
+.stars-block {
   display: flex;
   flex-direction: column;
 }
 
-.stars__row {
+.stars {
   display: flex;
 }
 
@@ -18,7 +18,7 @@ body {
   margin-left: 4px;
 }
 
-.stars__row .stars__star:first-child {
+.stars .stars__star:first-child {
   margin: 0;
 }
 
