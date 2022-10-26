@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 .stars--0,
@@ -12,7 +13,8 @@ body {
 }
 
 .stars__star {
-  background: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 16px;
   height: 16px;
   margin-right: 4px;
