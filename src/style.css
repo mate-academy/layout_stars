@@ -1,20 +1,27 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --stars-height: 16px;
+  --stars-width: 16px;
+}
+
+body {
+  margin: 0;
 }
 
 .stars {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .stars__star {
   display: flex;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(./images/star.svg);
-  width: 16px;
-  height: 16px;
+  background: url(./images/star.svg) center no-repeat;
+  height: var(--stars-height);
+  width: var(--stars-width);
   margin-right: 4px;
 }
 
