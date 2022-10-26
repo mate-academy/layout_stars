@@ -1,5 +1,12 @@
-* {
-  margin: 0;
+:root {
+  --height-box: 16px;
+  --width-box: 20px;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .stars {
@@ -8,10 +15,9 @@
 
 .stars__star {
   background: url(./images/star.svg) no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
-  margin-right: 4px;
+  background-position: 2px 2px;
+  height: var(--height-box);
+  width: var(--width-box);
 }
 
 .stars--1 .stars__star:nth-child(1),
@@ -20,5 +26,5 @@
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
   background: url(./images/star-active.svg) no-repeat;
-  background-position: center;
+  background-position: 2px 2px;
 }
