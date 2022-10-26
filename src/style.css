@@ -17,15 +17,15 @@ body {
   background-image: url("./images/star-active.svg");
 }
 
-.stars :nth-child(n+1):not(:last-child) {
-  margin: 0 4px 0 0;
+.stars :not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars__star {
-  background-image: url("./images/star.svg");
-  background-repeat: no-repeat;
   list-style: none;
   width: 16px;
   height: 16px;
+  background-image: url("./images/star.svg");
+  background-repeat: no-repeat;
   background-position: center;
 }
