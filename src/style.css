@@ -14,18 +14,11 @@ body {
 .stars__star {
   height: 16px;
   width: 16px;
+  background: var(--background-star);
 }
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
-}
-
-.stars--0 .stars__star,
-.stars--1 .stars__star,
-.stars--2 .stars__star,
-.stars--3 .stars__star,
-.stars--4 .stars__star {
-  background: var(--background-star);
 }
 
 .stars--5 .stars__star,
