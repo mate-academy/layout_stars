@@ -1,141 +1,24 @@
-html {
+body {
   margin: 0;
-  padding: 0;
 }
 
-.frame {
-  height: 160px;
-  width: 140px;
-
+.stars {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
-.star {
+.stars__star {
+  width: 16px;
   height: 16px;
-  min-width: 96px;
-  margin: 0 22px;
+  margin-right: 4px;
+  background-image: url("./images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.star:first-child {
-  margin-top: 32px;
-}
-
-.stars--1 {
-  background-image: url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg");
-  background-repeat: no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat;
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-}
-
-.stars--2 {
-  background-image: url("./images/star-active.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg");
-  background-repeat: no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat;
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-}
-
-.stars--3 {
-  background-image: url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg");
-  background-repeat: no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat;
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-}
-
-.stars--4 {
-  background-image: url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg"),
-    url("./images/star.svg");
-  background-repeat: no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat;
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-}
-
-.stars--5 {
-  background-image: url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star.svg");
-  background-repeat: no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat;
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
-}
-
-.stars--6 {
-  background-image: url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star-active.svg"),
-    url("./images/star-active.svg");
-  background-repeat: no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat;
-  background-position: top 0 left 0,
-    top 0 left 20px,
-    top 0 left 40px,
-    top 0 left 60px,
-    top 0 left 80px;
+.stars--1 > .stars__star:nth-child(-n + 1),
+.stars--2 > .stars__star:nth-child(-n + 2),
+.stars--3 > .stars__star:nth-child(-n + 3),
+.stars--4 > .stars__star:nth-child(-n + 4),
+.stars--5 > .stars__star:nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
 }
