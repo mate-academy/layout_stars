@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  width: 96px;
+}
+
+.stars--0 .stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--5 .stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--1 .stars__star:first-child {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--1 .stars__star:nth-child(n + 2) {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--2 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(2) {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--2 .stars__star:nth-child(n + 3) {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--3 .stars__star:nth-child(1),
+.stars--3 .stars__star:nth-child(2),
+.stars--3 .stars__star:nth-child(3) {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--3 .stars__star:nth-child(n + 4) {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--4 .stars__star:not(:last-child) {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--4 .stars__star:last-child {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+}
