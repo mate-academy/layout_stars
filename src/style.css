@@ -4,8 +4,7 @@ body {
 
 .stars {
   display: flex;
-  justify-content: space-between;
-  width: 96px;
+  height: 16px;
 }
 
 .stars--0 .stars__star {
@@ -13,6 +12,8 @@ body {
   width: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--5 .stars__star {
@@ -20,6 +21,8 @@ body {
   width: 16px;
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--1 .stars__star:first-child {
@@ -27,6 +30,8 @@ body {
   width: 16px;
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--1 .stars__star:nth-child(n + 2) {
@@ -34,6 +39,8 @@ body {
   width: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--2 .stars__star:nth-child(1),
@@ -42,6 +49,8 @@ body {
   width: 16px;
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--2 .stars__star:nth-child(n + 3) {
@@ -49,6 +58,8 @@ body {
   width: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--3 .stars__star:nth-child(1),
@@ -58,6 +69,8 @@ body {
   width: 16px;
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--3 .stars__star:nth-child(n + 4) {
@@ -65,6 +78,8 @@ body {
   width: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--4 .stars__star:not(:last-child) {
@@ -72,6 +87,8 @@ body {
   width: 16px;
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--4 .stars__star:last-child {
@@ -79,4 +96,6 @@ body {
   width: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
