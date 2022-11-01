@@ -4,24 +4,14 @@
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
   display: flex;
 }
 
-.box .stars:nth-child(n) {
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
-}
-
 .stars__star {
-  background-image: url(../src/images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../src/images/star.svg) no-repeat center;
   width: 16px;
   height: 16px;
 }
@@ -36,5 +26,4 @@ body {
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
   background-image: url(../src/images/star-active.svg);
-  background-repeat: no-repeat;
 }
