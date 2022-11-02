@@ -12,12 +12,12 @@ body {
 }
 
 .stars_star {
-  background-image: url(/images/star.svg);
-  background-position: center;
   height: 16px;
   width: 16px;
-  background-repeat: no-repeat;
   margin-right: 4px;
+  background-image: url(/images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .stars_star:last-child {
