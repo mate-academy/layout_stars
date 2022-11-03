@@ -1,0 +1,49 @@
+* {
+  box-sizing: flex;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars > .stars__inactive-star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url("./images/star-active.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--0 > .stars__inactive-star:nth-child(n+1) {
+  background-image: url("./images/star.svg");
+}
+
+.stars--1 > .stars__inactive-star:nth-child(n+2) {
+  background-image: url("./images/star.svg");
+}
+
+.stars--2 > .stars__inactive-star:nth-child(n+3) {
+  background-image: url("./images/star.svg");
+}
+
+.stars--3 > .stars__inactive-star:nth-child(n+4) {
+  background-image: url("./images/star.svg");
+}
+
+.stars--4 > .stars__inactive-star:nth-child(n+5) {
+  background-image: url("./images/star.svg");
+}
+
+.stars--5 > .stars__inactive-star:nth-child(n+6) {
+  background-image: url("./images/star.svg");
+}
