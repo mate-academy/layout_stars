@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Create reusable stars block with BEM",
   "main": "src/main.js",
+  "homepage": ".",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
