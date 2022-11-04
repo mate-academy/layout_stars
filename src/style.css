@@ -15,8 +15,7 @@ body {
   width: 16px;
   margin-right: 4px;
 
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
+  background: url(images/star.svg) no-repeat;
 }
 
 .stars_star:last-child {
