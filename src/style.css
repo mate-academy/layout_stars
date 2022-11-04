@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.block {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.stars_star {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars_star:last-child {
+  margin: 0;
+}
+
+.stars-2 .stars_star:nth-child(1),
+.stars-3 .stars_star:not(:nth-child(n + 3)),
+.stars-4 .stars_star:not(:nth-child(n + 4)),
+.stars-5 .stars_star:not(:nth-child(n + 5)),
+.stars-6 .stars_star:not(:nth-child(n + 6)),
+.stars-7 .stars_star:not(:nth-child(n + 7)) {
+  background-image: url(images/star-active.svg);
+}
