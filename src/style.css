@@ -6,6 +6,7 @@ body {
   display: flex;
 }
 
+/* #region stars__star */
 .stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
@@ -22,3 +23,4 @@ body {
 .stars--5 .stars__star:nth-child(n+5) {
   background-image: url(./images/star-active.svg);
 }
+/* #endregion */
