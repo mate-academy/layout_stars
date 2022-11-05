@@ -10,11 +10,6 @@ li {
   padding: 0;
 }
 
-.layout_stars {
-
-  padding: 30px 20px;
-}
-
 .stars {
   display: flex;
   flex-direction: row;
