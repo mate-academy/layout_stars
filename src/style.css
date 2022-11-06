@@ -1,15 +1,11 @@
-* {
+body {
+  background-color: #fff;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  background-color: #fff;
-}
-
 .stars {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -28,5 +24,4 @@
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
 }
