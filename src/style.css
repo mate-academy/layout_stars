@@ -1,0 +1,18 @@
+.stars {
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+  margin-top: 32px;
+}
+
+.stars_star {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+}
+
+/* .stars--1::after {
+  background-image: url(images/star-active.svg);
+  width: 16px;
+  height: 16px;
+} */
