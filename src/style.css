@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.block {
+.stars {
   display: flex;
   margin: 0;
   padding: 0;
@@ -24,11 +24,10 @@ body {
   margin: 0;
 }
 
-.stars-2 .stars_star:nth-child(1),
-.stars-3 .stars_star:not(:nth-child(n + 3)),
-.stars-4 .stars_star:not(:nth-child(n + 4)),
-.stars-5 .stars_star:not(:nth-child(n + 5)),
-.stars-6 .stars_star:not(:nth-child(n + 6)),
-.stars-7 .stars_star:not(:nth-child(n + 7)) {
+.stars--1 :nth-child(-n+1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
   background-image: url(images/star-active.svg);
 }
