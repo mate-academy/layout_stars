@@ -20,10 +20,5 @@ body {
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:not(:last-child) {
-  height: 16px;
-  width: 16px;
   background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 4px;
 }
