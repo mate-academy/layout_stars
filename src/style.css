@@ -15,10 +15,10 @@ body {
   background-position: center;
 }
 
-.stars--5 .stars__star,
-.stars--4 .stars__star:not(:last-child),
-.stars--3 .stars__star:nth-child(-n+3),
-.stars--2 .stars__star:nth-child(-n+2),
+.stars:last-child .stars__star,
+.stars:nth-child(5) .stars__star:not(:last-child),
+.stars:nth-child(4) .stars__star:nth-child(-n+3),
+.stars:nth-child(3) .stars__star:nth-child(-n+2),
 .stars:not(:first-child) .stars__star:first-child {
   background-image: url(images/star-active.svg);
 }
