@@ -31,7 +31,4 @@ body {
 .stars--3 div:nth-child(n+4),
 .stars--4 div:nth-child(n+5) {
   background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 16px;
 }
