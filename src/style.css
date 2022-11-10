@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  /* padding: 2px 0 0 2px; */
-
 }
 
 .stars {
@@ -14,15 +12,6 @@ body {
   width: 16px;
   margin-right: 4px;
 }
-
-/* .stars--0:nth-child(1),
-.stars--1:nth-child(2),
-.stars--2:nth-child(3),
-.stars--3:nth-child(4),
-.stars--4:nth-child(5),
-.stars--5:nth-child(6) {
-  margin-left: 0;
-} */
 
 .stars--1 :nth-child(1),
 .stars--2 :nth-child(-n+2),
