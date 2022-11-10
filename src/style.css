@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__item {
+  background-image: url("./images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__item_yellow {
+  background-image: url("./images/star-active.svg");
+}
