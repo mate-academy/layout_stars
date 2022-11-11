@@ -10,8 +10,8 @@ body {
   width: 16px;
   height: 16px;
   background-image: url(images/star.svg);
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .stars__star:not(:last-child) {
