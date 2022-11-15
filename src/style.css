@@ -1,0 +1,23 @@
+.star {
+
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.staryellow {
+
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.gap {
+  margin-right: 4px;
+}
