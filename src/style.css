@@ -1,19 +1,25 @@
 * {
   box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  padding: 0;
 }
 
 .stars__block {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .stars__star {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-position: center;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   list-style: none;
-  height: 16px;
-  width: 16px;
 }
 
 .stars--5 .stars__star {
