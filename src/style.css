@@ -1,7 +1,10 @@
 body {
   margin: 0;
-  padding-top: 2px;
+}
+
+.stars__container {
   padding-left: 2px;
+  padding-top: 2px;
 }
 
 .stars {
