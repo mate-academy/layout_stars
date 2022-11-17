@@ -2,11 +2,6 @@ body {
   margin: 0;
 }
 
-.stars__container {
-  padding-left: 2px;
-  padding-top: 2px;
-}
-
 .stars {
   display: flex;
 }
@@ -28,6 +23,7 @@ body {
 .stars--5 > :nth-child(n+6) {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stars--1 > :first-child,
@@ -37,4 +33,5 @@ body {
 .stars--5 > :nth-child(n) {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
