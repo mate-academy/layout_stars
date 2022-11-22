@@ -1,13 +1,17 @@
 * {
   box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  padding: 0;
 }
 
 .stars__block {
   display: flex;
   align-items: center;
   flex-grow: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .stars__star {
