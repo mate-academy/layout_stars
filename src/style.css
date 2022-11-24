@@ -4,10 +4,6 @@ body {
   --stars-width: 16px;
 }
 
-.container-stars {
-  margin: auto;
-}
-
 .stars {
   display: flex;
   align-items: flex-start;
