@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.starUnit {
+.stars__unit {
   height: 16px;
   width: 16px;
   background-image: url(images/star.svg);
@@ -14,16 +14,14 @@ body {
   display: flex;
 }
 
-.starUnit:not(:last-child) {
+.stars__unit:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars--1 .starUnit:first-child,
-.stars--2 .starUnit:nth-child(-n+2),
-.stars--3 .starUnit:nth-child(-n+3),
-.stars--4 .starUnit:nth-child(-n+4),
-.stars--5 .starUnit:nth-child(-n+5) {
+.stars--1 .stars__unit:first-child,
+.stars--2 .stars__unit:nth-child(-n+2),
+.stars--3 .stars__unit:nth-child(-n+3),
+.stars--4 .stars__unit:nth-child(-n+4),
+.stars--5 .stars__unit:nth-child(-n+5) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
