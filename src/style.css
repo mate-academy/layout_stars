@@ -7,14 +7,10 @@ body {
 }
 
 .stars__star {
-  justify-content: center;
   width: 16px;
   height: 16px;
-  border-radius: 0.5px;
   margin-right: 4px;
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(./images/star-active.svg) no-repeat center;
 }
 
 .stars__star:last-of-type {
