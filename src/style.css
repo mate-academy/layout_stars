@@ -14,8 +14,7 @@ body {
   background-position: center;
   height: 16px;
   width: 16px;
-  padding-right: 4px;
-  padding-left: 0;
+  margin-right: 4px;
 }
 
 .stars__star--N:nth-child(n) {
