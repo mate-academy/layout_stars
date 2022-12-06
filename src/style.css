@@ -3,11 +3,6 @@ body {
   padding: 0;
 }
 
-.rate {
-  margin: 0 auto;
-  background-color: #fff;
-}
-
 .stars {
   display: flex;
 }
