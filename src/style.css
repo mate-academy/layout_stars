@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.gray-stars {
+  background-image: url("images/star.svg");
+}
+
+.yelow-star {
+  background-image: url(images/star-active.svg);
+}
+
+.gray-stars-last {
+  background-image: url("images/star.svg");
+}
+
+.yelow-star-last {
+  background-image: url(images/star-active.svg);
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+}
