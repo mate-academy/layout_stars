@@ -6,26 +6,19 @@ body {
   display: flex;
 }
 
-.gray-stars {
-  background-image: url("images/star.svg");
-}
-
-.yelow-star {
-  background-image: url(images/star-active.svg);
-}
-
-.gray-stars-last {
-  background-image: url("images/star.svg");
-}
-
-.yelow-star-last {
-  background-image: url(images/star-active.svg);
-}
-
 .stars__star {
   width: 16px;
   height: 16px;
+  background-image: url(images/star-active.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
+}
+
+.stars--0 :nth-child(n+1),
+.stars--1 :nth-child(n+2),
+.stars--2 :nth-child(n+3),
+.stars--3 :nth-child(n+4),
+.stars--4 :nth-child(n+5) {
+  background-image: url(images/star.svg);
 }
