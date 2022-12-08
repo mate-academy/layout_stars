@@ -3,10 +3,6 @@ body {
   padding: 0;
 }
 
-.stars__container {
-  padding: 15px;
-}
-
 .stars {
   display: flex;
 }
