@@ -14,18 +14,11 @@ body {
   margin: 0 2px;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url("images/star.svg");
 }
 
 .stars__star:first-child {
   margin: 0 2px 0 0;
-}
-
-.stars--0 .stars__star,
-.stars--1 :nth-child(n+2),
-.stars--2 :nth-child(n+3),
-.stars--3 :nth-child(n+4),
-.stars--4 :nth-child(n+5) {
-  background-image: url("images/star.svg");
 }
 
 .stars--1 :nth-child(-n+1),
