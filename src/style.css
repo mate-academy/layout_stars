@@ -7,7 +7,7 @@ body {
   width: 16px;
   height: 16px;
   background-position: center;
-  background-size: cover;
+  /* background-size: contain; */
   margin-right: 4px;
   background-repeat: no-repeat;
 }
