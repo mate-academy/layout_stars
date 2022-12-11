@@ -6,6 +6,7 @@
 node_modules
 package.json
 .linthtmlrc.json
+.bemlintrc.json
 
 # MacOS
 .DS_Store
