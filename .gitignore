@@ -4,6 +4,8 @@
 
 # Node
 node_modules
+package.json
+.linthtmlrc.json
 
 # MacOS
 .DS_Store
@@ -11,3 +13,4 @@ node_modules
 # Generated files
 backstop_data
 dist
+.cache
