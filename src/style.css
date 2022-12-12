@@ -5,10 +5,9 @@
 
 .container {
   background-color: white;
-  position: relative;
 }
 
-.yellow {
+.container__stars {
   display: flex;
   justify-content: flex-start;
 }
@@ -17,9 +16,8 @@
   width: 16px;
   height: 16px;
   background-image: url(images/star.svg);
-  background-position: center center;
+  background-position: center;
   background-size: contain;
-  flex-wrap: wrap;
   margin: 1px;
 }
 
