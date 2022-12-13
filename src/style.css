@@ -1,4 +1,4 @@
-html {
+body {
   margin: 0;
 }
 
@@ -7,12 +7,10 @@ html {
 }
 
 .stars__star {
-  background-position: center;
-  background-image: url(./images/star.svg);
+  background: url(./images/star.svg) no-repeat center;
   height: 16px;
   width: 16px;
   border-radius: 0.5px;
-  background-repeat: no-repeat;
 }
 
 .stars--5 .stars__star,
@@ -20,7 +18,7 @@ html {
 .stars--2 .stars__star:nth-child(-n+2),
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4) {
-  background-image: url("images/star-active.svg");
+  background-image: url(images/star-active.svg);
 }
 
 .stars .stars__star:not(:first-child) {
