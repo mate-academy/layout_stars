@@ -4,7 +4,6 @@
 
 body,
 ul {
-
   margin: 0;
   padding: 0;
 }
@@ -17,15 +16,12 @@ ul {
 .stars__star {
   height: 16px;
   width: 16px;
-  margin-right: 4px;
 
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: no-repeat center url(./images/star-active.svg);
 }
 
-.stars__star:last-child {
-  margin-right: 0;
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--0 .stars__star:nth-child(n),
