@@ -22,5 +22,5 @@ body {
 .stars--3 .star:nth-child(-n+3),
 .stars--4 .star:nth-child(-n+4),
 .stars--5 .star:nth-child(-n+5) {
-  background: no-repeat url(images/star-active.svg);
+  background: url(images/star-active.svg) no-repeat center;
 }
