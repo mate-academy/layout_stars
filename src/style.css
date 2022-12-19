@@ -9,8 +9,12 @@ body {
 .star {
   height: 16px;
   width: 16px;
-  background: no-repeat url(images/star.svg);
+  background: url(images/star.svg) no-repeat center;
   margin-right: 4px;
+}
+
+.star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 .star:nth-child(-n+1),
