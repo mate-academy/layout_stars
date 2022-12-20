@@ -1,9 +1,6 @@
-* {
-  margin: 0;
-}
-
 body {
   display: block;
+  margin: 0;
 }
 
 .stars {
