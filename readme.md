@@ -37,4 +37,4 @@ ___
 - Check the design again. See the difference in size between star image and its
 container?
 - There's no need to add vertical margins between rows of stars.
-- !!! DON'T use `gap` property because it does not work in tests
+- !!! DON'T use `gap` property because it does not work in test
