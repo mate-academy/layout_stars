@@ -4,7 +4,6 @@ body {
 }
 
 .stars {
-  width: 100px;
   display: flex;
 }
 
@@ -19,7 +18,6 @@ body {
 .stars--2 .stars__star:nth-child(-n+2),
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4),
-.stars--5 .stars__star:nth-child(-n+5),
-.stars--6 .stars__star:nth-child(-n+6) {
+.stars--5 .stars__star:nth-child(-n+5) {
   background: url("./images/star-active.svg") no-repeat center;
 }
