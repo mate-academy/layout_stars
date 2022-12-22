@@ -2,11 +2,11 @@ body {
   margin: 0;
 }
 
-.row {
+.star {
   display: flex;
 }
 
-.star {
+.stars {
   height: 16px;
   width: 16px;
   background: url(images/star.svg) no-repeat center;
