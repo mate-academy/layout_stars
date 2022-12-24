@@ -1,0 +1,79 @@
+/* Reset 'body' indents */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Positioning all stars in rows */
+.stars {
+  display: flex;
+}
+
+/* For all conteiners called "stars"
+ was added image 'not active star' and size this image */
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Adding for all stars right indents
+ but not include last childs */
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+/* 'stars--5' has five stars image 'five active star' */
+.stars--5 .stars__star {
+  background-image: url(/images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* For rating 4 was added 4 active star
+(-n + 4) 4/3/2/1 */
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url(/images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* For rating 3 was added 3 active star
+(-n + 3) 3/2/1 */
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url(/images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* For rating 2 was added 2 active star
+(-n + 2) 2/1 */
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url(/images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* For rating 1 was added 1 active star */
+.stars--1 .stars__star:nth-child(1) {
+  background-image: url(/images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--1 .stars__star:not(:first-child) {
+  background-image: url(/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* 3n + 1
+0 - 1
+1 - 3 + 1 = 4
+2 - 6 + 1 = 7 ---
+____
+(-n + 5)
+
+-*/
