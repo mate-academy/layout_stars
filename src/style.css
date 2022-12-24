@@ -26,38 +26,3 @@ body {
 .stars--4 .stars__stars:not(:last-child) {
   background-image: url(./images/star-active.svg);
 }
-/* .stars--0:nth-child(-n+0) {
-  background-image: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.stars--1:nth-child(n+1) {
-  background-image: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.stars--2:nth-child(n+2) {
-  background-image: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.stars--3:nth-child(n+3) {
-  background-image: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.stars--4:nth-child(n+4) {
-  background-image: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.stars--5:nth-child(n+5) {
-  background-image: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-} */
