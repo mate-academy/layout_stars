@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.stars--0 :last-child,
+.stars--1 :last-child,
+.stars--2 :last-child,
+.stars--3 :last-child,
+.stars--4 :last-child,
+.stars--5 :last-child {
+  margin-right: 0;
+}
+
+.stars--1 :first-child,
+.stars--2 :nth-child(1),
+.stars--2 :nth-child(2),
+.stars--3 :nth-child(1),
+.stars--3 :nth-child(2),
+.stars--3 :nth-child(3),
+.stars--4 :nth-child(1),
+.stars--4 :nth-child(2),
+.stars--4 :nth-child(3),
+.stars--4 :nth-child(4),
+.stars--5 :nth-child(1),
+.stars--5 :nth-child(2),
+.stars--5 :nth-child(3),
+.stars--5 :nth-child(4),
+.stars--5 :nth-child(5) {
+  background-image: url(./images/star-active.svg);
+}
