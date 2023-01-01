@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -10,48 +11,32 @@ body {
   width: 100%;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
 }
 
-.stars--0 div,
-.stars--1 :not(:first-child),
-.stars--2 :not(:first-child),
-.stars--3 :not(:first-child),
-.stars--4 :not(:first-child) {
+.stars--0 :nth-child(-n+5),
+.stars--1 :nth-child(n+2),
+.stars--2 :nth-child(n+3),
+.stars--3 :nth-child(n+4),
+.stars--4 :nth-child(5) {
   background: url(images/star.svg) no-repeat center;
   width: 16px;
   height: 16px;
   border-radius: 0.5px;
 }
 
-.stars--1 :first-child,
-.stars--2 :first-child,
-.stars--2 :nth-child(2),
-.stars--3 :first-child,
-.stars--3 :nth-child(2),
-.stars--3 :nth-child(3),
-.stars--4 :first-child,
-.stars--4 :nth-child(2),
-.stars--4 :nth-child(3),
-.stars--4 :nth-child(4),
-.stars--5 div {
+.stars--1 :nth-child(1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
   background: url(images/star-active.svg) no-repeat center;
   width: 16px;
   height: 16px;
   border-radius: 0.5px;
 }
 
-.stars--0 :not(:last-child),
-.stars--1 :not(:last-child),
-.stars--2 :not(:last-child),
-.stars--3 :not(:last-child),
-.stars--4 :not(:last-child),
-.stars--5 :not(:last-child) {
+.stars :not(:last-child) {
   margin-right: 4px;
 }
