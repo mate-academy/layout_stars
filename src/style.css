@@ -11,6 +11,12 @@ body {
   width: 100%;
 }
 
+.stars__star {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+}
+
 .stars {
   display: flex;
 }
@@ -21,9 +27,6 @@ body {
 .stars--3 :nth-child(n+4),
 .stars--4 :nth-child(5) {
   background: url(images/star.svg) no-repeat center;
-  width: 16px;
-  height: 16px;
-  border-radius: 0.5px;
 }
 
 .stars--1 :nth-child(1),
@@ -32,9 +35,6 @@ body {
 .stars--4 :nth-child(-n+4),
 .stars--5 :nth-child(-n+5) {
   background: url(images/star-active.svg) no-repeat center;
-  width: 16px;
-  height: 16px;
-  border-radius: 0.5px;
 }
 
 .stars :not(:last-child) {
