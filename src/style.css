@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+.rated__stars {
+  height: 500px;
+}
+
+.stars__star {
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+  height: 16px;
+  width: 16px;
+  border-radius: 0.5px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--0 {
+  display: flex;
+}
+
+.stars--1 {
+  display: flex;
+}
+
+.stars--2 {
+  display: flex;
+}
+
+.stars--3 {
+  display: flex;
+}
+
+.stars--4 {
+  display: flex;
+}
+
+.stars--5 {
+  display: flex;
+}
+
+.stars--1 > .stars__star:first-child,
+.stars--2 > .stars__star:nth-child(-n+2),
+.stars--3 > .stars__star:nth-child(-n+3),
+.stars--4 > .stars__star:nth-child(-n+4),
+.stars--5 > .stars__star:nth-child(-n+5) {
+  background-image: url(/images/star-active.svg);
+}
