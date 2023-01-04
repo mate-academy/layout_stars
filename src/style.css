@@ -20,27 +20,7 @@
   margin-right: 0;
 }
 
-.stars--0 {
-  display: flex;
-}
-
-.stars--1 {
-  display: flex;
-}
-
-.stars--2 {
-  display: flex;
-}
-
-.stars--3 {
-  display: flex;
-}
-
-.stars--4 {
-  display: flex;
-}
-
-.stars--5 {
+.stars {
   display: flex;
 }
 
