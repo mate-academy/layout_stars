@@ -20,7 +20,15 @@
   margin-right: 4px;
 }
 
-.stars :not(:first-child) {
+.stars--0 .stars_star:last-child {
+  margin-right: none;
+}
+
+.stars--1 .stars_star:nth-child(1) {
+  background-image: url("./images/star-active.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
   margin-right: 4px;
 }
 
