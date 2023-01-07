@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.container {
+.stars {
   display: flex;
 }
 
@@ -10,7 +10,6 @@ body {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 0.5px;
   height: 16px;
   width: 16px;
 }
