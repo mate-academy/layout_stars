@@ -2,11 +2,11 @@
   margin: 0;
 }
 
-.container {
+.stars {
   display: flex;
 }
 
-.container :not(:last-child) {
+.stars :not(:last-child) {
   margin-right: 4px;
 }
 
