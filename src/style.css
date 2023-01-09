@@ -3,30 +3,35 @@ body {
 }
 
 .container {
-  padding: 32px 22px;
   display: flex;
   flex-direction: column;
+  width: 94px;
+  height: 94px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5px;
 }
 
 .stars {
   display: flex;
   justify-content: space-between;
-  width: 90px;
-  margin: 0;
+  width: 100%;
+  align-items: center;
 }
 
 .stars__items {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-size: 13px;
   background-position: center;
-  background-size: 16px;
 }
 
 .active {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
