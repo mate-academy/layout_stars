@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 90px;
+  margin: 0;
 }
 
 .stars__items {
@@ -19,6 +20,8 @@ body {
   height: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
 }
 
 .active {
