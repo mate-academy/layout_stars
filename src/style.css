@@ -11,7 +11,7 @@ body {
 .stars {
   display: flex;
   justify-content: space-between;
-  width: 96px;
+  width: 90px;
 }
 
 .stars__items {
