@@ -10,7 +10,7 @@ body {
   display: flex;
   width: 96px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .stars__star {
@@ -27,4 +27,8 @@ body {
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(n) {
   background-image: url(/images/star-active.svg);
+}
+
+.stars .stars__star:nth-child(-n+4) {
+  margin-right: 4px;
 }
