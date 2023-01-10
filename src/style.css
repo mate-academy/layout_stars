@@ -10,7 +10,6 @@ body {
   display: flex;
   width: 96px;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
 }
 
 .stars__star {
