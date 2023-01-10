@@ -5,32 +5,24 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 94px;
-  height: 94px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5px;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
 }
 
 .stars__items {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-  background-size: 13px;
   background-position: center;
 }
 
 .active {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
   background-position: center;
