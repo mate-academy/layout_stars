@@ -8,8 +8,6 @@ body {
 
 .stars {
   display: flex;
-  width: 96px;
-  flex-wrap: wrap;
 }
 
 .stars__star {
@@ -28,6 +26,6 @@ body {
   background-image: url(/images/star-active.svg);
 }
 
-.stars .stars__star:nth-child(-n+4) {
+.stars .stars__star:not(:last-child) {
   margin-right: 4px;
 }
