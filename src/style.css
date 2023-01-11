@@ -3,14 +3,15 @@ body {
 }
 
 .stars {
-  width: 96px;
+  /* width: 96px; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
-.star {
+.stars__star {
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   background-repeat: no-repeat;
   background-position: center;
   /* background-size: cover; */
