@@ -12,9 +12,6 @@ body {
 }
 
 .stars__star {
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
   background-image: url("./images/star.svg");
   background-position: center;
   background-repeat: no-repeat;
