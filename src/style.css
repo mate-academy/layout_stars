@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 96;
+  height: 96px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars_star {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars_star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.active_star {
+  background-image: url(images/star-active.svg);
+}
