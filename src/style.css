@@ -10,6 +10,9 @@ body {
 
 .stars__star {
   margin-left: 4px;
+  height: 16px;
+  width: 16px;
+  background: url(./images/star-active.svg) no-repeat center;
 }
 
 .stars__star:first-child {
@@ -19,19 +22,7 @@ body {
 .stars--0 .stars__star {
   height: 16px;
   width: 16px;
-  background: url(./images/star.svg) no-repeat;
-  background-position: center;
-}
-
-.stars--1 .stars__star,
-.stars--2 .stars__star,
-.stars--3 .stars__star,
-.stars--4 .stars__star,
-.stars--5 .stars__star {
-  height: 16px;
-  width: 16px;
-  background: url(./images/star-active.svg) no-repeat;
-  background-position: center;
+  background: url(./images/star.svg) no-repeat center;
 }
 
 .stars--4 .stars__star:nth-child(n + 5),
@@ -40,6 +31,5 @@ body {
 .stars--1 .stars__star:nth-child(n + 2) {
   height: 16px;
   width: 16px;
-  background: url(./images/star.svg) no-repeat;
-  background-position: center;
+  background: url(./images/star.svg) no-repeat center;
 }
