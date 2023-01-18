@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.block-stars {
+  display: flex;
+}
+
+.block-stars :not(:last-child) {
+  margin-right: 4px;
+}
+
+.block-stars__stars {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--1 :first-child {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--2 :nth-child(-n + 2) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--3 :nth-child(-n + 3) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--4 :nth-child(-n + 4) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--5 :nth-child(n) {
+  background-image: url(images/star-active.svg);
+}
