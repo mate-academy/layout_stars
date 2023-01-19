@@ -79,7 +79,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* --------------------------------------- */
+
 .stars--4 > .stars__star:not(:nth-child(n + 5)) {
   width: 16px;
   height: 16px;
