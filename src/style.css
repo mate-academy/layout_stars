@@ -25,6 +25,6 @@
 .stars--2 .stars_star:nth-child(-n+2),
 .stars--3 .stars_star:nth-child(-n+3),
 .stars--4 .stars_star:nth-child(-n+4),
-.stars--5 .stars_star:nth-child(n){
+.stars--5 .stars_star:nth-child(n) {
   background: url(images/star-active.svg) center no-repeat;
 }
