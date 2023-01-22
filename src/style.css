@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.counteiner {
+  display: inline-block;
+}
+
+.stars {
+  height: 16px;
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background: url(images/star.svg) no-repeat center;
+  margin-right: 4px;
+}
+
+.active {
+  background: url(images/star-active.svg) no-repeat center;
+}
