@@ -18,10 +18,11 @@ html {
   width: 16px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 4px;
 }
 
-.stars__star + .stars__star {
-  margin-left: 4px;
+.stars__star:nth-last-child(1) {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
