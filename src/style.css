@@ -1,0 +1,76 @@
+.container {
+  height: 160px;
+  width: 140px;
+}
+
+.star--0 {
+  display: flex;
+  background-image: url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg);
+  background-position: 0.01px, 16px, 32px, 48px, 64px;
+  background-repeat: no-repeat;
+  height: 14px;
+}
+
+.star--1 {
+  display: flex;
+  background-image: url(./images/star-active.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg);
+  background-position: 0.01px, 16px, 32px, 48px, 64px;
+  background-repeat: no-repeat;
+  height: 14px;
+}
+
+.star--2 {
+  display: flex;
+  background-image: url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star.svg),
+    url(./images/star.svg),
+    url(./images/star.svg);
+  background-position: 0.01px, 16px, 32px, 48px, 64px;
+  background-repeat: no-repeat;
+  height: 14px;
+}
+
+.star--3 {
+  display: flex;
+  background-image: url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star.svg),
+    url(./images/star.svg);
+  background-position: 0.01px, 16px, 32px, 48px, 64px;
+  background-repeat: no-repeat;
+  height: 14px;
+}
+
+.star--4 {
+  display: flex;
+  background-image: url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star.svg);
+  background-position: 0.01px, 16px, 32px, 48px, 64px;
+  background-repeat: no-repeat;
+  height: 14px;
+}
+
+.star--5 {
+  display: flex;
+  background-image: url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg),
+    url(./images/star-active.svg);
+  background-position: 0.01px, 16px, 32px, 48px, 64px;
+  background-repeat: no-repeat;
+  height: 14px;
+}
