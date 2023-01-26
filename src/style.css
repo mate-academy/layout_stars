@@ -3,22 +3,17 @@
 }
 
 body {
-  /* body has no default padding */
   margin: 0;
 }
 
 .stars {
   display: flex;
-  /* to expand block to its content width */
-  /* max-width: max-content; */
-  /* background-color: red; */
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
 
-  /* use image default size */
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
