@@ -27,46 +27,22 @@ body {
   margin-right: 4px;
 }
 
-.stars--0 .stars__star {
-  background-image: url("./images/star.svg");
-}
-
-.stars--1 .stars__star:not(:first-child) {
-  background-image: url("./images/star.svg");
-}
-
-.stars--1 .stars__star:first-child {
-  background-image: url("./images/star-active.svg");
-}
-
-.stars--2 .stars__star:first-child,
-.stars--2 .stars__star:nth-child(2) {
-  background-image: url("./images/star-active.svg");
-}
-
+.stars__block .stars--0 .stars__star,
+.stars--1 .stars__star:not(:first-child),
 .stars--3 .stars__star:nth-child(4),
-.stars--3 .stars__star:last-child {
-  background-image: url("./images/star.svg");
-}
-
-.stars--4 .stars__star:not(:last-child) {
-  background-image: url("./images/star-active.svg");
-}
-
-.stars--4 .stars__star:last-child {
-  background-image: url("./images/star.svg");
-}
-
-.stars__block .stars--5 .stars__star {
-  background-image: url("./images/star-active.svg");
-}
-
+.stars--3 .stars__star:last-child,
+.stars--4 .stars__star:last-child,
 .stars--2 .stars__star:nth-child(3),
 .stars--2 .stars__star:nth-child(4),
 .stars--2 .stars__star:nth-child(5) {
   background-image: url("./images/star.svg");
 }
 
+.stars--1 .stars__star:first-child,
+.stars--2 .stars__star:first-child,
+.stars--2 .stars__star:nth-child(2),
+.stars--4 .stars__star:not(:last-child),
+.stars__block .stars--5 .stars__star,
 .stars--3 .stars__star:first-child,
 .stars--3 .stars__star:nth-child(2),
 .stars--3 .stars__star:nth-child(3) {
