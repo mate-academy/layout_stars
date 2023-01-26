@@ -1,45 +1,42 @@
 body {
   margin: 0;
   box-sizing: border-box;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  margin-right: 4px;
-  margin-top: 4px;
+  --light-star: url("./images/star-active.svg");
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url(./images/star.svg);
+  background-image: url("./images/star.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  margin: 0 4px;
+  background-position: center;
 }
 
-.star:nth-child(n) {
+.star {
   display: flex;
   flex-direction: row;
 }
 
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
 .star:nth-child(n+2) .stars__star:nth-child(1) {
-  background-image: url(./images/star-active.svg);
+  background-image: var(--light-star);
 }
 
 .star:nth-child(n+3) .stars__star:nth-child(2) {
-  background-image: url(./images/star-active.svg);
+  background-image: var(--light-star);
 }
 
 .star:nth-child(n+4) .stars__star:nth-child(3) {
-  background-image: url(./images/star-active.svg);
+  background-image: var(--light-star);
 }
 
 .star:nth-child(n+5) .stars__star:nth-child(4) {
-  background-image: url(./images/star-active.svg);
+  background-image: var(--light-star);
 }
 
 .star:nth-child(n+6) .stars__star:nth-child(5) {
-  background-image: url(./images/star-active.svg);
+  background-image: var(--light-star);
 }
