@@ -1,5 +1,5 @@
 # Stars block
-Replace `<zuzu6>`  with your Github username and copy the links to Pull Request description:
+Replace `<zuzu6>` with your Github username and copy the links to Pull Request description:
 - [DEMO LINK](https://<zuzu6>.github.io/layout_stars/)
 - [TEST REPORT LINK](https://<zuzu6>.github.io/layout_stars/report/html_report/)
 
