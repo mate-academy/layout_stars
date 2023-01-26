@@ -3,12 +3,12 @@ html {
   margin: 0;
 }
 
-.stars__block {
+.stars {
   display: flex;
   flex-direction: column;
 }
 
-.stars {
+.stars__row {
   display: flex;
 }
 
@@ -21,7 +21,7 @@ html {
   margin-right: 4px;
 }
 
-.stars__star:nth-last-child(1) {
+.stars__star:last-child {
   margin-right: 0;
 }
 
