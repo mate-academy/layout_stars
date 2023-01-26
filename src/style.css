@@ -1,16 +1,13 @@
 body {
   margin: 0;
-  background-color: rgb(154, 154, 233);
+  box-sizing: border-box;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  width: 140px;
-  height: 160px;
-  padding: 32px 22px;
-  background-color: pink;
+  margin-right: 4px;
+  margin-top: 4px;
 }
 
 .stars__star {
@@ -18,11 +15,12 @@ body {
   height: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 4px;
 }
 
 .star:nth-child(n) {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
 }
 
