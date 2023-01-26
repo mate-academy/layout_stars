@@ -14,10 +14,6 @@ body {
   background: url(images/star.svg) center no-repeat;
 }
 
-.stars--5 .stars__star {
-  background: url(images/star-active.svg) center no-repeat;
-}
-
 .stars--1 :nth-child(-n + 1),
 .stars--2 :nth-child(-n + 2),
 .stars--3 :nth-child(-n + 3),
