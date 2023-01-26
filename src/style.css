@@ -18,6 +18,7 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
+  background-image: url("./images/star.svg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -25,17 +26,6 @@ body {
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
-}
-
-.stars__block .stars--0 .stars__star,
-.stars--1 .stars__star:not(:first-child),
-.stars--3 .stars__star:nth-child(4),
-.stars--3 .stars__star:last-child,
-.stars--4 .stars__star:last-child,
-.stars--2 .stars__star:nth-child(3),
-.stars--2 .stars__star:nth-child(4),
-.stars--2 .stars__star:nth-child(5) {
-  background-image: url("./images/star.svg");
 }
 
 .stars--1 .stars__star:first-child,
