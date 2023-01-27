@@ -1,7 +1,5 @@
 body {
-  box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 .stars {
@@ -11,10 +9,13 @@ body {
 .stars__star {
   height: 16px;
   width: 16px;
-  margin-right: 4px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: 50%;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--1 .stars__star:nth-child(-n+1),
