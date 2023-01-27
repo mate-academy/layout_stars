@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  padding: 0;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: 96;
-  height: 96px;
 }
 
 .stars {
@@ -18,7 +18,7 @@
 .stars__star {
   width: 16px;
   height: 16px;
-  border-radius: 0.5px;
+  border-radius: 1px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
