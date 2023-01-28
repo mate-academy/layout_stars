@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-.counteiner {
-  display: inline-block;
-}
-
 .stars {
   height: 16px;
   display: flex;
