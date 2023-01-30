@@ -5,7 +5,6 @@ body {
 
 .stars {
   display: flex;
-  margin: 0;
 }
 
 .stars :not(:last-child) {
