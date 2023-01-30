@@ -1,76 +1,31 @@
-.container {
-  height: 160px;
-  width: 140px;
+* {
+  margin: 0;
 }
 
-.star--0 {
+.stars {
   display: flex;
-  background-image: url(./images/star.svg),
-    url(./images/star.svg),
-    url(./images/star.svg),
-    url(./images/star.svg),
-    url(./images/star.svg);
-  background-position: 0.01px, 16px, 32px, 48px, 64px;
-  background-repeat: no-repeat;
-  height: 14px;
+  list-style: none;
+  padding-left: 0;
 }
 
-.star--1 {
-  display: flex;
-  background-image: url(./images/star-active.svg),
-    url(./images/star.svg),
-    url(./images/star.svg),
-    url(./images/star.svg),
-    url(./images/star.svg);
-  background-position: 0.01px, 16px, 32px, 48px, 64px;
+.stars__star {
+  width: 16px;
+  height: 16px;
+
+  background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  height: 14px;
+  background-position: center;
+  background-size: auto;
 }
 
-.star--2 {
-  display: flex;
-  background-image: url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star.svg),
-    url(./images/star.svg),
-    url(./images/star.svg);
-  background-position: 0.01px, 16px, 32px, 48px, 64px;
-  background-repeat: no-repeat;
-  height: 14px;
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
-.star--3 {
-  display: flex;
-  background-image: url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star.svg),
-    url(./images/star.svg);
-  background-position: 0.01px, 16px, 32px, 48px, 64px;
-  background-repeat: no-repeat;
-  height: 14px;
-}
-
-.star--4 {
-  display: flex;
-  background-image: url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star.svg);
-  background-position: 0.01px, 16px, 32px, 48px, 64px;
-  background-repeat: no-repeat;
-  height: 14px;
-}
-
-.star--5 {
-  display: flex;
-  background-image: url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star-active.svg),
-    url(./images/star-active.svg);
-  background-position: 0.01px, 16px, 32px, 48px, 64px;
-  background-repeat: no-repeat;
-  height: 14px;
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(n) {
+  background-image: url(images/star-active.svg);
 }

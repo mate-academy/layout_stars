@@ -3,35 +3,35 @@ But don't add empty lines between parent and child elements
 
 GOOD example:
 ```html
-<ul>
-  <li class="nav__item">
+<div>
+  <div class="nav__item">
     <a href="#home">Home</a>
-  </li>
+  </div>
 
-  <li class="nav__item">
+  <div class="nav__item">
     <a href="#shop">Shop</a>
-  </li>
+  </div>
 
-  <li class="nav__item">
+  <div class="nav__item">
     <a href="#contacts">Contacts</a>
-  </li>
-</ul>
+  </div>
+</div>
 ```
 BAD example:
 ```html
-<ul>
+<div>
 
-  <li class="nav__item">
+  <div class="nav__item">
     <a href="#home">Home</a>
-  </li>
-  <li class="nav__item">
+  </div>
+  <div class="nav__item">
     <a href="#shop">Shop</a>
-  </li>
-  <li class="nav__item">
+  </div>
+  <div class="nav__item">
     <a href="#contacts">Contacts</a>
-  </li>
+  </div>
 
-</ul>
+</div>
 ```
 
 2. [CODE STYLE] - If several selectors MUST always have the same styles, group them using `,` to prevent accidental out ot sync in future
