@@ -11,23 +11,21 @@ body {
 
 [class*="stars--"] {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: start;
 }
 
-[class*="1"] :nth-child(n+5) {
+[class*="1"] :nth-child(-n+1) {
   background: url("images/star-active.svg") center no-repeat;
 }
 
-[class*="2"] :nth-child(n+4) {
+[class*="2"] :nth-child(-n+2) {
   background: url("images/star-active.svg") center no-repeat;
 }
 
-[class*="3"] :nth-child(n+3) {
+[class*="3"] :nth-child(-n+3) {
   background: url("images/star-active.svg") center no-repeat;
 }
 
-[class*="4"] :nth-child(n+2) {
+[class*="4"] :nth-child(-n+4) {
   background: url("images/star-active.svg") center no-repeat;
 }
 
