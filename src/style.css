@@ -8,14 +8,13 @@ body {
   background: url("images/star.svg") center no-repeat;
   width: 16px;
   height: 16px;
+}
+
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars__star:last-child {
-  margin-right: 0;
-}
-
-[class*="stars--"] {
+.stars {
   display: flex;
 }
 
