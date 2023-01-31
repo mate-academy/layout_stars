@@ -8,10 +8,7 @@ body {
 
 .stars {
   display: flex;
-  margin: 0;
-  padding: 0;
   justify-content: flex-start;
-
 }
 
 .stars__star {
@@ -23,14 +20,14 @@ body {
   background-position: center;
 }
 
+.stars__star:last-child {
+  margin-right: 0;
+}
+
 .stars--1 :nth-child(1),
 .stars--2 :nth-child(-n+2),
 .stars--3 :nth-child(-n+3),
 .stars--4 :nth-child(-n+4),
 .stars--5 :nth-child(-n+5) {
   background-image: url(images/star-active.svg);
-}
-
-.stars__star:last-child {
-  margin-right: 0;
 }
