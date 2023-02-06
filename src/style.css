@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/* ряд */
+.stars {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+/* зірка */
+.stars__star {
+  background-image: url(../src/images/star.svg);
+  width: 13px;
+  height: 12px;
+  list-style: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars__1:nth-child(-n+1) {
+  background-image: url(../src/images/star-active.svg);
+}
