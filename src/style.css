@@ -1,43 +1,26 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
 }
 
-.container {
-  width: 96px;
-  height: 96px;
-  padding: 4px;
-
+.stars {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  background: white;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
-  display: flex;
-  flex-direction: row;
+.stars :not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars__star {
+  height: 16px;
   width: 16px;
-  position: relative;
-  padding-right: 4px;
-  background-image: url("./images/star.svg");
-  background-repeat: no-repeat;
+  background: no-repeat url(./images/star-active.svg) center;
 }
 
-.stars__star-active {
-  width: 16px;
-  position: relative;
-  padding-right: 4px;
-  background-image: url("./images/star-active.svg");
-  background-repeat: no-repeat;
+.stars--0 :nth-child(n+1),
+.stars--1 :nth-child(n+2),
+.stars--2 :nth-child(n+3),
+.stars--3 :nth-child(n+4),
+.stars--4 :nth-child(n+5) {
+  background-image: url(./images/star.svg);
 }
