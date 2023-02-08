@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --star-full-color: #ffde6a ;
+  --star-empty-color: #e5e5e5;
+}
+
+.star {
+  display: flex;
+}
+
+.star__star {
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.star--1 .star__star:nth-child(-n+1),
+.star--2 .star__star:nth-child(-n+2),
+.star--3 .star__star:nth-child(-n+3),
+.star--4 .star__star:nth-child(-n+4),
+.star--5 .star__star:nth-child(-n+5) {
+  background-image: url(./images/star-active.svg);
+}
