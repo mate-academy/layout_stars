@@ -2,11 +2,6 @@ body {
   margin: 0;
 }
 
-.list {
-  width: 96px;
-  height: 96px;
-}
-
 .stars__star {
   background-position: center;
   background-repeat: no-repeat;
