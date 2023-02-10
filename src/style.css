@@ -8,19 +8,14 @@ body {
 
 .stars__star {
   background-image: url(./images/star.svg);
-  width: 15.5px;
+  width: 16px;
   height: 16px;
-  background-size: 84%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .stars__star:not(:last-child) {
-  margin-right: 4.5px;
-}
-
-.stars__star:first-child {
-  margin-left: 1px;
+  margin-right: 4px;
 }
 
 .stars--1 .stars__star:first-child,
