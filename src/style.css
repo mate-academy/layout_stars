@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.star {
+.stars__star {
   height: 16px;
   background-image: url(images/star.svg);
   width: 16px;
@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
 }
 
-.star:not(:first-child) {
+.stars__star:not(:first-child) {
   margin-left: 4px;
 }
 
