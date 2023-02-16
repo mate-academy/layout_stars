@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.block-stars {
+.stars {
   display: flex;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .block-stars__stars:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .stars--1 :first-child,
