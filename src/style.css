@@ -1,3 +1,4 @@
+/* RSEST CSS */
 * {
   box-sizing: border-box;
 }
@@ -5,7 +6,7 @@
 body {
   margin: 0;
 }
-
+/* MAIN CONTENT */
 .stars {
   display: flex;
 
