@@ -6,11 +6,6 @@ div {
   box-sizing: border-box;
 }
 
-/* .stars {
-  width: 96px;
-  height: 96px;
-} */
-
 div[class*="stars--"] {
   display: flex;
 }
@@ -20,6 +15,8 @@ div[class*="stars--"] {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
+  margin-right: 4px;
+  background-position: center;
 }
 
 .stars--1 .stars__star:first-child,
