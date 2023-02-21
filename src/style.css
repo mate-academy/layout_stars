@@ -6,6 +6,11 @@ div {
   box-sizing: border-box;
 }
 
+/* .stars {
+  width: 96px;
+  height: 96px;
+} */
+
 div[class*="stars--"] {
   display: flex;
 }
