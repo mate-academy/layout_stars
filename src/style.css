@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.gray__star {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-image: url(images/star.svg);
+  margin: 0 2px;
+}
+
+.gold__star {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-image: url(images/star-active.svg);
+  margin: 0 2px;
+}
+
+.stars {
+  height: 16px;
+}
