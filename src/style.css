@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
 }
 
@@ -12,7 +12,7 @@
   margin-right: 4px;
 
   background: no-repeat url(images/star.svg);
-  background-position: 50% 50%;
+  background-position: center;
 }
 
 .stars--1 :nth-child(1),
@@ -21,5 +21,5 @@
 .stars--4 :nth-child(-n + 4),
 .stars--5 :nth-child(n) {
   background: no-repeat url(images/star-active.svg);
-  background-position: 50% 50%;
+  background-position: center;
 }
