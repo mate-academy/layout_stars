@@ -7,8 +7,6 @@ div {
 .parent__block {
   display: flex;
   flex-direction: column;
-  width: 96px;
-  height: 96px;
 }
 
 .stars {
