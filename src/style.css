@@ -6,7 +6,7 @@ div {
   box-sizing: border-box;
 }
 
-div[class*="stars--"] {
+.stars {
   display: flex;
 }
 
