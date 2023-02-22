@@ -11,15 +11,15 @@ body {
   display: flex;
 }
 
-.star {
+.stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center;
   width: 16px;
   height: 16px;
 }
 
-.star:not(:last-child) {
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
