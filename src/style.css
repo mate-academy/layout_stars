@@ -2,21 +2,16 @@ body {
   margin: 0;
 }
 
-.stars {
+.container {
   display: inline-flex;
   flex-direction: column;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
 }
 
-.box {
+.stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   width: 16px;
