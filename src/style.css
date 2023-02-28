@@ -15,6 +15,10 @@ body {
   background-position: center;
 }
 
+.star:last-child {
+  margin-right: 0;
+}
+
 .stars--1 .star:nth-child(-n+1) {
   background-image: url(./images/star-active.svg);
 }
