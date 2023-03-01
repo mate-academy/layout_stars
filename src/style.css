@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
 }
 
@@ -22,5 +22,4 @@
 
 .star__active {
   background-image: url(./images/star-active.svg);
-  /* width: 16px; */
 }
