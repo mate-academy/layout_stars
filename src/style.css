@@ -6,59 +6,40 @@
   display: flex;
   flex-direction: column;
   background: #fff;
+  width: 100px;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
-  width: 96px;
-  height: 16px;
+  justify-content: flex-start;
 }
 
 .stars .stars__star {
+  display: flex;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 16px;
   height: 16px;
+  margin-right: 4px;
 }
 
 .stars--1 :nth-child(1) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
 }
 
 .stars--2 :nth-child(-n+2) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
 }
 
 .stars--3 :nth-child(-n+3) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
 }
 
 .stars--4 :nth-child(-n+4) {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
 }
 
 .stars--5 .stars__star {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
 }
