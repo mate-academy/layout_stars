@@ -2,17 +2,8 @@ body {
   margin: 0;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 96px;
-  height: 96px;
-}
-
 .stars {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .stars__star {
@@ -20,7 +11,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 16px;
-  flex-basis: 16px;
+  width: 16px;
+  margin-right: 4px;
 }
 
 .stars--0 :nth-child(n),
