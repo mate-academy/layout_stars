@@ -3,11 +3,11 @@
   padding: 0;
 }
 
-.allRowsSrars {
+.stars {
   display: flex;
 }
 
-.allRowsSrars :not(:last-child) {
+.stars :not(:last-child) {
   margin-right: 4px;
 }
 
