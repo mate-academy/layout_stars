@@ -1,0 +1,45 @@
+/* RESET ALL DEAFAULR MARGINS */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* EACH BLOCK STARS DISPLAY FLEX */
+.stars {
+  display: flex;
+}
+/* EACH BLOCK WITH STAR SIZES */
+.stars__star {
+  width: 16px;
+  height: 16px;
+
+}
+/* MARGIN BETWEEN BLOCK STAR EXCEPT OF  LAST ONE IN EACH GROUP */
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+/* BACKGOUND FOR EACH BLOCK */
+.stars > .stars__star {
+  background-image: url(./images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* BACKGOUND FOR 1 BLOCK */
+.stars--1 .stars__star:nth-child(1) {
+  background-image: url(./images/star-active.svg);
+}
+/* BACKGOUND FOR 2 BLOCK */
+.stars--2 .stars__star:nth-child(-n+2) {
+  background-image: url(./images/star-active.svg);
+}
+/* BACKGOUND FOR 3 BLOCK */
+.stars--3 .stars__star:nth-child(-n+3) {
+  background-image: url(./images/star-active.svg);
+}
+/* BACKGOUND FOR 4 BLOCK */
+.stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url(./images/star-active.svg);
+}
+/* BACKGOUND FOR 5 BLOCK */
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url(./images/star-active.svg);
+}
