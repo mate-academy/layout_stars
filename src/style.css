@@ -3,18 +3,7 @@
 }
 
 body {
-  background: #e5e5e5;
   margin: 0;
-}
-
-.frame {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 140px;
-  height: 160px;
-  margin: 0 auto;
-  background: #fff;
 }
 
 .stars {
