@@ -16,7 +16,7 @@ body {
   height: 16px;
 }
 
-.block_stars img:last-child {
+.star:last-child {
   margin: 0;
 }
 
