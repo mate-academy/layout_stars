@@ -3,25 +3,19 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0;
-  padding: 0;
 }
 
 .stars {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .stars__star {
   display: flex;
   background-image: url("images/star.svg");
-  background-repeat: none;
-  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
   width: 16px;
   height: 16px;
   border-radius: 0.5px;
