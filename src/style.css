@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
 }
 
@@ -13,10 +13,6 @@
   background-image: url(./images/star-active.svg);
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.stars__star :last-child {
-  margin-right: 0;
 }
 
 .stars--0 :nth-child(n),
