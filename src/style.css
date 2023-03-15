@@ -1,17 +1,9 @@
-* {
+body {
   margin: 0;
-}
-
-.container {
-  height: 96px;
-  width: 96px;
-  background-color: #fff;
 }
 
 .star {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .stars__star {
