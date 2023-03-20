@@ -11,16 +11,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 96px;
-  height: 96px;
 }
 
 .stars {
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  width: 96px;
-  height: 16px;
 }
 
 .stars--0 .stars__star {
