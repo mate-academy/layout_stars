@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
 .stars {
   display: flex;
   flex-direction: row;
