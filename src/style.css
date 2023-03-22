@@ -15,6 +15,11 @@ body {
 
 .stars__star {
   background-image: url(images/star-active.svg);
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stars--0 div:nth-of-type(n + 1),
@@ -24,12 +29,4 @@ body {
 .stars--4 div:nth-of-type(n + 5),
 .stars--5 div:nth-of-type(n + 6) {
   background-image: url(images/star.svg);
-}
-
-.stars__star {
-  width: 16px;
-  height: 16px;
-  margin-right: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
