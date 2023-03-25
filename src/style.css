@@ -7,14 +7,8 @@ body {
   padding: 0;
 }
 
-.block {
-  display: flex;
-  flex-direction: column;
-}
-
 .stars {
   display: flex;
-  flex-direction: row;
 }
 
 .stars__star {
