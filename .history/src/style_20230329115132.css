@@ -1,0 +1,9 @@
+.stars {
+  display: flex;
+}
+
+.stars--0 {
+	background-image: url(images/star.svg);
+}
+
+.

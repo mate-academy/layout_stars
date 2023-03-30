@@ -1,0 +1,21 @@
+body{
+	width: 100%;
+	height: 100%;
+	ma
+}
+.stars {
+  display: flex;
+}
+
+.stars--0 {
+  background-image: url(images/star.svg);
+}
+
+.stars--1 {
+  background-image: url(images/star.svg);
+}
+
+.stars--1:first-child {
+  background-image: url(images/star-active.svg);
+}
+
