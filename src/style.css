@@ -1,31 +1,21 @@
-.content {
-  display: flex;
-  flex-direction: column;
-  width: 106px;
-  justify-content: space-between;
+body {
+  margin: 0;
 }
 
-.item {
+.stars__star {
   display: flex;
   flex-direction: row;
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-}
-
-.star {
   background-image: url("./images/star.svg");
 }
 
-.light-star {
+.active {
   background-image: url("./images/star-active.svg");
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
+  gap: 4px;
 }
