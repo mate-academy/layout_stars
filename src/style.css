@@ -1,13 +1,9 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
-.stars-container {
-  display: flex;
-  flex-direction: column;
-  padding: 32px 22px;
+body {
+  margin: 0;
 }
 
 .stars {
@@ -18,7 +14,7 @@
   width: 16px;
   height: 16px;
   background-image: url(./images/star.svg);
-  background-size: 14px 14px;
+  background-size: 13px 13px;
   background-position: center;
   background-repeat: no-repeat;
 }
