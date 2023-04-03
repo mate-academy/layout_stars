@@ -1,34 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: unset;
 }
 
 .stars {
-  box-sizing: border-box;
   background-color: #fff;
 }
 
-.stars > div {
+.stars > [class] {
   display: flex;
-  flex-direction: row;
 }
 
 .stars__star {
   display: flex;
-  content: "";
   height: 16px;
   width: 16px;
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-size: 13px;
-  background-position: center;
-}
+  background: url(./images/star.svg) center no-repeat;
 
-.stars__star:not(:first-child) {
-  margin-left: 2px;
 }
 
 .stars__star:not(:last-child) {
-  margin-right: 2px;
+  margin-right: 4px;
 }
 
 .stars--1 > .stars__star:first-child,
