@@ -2,7 +2,7 @@
   --star-size: 16px;
   --distance-between-stars: 4px;
   --star-top-offset: 2px;
-  --row-offset: 2px;
+  --row-offset: 4px;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 
 .stars {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .stars--0,
@@ -20,85 +20,11 @@ body {
 .stars--3,
 .stars--4,
 .stars--5 {
-  min-width: calc(5 * var(--star-size)
-  + 4 * var(--distance-between-stars) + 2 * var(--row-offset));
-  min-height: var(--star-size);
+  width: calc(5 * var(--star-size) + 4 * var(--distance-between-stars)
+  + var(--row-offset));
+  height: var(--star-size);
   display: flex;
   justify-content: space-around;
-}
-
-.stars--1::before {
-  width: 16px;
-  height: 100%;
-  background-image: url("images/star-active.svg");
-  background-repeat: no-repeat;
-  background-position: 0 var(--star-top-offset);
-  content: " ";
-}
-
-.stars--2::before {
-  width: calc(2 * var(--star-size) + var(--distance-between-stars));
-  height: 100%;
-  background-image: url("images/star-active.svg"), url("images/star-active.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: 0 var(--star-top-offset),
-    calc(var(--star-size) + var(--distance-between-stars))
-    var(--star-top-offset);
-  content: " ";
-}
-
-.stars--3::before {
-  width: calc(3 * var(--star-size) + 2 * var(--distance-between-stars));
-  height: 100%;
-  background-image: url("images/star-active.svg"),
-    url("images/star-active.svg"),
-    url("images/star-active.svg");
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 0 var(--star-top-offset),
-    calc(var(--star-size) + var(--distance-between-stars))
-    var(--star-top-offset),
-    calc(2 * var(--star-size) + 2 * var(--distance-between-stars))
-    var(--star-top-offset);
-  content: " ";
-}
-
-.stars--4::before {
-  width: calc(4 * var(--star-size) + 3 * var(--distance-between-stars));
-  height: 100%;
-  background-image: url("images/star-active.svg"),
-    url("images/star-active.svg"),
-    url("images/star-active.svg"),
-    url("images/star-active.svg");
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: 0 var(--star-top-offset),
-    calc(var(--star-size) + var(--distance-between-stars))
-    var(--star-top-offset),
-    calc(2 * var(--star-size) + 2 * var(--distance-between-stars))
-    var(--star-top-offset),
-    calc(3 * var(--star-size) + 3 * var(--distance-between-stars))
-    var(--star-top-offset);
-  content: " ";
-}
-
-.stars--5 {
-  background-image: url("images/star-active.svg"),
-    url("images/star-active.svg"),
-    url("images/star-active.svg"),
-    url("images/star-active.svg"),
-    url("images/star-active.svg");
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: var(--row-offset) var(--star-top-offset),
-    calc(var(--star-size) + var(--distance-between-stars) + var(--row-offset))
-    var(--star-top-offset),
-    calc(2 * var(--star-size) + 2 * var(--distance-between-stars) +
-    var(--row-offset))
-    var(--star-top-offset),
-    calc(3 * var(--star-size) + 3 * var(--distance-between-stars) +
-    var(--row-offset))
-    var(--star-top-offset),
-    calc(4 * var(--star-size) + 4 * var(--distance-between-stars) +
-    var(--row-offset))
-    var(--star-top-offset);
 }
 
 .stars__star {
@@ -107,4 +33,24 @@ body {
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
   background-position: 0 var(--star-top-offset);
+}
+
+.stars--5 > .stars__star {
+  background-image: url("images/star-active.svg");
+}
+
+.stars--1 > .stars__star:first-child {
+  background-image: url("images/star-active.svg");
+}
+
+.stars--2 > .stars__star:nth-child(-n + 2) {
+  background-image: url("images/star-active.svg");
+}
+
+.stars--3 > .stars__star:nth-child(-n + 3) {
+  background-image: url("images/star-active.svg");
+}
+
+.stars--4 > .stars__star:nth-child(-n + 4) {
+  background-image: url("images/star-active.svg");
 }
