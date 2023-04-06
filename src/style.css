@@ -7,12 +7,7 @@ body {
   flex-direction: column;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   margin: 0;
   padding: 0;
   display: flex;
