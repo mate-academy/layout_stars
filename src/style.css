@@ -53,23 +53,3 @@
 .stars--5 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
-/* .stars__star {
-  height: 16px;
-  width: 16px;
-  background-image: url("images/star.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin: 0 2px;
-} */
-
-/* .image__star-active {
-  height: 16px;
-  width: 16px;
-  background-image: url("images/star-active.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin: 0 2px;
-}
- */
