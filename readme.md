@@ -5,7 +5,7 @@ Replace `<your_account>` with your Github username and copy the links to Pull Re
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
-
+d
 > Disable `Multiplayer Cursors` in figma to hide other cursors ([Learn how](https://mate-academy.github.io/layout_task-guideline/figma.html#multiplayer-cursors))
 ___
 
