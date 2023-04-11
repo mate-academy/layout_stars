@@ -10,7 +10,7 @@ body {
   display: flex;
 }
 
-.stars div:not(:first-child) {
+.stars_star:not(:first-child) {
   margin-left: 4px;
 }
 
