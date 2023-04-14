@@ -1,43 +1,37 @@
 
-html {
-  box-sizing: border-box;
-}
-
-* {
+body {
   margin: initial;
 }
 
-.stars__box {
-  display: flex;
-  flex-direction: column;
+* {
+  box-sizing: border-box;
 }
 
-.stars__box * {
+.stars {
   display: flex;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
-  border-radius: 0.5px;
 }
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars--0 .stars__star:nth-child(n+1),
-.stars--1 .stars__star:nth-child(n+2),
-.stars--2 .stars__star:nth-child(n+3),
-.stars--3 .stars__star:nth-child(n+4),
-.stars--4 .stars__star:nth-child(n+5) {
-  background: url(images/star.svg) no-repeat center center;
+.stars--0 :nth-child(n+1),
+.stars--1 :nth-child(n+2),
+.stars--2 :nth-child(n+3),
+.stars--3 :nth-child(n+4),
+.stars--4 :nth-child(n+5) {
+  background: url(images/star.svg) no-repeat center;
 }
 
-.stars--1 .stars__star:nth-child(-n+1),
-.stars--2 .stars__star:nth-child(-n+2),
-.stars--3 .stars__star:nth-child(-n+3),
-.stars--4 .stars__star:nth-child(-n+4),
-.stars--5 .stars__star:nth-child(-n+5) {
-  background: url(images/star-active.svg) no-repeat center center;
+.stars--1 :nth-child(-n+1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
+  background: url(images/star-active.svg) no-repeat center;
 }
