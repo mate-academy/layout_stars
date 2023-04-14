@@ -1,7 +1,7 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://Pashahu1.github.io/layout_stars/)
-- [TEST REPORT LINK](https://Pashahu1.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](file:///D:/project/layout_stars/src/index.html)
+- [TEST REPORT LINK](file:///D:/project/layout_stars/backstop_data/html_report/index.html)
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
