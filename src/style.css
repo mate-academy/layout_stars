@@ -1,6 +1,5 @@
-* {
+body {
   margin: 0;
-  padding: 0;
 }
 
 .container {
@@ -23,7 +22,6 @@
 
 .stars__star:not(:first-child) {
   margin-left: 4px;
-  padding-left: 8px;
 }
 
 .stars--1 .stars__star:nth-child(1),
