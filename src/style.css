@@ -4,19 +4,13 @@ body {
 }
 
 .stars {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  margin-left: -2px;
-}
-
-.stars__row {
   display: flex;
 }
 
 .stars__star {
   height: 16px;
-  width: 20px;
+  width: 16px;
+  margin-right: 4px;
   background: url(../src/images/star.svg) center no-repeat;
 }
 
