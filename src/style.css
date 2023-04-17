@@ -17,6 +17,7 @@ body {
 .stars__star {
   height: 16px;
   width: 20px;
+  background: url(../src/images/star.svg) center no-repeat;
 }
 
 .stars--5 .stars__star,
@@ -25,12 +26,4 @@ body {
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4) {
   background: url(../src/images/star-active.svg) center no-repeat;
-}
-
-.stars--0 .stars__star:nth-child(n+1),
-.stars--1 .stars__star:nth-child(n+2),
-.stars--2 .stars__star:nth-child(n+3),
-.stars--3 .stars__star:nth-child(n+4),
-.stars--4 .stars__star:nth-child(n+5) {
-  background: url(../src/images/star.svg) center no-repeat;
 }
