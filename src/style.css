@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
 }
 
@@ -7,12 +7,13 @@
 }
 
 .stars__star {
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-  background-position: 0;
+  background: url(images/star.svg) no-repeat center;
   width: 16px;
   height: 16px;
-  margin: 0 2px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--1 .stars__star:first-child,
