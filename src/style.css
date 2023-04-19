@@ -1,7 +1,10 @@
 * {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .container {
@@ -10,22 +13,12 @@
   background-color: #fff;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars-wrapper {
   display: flex;
   flex-direction: row;
 }
 
-.stars--0 > div,
-.stars--1 > div,
-.stars--2 > div,
-.stars--3 > div,
-.stars--4 > div,
-.stars--5 > div {
+.star {
   background: url(images/star.svg) no-repeat center ;
   width: 16px;
   height: 16px;
@@ -36,25 +29,22 @@
   margin-right: 0;
 }
 
-.stars--1 > .star1 {
+.stars-wrapper:nth-child(2) > .star:nth-child(1) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--2 > .star1,
-.stars--2 > .star2 {
+.stars-wrapper:nth-child(3) > .star:nth-child(1),
+.stars-wrapper:nth-child(3) > .star:nth-child(2) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--3 > .star1,
-.stars--3 > .star2,
-.stars--3 > .star3 {
+.stars-wrapper:nth-child(4) > .star:nth-child(1),
+.stars-wrapper:nth-child(4) > .star:nth-child(2),
+.stars-wrapper:nth-child(4) > .star:nth-child(3) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--4 > .star1,
-.stars--4 > .star2,
-.stars--4 > .star3,
-.stars--4 > .star4,
-.stars--5 > div {
+.stars-wrapper:nth-child(5) > .star:not(:last-child),
+.stars-wrapper:nth-child(6) > div {
   background-image: url(images/star-active.svg);
 }
