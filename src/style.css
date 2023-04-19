@@ -6,6 +6,7 @@ body {
   height: 16px;
   width: 16px;
   margin-right: 4px;
+
   background-image: url("./images/star.svg");
   background-size: auto;
   background-repeat: no-repeat;
@@ -16,12 +17,7 @@ body {
   margin-right: 0;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
 }
 
