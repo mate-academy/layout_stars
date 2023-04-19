@@ -14,8 +14,7 @@ html {
 .stars__star {
   background: url(images/star.svg) no-repeat;
   margin-right: 6px;
-  margin-top: 4px;
-  width: 128px;
+  width: 18px;
   height: 14px;
 }
 
