@@ -20,7 +20,7 @@ ul {
   background-repeat: no-repeat;
 }
 
-.stars--star:last-child {
+.stars__star:last-child {
   margin: 0;
 }
 
