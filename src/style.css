@@ -1,15 +1,15 @@
-* {
+body {
   margin: 0;
 }
 
 .stars__star {
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   background-image: url("./images/star.svg");
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 4px;
 }
 
 .stars__star:last-child {
