@@ -4,16 +4,19 @@ body {
 
 .stars {
   display: flex;
-
 }
 
 .stars__star {
-  background: url(images/star.svg);
-  background-repeat: no-repeat;
   width: 16px;
   height: 16px;
   margin-right: 4px;
+  background: url(images/star.svg);
   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--5 .stars__star,
@@ -24,8 +27,4 @@ body {
   background: url(images/star-active.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.stars .stars__star:last-child {
-  margin-right: 0;
 }
