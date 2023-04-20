@@ -2,12 +2,6 @@
   margin: 0;
 }
 
-.stars-container {
-  width: 140px;
-  height: 160px;
-  margin-top: 2px;
-}
-
 .stars {
   display: flex;
   justify-content: center;
