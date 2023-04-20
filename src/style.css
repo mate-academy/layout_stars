@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 140px;
+  height: 160px;
+}
+
+.con2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+
+.stars {
+
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.stars__star {
+  margin: 3px 4px;
+}
