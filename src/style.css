@@ -20,10 +20,6 @@ body {
   background-position: center;
 }
 
-.stars__star:first-child {
-  margin-left: 0;
-}
-
 .stars__star:last-child {
   margin-right: 0;
 }
