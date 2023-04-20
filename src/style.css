@@ -24,12 +24,7 @@ body {
   display: flex;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   flex-direction: row;
   display: flex;
 
