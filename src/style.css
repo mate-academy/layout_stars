@@ -13,7 +13,7 @@ body {
   padding: 0;
 }
 
-ul :last-child {
+.stars :last-child {
   margin-right: 0;
 }
 
