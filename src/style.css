@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 body {
   margin: 0;
 }
@@ -15,77 +21,28 @@ body {
   width: 16px;
   margin-right: 4px;
   border-radius: 0.5px;
+  background-image: url("./images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .stars__star:last-of-type {
   margin-right: 0;
 }
 
-/* STARS--0 */
-
-.stars--0 .stars__star:nth-of-type(1),
-.stars--0 .stars__star:nth-of-type(2),
-.stars--0 .stars__star:nth-of-type(3),
-.stars--0 .stars__star:nth-of-type(4),
-.stars--0 .stars__star:nth-of-type(5) {
-  background-image: url("./images/star.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-/* STARS--1 */
-.stars--1 .stars__star:nth-of-type(2),
-.stars--1 .stars__star:nth-of-type(3),
-.stars--1 .stars__star:nth-of-type(4),
-.stars--1 .stars__star:nth-of-type(5) {
-  background-image: url("./images/star.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 .stars--1 .stars__star:first-of-type {
   background-image: url("./images/star-active.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-/* STARS--2 */
-.stars--2 .stars__star:nth-of-type(3),
-.stars--2 .stars__star:nth-of-type(4),
-.stars--2 .stars__star:nth-of-type(5) {
-  background-image: url("./images/star.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .stars--2 .stars__star:nth-of-type(1),
 .stars--2 .stars__star:nth-of-type(2) {
   background-image: url("./images/star-active.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-/* STARS--3 */
-.stars--3 .stars__star:nth-of-type(4),
-.stars--3 .stars__star:nth-of-type(5) {
-  background-image: url("./images/star.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .stars--3 .stars__star:nth-of-type(1),
 .stars--3 .stars__star:nth-of-type(2),
 .stars--3 .stars__star:nth-of-type(3) {
   background-image: url("./images/star-active.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-/* STARS--4 */
-.stars--4 .stars__star:nth-of-type(5) {
-  background-image: url("./images/star.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .stars--4 .stars__star:nth-of-type(1),
@@ -93,17 +50,12 @@ body {
 .stars--4 .stars__star:nth-of-type(3),
 .stars--4 .stars__star:nth-of-type(4) {
   background-image: url("./images/star-active.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
-/* STARS--5 */
 .stars--5 .stars__star:nth-of-type(1),
 .stars--5 .stars__star:nth-of-type(2),
 .stars--5 .stars__star:nth-of-type(3),
 .stars--5 .stars__star:nth-of-type(4),
 .stars--5 .stars__star:nth-of-type(5) {
   background-image: url("./images/star-active.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
 }
