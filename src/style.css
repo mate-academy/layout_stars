@@ -12,9 +12,9 @@ body {
 .stars__star {
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 4px;
   height: 16px;
   width: 16px;
-  margin-left: 4px;
 }
 
 .stars--0 > * {
