@@ -1,11 +1,12 @@
 :root {
-  --star-size: 16px;
+  --star-width: 16px;
+  --star-height: 16px;
   --star-spacing: 4px;
-  --star-inactive: url(./images/star.svg);
-  --star-active: url(./images/star-active.svg);
+  --star-image-inactive: url(./images/star.svg);
+  --star-image-active: url(./images/star-active.svg);
 }
 
-.body {
+body {
   margin: 0;
 }
 
@@ -14,12 +15,13 @@
 }
 
 .stars__star {
-  width: var(--star-size);
-  height: var(--star-size);
+  width: var(--star-width);
+  height: var(--star-height);
   margin-right: var(--star-spacing);
-  background-image: var(--star-inactive);
+  background-image: var(--star-image-inactive);
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .stars__star:last-child {
@@ -31,9 +33,5 @@
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
-  background-image: var(--star-active);
-}
-
-.stars__star--active {
-  background-image: var(--star-active);
+  background-image: var(--star-image-active);
 }
