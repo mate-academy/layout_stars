@@ -18,10 +18,6 @@ body {
   width: 16px;
 }
 
-.stars--0 .stars__star {
-  background-image: url(/images/star.svg);
-}
-
 .stars__star:first-child {
   margin-left: 0;
 }
