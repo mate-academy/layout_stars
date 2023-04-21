@@ -1,0 +1,39 @@
+:root {
+  --star-size: 16px;
+  --star-spacing: 4px;
+  --star-inactive: url(./images/star.svg);
+  --star-active: url(./images/star-active.svg);
+}
+
+.body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: var(--star-size);
+  height: var(--star-size);
+  margin-right: var(--star-spacing);
+  background-image: var(--star-inactive);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: var(--star-active);
+}
+
+.stars__star--active {
+  background-image: var(--star-active);
+}
