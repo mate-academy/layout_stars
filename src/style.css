@@ -1,4 +1,11 @@
-* {
+html,
+body,
+div,
+a,
+ul,
+li,
+header,
+nav {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
