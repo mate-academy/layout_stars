@@ -7,34 +7,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
-  width: 96px;
-  height: 96px;
-  /* border: 1px solid red; */
+  align-items: start;
 }
 
 .stars {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  /* width: 96px; */
 }
 
 .stars_star {
   display: block;
   width: 16px;
   height: 16px;
-  
-  /* border: 1px solid red; */
   background-repeat: no-repeat;
   background-position: center;
-
-  /* border-radius: 0.5px; */
-}
-
-.stars_star:not(:last-child) {
   margin-right: 4px;
 }
 
