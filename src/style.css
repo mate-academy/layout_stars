@@ -6,10 +6,6 @@ body {
   margin: 0;
 }
 
-.conteiner {
-  position: relative;
-}
-
 .stars {
   display: flex;
   margin-top: 0;
@@ -29,41 +25,34 @@ body {
 }
 
 .stars__star:not(:first-child) {
-  content: "";
   background-image: url(./images/star.svg);
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--0 .stars__star {
-  content: "";
   background-image: url(./images/star.svg);
 }
 
-.stars--1 .stars__star:first-child {
-  content: "";
-  background-image: url(./images/star-active.svg);
-}
-
+.stars--1 .stars__star:first-child,
 .stars--2 .stars__star:first-child {
-  content: "";
   background-image: url(./images/star-active.svg);
 }
 
 .stars--2 .stars__star:nth-of-type(2) {
-  content: "";
   background-image: url(./images/star-active.svg);
 }
 
 .stars--3 .stars__star:nth-last-of-type(n+3) {
-  content: "";
   background-image: url(./images/star-active.svg);
 }
 
 .stars--4 .stars__star:nth-of-type(-n+4) {
-  content: "";
   background-image: url(./images/star-active.svg);
 }
 
 .stars--5 .stars__star:nth-of-type(-n+5) {
-  content: "";
   background-image: url(./images/star-active.svg);
 }
