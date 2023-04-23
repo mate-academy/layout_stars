@@ -1,7 +1,7 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://ivan-baranovskyi.github.io/layout_stars/)
+- [TEST REPORT LINK](https://ivan-baranovskyi.github.io/layout_stars/report/html_report/)
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
@@ -26,7 +26,8 @@ ___
   - The first block (with `stars--0` modifier) don't have active stars
   - The other 5 blocks have exactly N fisrt stars active where N is a numbers in an additional css class (modifier) `stars--N`
   - Add stars as background-images, not as "img" or "svg" tags
-- Each star in a block should have a class `stars__star` and no extra classes or inline styles
+- Each star in a block should have a class `stars__star` and no extra classes or inline styles1q2wertyuiop[;
+';fdsa]
   - The star size is fixed (see in the design)
   - The distance between the stars is also fixed
   - Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
