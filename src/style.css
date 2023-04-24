@@ -17,11 +17,7 @@ body {
 .stars__star {
   width: var(--star-width);
   height: var(--star-height);
-  margin-right: var(--star-spacing);
-  background-image: var(--star-image-inactive);
-  background-repeat: no-repeat;
-  background-position: center;
-
+  background: var(--star-image-inactive) no-repeat center;
 }
 
 .stars__star:not(:last-child) {
