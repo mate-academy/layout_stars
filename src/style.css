@@ -11,7 +11,7 @@
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  background: url(./images/star.svg) no-repeat;
+  background: url("./images/star.svg") no-repeat;
 }
 
 .stars1 .star:nth-child(n+2),
@@ -19,5 +19,5 @@
 .stars3 .star:nth-child(n+4),
 .stars4 .star:nth-child(n+5),
 .stars5 .star:nth-child(n+6) {
-  background-image: url(./images/star-active.svg);
+  background-image: url("./images/star-active.svg");
 }
