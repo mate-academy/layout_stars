@@ -17,7 +17,7 @@ You DON'T need to implement the card now, just the stars block.
 
 ![Stars](./reference/stars.png)
 ___
-- You can find star images in `images` folder
+- You can find star images in `images` folder 
 - Reset browser's default `margin`
 - Implement 6 blocks with `stars` class
   - Each block should have an extra class `stars--0`, `stars--1`, `stars--2` ... `stars--5` (one extra class per block)
