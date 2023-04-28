@@ -11,14 +11,12 @@ body {
 }
 
 .stars__star {
-  color: #e5e5e5;
   height: 16px;
   width: 16px;
-  background-repeat: no-repeat;
-  background-size: fill;
-  background-position: center;
-  border-radius: 0.5px;
+  margin-right: 4px;
   background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stars__star:not(:last-child) {
@@ -29,6 +27,6 @@ body {
 .stars--2 :nth-child(-n+2),
 .stars--3 :nth-child(-n+3),
 .stars--4 :nth-child(-n+4),
-.stars--5 > * {
+.stars--5 :nth-child(n) {
   background-image: url(./images/star-active.svg);
 }
