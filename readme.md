@@ -1,7 +1,7 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://rimidbit.github.io/layout_stars/)
+- [TEST REPORT LINK](https://rimidbit.github.io/layout_stars/report/html_report/)
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
@@ -17,7 +17,7 @@ You DON'T need to implement the card now, just the stars block.
 
 ![Stars](./reference/stars.png)
 ___
-- You can find star images in `images` folder
+- You can find star images in `images` folder 
 - Reset browser's default `margin`
 - Implement 6 blocks with `stars` class
   - Each block should have an extra class `stars--0`, `stars--1`, `stars--2` ... `stars--5` (one extra class per block)
