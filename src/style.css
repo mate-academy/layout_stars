@@ -9,10 +9,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 120px;
-  height: 96px;
-  margin-top: 2px;
-  margin-left: 24px;
 }
 
 .stars {
@@ -25,7 +21,7 @@ body {
   width: 16px;
   height: 16px;
   background-image: url(images/star.svg);
-  background-size: 13px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -34,6 +30,6 @@ body {
   width: 16px;
   height: 16px;
   background-image: url(images/star-active.svg);
-  background-size: 13px;
+  background-position: center;
   background-repeat: no-repeat;
 }
