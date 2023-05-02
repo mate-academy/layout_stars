@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 96px;
+  margin-top: 2px;
+  margin-left: 24px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.none_active {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-size: 13px;
+  background-repeat: no-repeat;
+}
+
+.active {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star-active.svg);
+  background-size: 13px;
+  background-repeat: no-repeat;
+}
