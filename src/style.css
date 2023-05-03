@@ -18,18 +18,18 @@
 .stars__star {
   width: 16px;
   height: 16px;
+  margin-right: 4px;
   background-image: url("./images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
-  padding: 0 2px;
 }
 
 .stars--N {
   width: 16px;
   height: 16px;
+  margin-right: 4px;
   border-radius: 0.5px;
   background-image: url("./images/star-active.svg");
   background-repeat: no-repeat;
   background-position: center;
-  padding: 0 2px;
 }
