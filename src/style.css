@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url("./images/star.svg");
+  background-repeat: no-repeat;
+  padding: 0 2px;
+}
+
+.stars--N {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url("./images/star-active.svg");
+  background-repeat: no-repeat;
+  padding: 0 2px;
+}
