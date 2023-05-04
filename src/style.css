@@ -9,13 +9,9 @@ body {
 
 .stars__star {
   display: flex;
-  background-image: url(./images/star.svg) ;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #e5e5e5;
+  background: url(./images/star.svg) no-repeat center;
   width: 16px;
   height: 16px;
-  border-radius: 0.5px;
 }
 
 .stars__star:not(:first-child) {
@@ -28,5 +24,4 @@ body {
 .stars--4 :nth-child(-n + 4),
 .stars--5 :nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
-  color: #ffde6a;
 }
