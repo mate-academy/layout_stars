@@ -8,7 +8,7 @@ body {
   display: flex;
 }
 
-.star {
+.stars__star {
   background-image: var(--empty-star);
   width: 16px;
   height: 16px;
@@ -17,10 +17,14 @@ body {
   background-position: center;
 }
 
-.stars--1 :first-child,
+.stars :last-child {
+  margin-right: 0;
+}
+
+.stars--1 :nth-child(-n+1),
 .stars--2 :nth-child(-n+2),
 .stars--3 :nth-child(-n+3),
 .stars--4 :nth-child(-n+4),
-.stars--5 .star {
+.stars--5 :nth-child(-n+5) {
   background-image: var(--full-star);
 }
