@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  --full-star: url(./images/star-active.svg);
+  --empty-star: url(./images/star.svg);
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  background-image: var(--empty-star);
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--1 :first-child,
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 .star {
+  background-image: var(--full-star);
+}
