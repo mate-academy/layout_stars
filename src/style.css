@@ -2,11 +2,8 @@
 body {
   width: 100%;
   margin: 0;
-}
-
-.frame {
-  position: absolute;
   background: #fff;
+  background-position: center;
 }
 
 .stars {
@@ -19,12 +16,7 @@ body {
   width: 16px;
   height: 16px;
   margin: 0 2px;
-  
-}
-
-.stars :hover {
-  border: 0.5px;
-  /* color: red; */
+  background-position: center;
 }
 
 .stars--1 :nth-child(-n+1),
@@ -33,4 +25,12 @@ body {
 .stars--4 :nth-child(-n+4),
 .stars--5 :nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
+}
+
+.stars :first-child {
+  margin-left: 0;
+}
+
+.stars :last-child {
+  margin-right: 0;
 }
