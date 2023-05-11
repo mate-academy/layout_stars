@@ -12,7 +12,7 @@ body {
   background: url(/images/star.svg) no-repeat center;
 }
 
-.stars:not(:last-child) {
+.stars :not(:last-child) {
   margin-right: 4px;
 }
 
