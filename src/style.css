@@ -4,14 +4,12 @@ body {
 }
 
 .wrapper {
-  width: 100px;
-  height: 100px;
+  width: 96px;
+  height: 96px;
 }
 
 .stars {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .stars__star {
@@ -23,12 +21,12 @@ body {
   background-position: center;
 }
 
-.stars--0 .stars__star :last-child,
-.stars--1 .stars__star :last-child,
-.stars--2 .stars__star :last-child,
-.stars--3 .stars__star :last-child,
-.stars--4 .stars__star :last-child,
-.stars--5 .stars__star :last-child {
+.stars--0 .stars__star:last-child,
+.stars--1 .stars__star:last-child,
+.stars--2 .stars__star:last-child,
+.stars--3 .stars__star:last-child,
+.stars--4 .stars__star:last-child,
+.stars--5 .stars__star:last-child {
   margin-right: 0;
 }
 
