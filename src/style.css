@@ -25,6 +25,7 @@
 /* stylelint-disable-next-line no-descending-specificity */
 .stars__star {
   background-image: url(images/star.svg);
+  margin-right: 4px;
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
@@ -33,5 +34,4 @@
 
 .stars {
   display: flex;
-  margin-right: 4px;
 }
