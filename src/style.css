@@ -35,3 +35,7 @@
 .stars {
   display: flex;
 }
+
+body {
+  margin: 0;
+}
