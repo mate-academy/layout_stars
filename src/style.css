@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+[class^="stars--"] {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars__star {
+  background: url(./images/star.svg) no-repeat center;
+  margin: 0 2px;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.active {
+  background-image: url(./images/star-active.svg);
+}
