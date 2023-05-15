@@ -1,0 +1,48 @@
+/* stylelint-disable color-hex-case */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+  background-position: center;
+}
+
+.stars__star {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../src/images/star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--0 .stars__star {
+  background-image: url("../src/images/star.svg");
+}
+
+.stars--5 .stars__star {
+  background-image: url("../src/images/star-active.svg");
+}
+
+.stars--1 .stars__star:nth-child(-n+1) {
+  background-image: url("../src/images/star-active.svg");
+}
+
+.stars--2 .stars__star:nth-child(-n+2) {
+  background-image: url("../src/images/star-active.svg");
+}
+
+.stars--3 .stars__star:nth-child(-n+3) {
+  background-image: url("../src/images/star-active.svg");
+}
+
+.stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url("../src/images/star-active.svg");
+}
