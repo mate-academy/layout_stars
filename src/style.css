@@ -16,14 +16,6 @@ body {
   background-position: center;
 }
 
-.stars:first-child {
-  margin-left: 0;
-}
-
-.stars:last-child {
-  margin-right: 0;
-}
-
 .stars--1 :nth-child(-n+1),
 .stars--2 :nth-child(-n+2),
 .stars--3 :nth-child(-n+3),
