@@ -3,21 +3,11 @@
 }
 
 body {
-  background-color: #e5e5e5;
   margin: 0;
-}
-
-.container {
-  width: 100px;
-  height: 106px;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
