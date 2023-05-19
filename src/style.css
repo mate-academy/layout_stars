@@ -1,0 +1,77 @@
+:root {
+  --bg-image__stars__star: url("images/star.svg");
+  --bg-image--active__stars__star: url("images/star-active.svg");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 140px;
+  height: 160px;
+  margin: -80px 0 0 -70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 160px;
+  background-color: #fff;
+}
+
+.wrapper {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 96px;
+  height: 96px;
+  margin: 32px 22px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+
+}
+
+.stars__star {
+  background-image: var(--bg-image__stars__star);
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  margin: 0 2px ;
+}
+
+.stars--1 :first-child {
+  background-image: var(--bg-image--active__stars__star);
+
+}
+
+.stars--2 :nth-child(-n + 2) {
+  background-image: var(--bg-image--active__stars__star);
+}
+
+.stars--3 :nth-child(-n + 3) {
+  background-image: var(--bg-image--active__stars__star);
+}
+
+.stars--4 :nth-child(-n + 4) {
+  background-image: var(--bg-image--active__stars__star);
+}
+
+.stars--5 :nth-child(-n + 5) {
+  background-image: var(--bg-image--active__stars__star);
+}
