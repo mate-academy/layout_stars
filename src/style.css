@@ -8,8 +8,8 @@ body {
 }
 
 .stars_star {
-  width: 13px;
   height: 12px;
+  width: 13px;
   margin: 2px;
   margin-right: 6px;
   justify-content: space-between;
