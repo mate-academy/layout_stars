@@ -1,0 +1,19 @@
+
+.flex-container {
+  position: relative;
+  width: 140px;
+  height: 160px;
+  background-color: #fff;
+}
+
+.flex-row {
+  display: inline-block;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  color: gray;
+  position: absolute;
+}
