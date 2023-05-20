@@ -10,10 +10,6 @@ body {
   display: flex;
 }
 
-.stars--0.stars__star {
-  background-image: url(images/star.svg);
-}
-
 .stars__star {
   width: 16px;
   height: 16px;
