@@ -9,8 +9,7 @@
 .stars__star {
   height: 16px;
   width: 16px;
-  background: url(images/star.svg) no-repeat center;
-  background-position: 50%;
+  background: url("images/star.svg") no-repeat center 50%;
   margin-right: 4px;
 }
 
