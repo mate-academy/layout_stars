@@ -5,6 +5,7 @@ body {
 .stars {
   display: flex;
   justify-content: space-between;
+  width: 100px;
 }
 
 .stars__star {
