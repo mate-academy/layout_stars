@@ -1,0 +1,25 @@
+.container {
+  margin: 32px 0 0 20px;
+}
+
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5,
+.stars--6 {
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: none;
+  background-size: contain;
+  margin: 0 2px;
+}
+
+.star__filled {
+  background-image: url(images/star-active.svg);
+}
