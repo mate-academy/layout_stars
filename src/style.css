@@ -10,6 +10,7 @@ body {
   display: flex;
   box-sizing: border-box;
   justify-content: center;
+  background-position: center;
 }
 
 .stars__star {
@@ -17,6 +18,7 @@ body {
   height: 16px;
   background: url(images/star.png) no-repeat;
   margin: 0 4px 0 0;
+  background-position: center;
 }
 
 .stars--0 .stars__star:nth-child(-n+0) {
