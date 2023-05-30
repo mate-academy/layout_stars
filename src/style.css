@@ -4,12 +4,6 @@ body {
   --image-width: 16px;
 }
 
-.star-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .stars {
   display: flex;
 }
@@ -33,8 +27,4 @@ body {
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(n) {
   background-image: url("./images/star-active.svg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: var(--image-height);
-  width: var(--image-width);
 }
