@@ -1,9 +1,11 @@
-.container {
+* {
   margin: 0;
 }
 
 .stars {
   display: flex;
+  list-style-type: none;
+  padding: 0;
 }
 
 .stars__star {
