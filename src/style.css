@@ -18,7 +18,7 @@ body {
   display: flex;
 }
 
-.stars--5 .stars__star,
+.stars--5 .stars__star:nth-of-type(-n + 5),
 .stars--4 .stars__star:nth-of-type(-n + 4),
 .stars--3 .stars__star:nth-of-type(-n + 3),
 .stars--2 .stars__star:nth-of-type(-n + 2),
