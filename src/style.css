@@ -12,13 +12,12 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  background-size: contain;
 }
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars__star--active {
+.stars--N {
   background-image: url("images/star-active.svg");
 }
