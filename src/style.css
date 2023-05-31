@@ -14,14 +14,13 @@ body {
   height: 16px;
   width: 16px;
   margin-left: 4px;
-  border-radius: 0.5px;
 }
 
 .stars {
   display: flex;
 }
 
-.stars--5 .star,
+.stars--5 .star:nth-child(n),
 .stars--1 .star:first-child,
 .stars--2 .star:nth-child(-n + 2),
 .stars--3 .star:nth-child(-n + 3),
