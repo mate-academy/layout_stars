@@ -10,13 +10,13 @@ body {
   height: 16px;
   width: 16px;
   background-image: url(images/star.svg);
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 4px;
 }
 
-.stars_star:not(:last-child) {
-  margin-left: 4px;
+.stars_star:first-child {
+  margin-left: 0;
 }
 
 .stars--1 > :nth-child(1),
