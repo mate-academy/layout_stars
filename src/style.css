@@ -1,4 +1,4 @@
-html {
+body {
   margin: 0;
 }
 
@@ -28,6 +28,4 @@ div {
 .stars--4 :nth-child(-n + 4),
 .stars--5 :nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
-  width: 16px;
-  height: 16px;
 }
