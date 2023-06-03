@@ -1,0 +1,7 @@
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+@import url(/styles/blocks/stars.css);
