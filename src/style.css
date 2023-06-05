@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  height: 96px;
+  width: 96px;
+  margin: auto;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.stars__star_not_active {
+  background-image: url(./images/star.svg);
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+}
+
+.stars__star_active {
+  background-image: url(./images/star-active.svg);
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+}
