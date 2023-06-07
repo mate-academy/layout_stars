@@ -21,11 +21,12 @@
   background-position: center;
 }
 
-.stars__star:not(:first-child){
+.stars__star:not(:first-child) {
   margin-left: 4px;
 }
+
 .stars__star--inactive {
-background-image: url(/src/images/star.svg);
+  background-image: url(/src/images/star.svg);
 }
 
 .stars__star--active {
