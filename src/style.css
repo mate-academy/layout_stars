@@ -1,11 +1,7 @@
 body {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: 0;
-}
-
-.container {
   width: 96px;
   height: 96px;
 }
