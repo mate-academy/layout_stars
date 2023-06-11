@@ -1,0 +1,41 @@
+:root {
+  --width-link: 16px;
+  --height-link: 16px;
+  --background-size: 13px;
+}
+
+body {
+  margin: 0 ;
+  padding: 0;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stars__link {
+  width: var(--width-link);
+  height: var(--height-link);
+  background-image: url(images/star.svg);
+  background-size: var(--background-size);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 4px 0 0;
+  border-radius: 0.5px;
+}
+
+.stars--1 .stars__link:nth-child(-n+1),
+.stars--2 .stars__link:nth-child(-n+2),
+.stars--3 .stars__link:nth-child(-n+3),
+.stars--4 .stars__link:nth-child(-n+4),
+.stars--5 .stars__link:nth-child(-n+5) {
+  background-image: url(images/star-active.svg);
+}
