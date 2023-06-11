@@ -1,4 +1,4 @@
-html {
+:root {
   --width-link: 16px;
   --height-link: 16px;
   --background-size: 13px;
@@ -32,7 +32,7 @@ body {
   border-radius: 0.5px;
 }
 
-.stars--1 .stars__link:nth-child(1),
+.stars--1 .stars__link:nth-child(-n+1),
 .stars--2 .stars__link:nth-child(-n+2),
 .stars--3 .stars__link:nth-child(-n+3),
 .stars--4 .stars__link:nth-child(-n+4),
