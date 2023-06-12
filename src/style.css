@@ -4,7 +4,9 @@
 }
 
 .stars {
- 
+  margin: 0;
+  padding: 0;
+  height: 16px;
 }
 
 .stars__star {
