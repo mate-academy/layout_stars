@@ -1,0 +1,33 @@
+:root {
+  --not-active: url("images/star.svg");
+  --active: url("images/star-active.svg");
+}
+
+body {
+  margin: 0;
+}
+
+.stars {
+  margin: 0;
+  width: 96px;
+  padding-right: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars__star {
+  background-image: var(--not-active);
+  background-repeat: no-repeat;
+  background-size: 13px 12px;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: var(--active);
+}
