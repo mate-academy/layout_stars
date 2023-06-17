@@ -23,8 +23,8 @@ ___
   - Stars should be added as centered background-images, not as "img" or "svg" tags
   - The star size and the distance should be taken from Figma
   - Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
-- Add one of the next extra classes (a `modifier`) `stars--0`, `stars--1`, `stars--2` ... `stars--5` to each block
-- The block with `stars--N` modifier should have exactly `N` first stars active
+- Add one of the next extra classes (a `modifier`) `stars stars--0`, `stars stars--1`, `stars stars--2` ... `stars stars--5` to each block
+- The block with `stars stars--N` modifier should have exactly `N` first stars active
 
 ---
 --> [CHECKLIST](https://github.com/mate-academy/layout_stars/blob/master/checklist.md)
