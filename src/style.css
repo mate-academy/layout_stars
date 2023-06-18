@@ -1,45 +1,13 @@
-* {
+.page {
   margin: 0;
   padding: 0;
 }
 
 .stars {
   display: flex;
-  flex-direction: column;
 }
 
-.stars--0 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--1 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--2 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--3 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--4 {
-  display: flex;
-  flex-direction: row;
-}
-
-.stars--5 {
-  display: flex;
-  flex-direction: row;
-}
-
-.star {
-
+.stars__star {
   width: 16px;
   height: 16px;
   background-image: url(./images/star.svg);
@@ -48,10 +16,14 @@
   background-position: center;
 }
 
-.active_star {
+.stars--1 > :nth-child(-n+1),
+.stars--2 > :nth-child(-n+2),
+.stars--3 > :nth-child(-n+3),
+.stars--4 > :nth-child(-n+4),
+.stars--5 > :nth-child(-n+5) {
   background-image: url(./images/star-active.svg);
 }
 
-.star:not(:last-child) {
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
