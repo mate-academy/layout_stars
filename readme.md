@@ -1,5 +1,5 @@
 # Stars block
-Replace `<your_account>` with your Github username and copy the links to Pull Request description:
+Replace `<your_accout>` with your Github username and copy the links to Pull Request description:
 - [DEMO LINK](https://IvanOlecsandrovych.github.io/layout_stars/)
 - [TEST REPORT LINK](https://IvanOlecsandrovych.github.io/layout_stars/report/html_report/)
 
