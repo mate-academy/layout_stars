@@ -23,7 +23,7 @@ div {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   width: 15px;
-  height: 15px;
+  height: 14px;
 }
 
 .stars__star:not(:last-child) {
