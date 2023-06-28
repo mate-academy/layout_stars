@@ -14,7 +14,7 @@ body {
   background-image: url("images/star.svg");
 }
 
-.stars__star:nth-child(n+2) {
+.stars__star:not(:first-child) {
   margin-left: 4px;
 }
 
