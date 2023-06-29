@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 96px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1;
+}
+
+.stars__item {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.stars__item--inactive {
+  background-image: url(./images/star.svg);
+}
+
+.stars__item--active {
+  background-image: url(./images/star-active.svg);
+}
