@@ -1,0 +1,36 @@
+.page_body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.stars-package {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+
+  width: 16px;
+  height: 16px;
+
+  margin-right: 4px;
+}
+
+.stars__star--active {
+  background-image: url(images/star-active.svg);
+}
