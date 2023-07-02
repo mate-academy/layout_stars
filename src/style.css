@@ -1,0 +1,25 @@
+body {
+  flex: content;
+}
+
+.starboard {
+  height: 96px;
+  width: 96px;
+  padding: 32px 22px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  rotate: (180);
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  margin: 4px;
+}
+
+.stars__star--active {
+  color-scheme: yellowgreen;
+}
