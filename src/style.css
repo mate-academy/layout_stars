@@ -15,8 +15,13 @@
 .stars {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  width: fit-content;
+}
+
+.stars :last-child {
+  margin-right: 0;
 }
 
 .stars__star {
