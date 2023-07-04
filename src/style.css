@@ -1,0 +1,14 @@
+body {
+  border: yellow solid 2px;
+  max-width: 85px;
+  max-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Stars img {
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
