@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --star-size: 1rem;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars :first-child {
+  margin-left: 0;
+}
+
+.stars__star,
+.stars__star--active {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: var(--star-size);
+  height: var(--star-size);
+  margin-left: 0.25rem;
+}
+
+.stars__star {
+  background-image: url("/images/star.svg");
+}
+
+.stars__star--active {
+  background-image: url("/images/star-active.svg");
+}
