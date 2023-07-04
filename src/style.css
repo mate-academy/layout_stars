@@ -1,0 +1,29 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.starline {
+  display: flex;
+}
+
+.stars__star-active {
+  background-image: url(/images/star-active.svg);
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.stars__star-inactive {
+  background-image: url(/images/star.svg);
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
