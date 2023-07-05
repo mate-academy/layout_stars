@@ -1,0 +1,30 @@
+body,
+ul,
+li,
+h1,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: inline-block;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars__star {
+  background-image: url(images\star.svg);
+  background-position: center;
+  background-size: initial;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__star:not(:first-of-type) {
+  margin-left: 4px;
+}
