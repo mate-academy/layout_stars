@@ -16,6 +16,9 @@ li {
   width: 16px;
   height: 16px;
   list-style: none;
+}
+
+.list__item:not(:last-child) {
   margin-right: 4px;
 }
 
