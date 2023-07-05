@@ -1,14 +1,7 @@
 body,
-ul,
-li,
-h1,
 div {
   margin: 0;
   padding: 0;
-}
-
-.container {
-  display: inline-block;
 }
 
 .stars {
@@ -19,7 +12,6 @@ div {
 .stars__star {
   background-image: url(images\star.svg);
   background-position: center;
-  background-size: initial;
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
@@ -27,4 +19,28 @@ div {
 
 .stars__star:not(:first-of-type) {
   margin-left: 4px;
+}
+
+.stars--0 :nth-child(-n + 0) {
+  background-image: url(images\star-active.svg);
+}
+
+.stars--1 :nth-child(-n + 1) {
+  background-image: url(images\star-active.svg);
+}
+
+.stars--2 :nth-child(-n + 2) {
+  background-image: url(images\star-active.svg);
+}
+
+.stars--3 :nth-child(-n + 3) {
+  background-image: url(images\star-active.svg);
+}
+
+.stars--4 :nth-child(-n + 4) {
+  background-image: url(images\star-active.svg);
+}
+
+.stars--5 :nth-child(-n + 5) {
+  background-image: url(images\star-active.svg);
 }
