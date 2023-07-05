@@ -34,3 +34,4 @@ ___
 container?
 - There's no need to add vertical margins between rows of stars.
 - !!! DON'T use `gap` property for `flex` container because it does not work in tests
+<!-- edit -->
