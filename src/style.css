@@ -2,12 +2,7 @@ body {
   margin: 0;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
 }
 
@@ -18,6 +13,10 @@ body {
   height: 16px;
   width: 16px;
   margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars__star--active {
