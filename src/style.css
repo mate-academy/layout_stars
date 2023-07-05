@@ -12,10 +12,11 @@ body {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 4px;
 }
 
-.stars__star:not(:first-of-type) {
-  margin-right: 4px;
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars:nth-child(2) > .stars__star:first-child,
