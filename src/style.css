@@ -5,8 +5,6 @@ body {
 .stars {
   display: flex;
   justify-content: flex-start;
-  /* width: 96px; */
-
 }
 
 .stars__star {
@@ -18,42 +16,10 @@ body {
   margin-right: 4px;
 }
 
-.stars--1 > .stars__star:not(:nth-child(n+2)) {
-  width: 16px;
-  height: 16px;
-  background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-.stars--2 > .stars__star:not(:nth-child(n+3)) {
-  width: 16px;
-  height: 16px;
-  background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-.stars--3 > .stars__star:not(:nth-child(n+4)) {
-  width: 16px;
-  height: 16px;
-  background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-.stars--4 > .stars__star:not(:nth-child(n+5)) {
-  width: 16px;
-  height: 16px;
-  background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
+.stars--1 > .stars__star:not(:nth-child(n+2)),
+.stars--2 > .stars__star:not(:nth-child(n+3)),
+.stars--3 > .stars__star:not(:nth-child(n+4)),
+.stars--4 > .stars__star:not(:nth-child(n+5)),
 .stars--5 > .stars__star:not(:nth-child(n+6)) {
   width: 16px;
   height: 16px;
