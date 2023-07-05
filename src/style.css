@@ -15,10 +15,13 @@
   width: 16px;
   margin-right: 4px;
   background-repeat: no-repeat;
-
   background-position: center;
 }
 
-.stars__star.modifier {
+.stars:nth-child(5) {
+  margin-right: 0;
+}
+
+.stars__star.stars__star--active {
   background-image: url(/images/star-active.svg);
 }
