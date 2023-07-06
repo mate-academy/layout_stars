@@ -19,6 +19,10 @@ body {
   margin-right: 0;
 }
 
-.stars__star--active {
-  background-image: url("./images/star-active.svg");
+.stars:nth-child(2) > .stars__star:first-child,
+.stars:nth-child(3) > .stars__star:nth-child(-n + 2),
+.stars:nth-child(4) > .stars__star:nth-child(-n + 3),
+.stars:nth-child(5) > .stars__star:nth-child(-n + 4),
+.stars:nth-child(6) > .stars__star:nth-child(n) {
+  background-image: url(images/star-active.svg);
 }
