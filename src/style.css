@@ -14,11 +14,6 @@ div {
   padding-left: 2px;
 }
 
-.stars:first-child {
-  padding-top: 2px;
-  padding-left: 2px;
-}
-
 .stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
