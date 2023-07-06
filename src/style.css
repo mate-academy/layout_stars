@@ -12,6 +12,9 @@ body {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.stars__star:not(:last-of-type) {
   margin-right: 4px;
 }
 
