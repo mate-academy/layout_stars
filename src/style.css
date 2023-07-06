@@ -12,6 +12,9 @@ body {
   width: 16px;
   background-repeat: no-repeat;
   background-position: 50%;
+}
+
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
