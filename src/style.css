@@ -7,10 +7,11 @@ body {
   width: 96px;
   padding: 32px 22px;
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 4px;
+  margin: 0 auto;
 }
 
 .stars__star {
@@ -22,20 +23,12 @@ body {
   list-style: none;
 }
 
-.stars__star:not(:last-child) {
-  padding-bottom: 4px;
-}
-
-.stars--1 > .stars__star:nth-child(-n + 1),
-.stars--2 > .stars__star:nth-child(-n + 2),
-.stars--3 > .stars__star:nth-child(-n + 3),
-.stars--4 > .stars__star:nth-child(-n + 4),
-.stars--5 > .stars__star:nth-child(-n + 5) {
+.stars--1 > :nth-child(-n + 1),
+.stars--2 > :nth-child(-n + 2),
+.stars--3 > :nth-child(-n + 3),
+.stars--4 > :nth-child(-n + 4),
+.stars--5 > :nth-child(-n + 5) {
   background-image: url(./images/star.svg);
-}
-
-.stars--0 {
-  padding: 0;
 }
 
 .stars--1 {
@@ -43,17 +36,17 @@ body {
 }
 
 .stars--2 {
-  padding: 0;
+  padding-left: 0;
 }
 
 .stars--3 {
-  padding: 0;
+  padding-left: 0;
 }
 
 .stars--4 {
-  padding: 0;
+  padding-left: 0;
 }
 
 .stars--5 {
-  padding: 0;
+  padding-left: 0;
 }
