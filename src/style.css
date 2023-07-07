@@ -4,7 +4,6 @@
 
 .stars {
   display: flex;
-  justify-content: center;
 }
 
 .stars__star {
@@ -14,6 +13,10 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n+1),
