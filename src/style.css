@@ -20,10 +20,6 @@ body {
   background-image: url(images/star.svg);
 }
 
-.stars__star--active {
-  background-image: url(images/star-active.svg);
-}
-
 .stars__star:not(:last-of-type) {
   margin-right: 4px;
 }
