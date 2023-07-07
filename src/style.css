@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --star-size: 1rem;
+  --spacer: 0.25rem;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  height: var(--star-size);
+  width: var(--star-size);
+  background-image: url(images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars__star:not(:last-of-type) {
+  margin-right: var(--spacer);
+}
+
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
+}
