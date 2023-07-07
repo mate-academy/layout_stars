@@ -11,9 +11,8 @@ body {
   height: 16px;
   background-image: url("./images/star.svg");
   background-position: center;
-  background-size: 100%;
   background-repeat: no-repeat;
-  margin: 0 4px; /* i don`t understand how make to indentical to mockup*/
+  margin-right: 4px;
 }
 
 .stars--1 :nth-child(1),
