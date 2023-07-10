@@ -9,14 +9,14 @@ body {
 .stars__star {
   height: 16px;
   width: 16px;
-  background-position: 50%;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url(./images/star.svg);
   list-style: none;
 }
 
 .stars__star:not(:last-child) {
-  padding-right: 4px;
+  margin-right: 4px;
 }
 
 .stars--1 > :nth-child(-n + 1),
