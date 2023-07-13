@@ -1,0 +1,21 @@
+@import url("helpers/reset.css");
+
+.stars__line {
+  display: flex;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+}
+
+.star--inactive {
+  background-image: url("../images/star.svg");
+}
+
+.star--active {
+  background-image: url("../images/star-active.svg");
+}

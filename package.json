@@ -40,5 +40,7 @@
       "bem": false
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "helpers": "0.0.6"
+  }
 }
