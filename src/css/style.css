@@ -1,4 +1,6 @@
-@import url("helpers/reset.css");
+body {
+  margin: 0;
+}
 
 .stars__line {
   display: flex;
