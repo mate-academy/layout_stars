@@ -27,44 +27,20 @@
   width: 16px;
 }
 
-.stars--0 :nth-child(n + 1) {
-  background-image: url(images/star.svg);
-}
-
-/* Selects all childs from 1st position till end */
-.stars--1 :nth-child(n + 2) {
-  background-image: url(images/star.svg);
-}
-
-/* Selects all childs up to 1st position including */
-.stars--1 :nth-child(-n + 1) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--2 :nth-child(n + 3) {
-  background-image: url(images/star.svg);
-}
-
-.stars--2 :nth-child(-n + 2) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--3 :nth-child(n + 4) {
-  background-image: url(images/star.svg);
-}
-
-.stars--3 :nth-child(-n + 3) {
-  background-image: url(images/star-active.svg);
-}
-
+/* Selects all childs from +x to last position */
+.stars--0 :nth-child(n + 1),
+.stars--1 :nth-child(n + 2),
+.stars--2 :nth-child(n + 3),
+.stars--3 :nth-child(n + 4),
 .stars--4 :nth-child(n + 5) {
   background-image: url(images/star.svg);
 }
 
-.stars--4 :nth-child(-n + 4) {
-  background-image: url(images/star-active.svg);
-}
-
+/* Selects all childs from 1st to +x position */
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
 .stars--5 :nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
 }
