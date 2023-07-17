@@ -12,9 +12,9 @@ body {
 }
 
 .stars__star {
-  padding-right: 4px;
+  margin-right: 4px;
   box-sizing: border-box;
-  width: 20px;
+  width: 16px;
   height: 16px;
   background-position: 2px center;
   background-image: url(images/star.svg);
