@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stars__item {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(./images/star-active.svg);
+}
+
+.stars__item:not(:first-of-type) {
+  margin-left: 4px;
+}
+
+.stars--0 .stars__item:nth-child(1n + 0),
+.stars--1 .stars__item:nth-child(1n + 2),
+.stars--2 .stars__item:nth-child(1n + 3),
+.stars--3 .stars__item:nth-child(1n + 4),
+.stars--4 .stars__item:nth-child(1n + 5) {
+  background-image: url(./images/star.svg);
+}
