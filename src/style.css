@@ -10,13 +10,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 140px;
-  height: 160px;
+  height: 96px;
+  width: 100px;
 }
 
 .stars {
   display: flex;
-  flex-direction: row;
   height: 16px;
 }
 
@@ -25,28 +24,13 @@
   background-image: url(images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
+  margin-right: 4px;
 }
 
-.stars__star:not(:first-child) {
-  margin-left: 4px ;
-}
-
-.stars--5 .stars__star {
-  background-image: var(--active_star);
-}
-
-.stars--4 :not(:last-child) {
-  background-image: var(--active_star);
-}
-
-.stars--3 :nth-child(-n+3) {
-  background-image: var(--active_star);
-}
-
-.stars--2 :nth-child(-n+2) {
-  background-image: var(--active_star);
-}
-
+.stars--5 .stars__star,
+.stars--4 :not(:last-child),
+.stars--3 :nth-child(-n+3),
+.stars--2 :nth-child(-n+2),
 .stars--1 :first-child {
   background-image: var(--active_star);
 }
