@@ -22,19 +22,3 @@ body {
 .stars--4 .stars__star:nth-child(n+5) {
   background-image: url(/images/star.svg);
 }
-
-/* .stars--1 .stars__star:nth-child(n+2) {
-  background-image: url(/images/star.svg);
-}
-
-.stars--2 .stars__star:nth-child(n+3) {
-  background-image: url(/images/star.svg);
-}
-
-.stars--3 .stars__star:nth-child(n+4) {
-  background-image: url(/images/star.svg);
-}
-
-.stars--4 .stars__star:nth-child(n+5) {
-  background-image: url(/images/star.svg);
-} */
