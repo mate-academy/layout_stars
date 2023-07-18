@@ -1,0 +1,34 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars :first-child {
+  margin-left: 0;
+}
+
+.stars :last-child {
+  margin-right: 0;
+}
+
+.stars__star {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+}
+
+.stars--active {
+  background-image: url(./images/star-active.svg);
+}
+
+.stars--noactive {
+  background-image: url(./images/star.svg);
+}
