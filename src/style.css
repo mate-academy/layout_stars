@@ -4,16 +4,6 @@
   --active_star: url(images/star-active.svg);
 }
 
-.stars__block {
-  align-content: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 96px;
-  width: 100px;
-}
-
 .stars {
   display: flex;
   height: 16px;
