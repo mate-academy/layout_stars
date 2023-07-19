@@ -12,10 +12,7 @@ body {
   width: 16px;
   height: 16px;
   background: url(/images/star.svg) center no-repeat;
-}
-
-.stars__star:not(:last-child) {
-  margin-right: 4px;
+  margin-right: 4px; /* if i remove it then the test will fail */
 }
 
 .stars--1 :nth-child(1),
