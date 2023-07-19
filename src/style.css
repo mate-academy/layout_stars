@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+
+}
+
+.stars--position {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.star {
+  background-image: url(./images/star.svg);
+}
+
+.star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars__star--is-active {
+  background-image: url(./images/star-active.svg);
+}
