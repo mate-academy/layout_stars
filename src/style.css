@@ -2,12 +2,13 @@ body {
   margin: 0;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
   display: flex;
 }
 
