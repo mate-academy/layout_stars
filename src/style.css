@@ -2,11 +2,6 @@ body {
   margin: 0;
 }
 
-/* .stars-container {
-  display: flex;
-  flex-direction: column;
-} */
-
 .stars {
   display: flex;
   margin: 0;
@@ -26,6 +21,10 @@ body {
   margin-right: 4px;
 }
 
-.star--active {
+.stars--5 .stars__star,
+.stars--1 :first-child,
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4) {
   background-image: url(images/star-active.svg);
 }
