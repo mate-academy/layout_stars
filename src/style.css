@@ -17,10 +17,10 @@
   margin-right: 4px;
 }
 
-.stars--5 .stars__star,
-.stars--4 :not(:last-child),
+.stars--5 :nth-child(-n+5),
+.stars--4 :nth-child(-n+4),
 .stars--3 :nth-child(-n+3),
 .stars--2 :nth-child(-n+2),
-.stars--1 :first-child {
+.stars--1 :nth-child(-n+1) {
   background-image: var(--active_star);
 }
