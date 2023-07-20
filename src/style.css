@@ -3,16 +3,19 @@ body {
 }
 
 .stars {
+  margin: 0;
+  padding: 0;
   display: flex;
 }
 
 .stars__star {
+  margin: 0 4px 0 0;
   width: 16px;
   height: 16px;
-  margin-right: 4px;
-  background-image: url(./images/star.svg);
-  background-position: center;
+  background: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  list-style: none;
 }
 
 .stars--1 > :first-child,
