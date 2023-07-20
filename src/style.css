@@ -20,14 +20,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.star_noMargin {
+.star--noMargin {
   margin-left: 0;
 }
 
-.star__noActive {
+.star--noActive {
   background-image: url(./images/star.svg);
 }
 
-.star__active {
+.star--active {
   background-image: url(./images/star-active.svg);
 }
