@@ -15,7 +15,9 @@ li {
   list-style: none;
 }
 
-nav {
+.stars {
+  margin: 0;
+  padding: 0;
   display: flex;
 }
 
