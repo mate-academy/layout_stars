@@ -7,11 +7,7 @@ body {
   display: flex;
 }
 
-.stars--00,
-.stars--11,
-.stars--22,
-.stars--33,
-.stars--44 {
+.stars__star {
   margin-right: 4px;
   width: 16px;
   height: 16px;
@@ -21,10 +17,5 @@ body {
 }
 
 .stars--active {
-  margin-right: 4px;
-  width: 16px;
-  height: 16px;
   background-image: url(/images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
