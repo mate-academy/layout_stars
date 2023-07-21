@@ -1,7 +1,16 @@
-body {
+* {
   box-sizing: border-box;
+}
+
+li,
+body,
+ul {
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 .stars {
