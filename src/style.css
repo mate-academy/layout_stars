@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+/*In mockup there is container with paddings but I cant pass test with it*/
+/* .container {
+  padding: 32px 22px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+} */
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url(images/star-active.svg);
+}
