@@ -2,11 +2,12 @@ body {
   margin: 0;
 }
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   left: -9999px;
-} */
+}
 
+/*In mockup there is container with paddings but I cant pass test with it*/
 /* .container {
   padding: 32px 22px;
   justify-content: center;
