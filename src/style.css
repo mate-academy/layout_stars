@@ -7,13 +7,15 @@ body {
 }
 
 .stars__star {
-  width: 12px;
-  height: 12px;
-  padding: 0;
-  margin: 2px 4px;
+  width: 16px;
+  height: 16px;
   background-image: url("images/star.svg");
-  background-size: cover;
-  transform: translateX(-2px);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--5 .stars__star,
