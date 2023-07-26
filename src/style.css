@@ -14,9 +14,7 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: var(--url-img-star);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: var(--url-img-star) no-repeat center;
 }
 
 .stars__star:not(:last-child) {
