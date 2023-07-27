@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  text-align: center;
-}
-
 .frame {
   display: flex;
   justify-content: center;
@@ -19,7 +15,7 @@ h1 {
   display: flex;
 }
 
-.stars__star {
+.stars__star:not(:last-child) {
   background: url("./images/star.svg") center no-repeat;
   width: 16px;
   height: 16px;
