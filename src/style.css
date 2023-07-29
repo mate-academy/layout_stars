@@ -1,6 +1,5 @@
 .page {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
@@ -12,18 +11,13 @@
 .stars__star {
   height: 16px;
   width: 16px;
-  margin: 0 2px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.stars :first-child {
-  margin-left: 0;
-}
-
-.stars :last-child {
-  margin-right: 0;
+.stars :not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--0 :nth-child(0),
