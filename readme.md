@@ -19,7 +19,7 @@ You DON'T need to implement the card now, just the stars block.
 ___
 - You can find star images in the `images` folder
 - Reset browser's default `margin`
-- Implement 6 blocks with `stars` class. Each block should have 5 elements inside with the class `stars__star`.
+- Implement 6 blocks with `stars` class. Each block should have 5 elements inside with the class `stars__star`
   - Stars should be added as centered background-images, not as "img" or "svg" tags
   - The star size and the distance should be taken from Figma
   - Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
