@@ -14,16 +14,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 4px;
-}
-
-.stars__star-active {
   background-image: url(images/star-active.svg);
 }
 
-.stars__star-inactive {
+.stars__star--inactive {
   background-image: url(images/star.svg);
-}
-
-.stars__star:last-child {
-  margin-right: 0;
 }
