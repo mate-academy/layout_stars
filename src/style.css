@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.stars__stars:not(:last-child) {
+.stars__star:last-child {
   margin-right: 0;
 }
 
