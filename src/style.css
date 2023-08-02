@@ -8,7 +8,6 @@ body {
   margin: 0;
   display: flex;
   flex-direction: row;
-
 }
 
 .stars__star {
@@ -20,7 +19,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.stars__star--rm-margin {
+.stars__star:first-child {
   margin-left: 0;
 }
 
