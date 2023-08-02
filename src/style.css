@@ -12,7 +12,7 @@ body {
 }
 
 .stars__star :not(:last-child) {
-  margin: 0 4px;
+  margin-right: 4px;
 }
 
 .stars__star {
@@ -28,7 +28,6 @@ body {
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  margin: 0 4px;
   width: 16px;
   height: 16px;
   background-image: url(../src/images/star-active.svg);
