@@ -4,9 +4,11 @@
 }
 
 .stars__star {
-  width: 15px;
-  height: 15px;
-  padding: 0 10px;
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0 2px;
+  width: 16px;
+  height: 16px;
   background-image: url(../src/images/star-active.svg);
   background-size: contain;
   background-repeat: no-repeat;
