@@ -4,7 +4,6 @@ body {
 
 .stars {
   display: flex;
-  background-position: center;
 }
 
 .stars__star {
@@ -13,6 +12,7 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
+  background-position: center;
 }
 
 .stars__star:not(:last-child) {
