@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 96px;
+  height: 95px;
+  flex-direction: column;
+}
+
+.stars {
+  width: 16px;
+  height: 16px;
+  display: flex;
+}
+
+.stars__star {
+  margin: 3px;
+}
