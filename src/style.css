@@ -1,0 +1,34 @@
+html {
+  --default-star-image: url(images/star.svg);
+  --active-star-image: url(images/star-active.svg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: var(--default-star-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stars__star--active {
+  background-image: var(--active-star-image);
+}
+
+.stars__last-item {
+  margin-right: 0;
+}
