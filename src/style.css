@@ -10,13 +10,12 @@ div {
 
 .stars {
   display: flex;
-  width: 96px;
-  justify-content: space-between;
 }
 
 .stars__star {
   width: var(--star-size);
   height: var(--star-size);
+  margin-right: 4px;
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
