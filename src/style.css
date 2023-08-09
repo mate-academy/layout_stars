@@ -17,9 +17,7 @@ html {
 }
 
 .stars__star {
-  background-image: var(--default-star-image);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: var(--default-star-image) no-repeat center;
   width: 16px;
   height: 16px;
   margin-right: 4px;
@@ -29,6 +27,6 @@ html {
   background-image: var(--active-star-image);
 }
 
-.stars__last-item {
+.stars :last-child {
   margin-right: 0;
 }
