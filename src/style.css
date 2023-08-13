@@ -1,17 +1,24 @@
 * {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .stars {
   display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
+  margin: 0;
+  padding: 0;
   background-image: url("./images/star.svg");
   background-position: center center;
   background-size: 13px 12px;
