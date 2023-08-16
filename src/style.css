@@ -13,11 +13,10 @@ body {
   width: 16px;
   height: 16px;
   background-position: center;
-  margin-right: 4px;
 }
 
-.stars:not(:last-child) .stars__star {
-  margin-right: 5px;
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0),
