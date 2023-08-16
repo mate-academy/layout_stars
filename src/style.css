@@ -4,7 +4,6 @@ body {
 
 .stars {
   display: flex;
-  list-style: none;
   padding: 0;
 }
 
@@ -15,6 +14,10 @@ body {
   height: 16px;
   background-position: center;
   margin-right: 4px;
+}
+
+.stars:not(:last-child) .stars__star {
+  margin-right: 5px;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0),
