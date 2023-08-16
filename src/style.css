@@ -13,8 +13,8 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  background-size: contain;
-  margin-right: 5px;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0),
