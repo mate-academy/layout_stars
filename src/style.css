@@ -19,6 +19,10 @@ body {
   margin-right: 4px;
 }
 
+.stars__star:last-child {
+  margin-right: 0;
+}
+
 .stars--5 .stars__star,
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--3 .stars__star:nth-child(-n+3),
