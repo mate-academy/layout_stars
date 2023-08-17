@@ -10,17 +10,11 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(images/star.svg) no-repeat center;
 }
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
-}
-
-.star-active {
-  background-image: url(./images/star-active.svg);
 }
 
 .stars--0 .stars__star:nth-child(-n+0),
