@@ -1,13 +1,98 @@
+<!--#region head-->
 <!doctype html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Stars</title>
+    <title>Head</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <h1>Stars</h1>
+  <!--#endregion-->
+  <body class = "page_body">
+    <header class="header">
+      <div class="top-bar">
+        <a href="#" class="top-bar-logo">
+          <img src="images/Logo(1).png" alt="Main Logo">
+        </a>
+        <div class="top-bar__icons">
+          <a href="+1 234 5555-55-55" class="icon icon--phone"></a>
+          <a href="#menu" class="icon icon--menu"></a>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <h1 class="title">Take the Streets</h1>|
+
+      </div>
+    </header>
+
+    <aside class="page__menu menu" id="menu">
+      <div class="top-bar menu__top" >
+
+        <a href="#" class="top-bar-logo">
+          <img src="images/Logo(1).png" alt="Main logo">
+        </a>
+
+
+        <a href="#" class="icon icon--close"></a>
+
+      </div>
+      <div class="menu__content">
+        <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#AboutUs">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#CompareBikes">Compare Bikes</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#Details">Details</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#Contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <a href="+1 234 5555-55-55" class="menu__phone=number">
+        +1 234 5555-55-55
+      </a>
+
+      <a href="+1 234 5555-55-55" class="menu_book_a_ride">
+        Book a Test Ride
+      </a>
+    </aside>
+
+    <main class="main">
+      <section class="move-free" id="AboutUs">
+        <h2>Move Free</h2>
+      </section>
+
+      <section class="compare-bikes" id="CompareBikes">
+        <h2>Compare Bikes</h2>
+      </section>
+
+      <section class="the-details" id="Details">
+        <h2>The Details</h2>
+      </section>
+
+      <section class="contact-us" id="Contacts">
+        <h2>Contact us</h2>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+
+    </footer>
   </body>
 </html>
