@@ -16,14 +16,6 @@ body {
   background-image: url(./images/star.svg);
 }
 
-.stars_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-}
-
 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
