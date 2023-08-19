@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+}
+
+.page__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 4px;
+  background-image: url(./images/star.svg);
+}
+
+.stars :first-child {
+  margin-left: 0;
+}
+
+.stars :last-child {
+  margin-right: 4px;
+}
+
+.stars__star--active {
+  background-image: url(./images/star-active.svg);
+}
