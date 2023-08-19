@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.stars__star {
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  margin: 0 5px;
+  background-image: url(images/star.svg);
+}
+
+.stars__star--active {
+  background-image: url(images/star-active.svg);
+}
+
+/* Второй ряд */
+.stars--1 .stars__star:nth-child(1) {
+  background-image: url(images/star-active.svg);
+}
+
+/* Третий ряд */
+.stars--2 .stars__star:nth-child(-n+2) {
+  background-image: url(images/star-active.svg);
+}
+
+/* Четвертый ряд */
+.stars--3 .stars__star:nth-child(-n+3) {
+  background-image: url(images/star-active.svg);
+}
+
+/* Пятый ряд */
+.stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url(images/star-active.svg);
+}
+
+/* Шестой ряд */
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url(images/star-active.svg);
+}
