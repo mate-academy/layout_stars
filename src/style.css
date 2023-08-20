@@ -1,0 +1,40 @@
+.page {
+  --star-size: 16px;
+}
+
+.page__body {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: inline-block;
+}
+
+.stars__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stars__item {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.stars__star {
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: var(--star-size);
+  height: var(--star-size);
+
+}
+
+.stars__star--inactive {
+  background-image: url(images/star.svg);
+}
+
+.stars__star--active {
+  background-image: url(images/star-active.svg);
+}
