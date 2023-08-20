@@ -1,17 +1,19 @@
 body {
   margin: 0;
-  padding: 0;
-
-}
-
-.container {
-  margin: 2px 4px;
 
 }
 
 .stars {
   display: flex;
 
+}
+
+.stars__star {
+  margin: 0 4px 0 0;
+}
+
+.stars :last-child {
+  margin-right: 0;
 }
 
 .star {
@@ -25,8 +27,8 @@ body {
 .star,
 .star-active {
   background-repeat: no-repeat;
+  background-position: center;
   height: 16px;
   width: 16px;
-  margin: 0 4px 0 0;
 
 }
