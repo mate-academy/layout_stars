@@ -1,19 +1,9 @@
-* {
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  box-sizing: border-box;
-  height: 96px;
-  width: 96px;
 }
 
 .stars {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .stars__star {
