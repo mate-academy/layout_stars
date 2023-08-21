@@ -1,34 +1,28 @@
 body {
   margin: 0;
-
 }
 
 .stars {
   display: flex;
-
-}
-
-.stars__star {
-  margin: 0 4px 0 0;
 }
 
 .stars :last-child {
   margin-right: 0;
 }
 
-.star {
+.stars__star {
   background-image: url(images/star.svg);
 }
 
-.star-active {
+.stars__star--active {
   background-image: url(images/star-active.svg);
 }
 
-.star,
-.star-active {
+.stars__star,
+.stars__star--active {
+  margin: 0 4px 0 0;
   background-repeat: no-repeat;
   background-position: center;
   height: 16px;
   width: 16px;
-
 }
