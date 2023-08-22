@@ -3,15 +3,8 @@ body {
   padding: 0;
 }
 
-.container {
-  width: 96px;
-  margin: 0 auto;
-}
-
 .stars {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
@@ -20,6 +13,10 @@ body {
   background-image: url("./images/star.svg");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .star--active {
