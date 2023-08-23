@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.stars__star {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 2px;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars__star--notactive {
+  background-image: url(images/star.svg);
+}
+
+.stars__star--active {
+  background-image: url(images/star-active.svg);
+}
