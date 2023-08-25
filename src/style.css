@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 96px;
+  width: 96px;
+  background-color: #fff;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+.stars__star-active {
+  background-image: url(images/star-active.svg);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+.stars__star:not(:last-child),
+.stars__star-active:not(:last-child) {
+  margin-right: 4px;
+}
