@@ -14,14 +14,14 @@ body {
   width: 16px;
 }
 
-.star_stars:not(:last-child) {
+.star__stars:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars--1 .star_stars:nth-child(-n+1),
-.stars--2 .star_stars:nth-child(-n+2),
-.stars--3 .star_stars:nth-child(-n+3),
-.stars--4 .star_stars:nth-child(-n+4),
-.stars--5 .star_stars:nth-child(-n+5) {
+.stars--1 .star__stars:nth-child(-n+1),
+.stars--2 .star__stars:nth-child(-n+2),
+.stars--3 .star__stars:nth-child(-n+3),
+.stars--4 .star__stars:nth-child(-n+4),
+.stars--5 .star__stars:nth-child(-n+5) {
   background-image: url(images/star-active.svg);
 }
