@@ -4,15 +4,6 @@
   padding: 0;
 }
 
-.page {
-  display: flex;
-}
-
-.page__container {
-  display: flex;
-  flex-direction: column;
-}
-
 .stars {
   display: flex;
 }
