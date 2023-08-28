@@ -30,10 +30,6 @@
   margin-left: 0;
 }
 
-.stars :last-child {
-  margin-right: 4px;
-}
-
 .stars--5 .stars__star,
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
