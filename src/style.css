@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  --gap: 4px;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+}
+
+.stars-block__item {
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(./images/star.svg);
+}
+
+.stars-block__item:nth-child(n+2) {
+  margin-left: var(--gap);
+}
+
+.stars-block__item--active {
+  background-image: url(./images/star-active.svg);
+}
