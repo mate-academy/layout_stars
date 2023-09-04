@@ -1,6 +1,9 @@
+:root {
+  --gap: 4px;
+}
+
 body {
   margin: 0;
-  --gap: 4px;
 }
 
 .stars--0,
@@ -12,7 +15,7 @@ body {
   display: flex;
 }
 
-.stars-block__item {
+.stars__star {
   height: 16px;
   width: 16px;
   background-repeat: no-repeat;
@@ -20,10 +23,10 @@ body {
   background-image: url(./images/star.svg);
 }
 
-.stars-block__item:nth-child(n+2) {
+.stars__star:nth-child(n+2) {
   margin-left: var(--gap);
 }
 
-.stars-block__item--active {
+.stars__star--active {
   background-image: url(./images/star-active.svg);
 }
