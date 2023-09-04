@@ -6,24 +6,22 @@ body {
   display: flex;
 }
 
-.stars--item {
+.start--star {
   display: block;
   margin-left: 4px;
   height: 16px;
   width: 16px;
-  background-image: url(../src/images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("../src/images/star.svg") no-repeat center;
 }
 
-.stars--item:first-child {
+.start--star:first-child {
   margin-left: 0;
 }
 
-.stars--1 .stars--item:nth-child(-n+1),
-.stars--2 .stars--item:nth-child(-n+2),
-.stars--3 .stars--item:nth-child(-n+3),
-.stars--4 .stars--item:nth-child(-n+4),
-.stars--5 .stars--item:nth-child(-n+5) {
+.stars--1 .start--star:nth-child(-n+1),
+.stars--2 .start--star:nth-child(-n+2),
+.stars--3 .start--star:nth-child(-n+3),
+.stars--4 .start--star:nth-child(-n+4),
+.stars--5 .start--star:nth-child(-n+5) {
   background-image: url("../src/images/star-active.svg") !important;
 }
