@@ -7,12 +7,7 @@
   display: flex;
 }
 
-.stars--001,
-.stars--002,
-.stars--003,
-.stars--004,
-.stars--005,
-.stars--006 {
+.stars__star {
   background-image: url("images/star.svg");
   height: 16px;
   width: 16px;
@@ -21,11 +16,11 @@
   margin-left: 4px;
 }
 
-.stars--001 {
+.stars > :first-child {
   margin-left: 0;
 }
 
-.stars:nth-child(2) .stars--001 {
+.stars:nth-child(2) > :first-child {
   background-image: url("images/star-active.svg");
 }
 
