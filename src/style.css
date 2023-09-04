@@ -3,6 +3,14 @@ html {
   padding: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 22px;
+}
+
 .stars {
   display: flex;
 }
@@ -14,9 +22,11 @@ html {
 .stars--005,
 .stars--006 {
   background-image: url("images/star.svg");
-  height: 12px;
-  width: 13px;
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
   background-position: center;
+  margin: 0 4px;
 }
 
 .stars:nth-child(2) .stars--001 {
