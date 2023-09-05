@@ -1,0 +1,66 @@
+html {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  max-width: 120px;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url(./images/star.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.star--0:nth-child(0) {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star-active.svg);
+  background-position: center;
+}
+
+.star--1:nth-child(-n + 1) {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star-active.svg);
+  background-position: center;
+}
+
+.star--2:nth-child(-n + 2) {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star-active.svg);
+  background-position: center;
+}
+
+.star--3:nth-child(-n + 3) {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star-active.svg);
+  background-position: center;
+}
+
+.star--4:nth-child(-n + 4) {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star-active.svg);
+  background-position: center;
+}
+
+.star--5:nth-child(-n + 5) {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star-active.svg);
+  background-position: center;
+}
