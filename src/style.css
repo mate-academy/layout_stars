@@ -2,65 +2,78 @@ html {
   margin: 0;
 }
 
+body {
+  margin: 0;
+}
+
 .stars {
   display: flex;
   flex-direction: row;
-  max-width: 120px;
+  justify-content: left;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
-  margin-right: 4px;
+  margin-left: 4px;
   background-image: url(./images/star.svg);
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.star--0:nth-child(0) {
-  margin-right: 5px;
+.stars--0 .stars__star:nth-child(-n + 0) {
+  margin-left: 4px;
   width: 16px;
   height: 16px;
   background-image: url(./images/star-active.svg);
   background-position: center;
 }
 
-.star--1:nth-child(-n + 1) {
-  margin-right: 5px;
+.stars--1 .stars__star:nth-child(-n + 1) {
+  margin-left: 4px;
   width: 16px;
   height: 16px;
   background-image: url(./images/star-active.svg);
   background-position: center;
 }
 
-.star--2:nth-child(-n + 2) {
-  margin-right: 5px;
+.stars--2 .stars__star:nth-child(-n + 2) {
+  margin-left: 4px;
   width: 16px;
   height: 16px;
   background-image: url(./images/star-active.svg);
   background-position: center;
 }
 
-.star--3:nth-child(-n + 3) {
-  margin-right: 5px;
+.stars--3 .stars__star:nth-child(-n + 3) {
+  margin-left: 4px;
   width: 16px;
   height: 16px;
   background-image: url(./images/star-active.svg);
   background-position: center;
 }
 
-.star--4:nth-child(-n + 4) {
-  margin-right: 5px;
+.stars--4 .stars__star:nth-child(-n + 4) {
+  margin-left: 4px;
   width: 16px;
   height: 16px;
   background-image: url(./images/star-active.svg);
   background-position: center;
 }
 
-.star--5:nth-child(-n + 5) {
-  margin-right: 5px;
+.stars--5 .stars__star:nth-child(-n + 5) {
+  margin-left: 4px;
   width: 16px;
   height: 16px;
   background-image: url(./images/star-active.svg);
   background-position: center;
+}
+
+.stars--0 .stars__star:first-child,
+.stars--1 .stars__star:first-child,
+.stars--2 .stars__star:first-child,
+.stars--3 .stars__star:first-child,
+.stars--4 .stars__star:first-child,
+.stars--5 .stars__star:first-child {
+  margin: 0;
 }
