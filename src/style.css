@@ -5,7 +5,6 @@ body {
 .stars {
   display: flex;
   list-style: none;
-  flex-shrink: 0;
   padding: 0;
   margin: 0;
 }
@@ -23,25 +22,6 @@ body {
   margin-right: 4px;
 }
 
-.stars--5 li {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--1 li:first-child {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--2 li:nth-child(1),
-.stars--2 li:nth-child(2) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--3 li:nth-child(1),
-.stars--3 li:nth-child(2),
-.stars--3 li:nth-child(3) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--4 li:not(:last-child) {
+.star-is-active {
   background-image: url(images/star-active.svg);
 }
