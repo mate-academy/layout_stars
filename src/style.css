@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.star-section {
+/* .star-section {
   display: flex;
   width: 140px;
   height: 160px;
@@ -12,14 +12,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-}
+} */
 
 .container {
   display: flex;
   flex-direction: column;
   width: 96px;
   height: 96px;
+  margin-right: 4px;
 }
 
 .stars {
@@ -27,6 +27,7 @@
   width: 96px;
   display: flex;
   justify-content: space-between;
+  margin-right: 4px;
 }
 
 .stars__star {
