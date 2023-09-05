@@ -1,7 +1,7 @@
 # Stars block
 Replace `<your_account>` with your Github username and copy the links to Pull Request description:
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://dsfreedom.github.io/layout_stars/)
+- [TEST REPORT LINK](https://dsfreedom.github.io/layout_stars/report/html_report/)
 
 > Follow [this instructions](https://mate-academy.github.io/layout_task-guideline)
 ___
@@ -20,7 +20,7 @@ ___
 - You can find star images in the `images` folder
 - Reset browser's default `margin`
 - Implement 6 blocks with `stars` class. Each block should have 5 elements inside with the class `stars__star`.
-  - Stars should be added as centered background-images, not as "img" or "svg" tags
+  - Stars should be added as centered background-images, not as "img" or "svg" txags
   - The star size and the distance should be taken from Figma
   - Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
 - Add one of the next extra classes (a `modifier`) `stars--0`, `stars--1`, `stars--2` ... `stars--5` to each block
