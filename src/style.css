@@ -5,26 +5,18 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center;
-}
-
-.stars__star,
-.stars--active {
-  margin: 0 4px 0 0;
-  display: flex;
-  width: 16px;
-  height: 16px;
-  /* background-size: 13px 13px; */
 }
 
 .stars__star {
+  margin: 0 4px 0 0;
+  width: 16px;
+  height: 16px;
   background: url("./images/star.svg") no-repeat center center;
 }
 
