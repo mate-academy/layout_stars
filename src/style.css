@@ -10,16 +10,8 @@ body {
   align-items: center;
 }
 
-.stars__active {
-  background-image: url(./images/star-active.svg);
-}
-
 .stars__star {
   background-image: url(./images/star.svg);
-}
-
-.stars__star,
-.stars__active {
   display: flex;
   width: 16px;
   height: 16px;
