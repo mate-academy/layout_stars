@@ -4,7 +4,6 @@ body {
 
 .stars {
   display: flex;
-
 }
 
 .stars__star {
@@ -14,7 +13,6 @@ body {
   background-image: url(./images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 .stars--1 > :nth-child(1),
@@ -23,5 +21,4 @@ body {
 .stars--4 > :nth-child(-n + 4),
 .stars--5 > :nth-child(n) {
   background-image: url(./images/star-active.svg);
-
 }
