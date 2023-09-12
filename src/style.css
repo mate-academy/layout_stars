@@ -4,6 +4,10 @@ body {
   font-size: 0;
 }
 
+.block {
+  padding: 22px;
+}
+
 .stars {
   display: flex;
   justify-content: center;
@@ -12,10 +16,10 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url(/images/star.svg);
-  background-size: contain;
+  background: url(/images/star.svg);
+  background-size: cover;
   background-repeat: no-repeat;
-  margin: 2px;
+  margin: 4px;
 }
 
 .stars--0 :nth-last-child(n + 6),
