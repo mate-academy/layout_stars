@@ -2,13 +2,8 @@ body {
   margin: 0;
 }
 
-/* .block {
-  padding: 22px;
-} */
-
 .stars {
   display: flex;
-  /* justify-content: center; */
 }
 
 .stars__star {
