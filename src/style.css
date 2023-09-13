@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stars--10,
+.stars--20,
+.stars--30,
+.stars--40,
+.stars--50,
+.stars--11,
+.stars--21,
+.stars--31,
+.stars--41,
+.stars--51,
+.stars--32,
+.stars--42,
+.stars--52,
+.stars--54,
+.stars--43,
+.stars--53 {
+  background-image: url("images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stars--11,
+.stars--15,
+.stars--25,
+.stars--35,
+.stars--45,
+.stars--55,
+.stars--12,
+.stars--22,
+.stars--13,
+.stars--23,
+.stars--33,
+.stars--14,
+.stars--24,
+.stars--34,
+.stars--44 {
+  background-image: url("images/star-active.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
