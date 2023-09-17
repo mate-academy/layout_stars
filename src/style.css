@@ -4,7 +4,7 @@ body {
 
 .stars {
   display: flex;
-  width: 100px;
+  width: fit-content;
 }
 
 .stars__star {
