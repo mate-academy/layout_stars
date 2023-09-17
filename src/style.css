@@ -1,13 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
-}
-
-.conteiner {
-  display: inline-flex;
-  flex-direction: column;
-  background-color: #fff;
 }
 
 .stars {
@@ -24,6 +17,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin: 0;
 }
 
 .stars--1 :nth-child(-n +1),
