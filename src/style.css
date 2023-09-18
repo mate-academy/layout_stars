@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 .stars {
   display: flex;
   align-items: center;
