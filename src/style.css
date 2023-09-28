@@ -9,9 +9,7 @@ body {
 .stars__star {
   height: 16px;
   width: 16px;
-  background-image: url(images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: no-repeat center url(images/star.svg);
 }
 
 .stars__star:not(:first-child) {
