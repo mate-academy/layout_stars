@@ -1,21 +1,14 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
-.container {
-  width: 96px;
-  height: 96px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+body {
+  margin: 0;
 }
 
 .stars {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .stars__star {
@@ -24,7 +17,7 @@
   height: 16px;
 }
 
-.stars .stars__star {
+.stars__star:not(:first-child) {
   margin-left: 4px;
 }
 
