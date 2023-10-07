@@ -1,7 +1,7 @@
 body {
-  margin: 0;
   --star-active: url("/images/star-active.svg");
   --star: url("/images/star.svg");
+  margin: 0;
 }
 
 .stars {
