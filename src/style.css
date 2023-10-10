@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.container {
+  height: 96px;
+  width: 96px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars__star {
+  background-image: url(\images\star.svg);
+  height: 16px;
+  width: 16px;
+  background-position: center;
+  object-fit: cover;
+  box-sizing: border-box;
+  border: solid white 2px;
+}
+
+.stars__star-active {
+  background-image: url(\images\star-active.svg);
+  height: 16px;
+  width: 16px;
+  background-position: center;
+  object-fit: cover;
+  box-sizing: border-box;
+  border: solid white 2px;
+}
