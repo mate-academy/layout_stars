@@ -1,19 +1,5 @@
-html {
-  height: 100vh;
-}
-
 body {
-  display: flex;
-  height: 100%;
   margin: 0;
-  padding: 0;
-}
-
-.box {
-  position: relative;
-  width: 96px;
-  height: 96px;
-  margin: auto;
   padding: 0;
 }
 
@@ -24,11 +10,11 @@ body {
 }
 
 .star {
-  width: 16px;
-  height: 16px;
-  background-image: url(./images/star.svg);
+  background-image: url("./images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
+  width: 16px;
+  height: 16px;
 }
 
 .star:not(:last-child) {
