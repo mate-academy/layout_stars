@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+* {
+  /* outline: 1px solid black; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 96px;
+  height: 96px;
+}
+
+.stars__star {
+  display: flex;
+}
+
+.star--card {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-position: center;
+}
+
+.star--card:last-child {
+  margin-right: 0;
+}
+
+.active {
+  background-image: url(../src/images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.inactive {
+  background-image: url(../src/images/star.svg);
+  background-repeat: no-repeat;
+}
