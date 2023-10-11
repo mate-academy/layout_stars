@@ -18,8 +18,8 @@ ul {
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
-  width: var(--star-dimensions);
   height: var(--star-dimensions);
+  width: var(--star-dimensions);
 }
 
 .stars__star:not(:last-child) {
