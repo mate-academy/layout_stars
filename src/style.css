@@ -1,0 +1,48 @@
+.main-content {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content__card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 96px;
+  max-height: 96px;
+  background-color: #fff;
+}
+
+.card__rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.card__item {
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: bottom;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+.stars--1 .card__item:nth-child(1),
+.stars--2 .card__item:nth-child(1),
+.stars--3 .card__item:nth-child(1),
+.stars--4 .card__item:nth-child(1),
+.stars--5 .card__item:nth-child(1),
+.stars--2 .card__item:nth-child(2),
+.stars--3 .card__item:nth-child(2),
+.stars--4 .card__item:nth-child(2),
+.stars--5 .card__item:nth-child(2),
+.stars--3 .card__item:nth-child(3),
+.stars--4 .card__item:nth-child(3),
+.stars--5 .card__item:nth-child(3),
+.stars--4 .card__item:nth-child(4),
+.stars--5 .card__item:nth-child(4),
+.stars--5 .card__item:nth-child(5) {
+  background-image: url(./images/star-active.svg);
+  vertical-align: bottom;
+}
