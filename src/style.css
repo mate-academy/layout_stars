@@ -18,13 +18,12 @@ ul {
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: var(--stars-margin);
   width: var(--star-dimensions);
   height: var(--star-dimensions);
 }
 
-.stars__star:last-child {
-  margin-right: 0;
+.stars__star:not(:last-child) {
+  margin-right: var(--stars-margin);
 }
 
 .stars--1 .stars__star:nth-child(-n+1),
