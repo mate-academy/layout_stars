@@ -1,10 +1,15 @@
+:root {
+  --star-size: 16px;
+  --container-size: 96px;
+}
+
 * {
   margin: 0;
 }
 
 .container {
-  height: 96px;
-  width: 96px;
+  height: var(--container-size);
+  width: var(--container-size);
 }
 
 .stars {
@@ -14,20 +19,34 @@
 
 .stars__star {
   background-image: url(\images\star.svg);
-  height: 16px;
-  width: 16px;
+  height: var(--star-size);
+  width: var(--star-size);
   background-position: center;
   object-fit: cover;
   box-sizing: border-box;
-  border: solid white 2px;
+  background-repeat: no-repeat;
 }
 
-.stars__star-active {
+.stars--0 .stars__star:nth-child(-n+0) {
   background-image: url(\images\star-active.svg);
-  height: 16px;
-  width: 16px;
-  background-position: center;
-  object-fit: cover;
-  box-sizing: border-box;
-  border: solid white 2px;
+}
+
+.stars--1 .stars__star:nth-child(-n+1) {
+  background-image: url(\images\star-active.svg);
+}
+
+.stars--2 .stars__star:nth-child(-n+2) {
+  background-image: url(\images\star-active.svg);
+}
+
+.stars--3 .stars__star:nth-child(-n+3) {
+  background-image: url(\images\star-active.svg);
+}
+
+.stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url(\images\star-active.svg);
+}
+
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url(\images\star-active.svg);
 }
