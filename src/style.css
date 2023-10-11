@@ -9,7 +9,6 @@ body {
 }
 
 .stars__row {
-  width: 96px;
   display: flex;
 }
 
@@ -17,9 +16,6 @@ body {
   width: var(--basic-size);
   height: var(--basic-size);
   background: url(./images/star.svg) no-repeat center;
-}
-
-.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
