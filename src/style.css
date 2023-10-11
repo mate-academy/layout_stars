@@ -4,15 +4,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  width: 96px;
-  height: 96px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #fff;
-} */
-
 body {
   --basic-size: 16px;
 }
@@ -25,18 +16,11 @@ body {
 .stars__star {
   width: var(--basic-size);
   height: var(--basic-size);
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 2px;
+  background: url(./images/star.svg) no-repeat center;
 }
 
-.stars__star:first-child {
-  margin-left: 0;
-}
-
-.stars__star:last-child {
-  margin-right: 0;
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars__row:nth-child(2) .stars__star:nth-child(-n + 1),
