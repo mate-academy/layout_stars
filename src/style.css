@@ -6,6 +6,7 @@ body {
 .star-container {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .star-group {
@@ -13,12 +14,12 @@ body {
 }
 
 .star {
-  display: inline-block;
-  background: url(./images/star.svg) no-repeat;
-  background-size: cover;
-  height: 20px;
-  width: 20px;
-  margin-right: 5px;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+  background-image: url("images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .star:last-child {
