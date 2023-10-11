@@ -14,11 +14,11 @@ main {
   height: 96px;
 }
 
-.stars__star {
+.stars {
   display: flex;
 }
 
-.star--card {
+.stars__star {
   width: 16px;
   height: 16px;
   margin-right: 4px;
