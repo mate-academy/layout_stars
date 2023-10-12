@@ -20,7 +20,6 @@ html {
 
 .stars .stars__star:nth-child(1) {
   margin-left: 0;
-  /* background-color: #f95; */
 }
 
 .stars--1 .stars__star:nth-child(-n+1) {
