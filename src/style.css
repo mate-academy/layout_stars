@@ -5,9 +5,12 @@
 }
 
 .stars-container {
-  margin: 32px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   height: 96px;
   width: 96px;
+  margin: auto;
 }
 
 .stars {
