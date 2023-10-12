@@ -16,7 +16,6 @@
 .stars {
   display: flex;
   justify-content: center;
-  gap: 4px;
 }
 
 .stars__star {
@@ -26,13 +25,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-top: 4px;
 }
 
 .stars__star:last-child {
   margin-right: 0;
 }
 
-.stars--0 .stars__star:nth-child(-n+1),
+/* Active star rules - making stars to the left of the top-left star active */
 .stars--1 .stars__star:nth-child(-n+1),
 .stars--2 .stars__star:nth-child(-n+2),
 .stars--3 .stars__star:nth-child(-n+3),
