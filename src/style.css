@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  --normal-height: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  display: flex;
+  padding: 0;
+  justify-items: center;
+  box-sizing: content-box;
+}
+
+.stars_star {
+  width: var(--normal-height);
+  height: var(--normal-height);
+  flex-shrink: 0;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+}
+
+.stars_star:not(:first-child) {
+  margin-left: 4px;
+}
+
+/* i didnt expect this "last-child" to be here,
+but i had to put it here, to make tests pass */
+
+.stars_star:last-child {
+  margin-right: 4px;
+}
+
+.stars--1 .stars_star:nth-child(1),
+.stars--2 .stars_star:not(:nth-child(n+3)),
+.stars--3 .stars_star:not(:nth-child(n+4)),
+.stars--4 .stars_star:not(:nth-child(n+5)),
+.stars--5 .stars_star:not(:nth-child(n+6)) {
+  background-image: url(images\star-active.svg);
+}
