@@ -23,7 +23,6 @@ body {
 .main {
   display: flex;
   justify-content: center;
-  vertical-align: middle;
   flex-direction: column;
 }
 
