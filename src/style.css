@@ -20,10 +20,6 @@ div {
   background-position: 50%;
 }
 
-.stars__star:last-child {
-  margin-right: 4px;
-}
-
 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
