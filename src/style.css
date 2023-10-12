@@ -1,5 +1,6 @@
 :root {
   --star-size: 16px;
+  --header-size: 96px;
 }
 
 * {
@@ -7,8 +8,8 @@
 }
 
 .header {
-  width: 96px;
-  height: 96px;
+  width: var(--header-size);
+  height: var(--header-size);
 }
 
 .stars {
@@ -20,8 +21,7 @@
 .stars__star {
   background: url(./images/star.svg) no-repeat center;
   display: inline-block;
-  margin: 0;
-  margin-right: 4px;
+  margin: 0 4px 0 0;
   width: var(--star-size);
   height: var(--star-size);
 }
@@ -30,26 +30,10 @@
   margin: 0;
 }
 
-.stars--1 .stars__star:nth-child(-n + 1) {
-  background: url(./images/star-active.svg) no-repeat center;
-}
-
-.stars--2 .stars__star:nth-child(-n + 2) {
-  background: url(./images/star-active.svg) no-repeat center;
-
-}
-
-.stars--3 .stars__star:nth-child(-n + 3) {
-  background: url(./images/star-active.svg) no-repeat center;
-
-}
-
-.stars--4 .stars__star:nth-child(-n + 4) {
-  background: url(./images/star-active.svg) no-repeat center;
-
-}
-
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
   background: url(./images/star-active.svg) no-repeat center;
-
 }
