@@ -1,0 +1,31 @@
+.page__body {
+  margin: 0;
+}
+
+.page__group {
+  width: 96px;
+  flex-direction: column;
+}
+
+.group {
+  display: flex;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  border-radius: 0.5px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars__star--icon-active {
+  background-image: url(./images/star-active.svg);
+}
