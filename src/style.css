@@ -6,6 +6,7 @@
   width: 96px;
   flex-direction: column;
 }
+
 .group {
   display: flex;
 }
@@ -13,7 +14,6 @@
 .stars {
   display: flex;
   justify-content: space-between;
-
 }
 
 .stars__star {
