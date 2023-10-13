@@ -1,0 +1,26 @@
+:root {
+  --noActiveStar: #e5e5e5;
+  --activeStar: #ffde6a;
+}
+
+body {
+  margin: 0;
+}
+
+.block {
+  width: 96px;
+  height: 96px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: 16px;
+}
