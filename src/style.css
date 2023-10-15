@@ -7,18 +7,14 @@ body {
   margin: 0;
 }
 
-.block {
-  width: 96px;
-  height: 96px;
-}
-
 .stars {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .stars__star {
   background: var(--noActiveStar);
+  margin-right: 4px;
   height: 16px;
   width: 16px;
 }
