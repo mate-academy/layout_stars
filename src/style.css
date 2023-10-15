@@ -1,0 +1,39 @@
+.body {
+  margin: 0;
+}
+
+.stars__star {
+  height: 96px;
+}
+
+.stars {
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  background-position: 2px 2px , 22px 2px, 42px 2px, 62px 2px, 82px 2px;
+  background-repeat: no-repeat;
+}
+
+.stars--0 {
+  background-image: url(images/star.svg), url(images/star.svg), url(images/star.svg), url(images/star.svg), url(images/star.svg);
+}
+
+.stars--1 {
+  background-image: url(images/star-active.svg), url(images/star.svg), url(images/star.svg), url(images/star.svg), url(images/star.svg);
+}
+
+.stars--2 {
+  background-image: url(images/star-active.svg), url(images/star-active.svg), url(images/star.svg), url(images/star.svg), url(images/star.svg);
+}
+
+.stars--3 {
+  background-image: url(images/star-active.svg), url(images/star-active.svg), url(images/star-active.svg), url(images/star.svg), url(images/star.svg);
+}
+
+.stars--4 {
+  background-image: url(images/star-active.svg), url(images/star-active.svg), url(images/star-active.svg), url(images/star-active.svg), url(images/star.svg);
+}
+
+.stars--5 {
+  background-image: url(images/star-active.svg), url(images/star-active.svg), url(images/star-active.svg), url(images/star-active.svg), url(images/star-active.svg);
+}
