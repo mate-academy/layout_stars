@@ -20,16 +20,13 @@
   margin-left: 4px;
 }
 
-.stars--0 .stars_star {
+.stars--0 .stars_star,
+.stars--1 .stars_star:not(:first-child) {
   background-image: url(images/star.svg);
 }
 
 .stars--1 .stars_star:first-child {
   background-image: url(images/star-active.svg);
-}
-
-.stars--1 .stars_star:not(:first-child) {
-  background-image: url(images/star.svg);
 }
 
 .stars--2 .stars_star:nth-child(-n+2) {
