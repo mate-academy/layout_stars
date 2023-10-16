@@ -7,7 +7,7 @@
   margin: 0;
 }
 
-.header {
+.body {
   width: var(--header-size);
   height: var(--header-size);
 }
@@ -20,15 +20,14 @@
 
 .stars__star {
   background: url(./images/star.svg) no-repeat center;
-  display: inline-block;
   margin-right: 4px;
   width: var(--star-size);
   height: var(--star-size);
 }
 
-.stars__star:last-child {
+/* .stars__star:last-child {
   margin: 0;
-}
+} */
 
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
