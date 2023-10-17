@@ -1,3 +1,6 @@
+:root {
+  --icon-size: 16px;
+}
 
 body {
   margin: 0;
@@ -14,10 +17,6 @@ body {
   display: flex;
 }
 
-:root {
-  --icon-size: 16px;
-}
-
 .star {
   height: var(--icon-size);
   width: var(--icon-size);
@@ -26,7 +25,7 @@ body {
 }
 
 .star:last-child {
-  margin-right: 0;
+  margin-right: 4px;
 }
 
 .stars--1 .star:nth-child(-n+1),
