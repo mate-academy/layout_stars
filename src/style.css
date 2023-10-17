@@ -4,10 +4,6 @@ body {
   padding: 0;
 }
 
-div {
-  display: block;
-}
-
 .stars {
   display: flex;
 }
