@@ -19,7 +19,7 @@ body {
 
 .stars--1 .star__stars:first-child {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
+
 }
 
 .stars--2 .star__stars:nth-child(-n +2) {
