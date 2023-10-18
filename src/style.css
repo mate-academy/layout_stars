@@ -1,0 +1,11 @@
+@import url(./stars.css);
+
+body,
+h1,
+p,
+ul,
+li,
+main {
+  margin: 0;
+  padding: 0;
+}
