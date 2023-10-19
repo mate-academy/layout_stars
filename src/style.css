@@ -10,7 +10,7 @@ body {
   height: 100px;
 }
 
-.stars--row {
+.stars {
   display: flex;
   justify-content: space-between;
   padding-top: 2px;
@@ -40,7 +40,7 @@ body {
   transform: translateY(2px);
 }
 
-.stars {
+.stars__stars {
   height: 16px;
   width: 16px;
   background-image: url("images/star.svg");
@@ -48,7 +48,7 @@ body {
   margin: 0 2px;
 }
 
-.stars-active {
+.stars-star {
   height: 16px;
   width: 16px;
   background-image: url("images/star-active.svg");
