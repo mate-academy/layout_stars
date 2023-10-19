@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+}
+
+.stars--row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars--0 {
+  transform: translateY(2px);
+}
+
+.stars--1 {
+  transform: translateY(2px);
+}
+
+.stars--2 {
+  transform: translateY(2px);
+}
+
+.stars--3 {
+  transform: translateY(2px);
+}
+
+.stars--4 {
+  transform: translateY(2px);
+}
+
+.stars--5 {
+  transform: translateY(2px);
+}
+
+.stars {
+  height: 16px;
+  width: 16px;
+  background-image: url("images/star.svg");
+  background-repeat: no-repeat;
+  margin: 0 2px;
+}
+
+.stars-active {
+  height: 16px;
+  width: 16px;
+  background-image: url("images/star-active.svg");
+  background-repeat: no-repeat;
+  margin: 0 2px;
+}
