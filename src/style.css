@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: 96px;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+.stars--0 > .stars__star {
+  background-image: url(images/star.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--1 > .stars__star {
+  background-image: url(images/star.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--2 > .stars__star {
+  background-image: url(images/star.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--3 > .stars__star {
+  background-image: url(images/star.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--4 > .stars__star {
+  background-image: url(images/star.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--5 > .stars__star {
+  background-image: url(images/star.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--1 > .stars__star:last-child {
+  background-image: url(images/star-active.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--2 > .stars__star:nth-of-type(n+4) {
+  background-image: url(images/star-active.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--3 > .stars__star:nth-of-type(n+3) {
+  background-image: url(images/star-active.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--4 > .stars__star:nth-of-type(n+2) {
+  background-image: url(images/star-active.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--5 > .stars__star:nth-of-type(n) {
+  background-image: url(images/star-active.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
