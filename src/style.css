@@ -4,9 +4,8 @@ body {
 
 .stars {
   display: flex;
-  justify-content: space-between;
   flex-direction: row-reverse;
-  width: 96px;
+  width: fit-content;
 }
 
 .stars__star {
@@ -14,6 +13,7 @@ body {
   height: 16px;
   border: 2px solid transparent;
   box-sizing: border-box;
+  margin-right: 4px;
 }
 
 .stars--0 > .stars__star {
