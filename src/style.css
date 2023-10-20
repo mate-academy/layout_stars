@@ -1,57 +1,31 @@
 body {
   margin: 0;
-  padding: 0;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 100px;
-  height: 100px;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
-  padding-top: 2px;
 }
 
-.stars--0 {
-  transform: translateY(2px);
-}
-
-.stars--1 {
-  transform: translateY(2px);
-}
-
-.stars--2 {
-  transform: translateY(2px);
-}
-
-.stars--3 {
-  transform: translateY(2px);
-}
-
-.stars--4 {
-  transform: translateY(2px);
-}
-
-.stars--5 {
-  transform: translateY(2px);
-}
-
-.stars__stars {
-  height: 16px;
-  width: 16px;
-  background-image: url("images/star.svg");
-  background-repeat: no-repeat;
-  margin: 0 2px;
-}
-
-.stars-star {
-  height: 16px;
-  width: 16px;
+.stars--1 :first-child,
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5) {
   background-image: url("images/star-active.svg");
+}
+
+.stars--0 :nth-last-child(-n+5),
+.stars--1 :nth-last-child(-n+4),
+.stars--2 :nth-last-child(-n+3),
+.stars--3 :nth-last-child(-n+2),
+.stars--4 :nth-last-child(-n+1) {
+  background-image: url("images/star.svg");
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
   background-repeat: no-repeat;
+  background-position: left;
   margin: 0 2px;
 }
