@@ -3,13 +3,7 @@ div {
   margin: 0;
 }
 
-/* .block {
-  width: 96px;
-  height: 96px;
-} */
-
 .stars {
-  /* width: 96px; */
   display: flex;
   justify-content: flex-start;
 }
