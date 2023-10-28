@@ -8,8 +8,6 @@ div {
 
 .stars-container {
   margin: 0 auto;
-  width: 96px;
-  height: 96px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -34,7 +32,7 @@ div {
 }
 
 .stars__star:first-child {
-  margin-left: 0;
+  margin-left: 1.5px;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1) {
