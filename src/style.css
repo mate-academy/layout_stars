@@ -16,6 +16,10 @@ body {
   background-position: center;
 }
 
+.container_star:last-child {
+  margin-right: 0;
+}
+
 .stars--1 .container_star:nth-child(1) {
   background-image: url(/images/star-active.svg);
 }
