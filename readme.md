@@ -29,6 +29,9 @@ ___
 ---
 --> [CHECKLIST](https://github.com/mate-academy/layout_stars/blob/master/checklist.md)
 
+- [DEMO LINK](https://BurchakDmitry.github.io/layout_stars/)
+- [TEST REPORT LINK](https://BurchakDmitry.github.io/layout_stars/report/html_report/)
+
 ## Tips & Hints
 - Check the design again. See the difference in size between star image and its
 container?
