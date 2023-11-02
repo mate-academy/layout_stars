@@ -1,0 +1,11 @@
+.stars--1 :nth-child(-n + 1)::after {
+  content: "";
+  position: absolute;
+  background-image: url(/images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: var(--width-star);
+  height: var(--height-star);
+  flex-shrink: 0;
+  margin-right: var(--horizontal-gap);
+}
