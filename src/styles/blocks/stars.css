@@ -13,5 +13,8 @@
   width: var(--width-star);
   height: var(--height-star);
   flex-shrink: 0;
+}
+
+.stars__star:not(:last-child) {
   margin-right: var(--horizontal-gap);
 }
