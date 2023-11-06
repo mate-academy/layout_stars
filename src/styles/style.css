@@ -1,10 +1,5 @@
 @import url("./blocks/star.css");
 @import url("./blocks/stars.css");
-@import url("./blocks/stars--1.css");
-@import url("./blocks/stars--2.css");
-@import url("./blocks/stars--3.css");
-@import url("./blocks/stars--4.css");
-@import url("./blocks/stars--5.css");
 
 * {
   box-sizing: border-box;
