@@ -1,0 +1,9 @@
+@import url("./blocks/stars.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
