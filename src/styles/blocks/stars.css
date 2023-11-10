@@ -2,21 +2,13 @@
   display: flex;
 }
 
-.stars--1 > div:nth-child(1) {
-  background-image: var(--background-img-star-active);
-}
+.stars--1 > div:nth-child(1),
 
-.stars--2 > :not(:nth-last-child(-n + 3)) {
-  background-image: var(--background-img-star-active);
-}
+.stars--2 > :not(:nth-last-child(-n + 3)),
 
-.stars--3 > :not(:nth-last-child(-n + 2)) {
-  background-image: var(--background-img-star-active);
-}
+.stars--3 > :not(:nth-last-child(-n + 2)),
 
-.stars--4 > :not(:nth-last-child(-n + 1)) {
-  background-image: var(--background-img-star-active);
-}
+.stars--4 > :not(:nth-last-child(-n + 1)),
 
 .stars--5 > :nth-last-child(n) {
   background-image: var(--background-img-star-active);
