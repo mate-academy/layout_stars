@@ -1,0 +1,6 @@
+@import url("./blocks/page.css");
+@import url("./blocks/stars.css");
+
+:root {
+  --background-img-star-active: url(../images/star-active.svg);
+}
