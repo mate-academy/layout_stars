@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.stars :last-child {
+  margin-right: 0;
+}
+
 .stars__star {
   background-image: url(./images/star.svg);
   margin-right: 4px;
