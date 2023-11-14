@@ -1,0 +1,15 @@
+@import url(./blocks/stars.css);
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fff;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
