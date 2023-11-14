@@ -12,6 +12,10 @@
   margin-right: 4px;
 }
 
+.stars_star:not(:last-child) {
+  margin-right: 4px;
+}
+
 .stars {
   display: flex;
 }
