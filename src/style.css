@@ -1,11 +1,6 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: lightpink;
-}
-
-.container {
-  background-color: white;
 }
 
 .stars {
