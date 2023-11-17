@@ -4,18 +4,18 @@
 
 body {
   margin: 0;
-  padding: 22px;
-  flex-direction: column;
+  /* padding: 22px; */
 }
 
 .stars {
   display: flex;
+  justify-content: center;
 }
 
 .stars_item {
   height: 16px;
   width: 16px;
-  margin: 0 4px 0 0;
+  margin-right: 4px;
 
   background-image: url(images/star.svg);
   background-position: center;
