@@ -1,0 +1,67 @@
+.frame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-size: cover;
+  box-sizing: border-box;
+  background-image: url("./images/Star.png");
+
+}
+
+.stars__star.active-star {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--0 .stars__star:nth-child(0) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--1 .stars__star:nth-child(0),
+.stars--1 .stars__star:nth-child(1) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--2 .stars__star:nth-child(0),
+.stars--2 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(2) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--3 .stars__star:nth-child(0),
+.stars--3 .stars__star:nth-child(1),
+.stars--3 .stars__star:nth-child(2),
+.stars--3 .stars__star:nth-child(3) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--4 .stars__star:nth-child(0),
+.stars--4 .stars__star:nth-child(1),
+.stars--4 .stars__star:nth-child(2),
+.stars--4 .stars__star:nth-child(3),
+.stars--4 .stars__star:nth-child(4) {
+  background-image: url("./images/star-active.svg");
+}
+
+.stars--5 .stars__star:nth-child(0),
+.stars--5 .stars__star:nth-child(1),
+.stars--5 .stars__star:nth-child(2),
+.stars--5 .stars__star:nth-child(3),
+.stars--5 .stars__star:nth-child(4),
+.stars--5 .stars__star:nth-child(5) {
+  background-image: url("./images/star-active.svg");
+}
