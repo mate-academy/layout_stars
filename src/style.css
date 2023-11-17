@@ -1,25 +1,23 @@
 body {
-  margin: auto;
+  margin: 0;
 }
 
 .stars {
   display: flex;
-  margin-bottom: 0;
 }
 
 .stars__star {
   background-image: url(./images/star-active.svg);
   width: 16px;
   height: 16px;
-  margin-right: 2px;
-  margin-left: 2px;
+  margin-right: 4px;
   background-position: center;
   background-repeat: no-repeat;
   flex-shrink: 0;
 }
 
-.stars__star:first-child {
-  margin-left: 0;
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--0 .stars__star:nth-child(-n+5),
