@@ -6,6 +6,10 @@ body {
   display: flex;
 }
 
+.stars :last-child {
+  margin-right: 0;
+}
+
 .stars__star {
   height: 16px;
   width: 16px;
