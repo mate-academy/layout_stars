@@ -1,6 +1,5 @@
 html {
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -31,4 +30,13 @@ body {
 .stars--4 .stars_star:nth-child(n + 5),
 .stars--5 .stars_star:nth-child(n + 6) {
   background-image: url(./images/star.svg);
+}
+
+.stars--0 .stars_star:last-child,
+.stars--1 .stars_star:last-child,
+.stars--2 .stars_star:last-child,
+.stars--3 .stars_star:last-child,
+.stars--4 .stars_star:last-child,
+.stars--5 .stars_star:last-child {
+  margin-right: 0;
 }
