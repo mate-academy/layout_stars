@@ -20,6 +20,10 @@
   list-style-type: none;
 }
 
+.stars :last-child {
+  margin-right: 0;
+}
+
 .stars--0 :nth-last-child(n+6),
 .stars--1 :nth-last-child(n+5),
 .stars--2 :nth-last-child(n+4),
