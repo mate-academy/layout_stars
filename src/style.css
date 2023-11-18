@@ -3,15 +3,14 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   width: 140px;
   height: 160px;
   margin: 0 auto;
   padding: 22px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   gap: 4px 4px;
 }
 
@@ -25,9 +24,9 @@ body {
   display: inline-block;
 }
 
-[class*="stars-"] {
+[class^="stars--"] {
   display: flex;
-  gap: 4px 4px;
+  justify-content: space-between;
 }
 
 [class="stars--1"] :nth-child(-n + 1) {
