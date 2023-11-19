@@ -4,9 +4,6 @@ html {
 
 body {
   margin: 0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
 .stars {
@@ -23,6 +20,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.stars_star:last-child {
+  margin-right: 0;
+}
+
 .stars--0 .stars_star:nth-child(n + 1),
 .stars--1 .stars_star:nth-child(n + 2),
 .stars--2 .stars_star:nth-child(n + 3),
@@ -30,13 +31,4 @@ body {
 .stars--4 .stars_star:nth-child(n + 5),
 .stars--5 .stars_star:nth-child(n + 6) {
   background-image: url(./images/star.svg);
-}
-
-.stars--0 .stars_star:last-child,
-.stars--1 .stars_star:last-child,
-.stars--2 .stars_star:last-child,
-.stars--3 .stars_star:last-child,
-.stars--4 .stars_star:last-child,
-.stars--5 .stars_star:last-child {
-  margin-right: 0;
 }
