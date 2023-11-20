@@ -10,11 +10,9 @@ body {
   display: flex;
   justify-content: space-between;
   width: 96px;
-  /* height: 160px; */
 }
 
 .stars__star {
-  /* display: block; */
   background-image: url(images/star.svg);
   width: 16px;
   height: 16px;
