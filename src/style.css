@@ -5,7 +5,6 @@ body {
 .frame {
   display: flex;
   flex-direction: column;
-  height: 116px;
   justify-content: space-between;
 }
 
