@@ -2,6 +2,13 @@ body {
   margin: 0;
 }
 
+.frame {
+  display: flex;
+  flex-direction: column;
+  height: 116px;
+  justify-content: space-between;
+}
+
 .stars {
   display: flex;
 }
