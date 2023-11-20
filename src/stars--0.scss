@@ -3,5 +3,9 @@
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
-  margin: 2px;
+  margin-right: 4px;
+}
+
+.stars--0 .stars__star:last-child {
+  margin-right: 0;
 }

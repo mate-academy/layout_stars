@@ -4,9 +4,13 @@
 @import url(../src/stars--3.css);
 @import url(../src/stars--4.css);
 @import url(../src/stars--5.css);
+
 body {
   margin: 0;
-  margin: 22px;
+  margin-top: 2px;
+  margin-left: 20px;
+  padding: 0;
+  width: 116px;
 }
 
 .stars {

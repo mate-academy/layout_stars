@@ -3,9 +3,13 @@
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
-  margin: 2px;
+  margin-right: 4px;
 }
 
-.stars--5 .stars__star:nth-child(-n + 5) {
+.stars--5 .stars__star:nth-child(-n+5) {
   background-image: url(../src/images/star-active.svg);
+}
+
+.stars--5 .stars__star:last-child {
+  margin-right: 0;
 }
