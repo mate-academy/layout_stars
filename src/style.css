@@ -23,6 +23,6 @@ body {
   background-image: url(images/star-active.svg);
 }
 
-.stars__star:not(:last-child) {
-  margin: 4px;
+.stars__star:last-child {
+  margin-right: 0 px;
 }
