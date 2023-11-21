@@ -2,12 +2,6 @@ body {
   margin: 0;
 }
 
-.frame {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .stars {
   display: flex;
 }
@@ -29,6 +23,6 @@ body {
   background-image: url(images/star-active.svg);
 }
 
-.stars :last-child {
-  margin: 0;
+.stars__star:not(:last-child) {
+  margin: 4px;
 }
