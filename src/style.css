@@ -1,1 +1,43 @@
-/* add styles here */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  background: center no-repeat url("images/star.svg");
+  display: inline-block;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+[class*="stars--"] {
+  display: flex;
+}
+
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
+  background-image: url("images/star-active.svg");
+}
+
+.stars__block:last-child :nth-child(n) {
+  margin-bottom: 0;
+}
+
+.stars__block:first-child :nth-child(n) {
+  margin-top: 0;
+}
