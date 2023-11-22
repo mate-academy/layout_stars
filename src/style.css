@@ -20,7 +20,10 @@ body {
   background-size: cover;
   box-sizing: border-box;
   background-image: url("./images/Star.svg");
+}
 
+.stars :last-child {
+  margin: 0;
 }
 
 .stars--1 :nth-child(-n + 1),
