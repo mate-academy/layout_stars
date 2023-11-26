@@ -4,6 +4,7 @@
 
 .stars {
   display: flex;
+  border: none;
 }
 
 .stars__star {
