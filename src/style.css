@@ -1,22 +1,12 @@
-/* #region body */
-
 body {
   margin: 0;
   background-color: #fff;
 }
 
-/* #endregion */
-
-/* #region stars */
-
 .stars {
   display: flex;
   flex-direction: row;
 }
-
-/* #endregion */
-
-/* #region stars_star_first_row */
 
 .stars_star {
   background-repeat: no-repeat;
@@ -27,6 +17,11 @@ body {
   margin-right: 4px;
 }
 
-.stars_star1 {
+.stars_star_active {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
   background-image: url(images/star-active.svg);
+  margin-right: 4px;
 }
