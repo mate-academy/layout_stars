@@ -1,1 +1,27 @@
-/* add styles here */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 22px;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.stars__star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 4px;
+  background-image: url(images/star.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.stars--N {
+  background-image: url(images/star-active.svg);
+}
