@@ -17,11 +17,6 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
-  list-style-type: none;
-}
-
-.stars :last-child {
-  margin-right: 0;
 }
 
 .stars--0 :nth-last-child(n+6),
