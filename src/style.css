@@ -1,1 +1,65 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+.stars__star {
+  display: flex;
+  background-image: url(/src/images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--0 {
+  background-image: url(/src/images/star.svg);
+  width: 13px;
+  height: 12px;
+}
+
+.stars--1 {
+  background-image: url(/src/images/star.svg);
+  width: 13px;
+  height: 12px;
+}
+
+.stars--2 {
+  background-image: url(/src/images/star.svg);
+  width: 13px;
+  height: 12px;
+}
+
+.stars--3 {
+  background-image: url(/src/images/star.svg);
+  width: 13px;
+  height: 12px;
+}
+
+.stars--4 {
+  background-image: url(/src/images/star.svg);
+  width: 13px;
+  height: 12px;
+}
+
+.stars--5 {
+  background-image: url(/src/images/star-active.svg);
+  width: 13px;
+  height: 12px;
+}
+
+.star-1 {
+  background-image: url(/src/images/star-active.svg);
+}
+.star-2 {
+  background-image: url(/src/images/star-active.svg);
+}
+.star-3 {
+  background-image: url(/src/images/star-active.svg);
+}
+.star-4 {
+  background-image: url(/src/images/star-active.svg);
+}
+.star-5 {
+  background-image: url(/src/images/star-active.svg);
+}
+
+a:hover {
+  background-image: url(/src/images/star-active.svg);
+}
