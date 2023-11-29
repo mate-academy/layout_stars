@@ -1,12 +1,11 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  padding: 22px;
+  padding: 0;
 }
 
 .stars {
   display: flex;
-  margin-bottom: 4px;
 }
 
 .stars__star {
@@ -16,8 +15,8 @@ body {
 
   margin-right: 4px;
   background-image: url(images/star.svg);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   width: 16px;
   height: 16px;
 }
