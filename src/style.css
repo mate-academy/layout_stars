@@ -25,8 +25,7 @@ html {
 .stars--2 .stars__star:nth-child(-1n + 2),
 .stars--3 .stars__star:nth-child(-1n + 3),
 .stars--4 .stars__star:nth-child(-1n + 4),
-.stars--5 .stars__star:nth-child(-1n + 5)
- {
+.stars--5 .stars__star:nth-child(-1n + 5) {
   background-image: url(/src/images/star-active.svg);
 }
 
