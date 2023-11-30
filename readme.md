@@ -17,7 +17,7 @@ Follow
 - Don't add vertical margins between blocks.
 - DON'T use `gap` property for `flex` container because it does not work in tests
 
-## Checklist
+## Checklist  
 
 ❗️ Replace `<your_account>` with your Github username and copy the links to `Pull Request` description:
 
