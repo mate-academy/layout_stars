@@ -7,7 +7,16 @@ body {
   display: flex;
 }
 
-.stars__star-1 {
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nth-child {
   width: 16px;
   height: 16px;
   margin-right: 4px;
@@ -16,16 +25,6 @@ body {
   background-position: center;
 }
 
-.stars__star {
-    width: 16px;
-    height: 16px;
-    margin-right: 4px;
-    background-image: url(./images/star.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-
+.last-star {
+  margin-right: 0;
 }
-
-
-
-
