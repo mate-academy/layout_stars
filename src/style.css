@@ -1,1 +1,20 @@
 /* add styles here */
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background: url("images/star.svg") no-repeat;
+  width: 1rem;
+  height: 1rem;
+}
+
+.is-active {
+  background: url("images/star-active.svg") no-repeat;
+  width: 1rem;
+  height: 1rem;
+}
