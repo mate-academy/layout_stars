@@ -1,10 +1,8 @@
 body {
   margin: 0;
-  padding: 0
 }
 
 .stars {
-  margin: 0;
   display: flex
 }
 
@@ -15,8 +13,8 @@ body {
   margin-right: 4px
 }
 
-.stars__star:last-child {
-  margin-right: 0
+.stars__star:not(:last-child) {
+  margin-right: 20px;
 }
 
 .stars--1 .stars__star:nth-child(-n+1),
