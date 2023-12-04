@@ -1,1 +1,27 @@
-/* add styles here */
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars_star {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  margin-right: 4px;
+}
+
+.stars_star_active {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star-active.svg);
+  margin-right: 4px;
+}
