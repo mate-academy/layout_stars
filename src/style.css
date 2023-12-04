@@ -48,4 +48,3 @@ box-sizing: border-box;
 .stars--5 :nth-child(-n+5) {
   background-image: url('images/star-active.svg');
 }
-
