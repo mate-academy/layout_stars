@@ -1,11 +1,6 @@
 /* add styles here */
 body {
   margin: 0;
-  background-color: #eee;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
 }
 
 .stars {
@@ -17,8 +12,8 @@ body {
   height: 16px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
   margin-right: 4px;
-  margin-bottom: 4px;
 }
 
 .stars__star:last-child {
@@ -28,8 +23,6 @@ body {
 .stars__block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #fff;
 }
 
@@ -51,5 +44,4 @@ body {
 
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
-  margin-bottom: 0;
 }
