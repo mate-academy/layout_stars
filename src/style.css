@@ -17,6 +17,10 @@ body {
   margin-right: 4px;
 }
 
+.stars--star:last-child {
+  margin-right: 0;
+}
+
 .stars--0 :nth-child(n+6),
 .stars--1 :nth-child(-n+1),
 .stars--2 :nth-child(-n+2),
