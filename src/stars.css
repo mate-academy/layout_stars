@@ -1,6 +1,5 @@
 .stars {
   display: flex;
-  justify-content: space-between;
 }
 
 .stars__star {
@@ -8,7 +7,8 @@
   height: 16px;
   width: 16px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50%;
+  margin-right: 4px;
 
 }
 
