@@ -1,4 +1,4 @@
 /* add styles here */
-@import "stars.css";
-@import "reset.css";
-@import "body.css";
+@import "./stars.css";
+@import "./reset.css";
+@import "./body.css";
