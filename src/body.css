@@ -1,0 +1,5 @@
+.body {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+}
