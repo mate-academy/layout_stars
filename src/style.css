@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+/* #region Stars */
 .stars {
   display: flex;
 }
@@ -9,7 +10,6 @@ body {
 .stars__star {
   display: block;
   background-image: url('images/star.svg');
-  background-size: fixed;
   background-position: center;
   background-repeat: no-repeat;
   width: 16px;
@@ -19,10 +19,10 @@ body {
 
 .stars__star--active {
   background-image: url('images/star-active.svg');
-  background-size: fixed;
   background-position: center;
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
 }
 
+/* #endregion */
