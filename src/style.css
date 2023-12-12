@@ -1,34 +1,4 @@
 /* add styles here */
-* {
-  margin: 0;
-}
-
-.body {
-  width: 96px;
-  display: flex;
-  flex-direction: column;
-}
-
-.stars {
-  display: flex;
-  flex-grow: 1;
-}
-
-.stars__star {
-  background-image: url(images/star.svg);
-  height: 16px;
-  width: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-  align-self: center;
-  flex-grow: 1;
-}
-
-.stars__star--active {
-  background-image: url(images/star-active.svg);
-  height: 16px;
-  width: 16px;
-  background-repeat: no-repeat;
-}
-
-
+@import "stars.css";
+@import "reset.css";
+@import "body.css";
