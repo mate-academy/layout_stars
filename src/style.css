@@ -5,6 +5,7 @@ body {
 
 .rating__stars {
   display: flex;
+  gap: 4px;
 }
 
 .stars__star {
@@ -13,13 +14,12 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  margin-right: 4px;
 }
 
-.stars__stars--0 :nth-child(n + 2),
-.stars__stars--1 :nth-child(n + 3),
-.stars__stars--2 :nth-child(n + 4),
-.stars__stars--3 :nth-child(n + 5),
-.stars__stars--4 :nth-child(n + 6){
+.stars--0 :nth-child(n + 2),
+.stars--1 :nth-child(n + 3),
+.stars--2 :nth-child(n + 4),
+.stars--3 :nth-child(n + 5),
+.stars--4 :nth-child(n + 6){
   background-image: url(images/star-active.svg);
 }
