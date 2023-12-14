@@ -4,8 +4,6 @@
 }
 
 .stars {
-  margin: 0;
-  padding: 0;
   display: flex;
 }
 
@@ -15,6 +13,7 @@
   background-image: url("./images/star.svg");
   background-repeat: no-repeat;
   margin-right: 4px;
+  background-position: center;
 }
 
 .stars__star:last-child {
