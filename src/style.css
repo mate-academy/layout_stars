@@ -1,11 +1,4 @@
 /* add styles here */
-@import "stars--0.css";
-@import "stars--1.css";
-@import "stars--2.css";
-@import "stars--3.css";
-@import "stars--4.css";
-@import "stars--5.css";
-
 body {
   margin: 0;
   }
@@ -18,7 +11,7 @@ body {
   margin-right: 4px;
 	width: 16px;
   height: 16px;
-  background-image: url(images/star.svg);
+  background-image: url(./images/star.svg);
   background-repeat: no-repeat;
 	background-position: center;
 }
@@ -27,3 +20,11 @@ body {
   margin-right: 0;
 }
 
+.stars--0 :nth-child(-n + 0),
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
+  background-image: url(./images/star-active.svg);
+}
