@@ -1,9 +1,0 @@
-.stars__star {
-  display: block;
-  width: 16px;
-  height: 16px;
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 2px;
-}

@@ -1,8 +1,118 @@
-/* add styles here */
-@import "scale.css";
-@import "gray\ stars.css";
-@import "stars--1.css";
-@import "stars--2.css";
-@import "stars--3.css";
-@import "stars--4.css";
-@import "stars--5.css";
+/* #region scale */
+
+.page__body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+/* #endregion */
+
+/* #region gray stars */
+.stars__star {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 4px;
+}
+
+/* #endregion */
+
+/* #region stars--1 */
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 4px;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* #endregion */
+
+/* #region stars2 */
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 4px;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* #endregion */
+
+/* #region stars--3 */
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 4px;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* #endregion */
+
+/* #region stars--4 */
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 4px;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* #endregion */
+
+/* #region stars--5 */
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 4px;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+/* #endregion */
+
+/* #region margins-zero */
+.stars--0 .stars__star:first-of-type {
+  margin-left: 0;
+}
+
+.stars--1 .stars__star:first-of-type {
+  margin-left: 0;
+}
+
+.stars--2 .stars__star:first-of-type {
+  margin-left: 0;
+}
+
+.stars--3 .stars__star:first-of-type {
+  margin-left: 0;
+}
+
+.stars--4 .stars__star:first-of-type {
+  margin-left: 0;
+}
+
+.stars--5 .stars__star:first-of-type {
+  margin-left: 0;
+}
+
+/* #endregion */
