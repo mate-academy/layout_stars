@@ -6,6 +6,7 @@ body {
 .rating__stars {
   display: flex;
   gap: 4px;
+  flex-direction: row;
 }
 
 .stars__star {
