@@ -28,9 +28,4 @@ body {
   background-image: url("images/star-active.svg");
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
