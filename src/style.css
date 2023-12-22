@@ -4,14 +4,6 @@ body {
   margin: 0;
 }
 
-.container {
-  height: 96px;
-  width: 96px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .stars {
   display: flex;
 }
@@ -37,7 +29,6 @@ body {
 .stars--4 :nth-child(-n+4),
 .stars--5 :nth-child(-n+5) {
   background-image: url(images/star-active.svg);
- 
 }
 
 
