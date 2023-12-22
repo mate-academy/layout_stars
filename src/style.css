@@ -2,25 +2,19 @@
 
 body {
   margin: 0;
-  
-}
-
-.container {
-  display: flex;
-  height: 116px;
+  height: 96px;
   width: 96px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  align-self: center;
-  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .stars {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
+
 
 .stars__star {
   background-image: url(images/star.svg);
@@ -28,8 +22,13 @@ body {
   height: 16px;
   flex-shrink: 0;
   background-repeat: no-repeat;
-  margin: 2px;
+  background-position: center;
 }
+
+.stars__star :not(:last-child) {
+  margin-right: 4px;
+}
+
 
 .stars--1 :nth-child(-n+1),
 .stars--2 :nth-child(-n+2),
@@ -41,7 +40,7 @@ body {
   height: 16px;
   flex-shrink: 0;
   background-repeat: no-repeat;
-  margin: 2px;
+  background-position: center;
 }
 
 
