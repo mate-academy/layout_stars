@@ -1,0 +1,9 @@
+.main-block {
+  flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  height: 94px;
+  width: 100px;
+  justify-content: space-between;
+
+}
