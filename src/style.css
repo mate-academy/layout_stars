@@ -1,1 +1,88 @@
-/* add styles here */
+body {
+  margin: 0;
+  display: flex;
+  width: 96px;
+  height: 116px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  width: 96px;
+  height: 116px;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+}
+
+.stars--0 .stars__star:nth-child(1),
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(1),
+.stars--3 .stars__star:nth-child(1),
+.stars--4 .stars__star:nth-child(1),
+.stars--5 .stars__star:nth-child(1) {
+    background-image: url('images/star-active.svg'); /* Adjust the path to your filled star image */
+}
+
+.stars--1 .stars__star:nth-child(2),
+.stars--2 .stars__star:nth-child(2),
+.stars--3 .stars__star:nth-child(2),
+.stars--4 .stars__star:nth-child(2),
+.stars--5 .stars__star:nth-child(2) {
+    background-image: url('images/star-active.svg'); /* Adjust the path to your filled star image */
+}
+
+.stars--2 .stars__star:nth-child(3),
+.stars--3 .stars__star:nth-child(3),
+.stars--4 .stars__star:nth-child(3),
+.stars--5 .stars__star:nth-child(3) {
+    background-image: url('images/star-active.svg'); /* Adjust the path to your filled star image */
+}
+
+.stars--3 .stars__star:nth-child(4),
+.stars--4 .stars__star:nth-child(4),
+.stars--5 .stars__star:nth-child(4) {
+    background-image: url('images/star-active.svg'); /* Adjust the path to your filled star image */
+}
+
+.stars--4 .stars__star:nth-child(5),
+.stars--5 .stars__star:nth-child(5) {
+    background-image: url('images/star-active.svg'); /* Adjust the path to your filled star image */
+}
+
+
+.stars--0 .stars__star:nth-child(5),
+.stars--1 .stars__star:nth-child(5),
+.stars--2 .stars__star:nth-child(5),
+.stars--3 .stars__star:nth-child(5),
+.stars--4 .stars__star:nth-child(5) {
+    background-image: url('images/star.svg'); /* Adjust the path to your empty star image */
+}
+
+.stars--0 .stars__star:nth-child(4),
+.stars--1 .stars__star:nth-child(4),
+.stars--2 .stars__star:nth-child(4),
+.stars--3 .stars__star:nth-child(4){
+    background-image: url('images/star.svg'); /* Adjust the path to your empty star image */
+}
+
+.stars--0 .stars__star:nth-child(3),
+.stars--1 .stars__star:nth-child(3),
+.stars--2 .stars__star:nth-child(3){
+    background-image: url('images/star.svg'); /* Adjust the path to your empty star image */
+}
+
+.stars--0 .stars__star:nth-child(2),
+.stars--1 .stars__star:nth-child(2){
+    background-image: url('images/star.svg'); /* Adjust the path to your empty star image */
+}
+
+.stars--0 .stars__star:nth-child(1) {
+    background-image: url('images/star.svg'); /* Adjust the path to your empty star image */
+}
