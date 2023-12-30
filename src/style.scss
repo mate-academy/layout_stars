@@ -1,27 +1,27 @@
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .stars {
   display: flex;
 
   @for $row from 1 through 5 {
-    &--#{$row}:nth-child(-n + #{$row}) {
+    &--#{$row} :nth-child(-n + #{$row}) {
       background-image: url(images/star-active.svg);
-      background-position: 0;
     }
   }
 }
 
 .stars__star {
   background-image: url(images/star.svg);
-  background-size: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
   background-position: center;
   height: 16px;
   width: 16px;
-  margin: 4px;
+  margin-right: 4px;
+}
+
+.stars__star :last-child {
+  margin-right: 0;
 }
