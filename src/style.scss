@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+
+  @for $row from 1 through 5 {
+    &--#{$row} :nth-child(-n + #{$row}) {
+      background-image: url(images/star-active.svg);
+    }
+  }
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.stars__star :last-child {
+  margin-right: 0;
+}
