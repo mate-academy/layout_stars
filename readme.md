@@ -1,32 +1,41 @@
-# Stars block
+# Moyo header
+Create HTML page with the header using `flexbox` based on the [Figma Mockup](https://www.figma.com/file/1sog2rmfyCjnVxkeZ3ptnc/MOYO-%2F-Header?node-id=0%3A1&mode=dev).
 
-Implement the [Stars Block](https://www.figma.com/file/ojkArVazq7vsX0nbpn9CxZ/Moyo-%2F-Catalog-(ENG)?node-id=11325%3A2960&mode=dev) used in a card and catalog.
-Follow
+The page should match the design Pixel Perfect: all the sizes, colors and distanced MUST be the same as on the design.
 
 > Here are the [Layout Tasks Instructions](https://mate-academy.github.io/layout_task-guideline)
 
 ## Requirements:
-- Reset browser's default `margin`
-- Add 6 `stars` blocks with 5 `stars__star` elements each.
-- Add `stars--0`, `stars--1`, `stars--2` ... `stars--5` modifiers to the blocks one per each
-- Don't add any other classes to the elements.
-- The block with `stars--N` modifier should have exactly `N` first stars active.
-- use `background-image` for stars (see `images` folder). Don't use `<img>` or `<svg>` tags.
-- The star size and the distance should be taken from Figma
-- Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
-- Don't add vertical margins between blocks.
-- DON'T use `gap` property for `flex` container because it does not work in tests
+
+- reset browser default margins.
+- use [Roboto font](https://fonts.google.com/specimen/Roboto)
+- use semantic tags: `<header>`, `<img>`, `<nav>`, `<ul>`, `<li>` and `<a>`
+- the header should stretch the full page width
+- the height should be set for nav links (not the header), take it from the design.
+- header content should be vertically centered.
+- Logo should also be a link with an image inside (from [src/images](src/images)). But it should not be a part of the `<nav>`.
+- ❗️ the blue link with a line below should have a class `is-active` in addition to any other classes you add.
+- ❗️ add `data-qa="hover"` attribute to the 4th link for testing (`Laptops & computers`)
+- link color should be changed on `:hover`
+- Use the `::after` and position it relative to a link with `is-active` class
+- Don't use flex `gap` property for indents. It's not supported in tests, use `margin` instead.
+- There should not be margins before the first and after the last list items
+- Don't just copy all styles from Figma. Think, which of them are relevant. Uneven sizes (e.g. `line-height: 14.6px`) are definitely useless.
+- Nav Links should not have any padding, but have text centered
 
 ## Checklist
 
 ❗️ Replace `<your_account>` with your Github username and copy the links to `Pull Request` description:
 
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://HolyRaveOS.github.io/layout_moyo-header/)
+- [TEST REPORT LINK](https://HolyRaveOS.github.io/layout_moyo-header/report/html_report/)
 
 ❗️ Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.
 
-- [ ] Yellow stars are added with container modifier + pseudo-selector (NO extra classes)
-- [ ] Each BEM block has its own separate file
-- [ ] All `Typical Mistakes` from `BEM` lesson theory are checked.
+- [ ] Header height is set in 1 place (for the links)
+- [ ] Content is vertically centered (for any header height)
+- [ ] CSS is used to show all letters in Uppercase (don't type them in HTML)
+- [ ] Logo is an image wrapped with a link
+- [ ] **CSS Variable** is used for a blue color
+- [ ] Pseudo-element is used for a blue line below the active link
 - [ ] Code follows all the [Code Style Rules ❗️](./checklist.md)
