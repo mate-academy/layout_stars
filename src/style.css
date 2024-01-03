@@ -1,1 +1,36 @@
 /* add styles here */
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url(/src/images/star.svg);
+  height: 16px;
+  width: 16px;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 4px;
+}
+
+.stars--5 .stars__star,
+.stars--1 .stars__star:first-of-type,
+.stars--2 .stars__star:first-of-type,
+.stars--2 .stars__star:nth-of-type(2),
+.stars--3 .stars__star:first-of-type,
+.stars--3 .stars__star:nth-of-type(2),
+.stars--3 .stars__star:nth-of-type(3),
+.stars--4 .stars__star:not(:last-of-type)
+   {
+  background-image: url(/src/images/star-active.svg);
+}
+
+.stars .stars__star:first-of-type {
+  margin-left: 0;
+}
