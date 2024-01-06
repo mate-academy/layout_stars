@@ -1,1 +1,32 @@
-/* add styles here */
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  margin: 0;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+
+  margin-right: 4px;
+
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.star-off {
+  background-image: url(/src/images/star.svg);
+}
+
+.star-on {
+  background-image: url(/src/images/star-active.svg);
+}
