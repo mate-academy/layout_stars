@@ -4,22 +4,21 @@ body {
 
 .stars {
   display: flex;
-  justify-content: center;
 }
 
 .stars__star {
   display: block;
   width: 16px;
-  height: 14px;
-  background-repeat: no-repeat;
-  background-image: url(images/star.svg);
+  height: 16px;
+  background: no-repeat center url(images/star.svg);
   margin: 0;
-  margin-top: 2px;
 }
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
+
+/* With the help of pseoudo classes, I draw the first selected stars in yellow */
 
 .stars--5 .stars__star {
   background-image: url(images/star-active.svg);
