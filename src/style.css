@@ -43,3 +43,27 @@ body {
   background-position: center;
   margin-right: 4px;
 }
+
+.stars--0 :last-child {
+  margin: 0;
+}
+
+.stars--1 :last-child {
+  margin: 0;
+}
+
+.stars--2 :last-child {
+  margin: 0;
+}
+
+.stars--3 :last-child {
+  margin: 0;
+}
+
+.stars--4 :last-child {
+  margin: 0;
+}
+
+.stars--5 :last-child {
+  margin: 0;
+}
