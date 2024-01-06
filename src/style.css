@@ -2,17 +2,6 @@ body {
   margin: 0;
 }
 
-.container {
-  display: flex;
-  width: 140px;
-  height: 160px;
-  padding: 22px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #FFF;
-}
-
 .stars--0 {
   display: flex;
 }
@@ -41,14 +30,16 @@ body {
   background-image: url(images/star.svg);
   width: 16px;
   height: 16px;
-  background-size: cover;
-  margin: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .goldstars {
   background-image: url(images/star-active.svg);
   width: 16px;
   height: 16px;
-  background-size: cover;
-  margin: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
 }
