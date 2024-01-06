@@ -1,1 +1,54 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 140px;
+  height: 160px;
+  padding: 22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+}
+
+.stars--0 {
+  display: flex;
+}
+
+.stars--1 {
+  display: flex;
+}
+
+.stars--2 {
+  display: flex;
+}
+
+.stars--3 {
+  display: flex;
+}
+
+.stars--4 {
+  display: flex;
+}
+
+.stars--5 {
+  display: flex;
+}
+
+.darkstars {
+  background-image: url(images/star.svg);
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  margin: 4px;
+}
+
+.goldstars {
+  background-image: url(images/star-active.svg);
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  margin: 4px;
+}
