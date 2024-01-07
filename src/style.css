@@ -22,9 +22,9 @@ body {
 
 .stars__star:last-child {
   margin-right: 0;
-  padding-right: 4px;
+  background-position: 2px;
+  padding: 0 4px;
   width: 12px;
-  border-right: 4px solid #fff;
 }
 
 .stars--1>:nth-child(-n+1),
