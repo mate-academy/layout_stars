@@ -26,7 +26,9 @@
   margin-right: 0;
 }
 
-.stars--1 > .stars__star:nth-child(0) {
+.stars--1 > .stars__star:nth-child(0),
+.stars--2 > .stars__star:nth-child(-n + 2),
+... {
   background-image: url("images/star-active.svg");
   background-position: center;
   background-repeat: no-repeat;
