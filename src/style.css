@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding-top: 2px;
 }
 
 .stars{
@@ -12,7 +11,8 @@ body {
   width: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-  margin: 0 2px;
+  background-position: center;
+  margin-right: 4px;
 }
 
 .stars__star--active {
