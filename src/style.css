@@ -16,31 +16,15 @@ body {
   background-position: center;
 }
 
-
 .stars :not(:last-child) {
   margin-right: 4px;
 }
 
-/* #region active-stars */
-
-.stars--1 :first-child {
+.stars--1 :first-child,
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :not(:last-child),
+.stars--5 .stars_star {
   background-image: url(images/star-active.svg);
 }
 
-.stars--2 :nth-child(-n+2) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--3 :nth-child(-n+3) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--4 :not(:last-child) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--5 .stars_star{
-  background-image: url(images/star-active.svg);
-}
-
-/* #endregion */
