@@ -1,16 +1,13 @@
 .page__body {
   margin: 0;
-
-  /* background-color: black; */
+  padding: 0;
 }
 
 .page__frame {
-  box-sizing: border-box;
-  width: 96px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  width: fit-content;
 }
 
 .stars {
@@ -20,16 +17,16 @@
 .stars__star {
   width: 16px;
   height: 16px;
-  margin-left: 4px;
+  margin-right: 4px;
   margin-bottom: 4px;
 }
 
-.stars__star:first-child {
-  margin-left: 0;
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars__star:nth-last-child(-n+5) {
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 .stars--0 {
