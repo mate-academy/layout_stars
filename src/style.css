@@ -15,11 +15,11 @@ body {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 4px;
+  margin-left: 4px;
 }
 
 .stars__star:first-child {
-  margin: 0;
+  margin-left: 0;
 }
 
 .stars--0 > .stars__star:nth-child(-n+0),
