@@ -1,3 +1,4 @@
+/* #region page */
 .page__body {
   margin: 0;
   padding: 0;
@@ -10,6 +11,9 @@
   width: fit-content;
 }
 
+/* #endregion */
+
+/* #region stars */
 .stars {
   display: flex;
 }
@@ -101,3 +105,5 @@
     background-position: center;
   }
 }
+
+/* #endregion */
