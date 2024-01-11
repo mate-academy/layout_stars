@@ -30,6 +30,7 @@ blockquote,
 dl,
 dd {
     margin: 0;
+    list-style: none;
 }
 
 h1,
