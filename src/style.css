@@ -1,23 +1,13 @@
-.container {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .stars {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .stars__star {
   background-image: url("images/star.svg");
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center;
   width: 16px;
   height: 16px;
-  position: relative;
 }
 
 .stars__star:not(:last-child) {
@@ -25,10 +15,50 @@
 }
 
 .stars--1::after {
-  content: '';
+  content: "";
   background-image: url(images/star-active.svg);
-   background-repeat: no-repeat;
-  background-position: left center;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.stars--2 li:nth-child(-1n + 2)::after {
+  content: "";
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.stars--3 li:nth-child(-1n + 3)::after {
+  content: "";
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.stars--4 li:nth-child(-1n + 4)::after {
+  content: "";
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.stars--5 li:nth-child(n)::after {
+  content: "";
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
   width: 16px;
   height: 16px;
