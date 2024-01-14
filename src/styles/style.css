@@ -1,0 +1,6 @@
+@import "stars-rows.css";
+@import "stars.css";
+
+html, body {
+  margin: 0;
+}
