@@ -1,0 +1,12 @@
+.stars-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .stars-rows > * {
+  margin-top: 4px;
+}
+
+.stars-rows > *:first-child {
+  margin-top: 0;
+} */
