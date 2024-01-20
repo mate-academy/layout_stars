@@ -19,7 +19,7 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
-  margin: 0 2px;
+  margin-right: 4px;
   justify-content: center;
   background-image: url('/src/images/star.svg');
   background-repeat: no-repeat;
