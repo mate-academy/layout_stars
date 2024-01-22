@@ -20,6 +20,7 @@ body {
   background-position: center;
   width: 16px;
   height: 16px;
+  padding: 3px;
 }
 
 .stars__star:not(:last-child) {
