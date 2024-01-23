@@ -3,14 +3,6 @@ body {
   padding: 0;
 }
 
-.stars__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 96px;
-}
-
 .stars__block {
   display: flex;
 }
