@@ -1,1 +1,66 @@
 /* add styles here */
+
+body {
+  margin: 0 auto;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.stars{
+  display: flex;
+  justify-content: center;
+}
+
+
+.stars__star{
+  margin-left: 4px;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.stars__star:last-child{
+  margin-right: 4px;
+}
+
+.stars__star:first-child{
+  margin-left: 0;
+}
+
+section > div{
+  background-image: url("./images/star.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.stars--1 > div:first-child ,section.stars--2 > div:first-child,
+section.stars--3 > div:first-child,section.stars--4 > div:first-child,
+section.stars--5 > div:first-child{
+  background-image: url("./images/star-active.svg");
+  background-repeat: no-repeat;
+}
+
+section.stars--2 > div:nth-child(2), section.stars--3 > div:nth-child(2),
+section.stars--4 > div:nth-child(2), section.stars--5 > div:nth-child(2){
+  background-image: url("./images/star-active.svg");
+  background-repeat: no-repeat;
+}
+
+section.stars--3 > div:nth-child(3), section.stars--4 > div:nth-child(3),
+section.stars--5 > div:nth-child(3){
+  background-image: url("./images/star-active.svg");
+  background-repeat: no-repeat;
+}
+
+section.stars--4 > div:nth-child(4), section.stars--5 > div:nth-child(4){
+  background-image: url("./images/star-active.svg");
+  background-repeat: no-repeat;
+}
+
+section.stars--5 > div:nth-child(5){
+  background-image: url("./images/star-active.svg");
+  background-repeat: no-repeat;
+}
