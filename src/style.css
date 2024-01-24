@@ -21,7 +21,7 @@ body {
   margin-bottom: 4px;
 }
 
-.stars__star:nth-last-child(n + 2) {
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
