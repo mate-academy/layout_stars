@@ -6,13 +6,8 @@ body {
 [class|="stars"] {
   display: flex;
   justify-content: center;
-  align-items: center;   /*
-  padding-top: 4px; */
-} /*
-
-[class|="stars"]:first-child {
-  padding-top: 0;
-} */
+  align-items: center;
+}
 
 .stars__star {
   width: 16px;
@@ -21,11 +16,7 @@ body {
   background-repeat: no-repeat;
   margin-right: 4px;
   background-image: url(images/star.svg);
-}/*
-
-.stars__star:last-child {
-  margin: 0;
-} */
+}
 
 .stars--1 .stars__star:first-of-type, .stars--2 :nth-child(-n + 2),
 .stars--3 :nth-child(-n + 3), .stars--4 :nth-child(-n + 4),
