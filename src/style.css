@@ -19,8 +19,8 @@
   background-image: url('./images/star-active.svg');
 }
 
-.stars :last-child(){
-  margin: 0;
+.stars .stars__star:last-child{
+  margin-right: 0;
 }
 
 .stars{
