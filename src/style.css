@@ -5,8 +5,6 @@ body {
 
 .stars {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .stars__star {
@@ -16,6 +14,10 @@ body {
   background-repeat: no-repeat;
   margin-right: 4px;
   background-image: url(images/star.svg);
+}
+
+.stars :last-child {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:first-of-type,
