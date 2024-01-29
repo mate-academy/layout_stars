@@ -1,10 +1,4 @@
 /* add styles here */
-@import "stars-1.css";
-@import 'stars-2.css';
-@import 'stars-3.css';
-@import 'stars-4.css';
-@import 'stars-5.css';
-
 body {
   margin: 0;
 }
@@ -23,4 +17,12 @@ body {
 
 .stars__star + .stars__star {
   margin-left: 4px;
+}
+
+.stars--1 > .stars__star:nth-child(1),
+.stars--2 > .stars__star:nth-child(-n + 2),
+.stars--3 > .stars__star:nth-child(-n + 3),
+.stars--4 > .stars__star:nth-child(-n + 4),
+.stars--5 > .stars__star:nth-child(-n + 5) {
+  background-image: url(../images/star-active.svg);
 }
