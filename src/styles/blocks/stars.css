@@ -1,0 +1,28 @@
+.stars {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.stars__star {
+  background-image: url(../../images/star.svg);
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 2px;
+  padding: 0 2px;
+  margin-left: 2px;
+}
+
+.stars--1 span:first-child::before,
+.stars--2 span:nth-child(-n + 2)::before,
+.stars--3 span:nth-child(-n + 3)::before,
+.stars--4 span:nth-child(-n + 4)::before,
+.stars--5 span:nth-child(-n + 5)::before {
+  content: url(../../images/star-active.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
