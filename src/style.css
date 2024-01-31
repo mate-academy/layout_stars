@@ -1,22 +1,10 @@
-/* add styles here */
 body {
   margin: 0;
 }
 
-.stars--0,
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
+.stars {
   display: flex;
   flex-direction: row;
-}
-
-.stars__star .stars--0{
-  background-image: url(images/star-active.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .stars__star {
