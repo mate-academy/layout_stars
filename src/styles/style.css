@@ -1,0 +1,13 @@
+@import "url('../../blocks/stars.css)";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
