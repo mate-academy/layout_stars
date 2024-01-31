@@ -11,8 +11,8 @@ body {
   height: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-
-  margin: 4px;
+  background-position: center center;
+  margin-right: 4px;
 }
 
 .stars--1 :first-child,
