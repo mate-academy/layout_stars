@@ -24,9 +24,5 @@
 .stars--3 .stars__star:nth-child(n + 4),
 .stars--4 .stars__star:nth-child(n + 5),
 .stars--5 .stars__star:nth-child(n + 6) {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-  margin-right: 4px;
   background: url("./images/star.svg") 50% no-repeat;
 }
