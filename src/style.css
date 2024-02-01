@@ -7,14 +7,15 @@ body {
 }
 
 .stars :nth-child(-n + 4) {
-  margin-right: 3px;
+  margin-right: 4px;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
-  background-size: cover;
-  background-image: url(images/star.svg);
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stars--1 :first-child,
