@@ -1,7 +1,7 @@
 
 body{
   margin: 0;
- 
+  display: block;
 }
 
 .stars{
@@ -11,8 +11,7 @@ body{
 .stars__star{
   width: 16px;
   height: 16px;
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
+  background: url(images/star.svg) no-repeat;
   background-position: 50%;
   margin-right: 4px;
 }
