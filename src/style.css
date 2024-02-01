@@ -1,12 +1,10 @@
 /* add styles here */
 body {
   margin: 0;
-
 }
 
 .stars {
   display: flex;
-
 }
 
 .stars__star {
@@ -16,7 +14,10 @@ body {
   background-repeat: no-repeat;
   margin-right: 4px;
   background-position: center;
+}
 
+.stars:last-child .stars__star {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(1),
@@ -26,5 +27,4 @@ body {
 .stars--5 .stars__star:nth-child(-n+5) {
   background-image: url(images/star-active.svg);
 }
-
 
