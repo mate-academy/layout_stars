@@ -4,7 +4,4 @@
 .stars--4 > .stars__star:nth-child(-n+4),
 .stars--5 > .stars__star:nth-child(-n+5) {
   background-image: url(/src/images/star-active.svg);
-  background-repeat: no-repeat;
-  height: 16px;
-  width: 16px;
 }
