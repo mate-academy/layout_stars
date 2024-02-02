@@ -1,0 +1,9 @@
+.stars__star {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  justify-content: space-between;
+  margin-right: 4px;
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/blocks/stars-stars-star-active.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706900112202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706900120276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-/* #region Stars Stars__star Active */\n .stars--1 .stars__star:nth-child(-n+1),\n .stars--2 .stars__star:nth-child(-n+2),\n .stars--3 .stars__star:nth-child(-n+3),\n .stars--4 .stars__star:nth-child(-n+4),\n@@ -7,6 +6,4 @@\n   background-image: url(./images/star-active.svg);\n   padding-left: 0;\n   margin-left: 0;\n }\n-\n-/* #endregion */\n"
+                }
+            ],
+            "date": 1706900112202,
+            "name": "Commit-0",
+            "content": "/* #region Stars Stars__star Active */\n.stars--1 .stars__star:nth-child(-n+1),\n.stars--2 .stars__star:nth-child(-n+2),\n.stars--3 .stars__star:nth-child(-n+3),\n.stars--4 .stars__star:nth-child(-n+4),\n.stars--5 .stars__star:nth-child(-n+5) {\n  background-image: url(./images/star-active.svg);\n  padding-left: 0;\n  margin-left: 0;\n}\n\n/* #endregion */\n"
+        }
+    ]
+}

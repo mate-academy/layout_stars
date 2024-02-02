@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/blocks/body.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706899860566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706899887273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,4 @@\n /* #region Body */\n body {\n   margin: 0;\n }\n-\n-/* #endregion */\n"
+                }
+            ],
+            "date": 1706899860566,
+            "name": "Commit-0",
+            "content": "/* #region Body */\nbody {\n  margin: 0;\n}\n\n/* #endregion */\n"
+        }
+    ]
+}

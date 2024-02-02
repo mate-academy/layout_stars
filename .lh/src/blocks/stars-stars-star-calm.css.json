@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/blocks/stars-stars-star-calm.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706900090879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706900097234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,6 @@\n-/* #region Stars Stars__star Calm */\n .stars .stars__star:nth-child(-n+5) {\n   background-image: url(./images/star.svg);\n   padding-left: 0;\n   margin-left: 0;\n }\n \n-/* #endregion */\n"
+                }
+            ],
+            "date": 1706900090879,
+            "name": "Commit-0",
+            "content": "/* #region Stars Stars__star Calm */\n.stars .stars__star:nth-child(-n+5) {\n  background-image: url(./images/star.svg);\n  padding-left: 0;\n  margin-left: 0;\n}\n\n/* #endregion */\n"
+        }
+    ]
+}
