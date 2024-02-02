@@ -1,1 +1,48 @@
-/* add styles here */
+/* #region Body */
+body {
+  margin: 0;
+}
+
+/* #endregion */
+
+/* #region Stars */
+.stars {
+  display: flex;
+}
+
+/* #endregion */
+
+/* #region Stars__star */
+.stars__star {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  justify-content: space-between;
+  margin-right: 4px;
+}
+
+/* #endregion */
+
+/* #region Stars Stars__star Calm */
+.stars .stars__star:nth-child(-n+5) {
+  background-image: url(./images/star.svg);
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* #endregion */
+
+/* #region Stars Stars__star Active */
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url(./images/star-active.svg);
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* #endregion */

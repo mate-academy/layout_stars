@@ -1,0 +1,194 @@
+{
+    "sourceFile": "src/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 44,
+            "patches": [
+                {
+                    "date": 1706798190275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706798199201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+/* #region Body*/\n"
+                },
+                {
+                    "date": 1706798206326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+/* #region Body*/\n+/**/\n"
+                },
+                {
+                    "date": 1706798215457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+/* #region Body*/\n+/*#*/\n"
+                },
+                {
+                    "date": 1706798221034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+/* #region Body*/\n+/*#endregion*/\n"
+                },
+                {
+                    "date": 1706798227254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+/* #region Body*/\n+/* #endregion*/\n"
+                },
+                {
+                    "date": 1706798238059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,2 @@\n /* #region Body*/\n-/* #endregion*/\n-/* #region Body*/\n-/*#endregion*/\n-/* #region Body*/\n-/*#*/\n-/* #region Body*/\n-/**/\n-/* #region Body*/\n-/**/\n+/* #endregion */\n"
+                },
+                {
+                    "date": 1706798253334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n /* #region Body*/\n+\n /* #endregion */\n"
+                },
+                {
+                    "date": 1706798266758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+/* #region Body*/\n+body {\n+  margin\n+}\n+/* #endregion */\n"
+                },
+                {
+                    "date": 1706798278055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+/* #region Body */\n+body {\n+  margin: 0;\n+}\n+/* #endregion */\n"
+                },
+                {
+                    "date": 1706798289930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n /* #region Body */\n body {\n   margin: 0;\n }\n+\n /* #endregion */\n"
+                },
+                {
+                    "date": 1706798298966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+/* #region Body */\n+\n+\n+/* #endregion */\n"
+                },
+                {
+                    "date": 1706798321109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,102 @@\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+body {\n+  margin: 0;\n+}\n"
+                },
+                {
+                    "date": 1706798329290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,102 @@\n+/* #region Body */\n+body {\n+  margin: 0;\n+}\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n"
+                },
+                {
+                    "date": 1706798342963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,100 @@\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n"
+                },
+                {
+                    "date": 1706798765918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,106 +1,6 @@\n /* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-body {\n+:root {\n   margin: 0;\n }\n \n /* #endregion */\n@@ -199,124 +99,4 @@\n \n \n /* #endregion */\n \n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-body {\n-  margin: 0;\n-}\n-/* #region Body */\n-\n-\n-/* #endregion */\n-/* #region Body */\n-body {\n-  margin: 0;\n-}\n-\n-/* #endregion */\n-/* #region Body*/\n-body {\n-  margin\n-}\n-/* #endregion */\n-/* #region Body*/\n-\n-/* #endregion */\n"
+                },
+                {
+                    "date": 1706798776485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /* #region Body */\n :root {\n-  margin: 0;\n+  margin: 010;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706798783268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,102 @@\n+/* #region Body */\n+:root {\n+  margin: 1000;\n+}\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n+/* #region Body */\n+\n+\n+/* #endregion */\n+\n"
+                },
+                {
+                    "date": 1706798791918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n /* #region Body */\n-:root {\n+ {\n   margin: 1000;\n }\n \n /* #endregion */\n@@ -99,106 +99,4 @@\n \n \n /* #endregion */\n \n-/* #region Body */\n-:root {\n-  margin: 010;\n-}\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n-/* #region Body */\n-\n-\n-/* #endregion */\n-\n"
+                },
+                {
+                    "date": 1706799593382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n /* #region Body */\n- {\n+body {\n   margin: 1000;\n }\n \n /* #endregion */\n \n /* #region Body */\n \n \n-/* #endregion */\n+/* #endregion Stars__*/\n \n /* #region Body */\n \n \n"
+                },
+                {
+                    "date": 1706799601956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n \n /* #region Body */\n \n \n-/* #endregion Stars__*/\n-\n+/* #endregion Stars__star*/\n+.stars\n /* #region Body */\n \n \n /* #endregion */\n"
+                },
+                {
+                    "date": 1706799607984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n /* #region Body */\n \n \n /* #endregion Stars__star*/\n-.stars\n+.stars__star {\n+  bac\n+}\n /* #region Body */\n \n \n /* #endregion */\n"
+                },
+                {
+                    "date": 1706799616391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n \n /* #endregion Stars__star*/\n .stars__star {\n-  bac\n+  background-image: ./;\n }\n /* #region Body */\n \n \n"
+                },
+                {
+                    "date": 1706799622479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n \n /* #endregion Stars__star*/\n .stars__star {\n-  background-image: ./;\n+  background-image: image(./);\n }\n /* #region Body */\n \n \n"
+                },
+                {
+                    "date": 1706800133748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n \n /* #endregion Stars__star*/\n .stars__star {\n-  background-image: image(./);\n+\n }\n /* #region Body */\n \n \n"
+                },
+                {
+                    "date": 1706800139791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,10 @@\n \n /* #region Body */\n \n \n-/* #endregion Stars__star*/\n-.stars__star {\n+/* #endregion Stars__star */\n \n-}\n /* #region Body */\n \n \n /* #endregion */\n"
+                },
+                {
+                    "date": 1706800148100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n /* #region Body */\n-body {\n+* {\n   margin: 1000;\n }\n \n /* #endregion */\n"
+                },
+                {
+                    "date": 1706800156507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /* #region Body */\n * {\n-  margin: 1000;\n+  margin: 0;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706800828900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,10 @@\n * {\n   margin: 0;\n }\n \n+\n+\n /* #endregion */\n \n /* #region Body */\n \n"
+                },
+                {
+                    "date": 1706800836291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,12 @@\n * {\n   margin: 0;\n }\n \n+div {\n+  display: ;\n+}\n \n-\n /* #endregion */\n \n /* #region Body */\n \n"
+                },
+                {
+                    "date": 1706800889368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n   margin: 0;\n }\n \n div {\n-  display: ;\n+  display: flex;\n+  \n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706800929593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n \n div {\n   display: flex;\n-  \n+  align-items: center;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706800973558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n \n div {\n   display: flex;\n-  align-items: center;\n+  width: 96px height: 116px top: 22px left: 22px\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706800979780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n }\n \n div {\n   display: flex;\n-  width: 96px height: 116px top: 22px left: 22px\n+  width: 96px;\n+  height: 116px top: 22px left: 22px\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706800986235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n \n div {\n   display: flex;\n   width: 96px;\n-  height: 116px top: 22px left: 22px\n+  height: 116px;\n+  top: 22px; left: 22px\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706800992132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n div {\n   display: flex;\n   width: 96px;\n   height: 116px;\n-  top: 22px; left: 22px\n+  top: 22px;\n+  left: 22px;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706801000023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,9 @@\n div {\n   display: flex;\n   width: 96px;\n   height: 116px;\n-  top: 22px;\n-  left: 22px;\n+  \n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706801007861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n div {\n   display: flex;\n   width: 96px;\n   height: 116px;\n-  \n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706801013915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,9 @@\n }\n \n div {\n   display: flex;\n-  width: 96px;\n-  height: 116px;\n+  \n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706801019986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n }\n \n div {\n   display: flex;\n-  \n+  width: 96px;\n+  height: 116px;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706801036114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,8 @@\n }\n \n div {\n   display: flex;\n-  width: 96px;\n-  height: 116px;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706801043790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n }\n \n div {\n   display: flex;\n+  justify-content: ;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706801052291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n \n div {\n   display: flex;\n-  justify-content: ;\n+  justify-content: sp;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706801060016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n \n div {\n   display: flex;\n-  justify-content: space-ar;\n+  justify-content: space-around;\n }\n \n /* #endregion */\n \n"
+                },
+                {
+                    "date": 1706802091733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n \n }\n \n .stars__star {\n-background-image: url(.//);\n+background-image: url(./);\n }\n \n /* #endregion */\n \n"
+                }
+            ],
+            "date": 1706798190275,
+            "name": "Commit-0",
+            "content": "/**/\n"
+        }
+    ]
+}
