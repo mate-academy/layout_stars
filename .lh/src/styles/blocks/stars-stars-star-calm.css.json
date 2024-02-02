@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/styles/blocks/stars-stars-star-calm.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1706900895606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706900902398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .stars .stars__star:nth-child(-n+5) {\n-  background-image: url(./);\n+  background-image: url(/);\n   padding-left: 0;\n   margin-left: 0;\n }\n"
+                },
+                {
+                    "date": 1706900915882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .stars .stars__star:nth-child(-n+5) {\n-  background-image: url(/);\n+  background-image: url(/src/);\n   padding-left: 0;\n   margin-left: 0;\n }\n"
+                },
+                {
+                    "date": 1706900923946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .stars .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/);\n+  background-image: url(/src/images/star.svg);\n   padding-left: 0;\n   margin-left: 0;\n }\n"
+                }
+            ],
+            "date": 1706900895606,
+            "name": "Commit-0",
+            "content": ".stars .stars__star:nth-child(-n+5) {\n  background-image: url(./);\n  padding-left: 0;\n  margin-left: 0;\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/styles/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1706900696449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1706900696449,
+            "name": "Commit-0",
+            "content": " @import './blocks/body.css';\n @import './blocks/stars.css';\n @import './blocks/stars-star.css';\n @import './blocks/stars-stars-star-calm.css';\n @import './blocks/stars-stars-star-active.css';\n "
+        }
+    ]
+}
