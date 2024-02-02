@@ -6,18 +6,12 @@ body {
   display: flex;
 }
 
-.star:last-child {
-  margin-bottom: 0;
-}
-
 .stars__star {
   margin-right: 4px;
   height: 16px;
   width: 16px;
 
-  background-image: url("images/star.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("images/star.svg") no-repeat center;
 }
 
 .stars__star:last-child {
