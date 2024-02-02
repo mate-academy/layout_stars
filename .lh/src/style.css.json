@@ -1,0 +1,714 @@
+{
+    "sourceFile": "src/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 174,
+            "patches": [
+                {
+                    "date": 1706881244575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706881257278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n /* add styles here */\n-\n+.wrapper{\n+  width: 140px;\n+  height: 160px;\n+}\n .stars {\n   display: flex;\n }\n \n"
+                },
+                {
+                    "date": 1706881286062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n /* add styles here */\n .wrapper{\n   width: 140px;\n   height: 160px;\n+  padding: 22px;\n }\n .stars {\n   display: flex;\n }\n"
+                },
+                {
+                    "date": 1706881319818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n /* add styles here */\n+* {\n+  box-sizing: border-box;\n+}\n .wrapper{\n   width: 140px;\n   height: 160px;\n   padding: 22px;\n"
+                },
+                {
+                    "date": 1706881331101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   display: flex;\n }\n \n .stars__star {\n-  height: 50px;\n+  height: 16px;\n   width: 50px;\n   background-size: cover;\n   padding: 5px;\n   background-image:url(images/star.svg)\n"
+                },
+                {
+                    "date": 1706881356504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,11 @@\n }\n \n .stars__star {\n   height: 16px;\n-  width: 50px;\n+  width: 16px;\n   background-size: cover;\n-  padding: 5px;\n+  margin: 2px;\n   background-image:url(images/star.svg)\n }\n /* .stars__star:nth-child(n) {\n   background-image: url(images/star-active.svg);\n"
+                },
+                {
+                    "date": 1706881382766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n .wrapper{\n   width: 140px;\n   height: 160px;\n-  padding: 22px;\n+  margin: 22px;\n }\n .stars {\n   display: flex;\n }\n"
+                },
+                {
+                    "date": 1706881397361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   background-image:url(images/star.svg)\n }\n /* .stars__star:nth-child(n) {\n   background-image: url(images/star-active.svg);\n-} */\n+ */\n \n .stars--1.div {\n   background-image: url(images/star-active.svg);\n }\n"
+                },
+                {
+                    "date": 1706881408204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,13 +17,11 @@\n   background-size: cover;\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n-/* .stars__star:nth-child(n) {\n+.stars__star:nth-child(n) {\n   background-image: url(images/star-active.svg);\n- */\n \n-.stars--1.div {\n-  background-image: url(images/star-active.svg);\n-}\n \n \n+\n+\n"
+                },
+                {
+                    "date": 1706881415019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   background-size: cover;\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n-.stars__star:nth-child(n) {\n+.stars--0:nth-child(n) {\n   background-image: url(images/star-active.svg);\n \n \n \n"
+                },
+                {
+                    "date": 1706881432285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   background-size: cover;\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n-.stars--0:nth-child(n) {\n+.stars--0:nth-child(1) {\n   background-image: url(images/star-active.svg);\n \n \n \n"
+                },
+                {
+                    "date": 1706881472824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n .stars--0:nth-child(1) {\n+  \n   background-image: url(images/star-active.svg);\n \n \n \n"
+                },
+                {
+                    "date": 1706881478351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,11 +18,11 @@\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n .stars--0:nth-child(1) {\n-  \n+  background-size: cover;\n   background-image: url(images/star-active.svg);\n+}\n \n \n \n \n-\n"
+                },
+                {
+                    "date": 1706881513828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   background-size: cover;\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n-.stars--0:nth-child(1) {\n+.stars--0:nth(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n \n"
+                },
+                {
+                    "date": 1706881523193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   background-size: cover;\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n-.stars--0:nth(1) {\n+.stars--0:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n \n"
+                },
+                {
+                    "date": 1706881625336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n * {\n   box-sizing: border-box;\n }\n .wrapper{\n-  width: 140px;\n+  width: 96px;\n   height: 160px;\n   margin: 22px;\n }\n .stars {\n"
+                },
+                {
+                    "date": 1706881653905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+/* add styles here */\n+* {\n+  box-sizing: border-box;\n+}\n+.wrapper{\n+  width: 96px;\n+  height: 116px;\n+  margin: 22px;\n+}\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  height: 16px;\n+  width: 16px;\n+  background-size: cover;\n+  margin: 2px;\n+  background-image:url(images/star.svg)\n+}\n+.stars--0 > sta:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706881660977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+/* add styles here */\n+* {\n+  box-sizing: border-box;\n+}\n+.wrapper{\n+  width: 96px;\n+  height: 116px;\n+  margin: 22px;\n+}\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  height: 16px;\n+  width: 16px;\n+  background-size: cover;\n+  margin: 2px;\n+  background-image:url(images/star.svg)\n+}\n+.stars--0 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706881666444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+/* add styles here */\n+* {\n+  box-sizing: border-box;\n+}\n+.wrapper{\n+  width: 96px;\n+  height: 116px;\n+  margin: 22px;\n+}\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  height: 16px;\n+  width: 16px;\n+  background-size: cover;\n+  margin: 2px;\n+  background-image:url(images/star.svg)\n+}\n+.stars--0 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706881683052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,96 +17,12 @@\n   background-size: cover;\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n-.stars--0 > .stars__star:nth-of-type(1) {\n+.stars--1 > .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n \n \n \n \n-/* add styles here */\n-* {\n-  box-sizing: border-box;\n-}\n-.wrapper{\n-  width: 96px;\n-  height: 116px;\n-  margin: 22px;\n-}\n-.stars {\n-  display: flex;\n-}\n-\n-.stars__star {\n-  height: 16px;\n-  width: 16px;\n-  background-size: cover;\n-  margin: 2px;\n-  background-image:url(images/star.svg)\n-}\n-.stars--0 > .stars__star:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n-/* add styles here */\n-* {\n-  box-sizing: border-box;\n-}\n-.wrapper{\n-  width: 96px;\n-  height: 116px;\n-  margin: 22px;\n-}\n-.stars {\n-  display: flex;\n-}\n-\n-.stars__star {\n-  height: 16px;\n-  width: 16px;\n-  background-size: cover;\n-  margin: 2px;\n-  background-image:url(images/star.svg)\n-}\n-.stars--0 > sta:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n-/* add styles here */\n-* {\n-  box-sizing: border-box;\n-}\n-.wrapper{\n-  width: 96px;\n-  height: 160px;\n-  margin: 22px;\n-}\n-.stars {\n-  display: flex;\n-}\n-\n-.stars__star {\n-  height: 16px;\n-  width: 16px;\n-  background-size: cover;\n-  margin: 2px;\n-  background-image:url(images/star.svg)\n-}\n-.stars--0:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706881691308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,12 +17,17 @@\n   background-size: cover;\n   margin: 2px;\n   background-image:url(images/star.svg)\n }\n+\n .stars--1 > .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n+.stars--1 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n \n \n \n \n"
+                },
+                {
+                    "date": 1706881699610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,12 +22,24 @@\n .stars--1 > .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n+.stars--2 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n .stars--1 > .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n+.stars--1 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--1 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n \n \n \n \n"
+                },
+                {
+                    "date": 1706881705995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,17 +22,17 @@\n .stars--1 > .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--2 > .stars__star:nth-of-type(1) {\n+.stars--2 > .stars__star:nth-of-type(2) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--1 > .stars__star:nth-of-type(1) {\n+.stars--3 > .stars__star:nth-of-type(3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--1 > .stars__star:nth-of-type(1) {\n+.stars--4 > .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--1 > .stars__star:nth-of-type(1) {\n"
+                },
+                {
+                    "date": 1706881711073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,45 @@\n+/* add styles here */\n+* {\n+  box-sizing: border-box;\n+}\n+.wrapper{\n+  width: 96px;\n+  height: 116px;\n+  margin: 22px;\n+}\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  height: 16px;\n+  width: 16px;\n+  background-size: cover;\n+  margin: 2px;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--2 > .stars__star:nth-of-type(2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--3 > .stars__star:nth-of-type(3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--4 > .stars__star:nth-of-type(4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--5 > .stars__star:nth-of-type(5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706881800902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .stars--3 > .stars__star:nth-of-type(3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--4 > .stars__star:nth-of-type(4) {\n+.stars--4 > .stars__star:nth-of-type(4n) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--5 > .stars__star:nth-of-type(5) {\n@@ -42,49 +42,4 @@\n \n \n \n \n-/* add styles here */\n-* {\n-  box-sizing: border-box;\n-}\n-.wrapper{\n-  width: 96px;\n-  height: 116px;\n-  margin: 22px;\n-}\n-.stars {\n-  display: flex;\n-}\n-\n-.stars__star {\n-  height: 16px;\n-  width: 16px;\n-  background-size: cover;\n-  margin: 2px;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--2 > .stars__star:nth-of-type(2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--3 > .stars__star:nth-of-type(3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--4 > .stars__star:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--1 > .stars__star:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706881809931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .stars--3 > .stars__star:nth-of-type(3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--4 > .stars__star:nth-of-type(4n) {\n+.stars--4 > .stars__star:nth-of-type(n-1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--5 > .stars__star:nth-of-type(5) {\n"
+                },
+                {
+                    "date": 1706881816984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .stars--3 > .stars__star:nth-of-type(3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--4 > .stars__star:nth-of-type(n-1) {\n+.stars--4 > .stars__star:nth-of-type(n-) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--5 > .stars__star:nth-of-type(5) {\n"
+                },
+                {
+                    "date": 1706881823745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,45 @@\n+/* add styles here */\n+* {\n+  box-sizing: border-box;\n+}\n+.wrapper{\n+  width: 96px;\n+  height: 116px;\n+  margin: 22px;\n+}\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  height: 16px;\n+  width: 16px;\n+  background-size: cover;\n+  margin: 2px;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--2 > .stars__star:nth-of-type(2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--3 > .stars__star:nth-of-type(3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--4 > .stars__star:nth-of-type(2n) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--5 > .stars__star:nth-of-type(5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706881829432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .stars--3 > .stars__star:nth-of-type(3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--4 > .stars__star:nth-of-type(2n) {\n+.stars--4 > .stars__star:nth-of-type(4) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--5 > .stars__star:nth-of-type(5) {\n@@ -42,49 +42,4 @@\n \n \n \n \n-/* add styles here */\n-* {\n-  box-sizing: border-box;\n-}\n-.wrapper{\n-  width: 96px;\n-  height: 116px;\n-  margin: 22px;\n-}\n-.stars {\n-  display: flex;\n-}\n-\n-.stars__star {\n-  height: 16px;\n-  width: 16px;\n-  background-size: cover;\n-  margin: 2px;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--2 > .stars__star:nth-of-type(2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--3 > .stars__star:nth-of-type(3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--4 > .stars__star:nth-of-type(n-) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--5 > .stars__star:nth-of-type(5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706881836059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .stars--3 > .stars__star:nth-of-type(3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--4 > .stars__star:nth-of-type(4) {\n+.stars--4 > .stars__star:nth-of-type(1n) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--5 > .stars__star:nth-of-type(5) {\n"
+                },
+                {
+                    "date": 1706881849740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .stars--3 > .stars__star:nth-of-type(3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--4 > .stars__star:nth-of-type(1n) {\n+.stars--4 > .stars__star:nth-of-type(n) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--5 > .stars__star:nth-of-type(5) {\n"
+                },
+                {
+                    "date": 1706881876891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n .stars__star {\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n-  margin: 2px;\n+  padding: 2px;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(1) {\n@@ -30,9 +30,9 @@\n .stars--3 > .stars__star:nth-of-type(3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--4 > .stars__star:nth-of-type(n) {\n+.stars--4 > .stars__star:nth-of-type(4) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--5 > .stars__star:nth-of-type(5) {\n"
+                },
+                {
+                    "date": 1706881886680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n   padding: 2px;\n+  margin: 2px;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(1) {\n"
+                },
+                {
+                    "date": 1706881892189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,45 @@\n+/* add styles here */\n+* {\n+  box-sizing: border-box;\n+}\n+.wrapper{\n+  width: 96px;\n+  height: 116px;\n+  margin: 22px;\n+}\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  height: 16px;\n+  width: 16px;\n+  background-size: cover;\n+  margin: 2px;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--2 > .stars__star:nth-of-type(2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--3 > .stars__star:nth-of-type(3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--4 > .stars__star:nth-of-type(4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--5 > .stars__star:nth-of-type(5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706881903778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n /* add styles here */\n-* {\n+/* * {\n   box-sizing: border-box;\n-}\n+} */\n .wrapper{\n   width: 96px;\n   height: 116px;\n   margin: 22px;\n@@ -42,50 +42,4 @@\n \n \n \n \n-/* add styles here */\n-* {\n-  box-sizing: border-box;\n-}\n-.wrapper{\n-  width: 96px;\n-  height: 116px;\n-  margin: 22px;\n-}\n-.stars {\n-  display: flex;\n-}\n-\n-.stars__star {\n-  height: 16px;\n-  width: 16px;\n-  background-size: cover;\n-  padding: 2px;\n-  margin: 2px;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--2 > .stars__star:nth-of-type(2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--3 > .stars__star:nth-of-type(3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--4 > .stars__star:nth-of-type(4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--5 > .stars__star:nth-of-type(5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706881910546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n /* * {\n   box-sizing: border-box;\n } */\n .wrapper{\n-  width: 96px;\n-  height: 116px;\n+  width: 120px;\n+  height: 160px;\n   margin: 22px;\n }\n .stars {\n   display: flex;\n"
+                },
+                {
+                    "date": 1706881937674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,8 @@\n .stars__star {\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n-  margin: 2px;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(1) {\n"
+                },
+                {
+                    "date": 1706881949938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n .stars__star {\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n+  padding: 2px;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(1) {\n"
+                },
+                {
+                    "date": 1706881958008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n .stars__star {\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n-  padding: 2px;\n+  margin: 2px;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(1) {\n"
+                },
+                {
+                    "date": 1706881972641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n .stars__star {\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n-  margin: 2px;\n+  margin: 0\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(1) {\n"
+                },
+                {
+                    "date": 1706881980438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n .stars__star {\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n-  margin: 0\n+  margin: 0;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(1) {\n"
+                },
+                {
+                    "date": 1706881993971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   margin: 22px;\n }\n .stars {\n   display: flex;\n+  \n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882009262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n   margin: 22px;\n }\n .stars {\n   display: flex;\n-  \n+  justify-content: space-around;\n+  align-items: space;\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882035350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,16 +2,16 @@\n /* * {\n   box-sizing: border-box;\n } */\n .wrapper{\n-  width: 120px;\n+  width: 140px;\n   height: 160px;\n   margin: 22px;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n-  align-items: space;\n+  align-items: space-around;\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882062253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n-  align-items: space-around;\n+  align-items: stretch;\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882109048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n .wrapper{\n   width: 140px;\n   height: 160px;\n   margin: 22px;\n+  display: flex;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882117737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n   width: 140px;\n   height: 160px;\n   margin: 22px;\n   display: flex;\n+  flex-wrap: wrap;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882130106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n   height: 160px;\n   margin: 22px;\n   display: flex;\n   flex-wrap: wrap;\n+  flex-grow: 1;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882142982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,50 @@\n+/* add styles here */\n+/* * {\n+  box-sizing: border-box;\n+} */\n+.wrapper{\n+  width: 140px;\n+  height: 160px;\n+  margin: 22px;\n+  display: flex;\n+  flex-wrap: wrap;\n+  flex-basis: 100%;\n+}\n+.stars {\n+  display: flex;\n+  justify-content: space-around;\n+  align-items: stretch;\n+}\n+\n+.stars__star {\n+  height: 16px;\n+  width: 16px;\n+  background-size: cover;\n+  margin: 0;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--2 > .stars__star:nth-of-type(2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--3 > .stars__star:nth-of-type(3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--4 > .stars__star:nth-of-type(4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+.stars--5 > .stars__star:nth-of-type(5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706882149494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   height: 160px;\n   margin: 22px;\n   display: flex;\n   flex-wrap: wrap;\n-  flex-basis: 100%;\n+  flex-basis: 50%;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n@@ -47,54 +47,4 @@\n \n \n \n \n-/* add styles here */\n-/* * {\n-  box-sizing: border-box;\n-} */\n-.wrapper{\n-  width: 140px;\n-  height: 160px;\n-  margin: 22px;\n-  display: flex;\n-  flex-wrap: wrap;\n-  flex-grow: 1;\n-}\n-.stars {\n-  display: flex;\n-  justify-content: space-around;\n-  align-items: stretch;\n-}\n-\n-.stars__star {\n-  height: 16px;\n-  width: 16px;\n-  background-size: cover;\n-  margin: 0;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--2 > .stars__star:nth-of-type(2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--3 > .stars__star:nth-of-type(3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--4 > .stars__star:nth-of-type(4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-.stars--5 > .stars__star:nth-of-type(5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706882183063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,8 @@\n .wrapper{\n   width: 140px;\n   height: 160px;\n   margin: 22px;\n-  display: flex;\n-  flex-wrap: wrap;\n-  flex-basis: 50%;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882192418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,11 @@\n .wrapper{\n   width: 140px;\n   height: 160px;\n   margin: 22px;\n+  display: flex;\n+  flex-wrap: wrap;\n+  flex-basis: 50%;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882199065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,10 @@\n   margin: 22px;\n   display: flex;\n   flex-wrap: wrap;\n   flex-basis: 50%;\n+  justify-content: space-around;\n+  align-items: stretch;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882208669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,11 +7,10 @@\n   height: 160px;\n   margin: 22px;\n   display: flex;\n   flex-wrap: wrap;\n-  flex-basis: 50%;\n   justify-content: space-around;\n-  align-items: stretch;\n+  align-items: space-around;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882214224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n-  align-items: stretch;\n+  align-items: space-around;\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882222076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,8 @@\n .wrapper{\n   width: 140px;\n   height: 160px;\n   margin: 22px;\n-  display: flex;\n-  flex-wrap: wrap;\n-  justify-content: space-around;\n-  align-items: space-around;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882235831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n .stars {\n   display: flex;\n   justify-content: space-around;\n   align-items: space-around;\n+  margin: auto \n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882241946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n .stars {\n   display: flex;\n   justify-content: space-around;\n   align-items: space-around;\n-  margin: auto \n+  margin: 0 auto;\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882247465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n .stars {\n   display: flex;\n   justify-content: space-around;\n   align-items: space-around;\n-  margin: 0 auto;\n+  \n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882255341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n .stars {\n   display: flex;\n   justify-content: space-around;\n   align-items: space-around;\n-  \n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882270955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n   margin: 22px;\n }\n .stars {\n   display: flex;\n-  justify-content: space-around;\n-  align-items: space-around;\n+  /* /* justify-content: space-around; */\n+  align-items: space-around; */\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882277152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n   margin: 22px;\n }\n .stars {\n   display: flex;\n-  /* /* justify-content: space-around; */\n-  align-items: space-around; */\n+  /* justify-content: space-around; */\n+  align-items: space-around;\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882283121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n   margin: 22px;\n }\n .stars {\n   display: flex;\n-  /* justify-content: space-around; */\n-  align-items: space-around;\n+  justify-content: space-around;\n+  /* align-items: space-around; */\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882306215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,13 +5,14 @@\n .wrapper{\n   width: 140px;\n   height: 160px;\n   margin: 22px;\n+  display: flex;\n+  flex-direction: column;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n-  /* align-items: space-around; */\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706882315311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n   height: 160px;\n   margin: 22px;\n   display: flex;\n   flex-direction: column;\n+  flex-grow: 1;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882325274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   height: 160px;\n   margin: 22px;\n   display: flex;\n   flex-direction: column;\n-  flex-grow: 1;\n+  justify-content: space-around;\n }\n .stars {\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882348276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   margin: 0;\n   background-image:url(images/star.svg)\n }\n \n-.stars--1 > .stars__star:nth-of-type(1) {\n+.stars--1 £ .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--2 > .stars__star:nth-of-type(2) {\n"
+                },
+                {
+                    "date": 1706882354215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   margin: 0;\n   background-image:url(images/star.svg)\n }\n \n-.stars--1 £ .stars__star:nth-of-type(1) {\n+.stars--1 § .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--2 > .stars__star:nth-of-type(2) {\n"
+                },
+                {
+                    "date": 1706882359312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   margin: 0;\n   background-image:url(images/star.svg)\n }\n \n-.stars--1 § .stars__star:nth-of-type(1) {\n+.stars--1  .stars__star:nth-of-type(1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--2 > .stars__star:nth-of-type(2) {\n"
+                },
+                {
+                    "date": 1706882396568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   margin: 0;\n   background-image:url(images/star.svg)\n }\n \n-.stars--1  .stars__star:nth-of-type(1) {\n+.stars--1 > .stars__star:nth-of-type(-n+1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--2 > .stars__star:nth-of-type(2) {\n"
+                },
+                {
+                    "date": 1706882402428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n .stars--1 > .stars__star:nth-of-type(-n+1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--2 > .stars__star:nth-of-type(2) {\n+.stars--2 > .stars__star:nth-of-type(-n+2) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n .stars--3 > .stars__star:nth-of-type(3) {\n"
+                },
+                {
+                    "date": 1706882410627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,17 +30,17 @@\n .stars--2 > .stars__star:nth-of-type(-n+2) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--3 > .stars__star:nth-of-type(3) {\n+.stars--3 > .stars__star:nth-of-type(-n+3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--4 > .stars__star:nth-of-type(4) {\n+.stars--4 > .stars__star:nth-of-type(-n+4) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n-.stars--5 > .stars__star:nth-of-type(5) {\n+.stars--5 > .stars__star:nth-of-type(-n+5) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n \n"
+                },
+                {
+                    "date": 1706882431672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,16 +26,19 @@\n .stars--1 > .stars__star:nth-of-type(-n+1) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n+\n .stars--2 > .stars__star:nth-of-type(-n+2) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n+\n .stars--3 > .stars__star:nth-of-type(-n+3) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n+\n .stars--4 > .stars__star:nth-of-type(-n+4) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n"
+                },
+                {
+                    "date": 1706882445876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,15 @@\n /* add styles here */\n-/* * {\n-  box-sizing: border-box;\n-} */\n+\n .wrapper{\n   width: 140px;\n   height: 160px;\n   margin: 22px;\n   display: flex;\n   flex-direction: column;\n   justify-content: space-around;\n }\n+\n .stars {\n   display: flex;\n   justify-content: space-around;\n }\n@@ -41,8 +40,9 @@\n .stars--4 > .stars__star:nth-of-type(-n+4) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n+\n .stars--5 > .stars__star:nth-of-type(-n+5) {\n   background-size: cover;\n   background-image: url(images/star-active.svg);\n }\n"
+                },
+                {
+                    "date": 1706882648241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n   flex-direction: column;\n   justify-content: space-around;\n }\n \n-.stars {\n+.stars {  width: 140px;\n+  height: 160px;\n   display: flex;\n   justify-content: space-around;\n }\n \n"
+                },
+                {
+                    "date": 1706882654312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n   flex-direction: column;\n   justify-content: space-around;\n }\n \n-.stars {  width: 140px;\n+.stars {\n+  width: 96px;\n   height: 160px;\n   display: flex;\n   justify-content: space-around;\n }\n"
+                },
+                {
+                    "date": 1706882664371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,11 @@\n }\n \n .stars {\n   width: 96px;\n-  height: 160px;\n+  height: 116px;\n+  top: 22px;\n+  \n   display: flex;\n   justify-content: space-around;\n }\n \n"
+                },
+                {
+                    "date": 1706882675620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,20 @@\n /* add styles here */\n \n-.wrapper{\n+/* .wrapper{\n   width: 140px;\n   height: 160px;\n   margin: 22px;\n   display: flex;\n   flex-direction: column;\n   justify-content: space-around;\n-}\n+} */\n \n .stars {\n   width: 96px;\n   height: 116px;\n   top: 22px;\n-  \n+  left: 22px;\n   display: flex;\n   justify-content: space-around;\n }\n \n"
+                },
+                {
+                    "date": 1706882778072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,6 @@\n /* add styles here */\n \n-/* .wrapper{\n-  width: 140px;\n-  height: 160px;\n-  margin: 22px;\n-  display: flex;\n-  flex-direction: column;\n-  justify-content: space-around;\n-} */\n-\n .stars {\n   width: 96px;\n   height: 116px;\n   top: 22px;\n"
+                },
+                {
+                    "date": 1706882840963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n /* add styles here */\n \n .stars {\n-  width: 96px;\n-  height: 116px;\n+  /* width: 96px;\n+  height: 116px; */\n   top: 22px;\n   left: 22px;\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882875439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n /* add styles here */\n-\n+* {\n+  margin: 0;\n+}\n .stars {\n   /* width: 96px;\n   height: 116px; */\n   top: 22px;\n"
+                },
+                {
+                    "date": 1706882921565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n * {\n   margin: 0;\n }\n .stars {\n-  /* width: 96px;\n-  height: 116px; */\n+  width: 96px;\n+  height: 116px;\n   top: 22px;\n   left: 22px;\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706882935938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0;\n }\n .stars {\n   width: 96px;\n-  height: 116px;\n+  /* height: 116px; */\n   top: 22px;\n   left: 22px;\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706883001630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n .stars__star {\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n-  margin: 0;\n+  margin: 4px;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n"
+                },
+                {
+                    "date": 1706883018461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n /* add styles here */\n * {\n   margin: 0;\n+  box-sizing: border-box;\n }\n .stars {\n   width: 96px;\n   /* height: 116px; */\n"
+                },
+                {
+                    "date": 1706883028764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \n .stars__star {\n   height: 16px;\n   width: 16px;\n-  background-size: cover;\n+  background-size: contain;\n   margin: 4px;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883038454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,9 @@\n \n .stars__star {\n   height: 16px;\n   width: 16px;\n-  background-size: contain;\n-  margin: 4px;\n+  background-size: cover;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n"
+                },
+                {
+                    "date": 1706883060479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n   box-sizing: border-box;\n }\n .stars {\n   width: 96px;\n-  /* height: 116px; */\n   top: 22px;\n   left: 22px;\n   display: flex;\n   justify-content: space-around;\n"
+                },
+                {
+                    "date": 1706883118947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,14 @@\n * {\n   margin: 0;\n   box-sizing: border-box;\n }\n+\n .stars {\n   width: 96px;\n   top: 22px;\n   left: 22px;\n+  padding: 2px;\n   display: flex;\n   justify-content: space-around;\n }\n \n"
+                },
+                {
+                    "date": 1706883127659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n .stars {\n   width: 96px;\n   top: 22px;\n   left: 22px;\n-  padding: 2px;\n+  /* padding: 2px; */\n   display: flex;\n   justify-content: space-around;\n }\n \n"
+                },
+                {
+                    "date": 1706883132705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n /* add styles here */\n * {\n   margin: 0;\n-  box-sizing: border-box;\n }\n \n .stars {\n   width: 96px;\n"
+                },
+                {
+                    "date": 1706883252950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n .stars {\n   width: 96px;\n   top: 22px;\n   left: 22px;\n-  /* padding: 2px; */\n+  padding: 2px;\n   display: flex;\n-  justify-content: space-around;\n+  justify-content: space-between;\n }\n \n .stars__star {\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706883369192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n .stars {\n   width: 96px;\n   top: 22px;\n   left: 22px;\n-  padding: 2px;\n   display: flex;\n   justify-content: space-between;\n }\n \n"
+                },
+                {
+                    "date": 1706883461253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n .stars {\n   width: 96px;\n   top: 22px;\n   left: 22px;\n+  padding: 2px;\n   display: flex;\n   justify-content: space-between;\n }\n \n"
+                },
+                {
+                    "date": 1706883467935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n .stars {\n   width: 96px;\n   top: 22px;\n   left: 22px;\n-  padding: 2px;\n+  margin: 2px;\n   display: flex;\n   justify-content: space-between;\n }\n \n"
+                },
+                {
+                    "date": 1706883478833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n .stars {\n   width: 96px;\n   top: 22px;\n   left: 22px;\n-  margin: 2px;\n   display: flex;\n   justify-content: space-between;\n }\n \n"
+                },
+                {
+                    "date": 1706883522635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,17 +4,16 @@\n }\n \n .stars {\n   width: 96px;\n-  top: 22px;\n-  left: 22px;\n   display: flex;\n   justify-content: space-between;\n }\n \n .stars__star {\n   height: 16px;\n   width: 16px;\n+  margin: 2px;\n   background-size: cover;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883527849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n .stars__star {\n   height: 16px;\n   width: 16px;\n-  margin: 2px;\n+  padding: 2px;\n   background-size: cover;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883542808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n   justify-content: space-between;\n }\n \n .stars__star {\n+  box-sizing: border-box;\n   height: 16px;\n   width: 16px;\n   padding: 2px;\n   background-size: cover;\n"
+                },
+                {
+                    "date": 1706883548701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n .stars__star {\n   box-sizing: border-box;\n   height: 16px;\n   width: 16px;\n-  padding: 2px;\n+  /* padding: 2px; */\n   background-size: cover;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883555830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n .stars__star {\n   box-sizing: border-box;\n   height: 16px;\n   width: 16px;\n-  /* padding: 2px; */\n+  margin:2px;\n   background-size: cover;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883564184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,10 @@\n   justify-content: space-between;\n }\n \n .stars__star {\n-  box-sizing: border-box;\n   height: 16px;\n   width: 16px;\n-  margin:2px;\n   background-size: cover;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883578984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n   justify-content: space-between;\n }\n \n .stars__star {\n+  box-sizing: border-box;\n   height: 16px;\n   width: 16px;\n   background-size: cover;\n   background-image:url(images/star.svg)\n"
+                },
+                {
+                    "date": 1706883591000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,12 @@\n }\n \n .stars__star {\n   box-sizing: border-box;\n+  padding: 2px;\n   height: 16px;\n   width: 16px;\n-  background-size: cover;\n+  background-size: contain;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n"
+                },
+                {
+                    "date": 1706883627702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0;\n }\n \n .stars {\n-  width: 96px;\n+  width: 100px;\n   display: flex;\n   justify-content: space-between;\n }\n \n"
+                },
+                {
+                    "date": 1706883671579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0;\n }\n \n .stars {\n-  width: 100px;\n+  width: 96px;\n   display: flex;\n   justify-content: space-between;\n }\n \n"
+                },
+                {
+                    "date": 1706883716834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n }\n \n .stars__star {\n   box-sizing: border-box;\n-  padding: 2px;\n+  margin: 2px;\n   height: 16px;\n   width: 16px;\n   background-size: contain;\n   background-image:url(images/star.svg)\n"
+                },
+                {
+                    "date": 1706883726479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n .stars {\n   width: 96px;\n   display: flex;\n   justify-content: space-between;\n+  overflow: hidden;\n }\n \n .stars__star {\n   box-sizing: border-box;\n"
+                },
+                {
+                    "date": 1706883738502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n .stars {\n   width: 96px;\n   display: flex;\n   justify-content: space-between;\n-  overflow: hidden;\n }\n \n .stars__star {\n   box-sizing: border-box;\n"
+                },
+                {
+                    "date": 1706883745700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   justify-content: space-between;\n }\n \n .stars__star {\n-  box-sizing: border-box;\n+\n   margin: 2px;\n   height: 16px;\n   width: 16px;\n   background-size: contain;\n"
+                },
+                {
+                    "date": 1706883751155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,8 @@\n   justify-content: space-between;\n }\n \n .stars__star {\n-\n-  margin: 2px;\n   height: 16px;\n   width: 16px;\n   background-size: contain;\n   background-image:url(images/star.svg)\n"
+                },
+                {
+                    "date": 1706883837862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n \n .stars__star {\n   height: 16px;\n   width: 16px;\n+  padding: 2px;\n   background-size: contain;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883844561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n .stars__star {\n   height: 16px;\n   width: 16px;\n   padding: 2px;\n+  box-sizing: border-box;\n   background-size: contain;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883852147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,9 @@\n }\n \n .stars__star {\n   height: 16px;\n-  width: 16px;\n-  padding: 2px;\n+\n   box-sizing: border-box;\n   background-size: contain;\n   background-image:url(images/star.svg)\n }\n"
+                },
+                {
+                    "date": 1706883858333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n }\n \n .stars__star {\n   height: 16px;\n-\n+  width: 16px;\n+  padding: 2px;\n   box-sizing: border-box;\n   background-size: contain;\n   background-image:url(images/star.svg)\n }\n"
+                },
+                {
+                    "date": 1706883863571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,9 @@\n \n .stars__star {\n   height: 16px;\n   width: 16px;\n-  padding: 2px;\n-  box-sizing: border-box;\n+\n   background-size: contain;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706883945730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   justify-content: space-between;\n }\n \n .stars__star {\n-  height: 16px;\n+  height: 14px;\n   width: 16px;\n \n   background-size: contain;\n   background-image:url(images/star.svg)\n"
+                },
+                {
+                    "date": 1706883951691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   justify-content: space-between;\n }\n \n .stars__star {\n-  height: 14px;\n+  height: 16px;\n   width: 16px;\n \n   background-size: contain;\n   background-image:url(images/star.svg)\n"
+                },
+                {
+                    "date": 1706883959581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   justify-content: space-between;\n }\n \n .stars__star {\n-  height: 16px;\n+  height: 14px;\n   width: 16px;\n \n   background-size: contain;\n   background-image:url(images/star.svg)\n"
+                },
+                {
+                    "date": 1706884015392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,47 @@\n+/* add styles here */\n+* {\n+  margin: 0;\n+}\n+\n+.stars {\n+  width: 96px;\n+  display: flex;\n+  justify-content: space-between;\n+}\n+\n+.stars__star {\n+  height: 14px;\n+  width: 14px;\n+  background-origin: ;\n+  background-size: contain;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(-n+1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--2 > .stars__star:nth-of-type(-n+2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--3 > .stars__star:nth-of-type(-n+3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--4 > .stars__star:nth-of-type(-n+4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--5 > .stars__star:nth-of-type(-n+5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706884020493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n .stars__star {\n   height: 14px;\n   width: 14px;\n-  background-origin: ;\n+  background-origin: padding-box;\n   background-size: contain;\n   background-image:url(images/star.svg)\n }\n \n@@ -44,51 +44,4 @@\n \n \n \n \n-/* add styles here */\n-* {\n-  margin: 0;\n-}\n-\n-.stars {\n-  width: 96px;\n-  display: flex;\n-  justify-content: space-between;\n-}\n-\n-.stars__star {\n-  height: 14px;\n-  width: 16px;\n-\n-  background-size: contain;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(-n+1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--2 > .stars__star:nth-of-type(-n+2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--3 > .stars__star:nth-of-type(-n+3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--4 > .stars__star:nth-of-type(-n+4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--5 > .stars__star:nth-of-type(-n+5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706884026853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n .stars__star {\n   height: 14px;\n   width: 14px;\n-  background-origin: padding-box;\n+  background-origin:;\n   background-size: contain;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706884055274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n .stars__star {\n   height: 14px;\n   width: 14px;\n-  background-origin:;\n+  background-position: center;\n   background-size: contain;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706884079639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   height: 14px;\n   width: 14px;\n   background-position: center;\n   background-size: contain;\n-  background-image:url(images/star.svg)\n+  /* background-image:url(images/star.svg) */\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n   background-size: cover;\n"
+                },
+                {
+                    "date": 1706884151297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n .stars__star {\n   height: 14px;\n   width: 14px;\n   background-position: center;\n-  background-size: contain;\n-  /* background-image:url(images/star.svg) */\n+  /* background-size: contain; */\n+  background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n   background-size: cover;\n"
+                },
+                {
+                    "date": 1706884203197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   height: 14px;\n   width: 14px;\n   background-position: center;\n   /* background-size: contain; */\n-  background-image:url(images/star.svg)\n+  background-image:url(images/star-active.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n   background-size: cover;\n"
+                },
+                {
+                    "date": 1706884211795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   height: 14px;\n   width: 14px;\n   background-position: center;\n   /* background-size: contain; */\n-  background-image:url(images/star-active.svg)\n+  background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n   background-size: cover;\n"
+                },
+                {
+                    "date": 1706884218738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n .stars__star {\n   height: 14px;\n   width: 14px;\n   background-position: center;\n-  /* background-size: contain; */\n+  background-size: cover;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n"
+                },
+                {
+                    "date": 1706884336438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,48 @@\n+/* add styles here */\n+* {\n+  margin: 0;\n+}\n+\n+.stars {\n+  width: 96px;\n+  height: 19px;\n+  display: flex;\n+  justify-content: space-between;\n+}\n+\n+.stars__star {\n+  height: 14px;\n+  width: 14px;\n+  background-position: center;\n+  background-size: cover;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(-n+1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--2 > .stars__star:nth-of-type(-n+2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--3 > .stars__star:nth-of-type(-n+3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--4 > .stars__star:nth-of-type(-n+4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--5 > .stars__star:nth-of-type(-n+5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706884400196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n }\n \n .stars {\n   width: 96px;\n-  height: 19px;\n+  height: 18px;\n   display: flex;\n   justify-content: space-between;\n }\n \n@@ -45,51 +45,4 @@\n \n \n \n \n-/* add styles here */\n-* {\n-  margin: 0;\n-}\n-\n-.stars {\n-  width: 96px;\n-  display: flex;\n-  justify-content: space-between;\n-}\n-\n-.stars__star {\n-  height: 14px;\n-  width: 14px;\n-  background-position: center;\n-  background-size: cover;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(-n+1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--2 > .stars__star:nth-of-type(-n+2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--3 > .stars__star:nth-of-type(-n+3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--4 > .stars__star:nth-of-type(-n+4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--5 > .stars__star:nth-of-type(-n+5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706884495712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n   height: 14px;\n   width: 14px;\n   background-position: center;\n   background-size: cover;\n+  background-repeat: no-repeat;\n   background-image:url(images/star.svg)\n }\n \n .stars--1 > .stars__star:nth-of-type(-n+1) {\n"
+                },
+                {
+                    "date": 1706884541054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,18 +4,17 @@\n }\n \n .stars {\n   width: 96px;\n-  height: 18px;\n   display: flex;\n   justify-content: space-between;\n }\n \n .stars__star {\n   height: 14px;\n   width: 14px;\n   background-position: center;\n-  background-size: cover;\n+  background-size: contain;\n   background-repeat: no-repeat;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706884577921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n .stars__star {\n   height: 14px;\n   width: 14px;\n   background-position: center;\n-  background-size: contain;\n+  background-size: cover;\n   background-repeat: no-repeat;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706884651645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,12 @@\n * {\n   margin: 0;\n }\n \n+body {\n+  height: 120px;\n+}\n+\n .stars {\n   width: 96px;\n   display: flex;\n   justify-content: space-between;\n@@ -12,9 +16,9 @@\n .stars__star {\n   height: 14px;\n   width: 14px;\n   background-position: center;\n-  background-size: cover;\n+  background-size: contain;\n   background-repeat: no-repeat;\n   background-image:url(images/star.svg)\n }\n \n"
+                },
+                {
+                    "date": 1706884658815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n .stars {\n   width: 96px;\n   display: flex;\n   justify-content: space-between;\n+  align\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706884665434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n .stars {\n   width: 96px;\n   display: flex;\n   justify-content: space-between;\n-  align\n+  align-items: space;\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706884671376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n .stars {\n   width: 96px;\n   display: flex;\n   justify-content: space-between;\n-  align-items: space;\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706884694872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n \n .stars {\n   width: 96px;\n   display: flex;\n+  flex-grow: 1;\n   justify-content: space-between;\n }\n \n .stars__star {\n"
+                },
+                {
+                    "date": 1706884757850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n .stars {\n   width: 96px;\n   display: flex;\n-  flex-grow: 1;\n+  margin-top: ;\n   justify-content: space-between;\n }\n \n .stars__star {\n"
+                },
+                {
+                    "date": 1706884764429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n .stars {\n   width: 96px;\n   display: flex;\n-  margin-top: ;\n+  /* margin-top: 2px; */\n   justify-content: space-between;\n }\n \n .stars__star {\n"
+                },
+                {
+                    "date": 1706884774095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,53 @@\n+/* add styles here */\n+* {\n+  margin: 0;\n+}\n+\n+body {\n+  height: 120px;\n+}\n+\n+.stars {\n+  width: 96px;\n+  display: flex;\n+  margin-bottom: 2px;\n+  justify-content: space-between;\n+}\n+\n+.stars__star {\n+  height: 14px;\n+  width: 14px;\n+  background-position: center;\n+  background-size: contain;\n+  background-repeat: no-repeat;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(-n+1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--2 > .stars__star:nth-of-type(-n+2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--3 > .stars__star:nth-of-type(-n+3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--4 > .stars__star:nth-of-type(-n+4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--5 > .stars__star:nth-of-type(-n+5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706884785541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,8 @@\n * {\n   margin: 0;\n }\n \n-body {\n-  height: 120px;\n-}\n-\n .stars {\n   width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n@@ -50,57 +46,4 @@\n \n \n \n \n-/* add styles here */\n-* {\n-  margin: 0;\n-}\n-\n-body {\n-  height: 120px;\n-}\n-\n-.stars {\n-  width: 96px;\n-  display: flex;\n-  /* margin-top: 2px; */\n-  justify-content: space-between;\n-}\n-\n-.stars__star {\n-  height: 14px;\n-  width: 14px;\n-  background-position: center;\n-  background-size: contain;\n-  background-repeat: no-repeat;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(-n+1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--2 > .stars__star:nth-of-type(-n+2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--3 > .stars__star:nth-of-type(-n+3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--4 > .stars__star:nth-of-type(-n+4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--5 > .stars__star:nth-of-type(-n+5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706884831570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n /* add styles here */\n * {\n   margin: 0;\n }\n-\n+body {\n+  height: 96px\n+}\n .stars {\n   width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n"
+                },
+                {
+                    "date": 1706884844116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,13 @@\n /* add styles here */\n * {\n   margin: 0;\n }\n+\n body {\n-  height: 96px\n+  height: 96px;\n }\n+\n .stars {\n   width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n"
+                },
+                {
+                    "date": 1706885197445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   height: 96px;\n }\n \n .stars {\n-  width: 96px;\n+  /* width: 96px; */\n   display: flex;\n   margin-bottom: 2px;\n   justify-content: space-between;\n }\n"
+                },
+                {
+                    "date": 1706885207748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   height: 96px;\n }\n \n .stars {\n-  /* width: 96px; */\n+  flex-basis: 6;\n   display: flex;\n   margin-bottom: 2px;\n   justify-content: space-between;\n }\n"
+                },
+                {
+                    "date": 1706885216100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   height: 96px;\n }\n \n .stars {\n-  flex-basis: 6;\n+  width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n   justify-content: space-between;\n }\n"
+                },
+                {
+                    "date": 1706885227899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n   width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n   justify-content: space-between;\n+  align\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885245772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   margin: 0;\n }\n \n body {\n-  height: 96px;\n+  height: 116px;\n }\n \n .stars {\n   width: 96px;\n"
+                },
+                {
+                    "date": 1706885250954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n   justify-content: space-between;\n-  align\n+  align-\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885257733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n   justify-content: space-between;\n-  align-\n+  align-items:last baseline\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885262934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n   justify-content: space-between;\n-  align-items:last baseline\n+  align-items:lastbaseline\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885278225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   width: 96px;\n   display: flex;\n   margin-bottom: 2px;\n   justify-content: space-between;\n-  align-items:lastbaseline\n+  align-items:flex-end;\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885296274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   margin: 0;\n }\n \n body {\n+  display: flex;\n   height: 116px;\n }\n \n .stars {\n"
+                },
+                {
+                    "date": 1706885303346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,56 @@\n+/* add styles here */\n+* {\n+  margin: 0;\n+}\n+\n+body {\n+  display: flex;\n+  flex-direction: column;\n+  height: 116px;\n+}\n+\n+.stars {\n+  width: 96px;\n+  display: flex;\n+  margin-bottom: 2px;\n+  justify-content: space-between;\n+  align-items:flex-end;\n+}\n+\n+.stars__star {\n+  height: 14px;\n+  width: 14px;\n+  background-position: center;\n+  background-size: contain;\n+  background-repeat: no-repeat;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(-n+1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--2 > .stars__star:nth-of-type(-n+2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--3 > .stars__star:nth-of-type(-n+3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--4 > .stars__star:nth-of-type(-n+4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--5 > .stars__star:nth-of-type(-n+5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706885323065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,55 @@\n+/* add styles here */\n+* {\n+  margin: 0;\n+}\n+\n+body {\n+  display: flex;\n+  flex-direction: column;\n+  height: 116px;\n+}\n+\n+.stars {\n+  width: 96px;\n+  display: flex;\n+  justify-content: space-between;\n+  align-items:flex-end;\n+}\n+\n+.stars__star {\n+  height: 14px;\n+  width: 14px;\n+  background-position: center;\n+  background-size: contain;\n+  background-repeat: no-repeat;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(-n+1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--2 > .stars__star:nth-of-type(-n+2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--3 > .stars__star:nth-of-type(-n+3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--4 > .stars__star:nth-of-type(-n+4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--5 > .stars__star:nth-of-type(-n+5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706885341715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n .stars {\n   width: 96px;\n   display: flex;\n   justify-content: space-between;\n-  align-items:flex-end;\n }\n \n .stars__star {\n   height: 14px;\n@@ -52,115 +51,4 @@\n \n \n \n \n-/* add styles here */\n-* {\n-  margin: 0;\n-}\n-\n-body {\n-  display: flex;\n-  flex-direction: column;\n-  height: 116px;\n-}\n-\n-.stars {\n-  width: 96px;\n-  display: flex;\n-  margin-bottom: 2px;\n-  justify-content: space-between;\n-  align-items:flex-end;\n-}\n-\n-.stars__star {\n-  height: 14px;\n-  width: 14px;\n-  background-position: center;\n-  background-size: contain;\n-  background-repeat: no-repeat;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(-n+1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--2 > .stars__star:nth-of-type(-n+2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--3 > .stars__star:nth-of-type(-n+3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--4 > .stars__star:nth-of-type(-n+4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--5 > .stars__star:nth-of-type(-n+5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n-/* add styles here */\n-* {\n-  margin: 0;\n-}\n-\n-body {\n-  display: flex;\n-  height: 116px;\n-}\n-\n-.stars {\n-  width: 96px;\n-  display: flex;\n-  margin-bottom: 2px;\n-  justify-content: space-between;\n-  align-items:flex-end;\n-}\n-\n-.stars__star {\n-  height: 14px;\n-  width: 14px;\n-  background-position: center;\n-  background-size: contain;\n-  background-repeat: no-repeat;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(-n+1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--2 > .stars__star:nth-of-type(-n+2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--3 > .stars__star:nth-of-type(-n+3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--4 > .stars__star:nth-of-type(-n+4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--5 > .stars__star:nth-of-type(-n+5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706885347599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n body {\n   display: flex;\n   flex-direction: column;\n   height: 116px;\n+  align-items:flex-end;\n }\n \n .stars {\n   width: 96px;\n"
+                },
+                {
+                    "date": 1706885353546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,55 @@\n+/* add styles here */\n+* {\n+  margin: 0;\n+}\n+\n+body {\n+  display: flex;\n+  flex-direction: column;\n+  height: 116px;\n+  justify-content: space;\n+}\n+\n+.stars {\n+  width: 96px;\n+  display: flex;\n+  justify-content: space-between;\n+}\n+\n+.stars__star {\n+  height: 14px;\n+  width: 14px;\n+  background-position: center;\n+  background-size: contain;\n+  background-repeat: no-repeat;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(-n+1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--2 > .stars__star:nth-of-type(-n+2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--3 > .stars__star:nth-of-type(-n+3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--4 > .stars__star:nth-of-type(-n+4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--5 > .stars__star:nth-of-type(-n+5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706885411225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,67 +5,12 @@\n \n body {\n   display: flex;\n   flex-direction: column;\n-  height: 116px;\n-  justify-content: space;\n-}\n-\n-.stars {\n-  width: 96px;\n-  display: flex;\n+  /* height: 116px; */\n   justify-content: space-between;\n }\n \n-.stars__star {\n-  height: 14px;\n-  width: 14px;\n-  background-position: center;\n-  background-size: contain;\n-  background-repeat: no-repeat;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(-n+1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--2 > .stars__star:nth-of-type(-n+2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--3 > .stars__star:nth-of-type(-n+3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--4 > .stars__star:nth-of-type(-n+4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--5 > .stars__star:nth-of-type(-n+5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n-/* add styles here */\n-* {\n-  margin: 0;\n-}\n-\n-body {\n-  display: flex;\n-  flex-direction: column;\n-  height: 116px;\n-  align-items:flex-end;\n-}\n-\n .stars {\n   width: 96px;\n   display: flex;\n   justify-content: space-between;\n"
+                },
+                {
+                    "date": 1706885422768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n body {\n   display: flex;\n   flex-direction: column;\n-  /* height: 116px; */\n+  flex-basis: 116px;\n   justify-content: space-between;\n }\n \n .stars {\n"
+                },
+                {
+                    "date": 1706885554255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,16 +5,16 @@\n \n body {\n   display: flex;\n   flex-direction: column;\n-  flex-basis: 116px;\n+  height: 116px;\n   justify-content: space-between;\n }\n \n .stars {\n   width: 96px;\n   display: flex;\n-  justify-content: space-between;\n+  justify-content: space-evenly;\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885579367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n .stars {\n   width: 96px;\n   display: flex;\n-  justify-content: space-evenly;\n+  justify-content: space-between;\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885873647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,11 @@\n }\n \n body {\n   display: flex;\n-  flex-direction: column;\n+  flex-direction: column;justify-content: space-between;\n   height: 116px;\n-  justify-content: space-between;\n+\n }\n \n .stars {\n   width: 96px;\n"
+                },
+                {
+                    "date": 1706885880013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,17 +4,17 @@\n }\n \n body {\n   display: flex;\n-  flex-direction: column;justify-content: space-between;\n+  flex-direction: column;\n+  justify-content: space-between;\n   height: 116px;\n-\n }\n \n .stars {\n-  width: 96px;\n+\n   display: flex;\n-  justify-content: space-between;\n+  justify-content: space-between;  width: 96px;\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885981991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n   height: 116px;\n }\n \n .stars {\n-\n   display: flex;\n-  justify-content: space-between;  width: 96px;\n+  /* justify-content: space-between; */\n+  width: 96px;\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706885988943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n }\n \n .stars {\n   display: flex;\n-  /* justify-content: space-between; */\n+  justify-content: space-between;\n   width: 96px;\n }\n \n .stars__star {\n"
+                },
+                {
+                    "date": 1706886046604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,15 +6,15 @@\n body {\n   display: flex;\n   flex-direction: column;\n   justify-content: space-between;\n-  height: 116px;\n+  height: 116px;width: 96px;\n }\n \n .stars {\n   display: flex;\n   justify-content: space-between;\n-  width: 96px;\n+\n }\n \n .stars__star {\n   height: 14px;\n"
+                },
+                {
+                    "date": 1706886088601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,16 @@\n /* add styles here */\n * {\n   margin: 0;\n+  padding: 0;\n }\n \n body {\n   display: flex;\n   flex-direction: column;\n   justify-content: space-between;\n-  height: 116px;width: 96px;\n+  height: 116px;\n+  width: 96px;\n }\n \n .stars {\n   display: flex;\n"
+                },
+                {
+                    "date": 1706886143856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n }\n \n body {\n   display: flex;\n-  flex-direction: column;\n+  flex-direction: row;\n+  flex-wrap: wrap;\n   justify-content: space-between;\n   height: 116px;\n   width: 96px;\n }\n"
+                },
+                {
+                    "date": 1706886163054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n body {\n   display: flex;\n   flex-direction: row;\n   flex-wrap: wrap;\n+  flex-grow: 1;\n   justify-content: space-between;\n   height: 116px;\n   width: 96px;\n }\n"
+                },
+                {
+                    "date": 1706886170704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,60 @@\n+/* add styles here */\n+* {\n+  margin: 0;\n+  padding: 0;\n+}\n+\n+body {\n+  display: flex;\n+  flex-direction: row;\n+  flex-wrap: wrap;\n+  flex-grow: 1;\n+  justify-content: space-between;\n+  height: 116px;\n+  width: 96px;\n+}\n+\n+.stars {\n+  display: flex;\n+  flex-grow: 1;\n+  justify-content: space-between;\n+\n+}\n+\n+.stars__star {\n+  height: 14px;\n+  width: 14px;\n+  background-position: center;\n+  background-size: contain;\n+  background-repeat: no-repeat;\n+  background-image:url(images/star.svg)\n+}\n+\n+.stars--1 > .stars__star:nth-of-type(-n+1) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--2 > .stars__star:nth-of-type(-n+2) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--3 > .stars__star:nth-of-type(-n+3) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--4 > .stars__star:nth-of-type(-n+4) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+.stars--5 > .stars__star:nth-of-type(-n+5) {\n+  background-size: cover;\n+  background-image: url(images/star-active.svg);\n+}\n+\n+\n+\n+\n"
+                },
+                {
+                    "date": 1706886208236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   display: flex;\n   flex-direction: row;\n   flex-wrap: wrap;\n   flex-grow: 1;\n+  flex-flow\n   justify-content: space-between;\n   height: 116px;\n   width: 96px;\n }\n@@ -57,63 +58,4 @@\n \n \n \n \n-/* add styles here */\n-* {\n-  margin: 0;\n-  padding: 0;\n-}\n-\n-body {\n-  display: flex;\n-  flex-direction: row;\n-  flex-wrap: wrap;\n-  flex-grow: 1;\n-  justify-content: space-between;\n-  height: 116px;\n-  width: 96px;\n-}\n-\n-.stars {\n-  display: flex;\n-  justify-content: space-between;\n-\n-}\n-\n-.stars__star {\n-  height: 14px;\n-  width: 14px;\n-  background-position: center;\n-  background-size: contain;\n-  background-repeat: no-repeat;\n-  background-image:url(images/star.svg)\n-}\n-\n-.stars--1 > .stars__star:nth-of-type(-n+1) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--2 > .stars__star:nth-of-type(-n+2) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--3 > .stars__star:nth-of-type(-n+3) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--4 > .stars__star:nth-of-type(-n+4) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-.stars--5 > .stars__star:nth-of-type(-n+5) {\n-  background-size: cover;\n-  background-image: url(images/star-active.svg);\n-}\n-\n-\n-\n-\n"
+                },
+                {
+                    "date": 1706886215930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   display: flex;\n   flex-direction: row;\n   flex-wrap: wrap;\n   flex-grow: 1;\n-  flex-flow: ;\n+  flex-flow: row;\n   justify-content: space-between;\n   height: 116px;\n   width: 96px;\n }\n"
+                },
+                {
+                    "date": 1706886221196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   display: flex;\n   flex-direction: row;\n   flex-wrap: wrap;\n   flex-grow: 1;\n-  flex-flow: row w;\n+  flex-flow: row wrap;\n   justify-content: space-between;\n   height: 116px;\n   width: 96px;\n }\n"
+                }
+            ],
+            "date": 1706881244575,
+            "name": "Commit-0",
+            "content": "/* add styles here */\n\n.stars {\n  display: flex;\n}\n\n.stars__star {\n  height: 50px;\n  width: 50px;\n  background-size: cover;\n  padding: 5px;\n  background-image:url(images/star.svg)\n}\n/* .stars__star:nth-child(n) {\n  background-image: url(images/star-active.svg);\n} */\n\n.stars--1.div {\n  background-image: url(images/star-active.svg);\n}\n\n\n"
+        }
+    ]
+}
