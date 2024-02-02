@@ -1,1 +1,8 @@
-/* add styles here */
+@import './blocks/reset.css';
+@import './blocks/global-stars.css';
+@import './blocks/stars-inactive.css';
+@import './blocks/stars-active.css';
+
+
+
+
