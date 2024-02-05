@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/styles/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1706900696449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1707124583657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,4 @@\n  @import './blocks/body.css';\n  @import './blocks/stars.css';\n- @import './blocks/stars-star.css';\n  @import './blocks/stars-stars-star-calm.css';\n  @import './blocks/stars-stars-star-active.css';\n- \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707124639709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,3 @@\n  @import './blocks/body.css';\n  @import './blocks/stars.css';\n- @import './blocks/stars-stars-star-calm.css';\n- @import './blocks/stars-stars-star-active.css';\n+ \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1707124670541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n+ \n  @import './blocks/body.css';\n  @import './blocks/stars.css';\n\\ No newline at end of file\n- \n"
+                },
+                {
+                    "date": 1707124676778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+ @media \n+ @import './blocks/body.css';\n+ @import './blocks/stars.css';\n"
+                },
+                {
+                    "date": 1707124686861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+ @import\n+ @import './blocks/body.css';\n+ @import './blocks/stars.css';\n"
+                },
+                {
+                    "date": 1707124694015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,3 @@\n- @import\n+ @import './reset.css'\n  @import './blocks/body.css';\n  @import './blocks/stars.css';\n- @media \n- @import './blocks/body.css';\n- @import './blocks/stars.css';\n- \n- @import './blocks/body.css';\n\\ No newline at end of file\n- @import './blocks/stars.css';\n"
+                },
+                {
+                    "date": 1707126453974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,2 @@\n- @import './reset.css'\n- @import './blocks/body.css';\n+ @import './reset.css';\n  @import './blocks/stars.css';\n"
+                }
+            ],
+            "date": 1706900696449,
+            "name": "Commit-0",
+            "content": " @import './blocks/body.css';\n @import './blocks/stars.css';\n @import './blocks/stars-star.css';\n @import './blocks/stars-stars-star-calm.css';\n @import './blocks/stars-stars-star-active.css';\n "
+        }
+    ]
+}

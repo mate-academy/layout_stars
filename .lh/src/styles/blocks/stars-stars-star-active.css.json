@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/styles/blocks/stars-stars-star-active.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1706900939639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706900946990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n .stars--2 .stars__star:nth-child(-n+2),\n .stars--3 .stars__star:nth-child(-n+3),\n .stars--4 .stars__star:nth-child(-n+4),\n .stars--5 .stars__star:nth-child(-n+5) {\n-  background-image: url(.);\n+  background-image: url(/src/images/);\n   padding-left: 0;\n   margin-left: 0;\n }\n"
+                },
+                {
+                    "date": 1707124175558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,7 @@\n .stars--2 .stars__star:nth-child(-n+2),\n .stars--3 .stars__star:nth-child(-n+3),\n .stars--4 .stars__star:nth-child(-n+4),\n .stars--5 .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/);\n-  padding-left: 0;\n-  margin-left: 0;\n+  background-image: url(/src/images/star-active.svg);\n+  \n }\n"
+                },
+                {
+                    "date": 1707124612187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,5 @@\n .stars--3 .stars__star:nth-child(-n+3),\n .stars--4 .stars__star:nth-child(-n+4),\n .stars--5 .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star-active.svg);\n-  \n-}\n+  }\n"
+                }
+            ],
+            "date": 1706900939639,
+            "name": "Commit-0",
+            "content": ".stars--1 .stars__star:nth-child(-n+1),\n.stars--2 .stars__star:nth-child(-n+2),\n.stars--3 .stars__star:nth-child(-n+3),\n.stars--4 .stars__star:nth-child(-n+4),\n.stars--5 .stars__star:nth-child(-n+5) {\n  background-image: url(.);\n  padding-left: 0;\n  margin-left: 0;\n}\n"
+        }
+    ]
+}

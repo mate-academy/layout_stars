@@ -1,0 +1,218 @@
+{
+    "sourceFile": "src/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 50,
+            "patches": [
+                {
+                    "date": 1706798375898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706798417707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+<!doctype html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\">\n+    <meta name=\"viewport\"\n+          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n+    <title>Stars</title>\n+    <link rel=\"stylesheet\" href=\"./style.css\">\n+  </head>\n+  <body>\n+    <h1>Stars</h1>\n+    <div>\n+      <ul>\n+        <li></li>\n+      </ul>\n+    </div>\n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1706798426999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,21 @@\n+<!doctype html>\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\">\n+    <meta name=\"viewport\"\n+          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n+    <title>Stars</title>\n+    <link rel=\"stylesheet\" href=\"./style.css\">\n+  </head>\n+  <body>\n+    <h1>Stars</h1>\n+    <div>\n+      <ul>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+      </ul>\n+    </div>\n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1706798848495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,42 +14,16 @@\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n+        <li></li>\n       </ul>\n-    </div>\n-  </body>\n-</html>\n-<!doctype html>\n-<html lang=\"en\">\n-  <head>\n-    <meta charset=\"UTF-8\">\n-    <meta name=\"viewport\"\n-          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n-    <title>Stars</title>\n-    <link rel=\"stylesheet\" href=\"./style.css\">\n-  </head>\n-  <body>\n-    <h1>Stars</h1>\n-    <div>\n       <ul>\n         <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n       </ul>\n     </div>\n   </body>\n </html>\n-<!doctype html>\n-<html lang=\"en\">\n-  <head>\n-    <meta charset=\"UTF-8\">\n-    <meta name=\"viewport\"\n-          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n-    <title>Stars</title>\n-    <link rel=\"stylesheet\" href=\"./style.css\">\n-  </head>\n-  <body>\n-    <h1>Stars</h1>\n-    <div>\n-      \n-    </div>\n-  </body>\n-</html>\n"
+                },
+                {
+                    "date": 1706798858272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,7 +23,28 @@\n         <li></li>\n         <li></li>\n         <li></li>\n       </ul>\n+      <ul>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+      </ul>\n+      <ul>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+      </ul>\n+      <ul>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+      </ul>\n     </div>\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1706798869017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,7 +44,14 @@\n         <li></li>\n         <li></li>\n         <li></li>\n       </ul>\n+      <ul>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+      </ul>\n     </div>\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1706798888090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,13 +10,13 @@\n   <body>\n     <h1>Stars</h1>\n     <div>\n       <ul>\n+        <li c></li>\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n-        <li></li>\n       </ul>\n       <ul>\n         <li></li>\n         <li></li>\n"
+                },
+                {
+                    "date": 1706798906273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,15 +8,15 @@\n     <link rel=\"stylesheet\" href=\"./style.css\">\n   </head>\n   <body>\n     <h1>Stars</h1>\n-    <div>\n+    <div >\n       <ul>\n-        <li c></li>\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n+        <li></li>\n       </ul>\n       <ul>\n         <li></li>\n         <li></li>\n"
+                },
+                {
+                    "date": 1706798965659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n     <link rel=\"stylesheet\" href=\"./style.css\">\n   </head>\n   <body>\n     <h1>Stars</h1>\n-    <div >\n-      <ul>\n+    <div>\n+      <ul class=\"stars\">\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n@@ -23,16 +23,16 @@\n         <li></li>\n         <li></li>\n         <li></li>\n       </ul>\n-      <ul>\n+      <ul class=\"stars\">\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n       </ul>\n-      <ul>\n+      <ul class=\"stars\">\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n@@ -44,9 +44,9 @@\n         <li></li>\n         <li></li>\n         <li></li>\n       </ul>\n-      <ul>\n+      <ul class=\"stars\">\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n"
+                },
+                {
+                    "date": 1706798974273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         <li></li>\n         <li></li>\n         <li></li>\n       </ul>\n-      <ul>\n+      <ul class=\"stars\">\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n"
+                },
+                {
+                    "date": 1706799004725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,16 +14,16 @@\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n-        <li></li>\n       </ul>\n       <ul class=\"stars\">\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n+        <li></li>\n       </ul>\n       <ul class=\"stars\">\n         <li></li>\n         <li></li>\n"
+                },
+                {
+                    "date": 1706799047094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,34 +10,34 @@\n   <body>\n     <h1>Stars</h1>\n     <div>\n       <ul class=\"stars\">\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n       </ul>\n       <ul class=\"stars\">\n+        <li class=\"\"></li>\n         <li></li>\n         <li></li>\n         <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n+        <li class=\"\"></li>\n       </ul>\n       <ul>\n         <li></li>\n         <li></li>\n"
+                },
+                {
+                    "date": 1706799053965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,34 +10,34 @@\n   <body>\n     <h1>Stars</h1>\n     <div>\n       <ul class=\"stars\">\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li class=\"\"></li>\n+        <li class=\"stars\"></li>\n         <li></li>\n         <li></li>\n         <li></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n-        <li class=\"\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n+        <li class=\"stars\"></li>\n       </ul>\n       <ul>\n         <li></li>\n         <li></li>\n"
+                },
+                {
+                    "date": 1706799065854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,34 +10,34 @@\n   <body>\n     <h1>Stars</h1>\n     <div>\n       <ul class=\"stars\">\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li class=\"stars\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n         <li></li>\n         <li></li>\n-        <li></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n-        <li class=\"stars\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul>\n         <li></li>\n         <li></li>\n"
+                },
+                {
+                    "date": 1706799076504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,57 +1,60 @@\n <!doctype html>\n <html lang=\"en\">\n-  <head>\n-    <meta charset=\"UTF-8\">\n-    <meta name=\"viewport\"\n-          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n-    <title>Stars</title>\n-    <link rel=\"stylesheet\" href=\"./style.css\">\n-  </head>\n-  <body>\n-    <h1>Stars</h1>\n-    <div>\n-      <ul class=\"stars\">\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-      </ul>\n-      <ul class=\"stars\">\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li></li>\n-        <li></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-      </ul>\n-      <ul class=\"stars\">\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-      </ul>\n-      <ul class=\"stars\">\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-      </ul>\n-      <ul>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-      </ul>\n-      <ul class=\"stars\">\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-      </ul>\n-    </div>\n-  </body>\n+\n+<head>\n+  <meta charset=\"UTF-8\">\n+  <meta name=\"viewport\"\n+    content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n+  <title>Stars</title>\n+  <link rel=\"stylesheet\" href=\"./style.css\">\n+</head>\n+\n+<body>\n+  <h1>Stars</h1>\n+  <div>\n+    <ul class=\"stars\">\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+    </ul>\n+    <ul class=\"stars\">\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+    </ul>\n+    <ul class=\"stars\">\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+    </ul>\n+    <ul class=\"stars\">\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+      <li class=\"stars__star\"></li>\n+    </ul>\n+    <ul>\n+      <li></li>\n+      <li></li>\n+      <li></li>\n+      <li></li>\n+      <li></li>\n+    </ul>\n+    <ul class=\"stars\">\n+      <li></li>\n+      <li></li>\n+      <li></li>\n+      <li></li>\n+      <li></li>\n+    </ul>\n+  </div>\n+</body>\n+\n </html>\n"
+                },
+                {
+                    "date": 1706799109651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <!doctype html>\n <html lang=\"en\">\n \n-<head>\n+ <head>\n   <meta charset=\"UTF-8\">\n   <meta name=\"viewport\"\n     content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n   <title>Stars</title>\n"
+                },
+                {
+                    "date": 1706799114900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <!doctype html>\n <html lang=\"en\">\n \n- <head>\n-  <meta charset=\"UTF-8\">\n+  <head>\n+    <meta charset=\"UTF-8\">\n   <meta name=\"viewport\"\n     content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n   <title>Stars</title>\n   <link rel=\"stylesheet\" href=\"./style.css\">\n"
+                },
+                {
+                    "date": 1706799122112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n <html lang=\"en\">\n \n   <head>\n     <meta charset=\"UTF-8\">\n-  <meta name=\"viewport\"\n-    content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n-  <title>Stars</title>\n+    <meta name=\"viewport\"\n+      content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n+    <title>Stars</title>\n   <link rel=\"stylesheet\" href=\"./style.css\">\n </head>\n \n <body>\n"
+                },
+                {
+                    "date": 1706799127878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,13 +5,13 @@\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\"\n       content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n     <title>Stars</title>\n-  <link rel=\"stylesheet\" href=\"./style.css\">\n-</head>\n+    <link rel=\"stylesheet\" href=\"./style.css\">\n+  </head>\n \n-<body>\n-  <h1>Stars</h1>\n+  <body>\n+    <h1>Stars</h1>\n   <div>\n     <ul class=\"stars\">\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799134081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,14 +10,14 @@\n   </head>\n \n   <body>\n     <h1>Stars</h1>\n-  <div>\n-    <ul class=\"stars\">\n+    <div>\n+      <ul class=\"stars\">\n+        <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n     </ul>\n     <ul class=\"stars\">\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799140529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,12 +13,12 @@\n     <h1>Stars</h1>\n     <div>\n       <ul class=\"stars\">\n         <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-    </ul>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+      </ul>\n     <ul class=\"stars\">\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799145727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,15 +17,15 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-    <ul class=\"stars\">\n+      <ul class=\"stars\">\n+       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n     </ul>\n     <ul class=\"stars\">\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799151163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars\">\n-       <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799157637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,13 +19,13 @@\n         <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars\">\n         <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n     </ul>\n     <ul class=\"stars\">\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799163621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,15 +24,15 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-    </ul>\n-    <ul class=\"stars\">\n+      </ul>\n+      <ul class=\"stars\">\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n     </ul>\n     <ul class=\"stars\">\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799170570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,12 +28,12 @@\n       </ul>\n       <ul class=\"stars\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-    </ul>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+      </ul>\n     <ul class=\"stars\">\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799176619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,14 +32,14 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-    <ul class=\"stars\">\n+      <ul class=\"stars\">\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n       <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n     </ul>\n     <ul>\n       <li></li>\n       <li></li>\n"
+                },
+                {
+                    "date": 1706799183758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,17 +36,17 @@\n       <ul class=\"stars\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-      <li class=\"stars__star\"></li>\n-    </ul>\n-    <ul>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+      </ul>\n+      <ul>\n+        <li></li>\n       <li></li>\n       <li></li>\n       <li></li>\n       <li></li>\n-      <li></li>\n     </ul>\n     <ul class=\"stars\">\n       <li></li>\n       <li></li>\n"
+                },
+                {
+                    "date": 1706799189508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,13 +41,13 @@\n         <li class=\"stars__star\"></li>\n       </ul>\n       <ul>\n         <li></li>\n-      <li></li>\n-      <li></li>\n-      <li></li>\n-      <li></li>\n-    </ul>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+     </ul>\n     <ul class=\"stars\">\n       <li></li>\n       <li></li>\n       <li></li>\n"
+                },
+                {
+                    "date": 1706799194898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n-     </ul>\n+        </ul>\n     <ul class=\"stars\">\n       <li></li>\n       <li></li>\n       <li></li>\n"
+                },
+                {
+                    "date": 1706799202826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,15 +45,15 @@\n         <li></li>\n         <li></li>\n         <li></li>\n         <li></li>\n-        </ul>\n-    <ul class=\"stars\">\n-      <li></li>\n-      <li></li>\n-      <li></li>\n-      <li></li>\n-      <li></li>\n+      </ul>\n+      <ul class=\"stars\">\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n+        <li></li>\n     </ul>\n   </div>\n </body>\n \n"
+                },
+                {
+                    "date": 1706799229433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,21 +40,21 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n       <ul>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars\">\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-        <li></li>\n-    </ul>\n-  </div>\n-</body>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n+      </ul>\n+    </div>\n+  </body>\n \n </html>\n"
+                },
+                {
+                    "date": 1706799314673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n   <body>\n     <h1>Stars</h1>\n     <div>\n-      <ul class=\"stars\">\n+      <ul class=\"stars stars\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799320364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n   <body>\n     <h1>Stars</h1>\n     <div>\n-      <ul class=\"stars stars\">\n+      <ul class=\"stars stars--0\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799346005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul>\n+      <ul class=\"stars\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799361057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,38 +17,38 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars\">\n+      <ul class=\"stars \">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars\">\n+      <ul class=\"stars \">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars\">\n+      <ul class=\"stars \">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars\">\n+      <ul class=\"stars \">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"> </li>\n       </ul>\n-      <ul class=\"stars\">\n+      <ul class=\"stars \">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799371788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,38 +17,38 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars \">\n+      <ul class=\"stars stars--1\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars \">\n+      <ul class=\"stars stars--\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars \">\n+      <ul class=\"stars stars--\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars \">\n+      <ul class=\"stars stars--\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"> </li>\n+        <li class=\"stars__star\"> stars--</li>\n       </ul>\n-      <ul class=\"stars \">\n+      <ul class=\"stars stars--\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799379200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,16 +25,16 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars stars--\">\n+      <ul class=\"stars stars--2\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars stars--\">\n+      <ul class=\"stars stars--3\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799387059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,16 +39,16 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n       </ul>\n-      <ul class=\"stars stars--\">\n+      <ul class=\"stars stars--4\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"> stars--</li>\n       </ul>\n-      <ul class=\"stars stars--\">\n+      <ul class=\"stars stars--5\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799397085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"> stars--</li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--5\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799417473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--1\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706799423271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--1\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706800855446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,9 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--3\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706800861641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--4\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706800868547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,15 +49,17 @@\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--5\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n+        <li class=\"stars__star\"></li>\n       </ul>\n     </div>\n   </body>\n \n"
+                },
+                {
+                    "date": 1706801674080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,14 +12,14 @@\n   <body>\n     <h1>Stars</h1>\n     <div>\n       <ul class=\"stars stars--0\">\n+        <div class=\"stars__star\"></div>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--1\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706801680228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,13 +13,13 @@\n     <h1>Stars</h1>\n     <div>\n       <ul class=\"stars stars--0\">\n         <div class=\"stars__star\"></div>\n+        <div class=\"stars__star\"></div>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--1\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706801685907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,12 +14,12 @@\n     <div>\n       <ul class=\"stars stars--0\">\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n+        <div class=\"stars__star\"></div>\n+        <div class=\"stars__star\"></div>\n+        <div class=\"stars__star\"></div>\n         <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n       </ul>\n       <ul class=\"stars stars--1\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706801691554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,16 +11,16 @@\n \n   <body>\n     <h1>Stars</h1>\n     <div>\n-      <ul class=\"stars stars--0\">\n+      <div class=\"stars stars--0\">\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n-        <li class=\"stars__star\"></li>\n-      </ul>\n+        <div class=\"stars__star\"></div>\n+      </div>\n       <ul class=\"stars stars--1\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706801698751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n+        <div class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n-        <li class=\"stars__star\"></li>\n       </div>\n       <ul class=\"stars stars--2\">\n         <li class=\"stars__star\"></li>\n         <li class=\"stars__star\"></li>\n"
+                },
+                {
+                    "date": 1706802161651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n   <body>\n     <h1>Stars</h1>\n     <div>\n-      <div class=\"starsstars--0\">\n+      <div class=\"stars_stars--0\">\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n         <div class=\"stars__star\"></div>\n"
+                }
+            ],
+            "date": 1706798375898,
+            "name": "Commit-0",
+            "content": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\"\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <title>Stars</title>\n    <link rel=\"stylesheet\" href=\"./style.css\">\n  </head>\n  <body>\n    <h1>Stars</h1>\n    <div>\n      \n    </div>\n  </body>\n</html>\n"
+        }
+    ]
+}

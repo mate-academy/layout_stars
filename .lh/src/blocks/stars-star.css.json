@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/blocks/stars-star.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1706900063264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706900068508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-/* #region Stars Star */\n .stars__star {\n   display: flex;\n   width: 16px;\n   height: 16px;\n"
+                },
+                {
+                    "date": 1706900073838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,4 @@\n   background-position: 50%;\n   justify-content: space-between;\n   margin-right: 4px;\n }\n-\n-/* #endregion */\n"
+                }
+            ],
+            "date": 1706900063264,
+            "name": "Commit-0",
+            "content": "/* #region Stars Star */\n.stars__star {\n  display: flex;\n  width: 16px;\n  height: 16px;\n  background-repeat: no-repeat;\n  background-position: 50%;\n  justify-content: space-between;\n  margin-right: 4px;\n}\n\n/* #endregion */\n"
+        }
+    ]
+}

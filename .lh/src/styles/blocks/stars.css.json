@@ -1,0 +1,78 @@
+{
+    "sourceFile": "src/styles/blocks/stars.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1707124548594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1707124606747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,4 +13,8 @@\n .stars__star:not(:last-child) {\n   justify-content: space-between;\n   margin-right: 4px;\n }\n+\n+.stars .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star.svg);\n+ }\n"
+                },
+                {
+                    "date": 1707124620242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,4 +17,12 @@\n \n .stars .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star.svg);\n  }\n+\n+ .stars--1 .stars__star:nth-child(-n+1),\n+.stars--2 .stars__star:nth-child(-n+2),\n+.stars--3 .stars__star:nth-child(-n+3),\n+.stars--4 .stars__star:nth-child(-n+4),\n+.stars--5 .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star-active.svg);\n+  }\n"
+                },
+                {
+                    "date": 1707126494598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n   background-position: 50%;\n }\n \n .stars__star:not(:last-child) {\n-  justify-content: space-between;\n   margin-right: 4px;\n }\n \n .stars .stars__star:nth-child(-n+5) {\n"
+                },
+                {
+                    "date": 1707126548033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n .stars {\n   display: flex;\n }\n-\n .stars__star {\n   display: flex;\n   width: 16px;\n   height: 16px;\n"
+                },
+                {
+                    "date": 1707126562619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+.stars {\n+  display: flex;\n+}\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+}\n+.stars__star:not(:last-child) {\n+  margin-right: 4px;\n+}\n+.stars .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star.svg);\n+ }\n+\n+ .stars--1 .stars__star:nth-child(-n+1),\n+.stars--2 .stars__star:nth-child(-n+2),\n+.stars--3 .stars__star:nth-child(-n+3),\n+.stars--4 .stars__star:nth-child(-n+4),\n+.stars--5 .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star-active.svg);\n+  }\n"
+                },
+                {
+                    "date": 1707126568634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,38 +13,11 @@\n }\n .stars .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star.svg);\n  }\n-\n- .stars--1 .stars__star:nth-child(-n+1),\n+.stars--1 .stars__star:nth-child(-n+1),\n .stars--2 .stars__star:nth-child(-n+2),\n .stars--3 .stars__star:nth-child(-n+3),\n .stars--4 .stars__star:nth-child(-n+4),\n .stars--5 .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star-active.svg);\n   }\n-.stars {\n-  display: flex;\n-}\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n-}\n-\n-.stars__star:not(:last-child) {\n-  margin-right: 4px;\n-}\n-\n-.stars .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/star.svg);\n- }\n-\n- .stars--1 .stars__star:nth-child(-n+1),\n-.stars--2 .stars__star:nth-child(-n+2),\n-.stars--3 .stars__star:nth-child(-n+3),\n-.stars--4 .stars__star:nth-child(-n+4),\n-.stars--5 .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/star-active.svg);\n-  }\n"
+                },
+                {
+                    "date": 1707126616736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,26 @@\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+}\n+\n+.stars__star:not(:last-child) {\n+  margin-right: 4px;\n+}\n+\n+.stars .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star.svg);\n+}\n+.stars--1 .stars__star:nth-child(-n+1),\n+.stars--2 .stars__star:nth-child(-n+2),\n+.stars--3 .stars__star:nth-child(-n+3),\n+.stars--4 .stars__star:nth-child(-n+4),\n+.stars--5 .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star-active.svg);\n+}\n"
+                },
+                {
+                    "date": 1707126628040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+}\n+\n+.stars__star:not(:last-child) {\n+  margin-right: 4px;\n+}\n+\n+.stars .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star.svg);\n+}\n+\n+.stars--1 .stars__star:nth-child(-n+1),\n+.stars--2 .stars__star:nth-child(-n+2),\n+.stars--3 .stars__star:nth-child(-n+3),\n+.stars--4 .stars__star:nth-child(-n+4),\n+.stars--5 .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star-active.svg);\n+}\n"
+                },
+                {
+                    "date": 1707126633448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n   margin-right: 4px;\n }\n \n .stars .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/star.svg);\n+background-image: url(/src/images/star.svg);\n }\n \n .stars--1 .stars__star:nth-child(-n+1),\n .stars--2 .stars__star:nth-child(-n+2),\n@@ -24,53 +24,4 @@\n .stars--4 .stars__star:nth-child(-n+4),\n .stars--5 .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star-active.svg);\n }\n-.stars {\n-  display: flex;\n-}\n-\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n-}\n-\n-.stars__star:not(:last-child) {\n-  margin-right: 4px;\n-}\n-\n-.stars .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/star.svg);\n-}\n-.stars--1 .stars__star:nth-child(-n+1),\n-.stars--2 .stars__star:nth-child(-n+2),\n-.stars--3 .stars__star:nth-child(-n+3),\n-.stars--4 .stars__star:nth-child(-n+4),\n-.stars--5 .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/star-active.svg);\n-}\n-.stars {\n-  display: flex;\n-}\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n-}\n-.stars__star:not(:last-child) {\n-  margin-right: 4px;\n-}\n-.stars .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/star.svg);\n- }\n-.stars--1 .stars__star:nth-child(-n+1),\n-.stars--2 .stars__star:nth-child(-n+2),\n-.stars--3 .stars__star:nth-child(-n+3),\n-.stars--4 .stars__star:nth-child(-n+4),\n-.stars--5 .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/star-active.svg);\n-  }\n"
+                },
+                {
+                    "date": 1707126644351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   background-position: 50%;\n }\n \n .stars__star:not(:last-child) {\n-  margin-right: 4px;\n+margin-right: 4px;\n }\n \n .stars .stars__star:nth-child(-n+5) {\n background-image: url(/src/images/star.svg);\n"
+                },
+                {
+                    "date": 1707126651179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+.stars {\n+display: flex;\n+}\n+\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+}\n+\n+.stars__star:not(:last-child) {\n+margin-right: 4px;\n+}\n+\n+.stars .stars__star:nth-child(-n+5) {\n+background-image: url(/src/images/star.svg);\n+}\n+\n+.stars--1 .stars__star:nth-child(-n+1),\n+.stars--2 .stars__star:nth-child(-n+2),\n+.stars--3 .stars__star:nth-child(-n+3),\n+.stars--4 .stars__star:nth-child(-n+4),\n+.stars--5 .stars__star:nth-child(-n+5) {\n+background-image: url(/src/images/star-active.svg);\n+}\n"
+                },
+                {
+                    "date": 1707126665050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+.stars {\n+  display: flex;\n+}\n+\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+}\n+\n+.stars__star:not(:last-child) {\n+  margin-right: 4px;\n+}\n+\n+.stars .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star.svg);\n+}\n+\n+.stars--1 .stars__star:nth-child(-n+1),\n+.stars--2 .stars__star:nth-child(-n+2),\n+.stars--3 .stars__star:nth-child(-n+3),\n+.stars--4 .stars__star:nth-child(-n+4),\n+.stars--5 .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star-active.svg);\n+}\n"
+                },
+                {
+                    "date": 1707126832863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,58 +24,4 @@\n .stars--4 .stars__star:nth-child(-n+4),\n .stars--5 .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star-active.svg);\n }\n-.stars {\n-display: flex;\n-}\n-\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n-}\n-\n-.stars__star:not(:last-child) {\n-margin-right: 4px;\n-}\n-\n-.stars .stars__star:nth-child(-n+5) {\n-background-image: url(/src/images/star.svg);\n-}\n-\n-.stars--1 .stars__star:nth-child(-n+1),\n-.stars--2 .stars__star:nth-child(-n+2),\n-.stars--3 .stars__star:nth-child(-n+3),\n-.stars--4 .stars__star:nth-child(-n+4),\n-.stars--5 .stars__star:nth-child(-n+5) {\n-background-image: url(/src/images/star-active.svg);\n-}\n-.stars {\n-  display: flex;\n-}\n-\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n-}\n-\n-.stars__star:not(:last-child) {\n-margin-right: 4px;\n-}\n-\n-.stars .stars__star:nth-child(-n+5) {\n-background-image: url(/src/images/star.svg);\n-}\n-\n-.stars--1 .stars__star:nth-child(-n+1),\n-.stars--2 .stars__star:nth-child(-n+2),\n-.stars--3 .stars__star:nth-child(-n+3),\n-.stars--4 .stars__star:nth-child(-n+4),\n-.stars--5 .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/images/star-active.svg);\n-}\n"
+                },
+                {
+                    "date": 1707126896160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n   height: 16px;\n   background-repeat: no-repeat;\n   background-position: 50%;\n }\n-\n .stars__star:not(:last-child) {\n   margin-right: 4px;\n }\n \n"
+                },
+                {
+                    "date": 1707126906062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   height: 16px;\n   background-repeat: no-repeat;\n   background-position: 50%;\n }\n+\n .stars__star:not(:last-child) {\n   margin-right: 4px;\n }\n \n"
+                }
+            ],
+            "date": 1707124548594,
+            "name": "Commit-0",
+            "content": ".stars {\n  display: flex;\n}\n\n.stars__star {\n  display: flex;\n  width: 16px;\n  height: 16px;\n  background-repeat: no-repeat;\n  background-position: 50%;\n}\n\n.stars__star:not(:last-child) {\n  justify-content: space-between;\n  margin-right: 4px;\n}\n"
+        }
+    ]
+}
