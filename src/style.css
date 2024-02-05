@@ -1,21 +1,13 @@
 body {
- margin: 0;
-}
-
-.header {
-  margin: auto;
-  display: flex;
-}
-
-.conteiner {
-  margin: auto;
+  margin: 0;
 }
 
 .stars {
   width: max-content;
   display: flex;
-  margin: auto;
-}
+  margin-left: 2px;
+  margin-right: 2px;
+  }
 
 .stars__star {
   background-image: url(images/star.svg);
@@ -23,6 +15,7 @@ body {
   width: 16px;
   background-position: center;
   background-repeat: no-repeat;
+  margin-right: 4px;
 }
 
 .stars--1 :first-child {
