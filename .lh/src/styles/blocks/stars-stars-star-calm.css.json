@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1706900895606,
@@ -20,6 +20,14 @@
                 {
                     "date": 1706900923946,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .stars .stars__star:nth-child(-n+5) {\n-  background-image: url(/src/);\n+  background-image: url(/src/images/star.svg);\n   padding-left: 0;\n   margin-left: 0;\n }\n"
+                },
+                {
+                    "date": 1707124202699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n .stars .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star.svg);\n-  padding-left: 0;\n-  margin-left: 0;\n+ \n }\n"
+                },
+                {
+                    "date": 1707124597097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,3 @@\n .stars .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star.svg);\n- \n-}\n+ }\n"
                 }
             ],
             "date": 1706900895606,

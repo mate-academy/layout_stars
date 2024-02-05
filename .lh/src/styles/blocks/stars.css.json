@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/styles/blocks/stars.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1707124548594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1707124606747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,4 +13,8 @@\n .stars__star:not(:last-child) {\n   justify-content: space-between;\n   margin-right: 4px;\n }\n+\n+.stars .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star.svg);\n+ }\n"
+                },
+                {
+                    "date": 1707124620242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,4 +17,12 @@\n \n .stars .stars__star:nth-child(-n+5) {\n   background-image: url(/src/images/star.svg);\n  }\n+\n+ .stars--1 .stars__star:nth-child(-n+1),\n+.stars--2 .stars__star:nth-child(-n+2),\n+.stars--3 .stars__star:nth-child(-n+3),\n+.stars--4 .stars__star:nth-child(-n+4),\n+.stars--5 .stars__star:nth-child(-n+5) {\n+  background-image: url(/src/images/star-active.svg);\n+  }\n"
+                }
+            ],
+            "date": 1707124548594,
+            "name": "Commit-0",
+            "content": ".stars {\n  display: flex;\n}\n\n.stars__star {\n  display: flex;\n  width: 16px;\n  height: 16px;\n  background-repeat: no-repeat;\n  background-position: 50%;\n}\n\n.stars__star:not(:last-child) {\n  justify-content: space-between;\n  margin-right: 4px;\n}\n"
+        }
+    ]
+}

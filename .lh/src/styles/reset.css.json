@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/styles/reset.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1707124773981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1707124785176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,93 +1,149 @@\n :root {\n-  html, body, div, span, applet, object, iframe,\n+  html,\n+  body,\n+  div,\n+  span,\n+  applet,\n+  object,\n+  iframe,\n \n-h1, h2, h3, h4, h5, h6, p, blockquote, pre,\n+  h1,\n+  h2,\n+  h3,\n+  h4,\n+  h5,\n+  h6,\n+  p,\n+  blockquote,\n+  pre,\n \n-a, abbr, acronym, address, big, cite, code,\n+  a,\n+  abbr,\n+  acronym,\n+  address,\n+  big,\n+  cite,\n+  code,\n \n-del, dfn, em, font, img, ins, kbd, q, s, samp,\n+  del,\n+  dfn,\n+  em,\n+  font,\n+  img,\n+  ins,\n+  kbd,\n+  q,\n+  s,\n+  samp,\n \n-small, strike, strong, sub, sup, tt, var,\n+  small,\n+  strike,\n+  strong,\n+  sub,\n+  sup,\n+  tt,\n+  var,\n \n-dl, dt, dd, ol, ul, li,\n+  dl,\n+  dt,\n+  dd,\n+  ol,\n+  ul,\n+  li,\n \n-fieldset, form, label, legend,\n+  fieldset,\n+  form,\n+  label,\n+  legend,\n \n-table, caption, tbody, tfoot, thead, tr, th, td {\n+  table,\n+  caption,\n+  tbody,\n+  tfoot,\n+  thead,\n+  tr,\n+  th,\n+  td {\n \n-                margin: 0;\n+    margin: 0;\n \n-                padding: 0;\n+    padding: 0;\n \n-                border: 0;\n+    border: 0;\n \n-                outline: 0;\n+    outline: 0;\n \n-                font-weight: inherit;\n+    font-weight: inherit;\n \n-                font-style: inherit;\n+    font-style: inherit;\n \n-                font-size: 100%;\n+    font-size: 100%;\n \n-                font-family: inherit;\n+    font-family: inherit;\n \n-                vertical-align: baseline;\n+    vertical-align: baseline;\n \n-}\n+  }\n \n-/* remember to define focus styles! */\n+  /* remember to define focus styles! */\n \n-:focus {\n+  :focus {\n \n-                outline: 0;\n+    outline: 0;\n \n-}\n+  }\n \n-body {\n+  body {\n \n-                line-height: 1;\n+    line-height: 1;\n \n-                color: black;\n+    color: black;\n \n-                background: white;\n+    background: white;\n \n-}\n+  }\n \n-ol, ul {\n+  ol,\n+  ul {\n \n-                list-style: none;\n+    list-style: none;\n \n-}\n+  }\n \n-/* tables still need 'cellspacing=\"0\"' in the markup */\n+  /* tables still need 'cellspacing=\"0\"' in the markup */\n \n-table {\n+  table {\n \n-                border-collapse: separate;\n+    border-collapse: separate;\n \n-                border-spacing: 0;\n+    border-spacing: 0;\n \n-}\n+  }\n \n-caption, th, td {\n+  caption,\n+  th,\n+  td {\n \n-                text-align: left;\n+    text-align: left;\n \n-                font-weight: normal;\n+    font-weight: normal;\n \n-}\n+  }\n \n-blockquote:before, blockquote:after,\n+  blockquote:before,\n+  blockquote:after,\n \n-q:before, q:after {\n+  q:before,\n+  q:after {\n \n-                content: \"\";\n+    content: \"\";\n \n-}\n+  }\n \n-blockquote, q {\n+  blockquote,\n+  q {\n \n-                quotes: \"\" \"\";\n+    quotes: \"\" \"\";\n \n+  }\n }\n-}\n"
+                },
+                {
+                    "date": 1707124812037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,8 @@\n   thead,\n   tr,\n   th,\n   td {\n-\n     margin: 0;\n \n     padding: 0;\n \n"
+                },
+                {
+                    "date": 1707124817875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,9 +86,8 @@\n \n   /* remember to define focus styles! */\n \n   :focus {\n-\n     outline: 0;\n \n   }\n \n"
+                },
+                {
+                    "date": 1707124824458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,8 @@\n \n     line-height: 1;\n     color: black;\n     background: white;\n-\n   }\n \n   ol,\n   ul {\n"
+                },
+                {
+                    "date": 1707124830059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,8 @@\n     outline: 0;\n   }\n \n   body {\n-\n     line-height: 1;\n     color: black;\n     background: white;\n   }\n"
+                }
+            ],
+            "date": 1707124773981,
+            "name": "Commit-0",
+            "content": ":root {\n  html, body, div, span, applet, object, iframe,\n\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\n\na, abbr, acronym, address, big, cite, code,\n\ndel, dfn, em, font, img, ins, kbd, q, s, samp,\n\nsmall, strike, strong, sub, sup, tt, var,\n\ndl, dt, dd, ol, ul, li,\n\nfieldset, form, label, legend,\n\ntable, caption, tbody, tfoot, thead, tr, th, td {\n\n                margin: 0;\n\n                padding: 0;\n\n                border: 0;\n\n                outline: 0;\n\n                font-weight: inherit;\n\n                font-style: inherit;\n\n                font-size: 100%;\n\n                font-family: inherit;\n\n                vertical-align: baseline;\n\n}\n\n/* remember to define focus styles! */\n\n:focus {\n\n                outline: 0;\n\n}\n\nbody {\n\n                line-height: 1;\n\n                color: black;\n\n                background: white;\n\n}\n\nol, ul {\n\n                list-style: none;\n\n}\n\n/* tables still need 'cellspacing=\"0\"' in the markup */\n\ntable {\n\n                border-collapse: separate;\n\n                border-spacing: 0;\n\n}\n\ncaption, th, td {\n\n                text-align: left;\n\n                font-weight: normal;\n\n}\n\nblockquote:before, blockquote:after,\n\nq:before, q:after {\n\n                content: \"\";\n\n}\n\nblockquote, q {\n\n                quotes: \"\" \"\";\n\n}\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/styles/blocks/stars-star.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1707124281594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1707124287781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n   width: 16px;\n   height: 16px;\n   background-repeat: no-repeat;\n   background-position: 50%;\n+  justify-content: space-between;\n+  margin-right: 4px;\n }\n"
+                },
+                {
+                    "date": 1707124323004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,6 @@\n   background-position: 50%;\n   justify-content: space-between;\n   margin-right: 4px;\n }\n+\n+\n"
+                },
+                {
+                    "date": 1707124333524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,6 @@\n   justify-content: space-between;\n   margin-right: 4px;\n }\n \n+.stars__star\n \n"
+                },
+                {
+                    "date": 1707124340469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+  justify-content: space-between;\n+  margin-right: 4px;\n+}\n+\n+.stars__star:n\n+\n"
+                },
+                {
+                    "date": 1707124345567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+  justify-content: space-between;\n+  margin-right: 4px;\n+}\n+\n+.stars__star:not()\n+\n"
+                },
+                {
+                    "date": 1707124351444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+  justify-content: space-between;\n+  margin-right: 4px;\n+}\n+\n+.stars__star:not(:la)\n+\n"
+                },
+                {
+                    "date": 1707124357457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+  justify-content: space-between;\n+  margin-right: 4px;\n+}\n+\n+.stars__star:not(:last-child) {\n+  \n+}\n+\n"
+                },
+                {
+                    "date": 1707124364861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,55 +8,8 @@\n   margin-right: 4px;\n }\n \n .stars__star:not(:last-child) {\n-  \n-}\n-\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n   justify-content: space-between;\n   margin-right: 4px;\n }\n \n-.stars__star:not(:la)\n-\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n-  justify-content: space-between;\n-  margin-right: 4px;\n-}\n-\n-.stars__star:not()\n-\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n-  justify-content: space-between;\n-  margin-right: 4px;\n-}\n-\n-.stars__star:n\n-\n-.stars__star {\n-  display: flex;\n-  width: 16px;\n-  height: 16px;\n-  background-repeat: no-repeat;\n-  background-position: 50%;\n-  justify-content: space-between;\n-  margin-right: 4px;\n-}\n-\n-.stars__star\n-\n"
+                },
+                {
+                    "date": 1707124384118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+.stars__star {\n+  display: flex;\n+  width: 16px;\n+  height: 16px;\n+  background-repeat: no-repeat;\n+  background-position: 50%;\n+}\n+\n+.stars__star:not(:last-child) {\n+  justify-content: space-between;\n+  margin-right: 4px;\n+}\n+\n"
+                },
+                {
+                    "date": 1707124546100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+\n+\n"
+                }
+            ],
+            "date": 1707124281594,
+            "name": "Commit-0",
+            "content": ".stars__star {\n  display: flex;\n  width: 16px;\n  height: 16px;\n  background-repeat: no-repeat;\n  background-position: 50%;\n}\n"
+        }
+    ]
+}

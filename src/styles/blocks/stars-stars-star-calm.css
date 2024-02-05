@@ -1,5 +1,0 @@
-.stars .stars__star:nth-child(-n+5) {
-  background-image: url(/src/images/star.svg);
-  padding-left: 0;
-  margin-left: 0;
-}
