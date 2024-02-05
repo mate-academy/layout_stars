@@ -1,1 +1,21 @@
-/* add styles here */
+.container
+{
+    display: flex;
+    width: 96px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.stars
+{
+    width: 16px;
+    height: 16px;
+    background-color: bisque;
+    background-image: url('images/star.svg');
+    background-size: cover;
+}
+
+.stars--0
+{
+    fill: blue;
+}
