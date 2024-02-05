@@ -1,25 +1,29 @@
-body{
+body {
   margin: 0;
+  padding: 0;
 }
 
-.star-rating {
+.stars {
   display: flex;
-  flex-direction: column;
 }
 
-.rating-item {
-  display: flex;
-  align-items: center;
-
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url('./images/star.svg');
+  margin-right: 4px;
+  background-position: center;
+  background-repeat:no-repeat;
 }
 
-.rating-item img {
-  margin-right: 4px ;
+.stars__star:last-child {
+  margin-right: 0;
 }
 
-
-.rating-item img:last-child {
-  margin: 2px 0 ;
+.stars--1 :nth-child(-n+1),
+.stars--2 :nth-child(-n+2),
+.stars--3 :nth-child(-n+3),
+.stars--4 :nth-child(-n+4),
+.stars--5 :nth-child(-n+5){
+    background-image: url('./images/star-active.svg'); /* Фонове зображення активної зірки */
 }
-
-
