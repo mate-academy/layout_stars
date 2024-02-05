@@ -1,1 +1,25 @@
-/* add styles here */
+body{
+  margin: 0;
+}
+
+.star-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+
+}
+
+.rating-item img {
+  margin-right: 4px ;
+}
+
+
+.rating-item img:last-child {
+  margin: 2px 0 ;
+}
+
+
