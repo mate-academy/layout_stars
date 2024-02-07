@@ -5,9 +5,7 @@ body {
 .stars {
   width: max-content;
   display: flex;
-  margin-left: 2px;
-  margin-right: 2px;
-  }
+}
 
 .stars__star {
   background-image: url(images/star.svg);
@@ -36,8 +34,4 @@ body {
 
 .stars--5 :nth-child(-n+5) {
   background-image: url(images/star-active.svg)
-}
-
-.stars__star :first-child {
-  margin-right: 2px;
 }
