@@ -1,1 +1,33 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars__star--unactive {
+  background-image: url(images/star.svg);
+}
+
+.stars__star--active {
+  background-image: url(images/star-active.svg);
+}
+
+.stars > .stars__star:first-child {
+  margin-left: 0;
+}
