@@ -1,1 +1,23 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+.stars {
+display: flex;
+padding: 20px;
+flex-direction: column;
+}
+
+.stars__star {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-size: cover;
+  margin-bottom: 4px;
+  margin-right: 4px;
+}
+
+.is-active {
+  background-image: url(images/star-active.svg);
+}
