@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   width: 96px;
-  height: 116px;
+  height: 96px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 .stars--1 :first-child {
@@ -39,7 +40,10 @@ body {
 
 .stars__star {
   background-image: url(images/star.svg);
+  background-repeat: no-repeat;
   width: 16px;
   height: 16px;
   background-position: center;
+  margin: 0;
+  padding: 0;
 }
