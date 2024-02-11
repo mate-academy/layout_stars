@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  margin: 0;
   width: 96px;
   height: 116px;
   display: flex;
@@ -41,5 +42,4 @@ body {
   width: 16px;
   height: 16px;
   background-position: center;
-  background-size: cover;
 }
