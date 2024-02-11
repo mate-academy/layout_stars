@@ -4,18 +4,18 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   width: 96px;
   height: 96px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .stars {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-  margin: 0;
+  align-items: center;
 }
 
 .stars--1 :first-child {
