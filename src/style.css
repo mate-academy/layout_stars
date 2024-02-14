@@ -4,15 +4,12 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  width: 100px;
   height: 96px;
   display: flex;
   flex-direction: column;
 }
 
 .stars {
-  justify-content: space-between;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,6 +24,7 @@ body {
 }
 
 .stars__star {
+  display: ;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   width: 16px;
@@ -34,4 +32,12 @@ body {
   background-position: center;
   margin-right: 4px;
   padding: 0;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
 }
