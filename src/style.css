@@ -24,7 +24,6 @@ body {
 }
 
 .stars__star {
-  display: ;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   width: 16px;
