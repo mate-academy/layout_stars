@@ -9,6 +9,7 @@
 .stars__star {
   background-repeat: no-repeat;
   background-image: url(images/star.svg); /* Adding background image */
+  background-position: center;
   width: 16px;
   height: 16px;
   margin-right: 4px;
