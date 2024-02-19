@@ -1,1 +1,24 @@
 /* add styles here */
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 96px;
+  height: 116px;
+  background-color: lightpink;
+  display: flex;
+
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-color: blue;
+}
