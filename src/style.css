@@ -28,3 +28,7 @@ body {
   margin-right: 4px;
 
 }
+
+.stars__stars--5:last-child{
+margin-right: 0;
+}
