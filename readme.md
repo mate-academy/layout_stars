@@ -19,8 +19,6 @@ Follow
 
 ## Checklist
 
-❗️ Replace `<your_account>` with your Github username and copy the links to `Pull Request` description:
-
 - [DEMO LINK](https://antonmolchanov18.github.io/layout_stars/)
 - [TEST REPORT LINK](https://antonmolchanov18.github.io/layout_stars/report/html_report/)
 
