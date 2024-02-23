@@ -1,6 +1,12 @@
+/* stylelint-disable-next-line import-notation */
 @import url(blocks/header.css);
+/* stylelint-disable-next-line import-notation */
 @import url(blocks/page.css);
+/* stylelint-disable-next-line import-notation */
 @import url(blocks/menu.css);
+/* stylelint-disable-next-line import-notation */
 @import url(blocks/nav.css);
+/* stylelint-disable-next-line import-notation */
 @import url(blocks/icon.css);
+/* stylelint-disable-next-line import-notation */
 @import url(blocks/footer.css);
