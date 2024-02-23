@@ -1,0 +1,47 @@
+.top-bar {
+  padding: 28px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  box-sizing: border-box  ;
+  height: 100vh;
+  background-color: #E5E6E8;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu__top {
+  margin-bottom: 32px;
+}
+
+.menu__nav {
+  margin-bottom: 40px;
+}
+
+.menu__content {
+  padding-inline: 20px;
+}
+
+.menu__phone-number {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  line-height: 22.4px;
+  margin-bottom: 16px;
+}
+
+.menu__call-to-order {
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22.4px;
+  display: block;
+  width: fit-content;
+  letter-spacing: 2px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #292929;
+}

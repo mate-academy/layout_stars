@@ -1,0 +1,31 @@
+.header {
+  box-sizing: border-box  ;
+  height: 100vh;
+  background-image: url(/src/images/header-bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-bar__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.top-bar__logo {
+  display: flex;
+}
+
+.header__title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.header__bottom {
+  padding: 0 20px 40px;
+}
