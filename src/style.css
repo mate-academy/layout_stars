@@ -5,32 +5,15 @@
 
 /* #end region page */
 
-/* #wrap-stars section */
-
-.wrap-stars {
-  /*
-  margin: 0 auto;
-  height: 160px;
-  width: 140px;
-
-
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
-/* #end of wrap-stars section */
-
-/* #stars start */
+/* #stars section  start */
 
 .stars-content {
-  flex-wrap: wrap;
   height: 96px;
   width: 100px;
+  margin: 0 auto;
   display: flex;
   align-content: baseline;
-  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .stars {
