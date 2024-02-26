@@ -1,0 +1,38 @@
+/* add styles here */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stars__container {
+  width: 100px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars__blok {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4px;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+}
+
+@for $star from 0 through 5 {
+  .stars--#{$star} .stars__star:nth-child(-n + #{$star}) {
+    background: url(./images/star-active.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .stars--#{$star} .stars__star:nth-child(n + #{$star + 1}) {
+    background: url(./images/star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
