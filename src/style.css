@@ -12,7 +12,7 @@ html {
   flex-wrap: wrap;
 }
 
-.stars .stars__star {
+.stars__star {
   height: var(--size-height);
   width: var(--size-width);
   background-image: url(images/star.svg);
@@ -21,7 +21,7 @@ html {
   background-position: center;
 }
 
-.stars .stars__star:last-child {
+.stars__star:last-child {
   margin-right: 0;
 }
 
@@ -30,8 +30,5 @@ html {
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  height: var(--size-height);
-  width: var(--size-width);
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
 }
