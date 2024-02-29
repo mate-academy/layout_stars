@@ -39,10 +39,6 @@ body {
   background-image: url(./images/star-active.svg);
 }
 
-.stars--5 .stars__star {
-  background-image: url(./images/star-active.svg);
-}
-
-.active {
+.stars--5 :nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
 }
