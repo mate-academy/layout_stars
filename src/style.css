@@ -1,1 +1,7 @@
-/* add styles here */
+@import 'stars.css';
+
+/* It says I shouldn't add any more classes
+so I didn't create page-content block & file for the body */
+body {
+  margin: 0;
+}
