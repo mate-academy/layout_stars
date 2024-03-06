@@ -26,3 +26,5 @@ body {
 .stars--5 :nth-child(n + 1) {
   background-image: url(./images/star-active.svg);
 }
+
+/* npm test */
