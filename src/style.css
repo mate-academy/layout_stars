@@ -2,3 +2,27 @@ body {
   margin: 0;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 96px;
+  height: 116px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars__star {
+  content: "";
+  background-image: url('./images/star.svg');
+  width: 12px;
+  height: 12px;
+}
+
+/*
+  background-image: url('./images/star-active.svg');
+*/
