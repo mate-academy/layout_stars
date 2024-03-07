@@ -1,0 +1,10 @@
+@import '/src/styles/blocks/stars.css';
+
+html {
+  --star: url(/src/images/star.svg);
+  --star-activated: url(/src/images/star-active.svg);
+}
+
+body {
+  margin: 0;
+}
