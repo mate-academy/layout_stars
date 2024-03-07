@@ -1,0 +1,8 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 96px;
+  height: 116px;
+}
