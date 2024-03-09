@@ -16,7 +16,7 @@ body {
   margin-right: 4px;
 }
 
-.stars__star :not(:last-child){
+.stars__star :not(:last-child) {
   margin: 0;
 }
 
