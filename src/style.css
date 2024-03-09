@@ -1,7 +1,6 @@
 /* add styles here */
-* {
+body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
@@ -17,22 +16,14 @@
   margin-right: 4px;
 }
 
-.stars--1 :first-child {
-  background-image: url(./images/star-active.svg);
+.stars__star :not(:last-child){
+  margin: 0;
 }
 
-.stars--2 :nth-child(-n + 2) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--3 :nth-child(-n + 3) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--4 :nth-child(-n + 4) {
-  background-image: url(./images/star-active.svg);
-}
-
+.stars--1 :first-child,
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
 .stars--5 :nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
 }
