@@ -1,24 +1,13 @@
-body {
-  margin: 0;
-  padding: 22px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  height: 116px;
-  width: 96px;
-}
-
 .stars {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .stars__star {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: auto;
+  background-position: center;
   width: 16px;
   height: 16px;
 }
