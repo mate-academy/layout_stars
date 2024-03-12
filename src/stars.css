@@ -1,6 +1,6 @@
 .stars {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
 }
 
@@ -10,6 +10,12 @@
   background-position: center;
   width: 16px;
   height: 16px;
+
+  margin-right: 4px;
+}
+
+.stars :last-child {
+  margin: 0;
 }
 
 .stars--1 :first-child,
