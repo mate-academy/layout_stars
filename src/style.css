@@ -1,1 +1,48 @@
 /* add styles here */
+body {
+  background-color: rgb(213, 215, 220);
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerpai {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 160px;
+}
+
+
+.containerfilho {
+  padding-top: 10%;
+  width: 96px;
+  height: 116px;
+  top: 22px;
+  left: 22px;
+}
+
+.linha1,.linha2,.linha3,.linha4,.linha5,.linha6 {
+  display: flex;
+  justify-content: center;
+}
+
+.stars {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 2%;
+}
+
+.preenchida {
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 2%;
+}
