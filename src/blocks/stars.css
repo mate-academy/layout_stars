@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.stars__str {
+.stars__star {
   background-image: url(../images/star.svg);
   height: 16px;
   width: 16px;
