@@ -1,0 +1,9 @@
+.page__body {
+  margin: 0;
+}
+
+.page__wrap {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
