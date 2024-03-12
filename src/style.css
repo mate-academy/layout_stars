@@ -31,11 +31,9 @@ html {
   background-image: url(./images/star-active.svg);
 }
 
-
 .stars--3 .stars__star:nth-child(-n + 3) {
   background-image: url(./images/star-active.svg);
 }
-
 
 .stars--4 .stars__star:not(:last-child) {
   background-image: url(./images/star-active.svg);
