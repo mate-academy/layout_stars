@@ -3,7 +3,7 @@
   display: flex;
 }
 
-.stars__star {
+.stars__star:not(:last-child) {
   background-image: url('images/star.svg');
   background-position: center;
   background-repeat: no-repeat;
