@@ -1,1 +1,48 @@
-/* add styles here */
+/* Reset default margin */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Stars block */
+.stars {
+  display: flex;
+}
+
+/* Individual star */
+.stars__star {
+  width: 20px; /* Set star size */
+  height: 20px; /* Set star size */
+  background-image: url('path/to/star-image.png'); /* Specify path to star image */
+  background-size: cover;
+}
+
+/* Modifier classes for different star counts */
+.stars--0 .stars__star:nth-child(n+1) { /* stars--0 modifier */
+  background-position: 0 0; /* Set star image position */
+}
+
+.stars--1 .stars__star:nth-child(n+1) { /* stars--1 modifier */
+  background-position: -20px 0; /* Set star image position */
+}
+
+.stars--2 .stars__star:nth-child(n+1) { /* stars--2 modifier */
+  background-position: -40px 0; /* Set star image position */
+}
+
+.stars--3 .stars__star:nth-child(n+1) { /* stars--3 modifier */
+  background-position: -60px 0; /* Set star image position */
+}
+
+.stars--4 .stars__star:nth-child(n+1) { /* stars--4 modifier */
+  background-position: -80px 0; /* Set star image position */
+}
+
+.stars--5 .stars__star:nth-child(n+1) { /* stars--5 modifier */
+  background-position: -100px 0; /* Set star image position */
+}
+
+/* No vertical margins between blocks */
+.stars + .stars {
+  margin-top: 0;
+}
