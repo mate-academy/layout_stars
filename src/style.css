@@ -22,9 +22,7 @@ body {
 .stars {
   display: flex;
   justify-content: space-between;
-  padding-left: 2px;
-  padding-top: 2px;
-  padding-right: 6px;
+  padding: 2px 6px 2px 0;
 }
 
 .stars__star {
