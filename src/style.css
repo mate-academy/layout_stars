@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(images/star-active.svg);
-  margin-right: 4px;
+  gap: 4px;
 }
 
 .stars--0 .stars__star,
