@@ -4,8 +4,6 @@
 }
 
 body {
-  width: 96px;
-  height: 96px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -36,4 +34,3 @@ body {
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
 }
-
