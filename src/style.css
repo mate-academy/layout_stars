@@ -6,7 +6,6 @@ body {
   height: 96px;
   display: flex;
   flex-direction: column;
-
   justify-content: space-around;
 }
 
@@ -24,10 +23,8 @@ body {
   background-position-x: left;
 }
 
-/*  #region stars */
-
 .stars--0 .stars__star {
-  /* display: block; */
+  display: block;
   height: 16px;
   width: 16px;
   background-image: url(./images/star.svg);
@@ -179,5 +176,3 @@ body {
   width: 16px;
   background-image: url(./images/star.svg);
 }
-
-/*  #end region  */
