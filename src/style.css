@@ -1,14 +1,12 @@
+@import 'stars--0';
+@import 'stars--1';
+@import 'stars--2';
+@import 'stars--3';
+@import 'stars--4';
+@import 'stars--5';
+
 body {
   margin: 0;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  width: 96px;
-  height: 116px;
 }
 
 .stars__star {
@@ -16,108 +14,8 @@ body {
   display: flex;
   list-style: none;
   padding-inline-start: 0;
-
-  /* align-content: center;
+  width: 96px;
+  flex-wrap: wrap;
   align-items: center;
-  text-align: center; */
-}
-
-.star--0 :nth-child(n) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--1 :nth-child(n) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--1 :nth-child(n + 2) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--2 :nth-child(n) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--2 :nth-child(n + 3) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--3 :nth-child(n) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--3 :nth-child(n + 4) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--4 :nth-child(n) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--4 :nth-child(n + 5) {
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
-}
-
-.star--5 :nth-child(n) {
-  background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  width: 16px;
-  height: 16px;
-  text-align: center;
+  justify-content: space-between;
 }
