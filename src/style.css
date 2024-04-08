@@ -3,11 +3,7 @@ body {
 }
 
 .stars {
-  width: 100%;
-  border: solid blue 2px;
   padding: 0;
-  margin-top: 22px;
-  margin-left: 22px;
 
   display: flex;
   flex-direction: row;
@@ -37,4 +33,6 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
