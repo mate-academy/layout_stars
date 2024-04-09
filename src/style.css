@@ -12,15 +12,6 @@ body {
   gap: 4px;
 }
 
-.stars--0 :nth-child(n + 1),
-.stars--1 :nth-child(-n + 5),
-.stars--2 :nth-child(-n + 5),
-.stars--3 :nth-child(-n + 5),
-.stars--4 :last-child {
-  background-image: url(./images/star.svg);
-  color: #f3f3f3;
-}
-
 .stars--1 :first-child,
 .stars--2 :nth-child(-n + 2),
 .stars--3 :nth-child(-n + 3),
@@ -35,4 +26,5 @@ body {
   height: 16px;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url(./images/star.svg);
 }
