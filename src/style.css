@@ -15,15 +15,7 @@ body {
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
-  background-image: url(images/star.svg);
-}
-
-.stars--1 :first-child,
-.stars--2 :nth-child(-n + 2),
-.stars--3 :nth-child(-n + 3),
-.stars--4 :nth-child(-n + 4),
-.stars--5 :nth-child(-n + 5) {
-  background-image: url(images/star-active.svg);
+  background-image: url(images/star-active.svg));
 }
 
 .stars--0 :nth-child(n),
