@@ -2,8 +2,6 @@
 
 body {
   margin: 0;
-  width: 100px;
-  height: 96px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -17,41 +15,49 @@ body {
 
 .stars__star {
   background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  background-position-y: center;
-  background-position-x: left;
-}
-
-.stars--0 .stars__star {
   display: block;
   height: 16px;
   width: 16px;
+  background-position-y: center;
+  background-position-x: center;
+  margin-right: 4px;
+}
+
+.stars--0 .stars__star {
   background-image: url(./images/star.svg);
 }
 
 .stars--5 .stars__star {
-  display: block;
-  height: 16px;
-  width: 16px;
   background-image: url(./images/star-active.svg);
 }
 
-.stars--1 .stars__star:nth-child(1) {
-  display: block;
-  height: 16px;
-  width: 16px;
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(2),
+.stars--3 .stars__star:nth-child(1),
+.stars--3 .stars__star:nth-child(2),
+.stars--3 .stars__star:nth-child(3),
+.stars--4 .stars__star:nth-child(1),
+.stars--4 .stars__star:nth-child(2),
+.stars--4 .stars__star:nth-child(3),
+.stars--4 .stars__star:nth-child(4) {
   background-image: url(./images/star-active.svg);
 }
 
-.stars--1 .stars__star:nth-child(2) {
-  display: block;
-  height: 16px;
-  width: 16px;
+.stars--1 .stars__star:nth-child(2),
+.stars--1 .stars__star:nth-child(3),
+.stars--1 .stars__star:nth-child(4),
+.stars--1 .stars__star:nth-child(5),
+.stars--2 .stars__star:nth-child(3),
+.stars--2 .stars__star:nth-child(4),
+.stars--2 .stars__star:nth-child(5),
+.stars--3 .stars__star:nth-child(4),
+.stars--3 .stars__star:nth-child(5),
+.stars--4 .stars__star:nth-child(5) {
   background-image: url(./images/star.svg);
 }
 
-.stars--1 .stars__star:nth-child(3) {
+/* .stars--1 .stars__star:nth-child(3) {
   display: block;
   height: 16px;
   width: 16px;
@@ -70,9 +76,9 @@ body {
   height: 16px;
   width: 16px;
   background-image: url(./images/star.svg);
-}
+} */
 
-.stars--2 .stars__star:nth-child(1) {
+/* .stars--2 .stars__star:nth-child(1) {
   display: block;
   height: 16px;
   width: 16px;
@@ -105,9 +111,9 @@ body {
   height: 16px;
   width: 16px;
   background-image: url(./images/star.svg);
-}
+} */
 
-.stars--3 .stars__star:nth-child(1) {
+/* .stars--3 .stars__star:nth-child(1) {
   display: block;
   height: 16px;
   width: 16px;
@@ -140,8 +146,9 @@ body {
   height: 16px;
   width: 16px;
   background-image: url(./images/star.svg);
-}
+} */
 
+/*
 .stars--4 .stars__star:nth-child(1) {
   display: block;
   height: 16px;
@@ -175,4 +182,4 @@ body {
   height: 16px;
   width: 16px;
   background-image: url(./images/star.svg);
-}
+} */
