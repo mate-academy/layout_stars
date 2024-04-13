@@ -11,10 +11,7 @@ body {
   width: 16px;
   height: 16px;
   background-image: url(./images/star-active.svg);
-  display: inline-block;
-  justify-content: center;
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
   margin-right: 4px;
 }
