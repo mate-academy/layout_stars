@@ -15,8 +15,8 @@
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
-  background-size: cover;
   margin-right: 4px;
+  background-position: center center;
 }
 
 .stars--1 :nth-child(-n + 1),
