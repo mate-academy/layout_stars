@@ -22,8 +22,8 @@ Follow
 
 ❗️ Replace `<your_account>` with your Github username and copy the links to `Pull Request` description:
 
-- [DEMO LINK](https://HumenVAsyl.git github.io/layout_stars/)
-- [TEST REPORT LINK](https://HumenVAsyl.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://HumenVAsya.github.io/layout_stars/)
+- [TEST REPORT LINK](https://HumenVAsya.github.io/layout_stars/report/html_report/)
 
 ❗️ Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.
 
