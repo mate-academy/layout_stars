@@ -24,7 +24,6 @@ li {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
 }
 
 .stars__star:not(:last-child) {
