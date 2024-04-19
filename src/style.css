@@ -19,14 +19,6 @@
   margin-left: 4px;
 }
 
-.stars--1,
-.stars--2,
-.stars--3,
-.stars--4,
-.stars--5 {
-  /* margin-top: 4px; */
-}
-
 .stars__star:first-child {
   margin: 0;
 }
