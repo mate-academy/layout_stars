@@ -1,1 +1,12 @@
-/* add styles here */
+@import './starstyles/stars.css';
+@import './starstyles/stars--0.css';
+@import './starstyles/stars--1.css';
+@import './starstyles/stars--2.css';
+@import './starstyles/stars--3.css';
+@import './starstyles/stars--4.css';
+@import './starstyles/stars--5.css';
+
+.page {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,10 @@
+.stars--4 .stars__star:nth-child(1),
+.stars--4 .stars__star:nth-child(2),
+.stars--4 .stars__star:nth-child(3),
+.stars--4 .stars__star:nth-child(4) {
+  background-image: url('../images/star-active.svg');
+}
+
+.stars--4 .stars__star:nth-child(5) {
+  background-image: url('../images/star.svg');
+}
