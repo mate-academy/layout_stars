@@ -5,7 +5,6 @@
 .stars {
   display: flex;
   flex-wrap: wrap;
-  background-repeat: no-repeat;
 }
 
 .stars__star {
@@ -13,6 +12,7 @@
   height: 16px;
   background-image: url(images/star.svg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .stars__star:not(:last-child) {
