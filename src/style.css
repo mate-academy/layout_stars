@@ -15,6 +15,10 @@ body {
   background-position: center;
 }
 
+.stars__star:last-child {
+  margin-right: 0;
+}
+
 .stars--0 .stars__star:nth-child(n + 1),
 .stars--1 .stars__star:nth-child(n + 2),
 .stars--2 .stars__star:nth-child(n + 3),
@@ -23,3 +27,5 @@ body {
 .stars--5 .stars__star:nth-child(n + 6) {
   background-image: url(images/star.svg);
 }
+
+
