@@ -27,5 +27,3 @@ body {
 .stars--5 .stars__star:nth-child(n + 6) {
   background-image: url(images/star.svg);
 }
-
-
