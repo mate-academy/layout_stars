@@ -1,1 +1,50 @@
 /* add styles here */
+body {
+  margin: 0;
+box-sizing: border-box;
+}
+
+
+.stars {
+  display: flex;
+   background-image: url(images/star.svg);
+background-repeat: repeat-x;
+width: 66px;
+
+
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+background-repeat: repeat-x;
+
+
+}
+
+
+.stars--0:hover{
+  background-image: url(images/star-active.svg);
+
+}
+
+.stars--1:hover{
+  background-image: url(images/star-active.svg);
+
+}
+
+.stars--2:hover{
+  background-image: url(images/star-active.svg);
+
+}
+
+.stars--3:hover{
+  background-image: url(images/star-active.svg);
+
+}
+
+.stars--4:hover{
+  background-image: url(images/star-active.svg);
+
+}
+
