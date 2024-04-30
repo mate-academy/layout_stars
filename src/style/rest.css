@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars__star:nth-child(n + 2) {
+  margin-left: 4px;
+}
