@@ -1,9 +1,6 @@
 /* add styles here */
 .page {
-  /* width: fit-content; */
   margin: 0;
-
-  /* padding: 22px; */
 }
 
 .page__content {
@@ -11,9 +8,6 @@
 }
 
 .stars {
-  /* width: fit-content; */
-
-  /* box-sizing: border-box; */
   display: flex;
 }
 
@@ -27,15 +21,6 @@
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
-}
-
-.stars:not(:last-child) {
-  /* margin-bottom: 4px; */
-}
-
-/* #region pseudo */
-.stars--0 .stars__star:nth-child(-n + 0) {
-  background-image: url(/src/images/star-active.svg);
 }
 
 .stars--1 .stars__star:nth-child(-n + 1) {
@@ -58,4 +43,3 @@
   background-image: url(/src/images/star-active.svg);
 }
 
-/* #endregion */
