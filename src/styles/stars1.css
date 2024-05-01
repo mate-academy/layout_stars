@@ -1,8 +1,0 @@
-/* 1 блок */
-.stars--1 :nth-child(1) {
-  background-image: url(../images/star-active.svg);
-}
-
-.stars--1 :nth-child(n + 2) {
-  background-image: url(../images/star.svg);
-}
