@@ -1,19 +1,12 @@
 html {
   margin: 0;
   padding: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 body {
   margin: 0;
   width: 100px;
   height: 100px;
-
-  display: flex;
-  flex-direction: column;
 }
 
 .stars {
@@ -21,6 +14,7 @@ body {
   height: auto;
 
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
