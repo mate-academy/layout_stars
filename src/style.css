@@ -1,1 +1,44 @@
-/* add styles here */
+html {
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url('./images/star.svg');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+}
+
+.stars--0 :nth-child(-n + 0),
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg');
+}
