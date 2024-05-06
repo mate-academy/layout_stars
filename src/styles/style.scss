@@ -1,0 +1,11 @@
+:root {
+  --blue-accent-color: #00acdc;
+  --main-accent-color: #000;
+  --yellow-stars-color: #ffde6a;
+  --secondary-color: #616070;
+  --white-color: #fff;
+  --gray-elements-color: #f3f3f3;
+}
+
+@import '/src/styles/page.css';
+@import '/src/styles/stars.css';
