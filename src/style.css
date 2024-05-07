@@ -1,37 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   margin: 0;
   padding: 0;
-  justify-content: space-between;
-  align-items: center;
 }
 
 body {
   margin: 0;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .stars {
-  width: 100px;
-  height: 100px;
   display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
   background-image: url('./images/star.svg');
-  background-size: 80%;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   display: flex;
+  margin-right: 4px;
 }
 
 .stars--0 :nth-child(-n + 0),
