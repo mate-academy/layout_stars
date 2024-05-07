@@ -4,7 +4,6 @@ body {
 
 .stars {
   display: flex;
-  justify-content: center;
 }
 
 .stars__star {
@@ -12,8 +11,8 @@ body {
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  margin-top: 2px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stars__star:last-child {
