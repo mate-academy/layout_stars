@@ -12,8 +12,6 @@ body {
   background-image: url('./images/star.svg');
   background-position: center;
   background-repeat: no-repeat;
-
-  /* background-size: contain; */
   margin-right: 4px;
 }
 
