@@ -9,11 +9,15 @@ body {
 }
 
 .stars__star {
-  width: 25px;
-  height: 25px;
+  width: 16px;
+  height: 16px;
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
   background-position: center 100%;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 10px;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
