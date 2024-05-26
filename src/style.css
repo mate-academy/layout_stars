@@ -1,1 +1,38 @@
 /* add styles here */
+body {
+  margin: 0;
+}
+
+.container {
+  width: fit-content;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.star {
+  margin: 0 4px 4px 0;
+}
+
+.stars__star--not-active {
+  width: 16px;
+  height: 16px;
+  background-image: url('./images/star.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 4px 0 0;
+}
+
+.stars__star--active {
+  width: 16px;
+  height: 16px;
+  background-image: url('./images/star-active.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 4px 0 0;
+}
