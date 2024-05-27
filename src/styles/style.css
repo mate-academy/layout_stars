@@ -1,0 +1,5 @@
+/* add styles here */
+@import './blocks/header.css';
+@import './blocks/stars.css';
+@import './blocks/bar-stars.css';
+@import './blocks/main.css';
