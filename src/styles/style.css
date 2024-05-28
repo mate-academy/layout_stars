@@ -1,5 +1,6 @@
-/* add styles here */
-@import './blocks/header.css';
-@import './blocks/stars.css';
-@import './blocks/bar-stars.css';
-@import './blocks/main.css';
+/* stylelint-disable-next-line import-notation */
+@import url(blocks/header.css);
+/* stylelint-disable-next-line import-notation */
+@import url(blocks/bar-stars.css);
+/* stylelint-disable-next-line import-notation */
+@import url(blocks/a-stars.css);

@@ -2,3 +2,7 @@ header {
   width: 140px;
   height: 160px;
 }
+
+body {
+  margin: 0;
+}
