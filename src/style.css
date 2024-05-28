@@ -1,1 +1,17 @@
 /* add styles here */
+*{
+  margin: 0;
+  list-style: none;
+}
+
+.star{ display: flex;}
+
+.stars__star{
+  margin: 5px;
+  display: flex;
+  height: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(images/star.svg);
+}
+
