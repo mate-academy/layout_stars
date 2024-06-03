@@ -5,12 +5,11 @@ body {
 }
 
 .main-block {
-  flex-direction: column;
+  flex-wrap: wrap;
   display: flex;
-  margin: 0 auto;
-  height: 94px;
-  width: 100px;
-  justify-content: space-between;
+  height: 96px;
+  width: 116px;
+  place-content: space-around;
 }
 
 .stars {
@@ -22,12 +21,13 @@ body {
 }
 
 .stars__star {
-  content: '';
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 12px;
-  height: 12px;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  position: center;
+  display: inline-block;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0),
