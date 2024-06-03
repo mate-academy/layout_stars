@@ -7,8 +7,6 @@ body {
 .main-block {
   flex-wrap: wrap;
   display: flex;
-  height: 96px;
-  width: 116px;
   place-content: space-around;
 }
 
