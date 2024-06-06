@@ -8,9 +8,8 @@ body {
   padding: 0;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 
-  width: 96px;
   max-height: 116px;
 }
 
@@ -27,6 +26,7 @@ body {
   height: 16px;
 
   margin: 0;
+  margin-right: 4px;
   padding: 0;
 }
 
