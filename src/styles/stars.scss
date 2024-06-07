@@ -1,0 +1,53 @@
+.stars {
+  display: flex;
+
+  &__star {
+    content: '';
+    width: 16px;
+    height: 16px;
+
+    @include no-active-stars;
+
+    &:nth-of-type(1) {
+      margin-right: $commonMargin;
+    }
+
+    &:nth-last-of-type(1) {
+      margin-left: $commonMargin;
+    }
+
+    &:not(&:nth-of-type(1), &:nth-last-of-type(1)) {
+      margin-inline: $commonMargin;
+    }
+  }
+}
+
+.stars--1 {
+  & .stars__star:nth-child(-n + 1) {
+    @include active-stars;
+  }
+}
+
+.stars--2 {
+  & .stars__star:nth-child(-n + 2) {
+    @include active-stars;
+  }
+}
+
+.stars--3 {
+  & .stars__star:nth-child(-n + 3) {
+    @include active-stars;
+  }
+}
+
+.stars--4 {
+  & .stars__star:nth-child(-n + 4) {
+    @include active-stars;
+  }
+}
+
+.stars--5 {
+  & .stars__star:nth-child(-n + 5) {
+    @include active-stars;
+  }
+}
