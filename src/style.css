@@ -5,27 +5,24 @@ body {
 }
 
 .main-block {
-  flex-wrap: wrap;
+  flex-direction: column;
   display: flex;
-  place-content: space-around;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
-  padding-left: 2px;
-  padding-top: 2px;
-  padding-right: 6px;
+  margin-bottom: 0;
 }
 
 .stars__star {
-  background-image: url('./images/star.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 16px;
   height: 16px;
-  position: center;
-  display: inline-block;
+  background-image: url('./images/star.svg');
+  margin-right: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0),
