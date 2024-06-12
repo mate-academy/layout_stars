@@ -1,0 +1,12 @@
+.stars__star {
+  background-image: url(/src/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+  }
+
+.stars__star:last-child {
+  margin-right: 0;
+}
