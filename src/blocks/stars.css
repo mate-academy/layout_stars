@@ -4,7 +4,6 @@
 
 .stars {
   display: flex;
-  justify-content: center;
 }
 
 .stars__star {
@@ -16,8 +15,8 @@
   background-position-y: center;
 }
 
-.stars__star:not(:first-child) {
-  margin-left: 4px;
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--1 :first-child {
