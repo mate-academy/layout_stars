@@ -1,7 +1,7 @@
 .page {
   margin: 0;
   height: 100vh;
-  background: #ccc;
+  background: var(--bg-page);
 
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 .page__content {
-  background: #fff;
+  background: var(--bg-content);
   padding: 0 0 4px;
 
   display: flex;
