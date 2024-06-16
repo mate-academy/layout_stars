@@ -1,1 +1,6 @@
-/* add styles here */
+@import '/src/styles/blocks/page.css';
+@import '/src/styles/blocks/star1.css';
+@import '/src/styles/blocks/star2.css';
+@import '/src/styles/blocks/star3.css';
+@import '/src/styles/blocks/star4.css';
+@import '/src/styles/blocks/star5.css';
