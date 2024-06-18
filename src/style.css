@@ -6,6 +6,7 @@ body {
   display: flex;
 }
 
+
 .stars__star {
   background-position: center;
   background-repeat: no-repeat;
@@ -14,6 +15,7 @@ body {
   width: 16px;
   background-image: url('images/star.svg');
 }
+
 
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
