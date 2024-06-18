@@ -1,7 +1,6 @@
 /* #region main */
 body {
   margin: 0;
-  background-color: #000;
 }
 
 /* #endregion */
@@ -9,8 +8,6 @@ body {
 /* #region main container */
 .stars {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* #endregion */
@@ -22,8 +19,7 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  padding: 4px;
-
+  margin-right: 4px;
 }
 
 /* #endregion */
