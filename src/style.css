@@ -1,8 +1,12 @@
+/* #region Body */
 body {
   margin: 0;
   padding: 0;
 }
 
+/* #endregion */
+
+/* #region Star */
 .stars {
   display: flex;
 }
@@ -25,3 +29,5 @@ body {
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(/src/images/star-active.svg);
 }
+
+/* #endregion */
