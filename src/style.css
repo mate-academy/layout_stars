@@ -15,12 +15,12 @@
 }
 
 .stars__star {
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-right: 4px;
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
