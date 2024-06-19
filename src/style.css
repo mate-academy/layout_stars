@@ -2,30 +2,13 @@
 html,
 body,
 div,
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-img,
-ol,
-ul,
-li,
 footer,
 header,
-menu,
-nav,
-section {
+section,
+ul,
+li {
   margin: 0;
   padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
 }
 
 :root {
@@ -47,13 +30,9 @@ body {
 }
 
 .stars {
-  margin-bottom: 4px;
-  margin-left: 6px;
-}
-
-.stars__list {
   list-style: none;
   display: flex;
+  margin-bottom: 4px;
 }
 
 .stars__list-item {
@@ -62,7 +41,6 @@ body {
   background-image: var(--inactive-star);
   background-size: cover;
   margin-right: 8px;
-  
 }
 
 .stars--0 .stars__list-item:nth-child(-n + 0),
