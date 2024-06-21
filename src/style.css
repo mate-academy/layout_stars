@@ -35,19 +35,19 @@ body {
   margin-bottom: 4px;
 }
 
-.stars__list-item {
+.stars__star {
   width: 12px;
   height: 12px;
   background-image: var(--inactive-star);
   background-size: cover;
-  margin-right: 8px;
+  margin-right: 4px;
 }
 
-.stars--0 .stars__list-item:nth-child(-n + 0),
-.stars--1 .stars__list-item:nth-child(-n + 1),
-.stars--2 .stars__list-item:nth-child(-n + 2),
-.stars--3 .stars__list-item:nth-child(-n + 3),
-.stars--4 .stars__list-item:nth-child(-n + 4),
-.stars--5 .stars__list-item:nth-child(-n + 5) {
+.stars--0 .stars__star:nth-child(-n + 0),
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
   background-image: var(--active-star);
 }
