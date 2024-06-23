@@ -1,0 +1,10 @@
+.stars {
+  display: flex;
+  justify-content: space-between;
+  width: 96px;
+  margin-bottom: 4px;
+}
+
+.stars:last-child {
+  margin-bottom: 0;
+}
