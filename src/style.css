@@ -7,10 +7,6 @@ body {
   width: fit-content;
 }
 
-.stars:nth-child(n + 2) {
-  margin-top: 4px;
-}
-
 .stars__star {
   width: 16px;
   height: 16px;
@@ -29,4 +25,5 @@ body {
 .stars--4 :nth-child(-n + 4),
 .stars--5 :nth-child(-n + 5) {
   background-image: url('./images/star-active.svg');
+  margin-top: 4px;
 }
