@@ -1,7 +1,0 @@
-.stars--2 > .stars__star:nth-child(-n + 2) {
-  background-image: url('../icons/star-active.png');
-}
-
-.stars--2 > .stars__star:nth-child(n + 3) {
-  background-image: url('../icons/star.png');
-}

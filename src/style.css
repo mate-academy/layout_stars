@@ -1,19 +1,66 @@
-@import './styles/general__for__stars.css';
-@import './styles/stars--0.css';
-@import './styles/stars--1.css';
-@import './styles/stars--2.css';
-@import './styles/stars--3.css';
-@import './styles/stars--4.css';
-@import './styles/stars--5.css';
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: lightgray;
+  width: fit-content;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars--0 > .stars__star {
+  background-image: url('images/star.svg');
+}
+
+.stars--5 > .stars__star {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--1 > .stars__star:first-child {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--1 > .stars__star:nth-child(n + 2) {
+  background-image: url('images/star.svg');
+}
+
+.stars--2 > .stars__star:nth-child(-n + 2) {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--2 > .stars__star:nth-child(n + 3) {
+  background-image: url('images/star.svg');
+}
+
+.stars--3 > .stars__star:nth-child(-n + 3) {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--3 > .stars__star:nth-child(n + 4) {
+  background-image: url('images/star.svg');
+}
+
+.stars--4 > .stars__star:nth-child(-n + 4) {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--4 > .stars__star:nth-child(n + 5) {
+  background-image: url('images/star.svg');
 }
