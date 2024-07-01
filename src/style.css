@@ -7,11 +7,10 @@ body {
 .stars-container {
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .stars__block {
-  display: flex; /* Remove gap and use margins */
+  display: flex;
 }
 
 .stars__star {
