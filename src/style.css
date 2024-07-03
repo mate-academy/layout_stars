@@ -1,7 +1,6 @@
 /* add styles here */
-.body{
+.body {
   margin: 0;
-  box-sizing: border-box;
 }
 
 .stars {
@@ -30,22 +29,3 @@
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
 }
-
-
-
-
-
-
-
-/* .star__pad {
-  display: flex;
-  padding: 0 4px 0 0;
-}
-
-div:nth-last-child(1){
-  padding: 0;
-}
-
-section:nth-last-child(1){
-  padding: 0;
-} */
