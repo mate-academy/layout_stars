@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-.block_with_stars {
+.stars {
   display: flex;
 }
 
@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.star__of__stars:last-child {
+.star__stars:last-child {
   margin-left: 0;
 }
 
