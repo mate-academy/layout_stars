@@ -1,7 +1,8 @@
 .stars {
   display: flex;
-  width: 100px;
+  width: 96px;
   height: 16px;
+  padding-right: 4px;
 
   justify-content: space-around;
   align-items: center;
@@ -16,6 +17,10 @@
   background-image: url(../../../src/images/star.svg);
   background-position: center;
   background-size: cover;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0),
