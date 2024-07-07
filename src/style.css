@@ -1,11 +1,6 @@
-/* #region page */
 .page {
   margin: 0;
 }
-
-/* #endregion page */
-
-/* #region stars */
 
 .stars {
   display: flex;
@@ -20,6 +15,10 @@
   margin-right: 4px;
 }
 
+.stars__star:last-child {
+  margin-right: 0;
+}
+
 .stars--1 .stars__star:nth-child(1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
@@ -27,5 +26,3 @@
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
 }
-
-/* #endregion stars */
