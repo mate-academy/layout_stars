@@ -17,7 +17,7 @@ body {
 }
 
 .star__stars:last-child {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
