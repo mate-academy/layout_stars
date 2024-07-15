@@ -16,12 +16,8 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  margin-inline: 2px;
+  margin-right: 4px;
   background-position: center;
-}
-
-.stars :first-child {
-  margin-left: 0;
 }
 
 .stars__star--active {
