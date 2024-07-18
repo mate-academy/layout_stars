@@ -1,1 +1,37 @@
 /* add styles here */
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 160px;
+  background-color: #ffff;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  width: 96px;
+  height: 116px;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.stars--n:nth-child(n) {
+  background-image: url(images/star-active.svg);
+  width: 16px;
+  height: 16px;
+}
