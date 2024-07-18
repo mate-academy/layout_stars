@@ -2,7 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: black;
 }
 
 .container {
@@ -17,8 +16,33 @@ body {
 .block {
   display: flex;
   align-items: center;
+  flex-direction: column;
   width: 96px;
   height: 116px;
+}
+
+.star--0 {
+  display: flex;
+}
+
+.star--1 {
+  display: flex;
+}
+
+.star--2 {
+  display: flex;
+}
+
+.star--3 {
+  display: flex;
+}
+
+.star--4 {
+  display: flex;
+}
+
+.star--5 {
+  display: flex;
 }
 
 .stars__star {
