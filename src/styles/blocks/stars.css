@@ -1,31 +1,29 @@
 .stars {
-    display: flex;
-    position: center;
-  }
-  
+  display: flex;
+  position: center;
+}
+
 .stars__star {
-    display: flex;
-    width: 16px;
-    height: 16px;
-    background-image: url('images/star.svg');
-    position: center;
-    margin-right: 20px;
-  }
-  
+  display: flex;
+  width: 16px;
+  height: 16px;
+  background-image: url('/src/images/star.svg');
+  position: center;
+  margin-right: auto;}
+
 .stars__star.active {
-    background-image: url('images/star-active.svg');
-  }
-  
+  background-image: url(/src/images/star-active.svg);
+}
+
 .stars__star:last-child {
-    margin-right: 0;
-  }
-  
+  margin-right: 0;
+}
+
 .stars--0 .stars__star:nth-child(-n + 0),
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-    background-image: url('images/star-active.svg');
-  }
-  
+  background-image: url(/src/images/star-active.svg);
+}
