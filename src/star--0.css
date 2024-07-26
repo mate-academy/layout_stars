@@ -1,0 +1,10 @@
+.stars--0 .stars__star:nth-child(-n + 5) {
+  background-image: url(/src/images/star.svg);
+  background-size: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .stars--0 {
+  margin-right: 4px;
+} */

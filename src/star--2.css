@@ -1,0 +1,17 @@
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url(/src/images/star-active.svg);
+  background-size: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--2 .stars__star:nth-last-child(-n + 3) {
+  background-image: url(/src/images/star.svg);
+  background-size: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .stars--2 {
+  margin-right: 4px;
+} */
