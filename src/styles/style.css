@@ -1,8 +1,2 @@
 @import './page.css';
-@import './stars.css';
-@import './5stars.css';
-@import './4stars.css';
-@import './3stars.css';
-@import './2stars.css';
-@import './1stars.css';
-@import './0stars.css';
+@import './blocks/stars.css';
