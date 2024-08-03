@@ -9,9 +9,6 @@
 .stars--5 :nth-child(-n + 5) {
   background-image: url(../images/star-active.svg);
   background-repeat: no-repeat;
-  background-position: center;
-  height: 16px;
-  width: 16px;
 }
 
 .stars__star {
