@@ -1,1 +1,75 @@
-/* add styles here */
+/* #region CSS reset  */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+footer,
+header,
+nav,
+aside,
+main,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* #endregion  */
+html,
+body {
+  background-color: #bbb;
+}
+
+.frame--1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 140px;
+  background-color: #fff;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff;
+  width: max-content;
+}
+
+.stars__star {
+  background-image: url(images/star-active.svg);
+  background-position: center;
+  background-size: cover;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+}
+
+.stars--0 :nth-child(n + 0),
+.stars--1 :nth-child(n + 2),
+.stars--2 :nth-child(n + 4),
+.stars--2 :nth-child(n + 6),
+.stars--4 :nth-child(n + 8),
+.stars--5 :nth-child(n + 10) {
+  background-image: url(images/star.svg);
+}
+
+.delimiter {
+  height: 4px;
+  width: 4px;
+  background-image: none;
+  opacity: 0;
+}
