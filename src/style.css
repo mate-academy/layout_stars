@@ -1,49 +1,20 @@
-/* #region CSS reset  */
-html,
-body,
-div,
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-em,
-img,
-footer,
-header,
-nav,
-aside,
-main,
-ul,
-ol {
+body {
   margin: 0;
-  padding: 0;
-  border: 0;
 }
-
-/* #endregion  */
 
 .stars {
   display: flex;
-  flex-direction: row;
-  background-color: #fff;
-  width: min-content;
 }
 
 .stars__star {
-  background-image: url(images/star-active.svg);
+  background-image: url(images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
 
   height: 16px;
   width: 16px;
-  background-color: #fff;
 
-  margin-inline: 2px;
+  margin-right: 4px;
 }
 
 .stars__star:first-child {
@@ -56,11 +27,10 @@ ol {
   z-index: 1;
 }
 
-.stars--0 :nth-child(n + 1),
-.stars--1 :nth-child(n + 2),
-.stars--2 :nth-child(n + 3),
-.stars--3 :nth-child(n + 4),
-.stars--4 :nth-child(n + 5),
-.stars--5 :nth-child(n + 6) {
-  background-image: url(images/star.svg);
+.stars--1 :nth-child(-n + 1),
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
 }
