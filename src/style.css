@@ -8,11 +8,12 @@
 }
 
 .stars__star {
+  background-image: url('images/star.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 4px;
   width: 16px;
   height: 16px;
-  background-image: url('images/star.svg');
-  background-size: cover;
-  margin-right: 4px;
 }
 
 .stars__star:last-child {
