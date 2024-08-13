@@ -1,32 +1,10 @@
-.page {
+body {
   margin: 0;
-  background-color: grey;
-}
-
-.container {
-  display: flex;
-  box-sizing: border-box;
-  padding: 22px;
-  width: 140px;
-  height: 160px;
-  background-color: white;
-}
-
-.container__stars {
-  display: flex;
-  flex-direction: column;
-  width: 96px;
-  height: 116px;
+  padding: 0;
 }
 
 .stars {
-  padding-bottom: 4px;
   display: flex;
-  justify-content: space-between;
-}
-
-.stars:last-child {
-  padding-bottom: 0;
 }
 
 .stars__star {
@@ -35,4 +13,8 @@
   background-position: center;
   width: 16px;
   height: 16px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
