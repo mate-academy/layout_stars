@@ -14,11 +14,9 @@ body {
 }
 
 .stars__star {
-  background-image: url('images/star.svg');
   width: 16px;
   height: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: no-repeat center url('images/star.svg');
 }
 
 .stars__star:not(:first-child) {
