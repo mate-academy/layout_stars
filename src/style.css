@@ -2,22 +2,17 @@ body {
   margin: 0;
 }
 
-ul {
+.stars {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.stars {
-  display: flex;
-}
-
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url('./images/star.svg');
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url('./images/star.svg') no-repeat center;
   margin-right: 4px;
 }
 
