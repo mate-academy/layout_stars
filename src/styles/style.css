@@ -1,0 +1,38 @@
+.page {
+  margin: 0;
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  box-sizing: border-box;
+  padding: 22px;
+  width: 140px;
+  height: 160px;
+  background-color: white;
+}
+
+.container__stars {
+  display: flex;
+  flex-direction: column;
+  width: 96px;
+  height: 116px;
+}
+
+.stars {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.stars:last-child {
+  margin-bottom: 0;
+}
+
+.stars__star {
+  background-image: url(/src/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+  display: flex;
+}
