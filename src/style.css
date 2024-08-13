@@ -6,14 +6,18 @@ body {
   display: flex;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .stars__star {
-  background-image: url(images/star.svg);
-  background-position: center;
+  background: url(images/star.svg) no-repeat center;
   background-size: 13px 12px;
-  background-repeat: no-repeat;
   width: 16px;
   height: 16px;
   margin: 0 4px 0 0;
+  list-style: none;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
