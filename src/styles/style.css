@@ -20,12 +20,13 @@
 }
 
 .stars {
+  padding-bottom: 4px;
   display: flex;
-  margin-bottom: 4px;
+  justify-content: space-between;
 }
 
 .stars:last-child {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .stars__star {
@@ -34,5 +35,4 @@
   background-position: center;
   width: 16px;
   height: 16px;
-  display: flex;
 }
