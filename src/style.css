@@ -8,20 +8,14 @@ body {
   padding: 0;
 }
 
-ul {
+.stars {
+  display: flex;
   padding: 0;
   margin: 0;
 }
 
-li {
-  list-style-type: none;
-}
-
-.stars {
-  display: flex;
-}
-
 .stars__star {
+  list-style-type: none;
   height: 16px;
   width: 16px;
   background: no-repeat var(--star-inactive) center;
