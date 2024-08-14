@@ -1,10 +1,11 @@
-body,
-ul {
+body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
+  margin: 0;
+  padding: 0;
+
   display: flex;
   list-style: none;
 }
@@ -13,9 +14,7 @@ ul {
   height: 16px;
   width: 16px;
 
-  background-image: url(images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: no-repeat center url(images/star.svg);
 }
 
 .stars__star:not(:last-child) {
