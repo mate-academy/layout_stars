@@ -22,7 +22,7 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url(./images/star.svg) center no-repeat;
+  background: url(./images/star.svg) center no-repeat;
 }
 
 .stars__star:not(:last-child) {
@@ -34,5 +34,5 @@ body {
 .stars--3 > .stars__star:nth-child(-n + 3),
 .stars--4 > .stars__star:nth-child(-n + 4),
 .stars--5 > .stars__star:nth-child(-n + 5) {
-  background-image: url(./images/star-active.svg);
+  background: url(./images/star-active.svg) center no-repeat;
 }
