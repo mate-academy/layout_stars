@@ -2,24 +2,12 @@
   margin: 0;
 }
 
-.allstars {
-  height: 160px;
-  width: 140px;
-
-  /* background-color: rgb(162, 199, 238); */
-}
-
 .stars {
   display: flex;
-  margin-left: 22px;
 }
 
 .stars :not(:last-child) {
   margin-right: 4px;
-}
-
-.stars--0 {
-  padding-top: 22px;
 }
 
 .stars__star {
