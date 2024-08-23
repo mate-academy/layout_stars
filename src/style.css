@@ -1,7 +1,5 @@
-/* add styles here */
 body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
@@ -9,12 +7,12 @@ body {
 }
 
 .stars__stars {
-  content: '';
-  background-image: url(images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(images/star.svg) no-repeat center;
   width: 16px;
   height: 16px;
+}
+
+.stars__stars:not(:last-child) {
   margin-right: 4px;
 }
 
