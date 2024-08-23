@@ -5,7 +5,7 @@ body {
 
 /* #endregion */
 
-/* #region Stars Inactive */
+/* #region Stars */
 .stars {
   display: flex;
 }
@@ -23,9 +23,6 @@ body {
   margin-left: 0;
 }
 
-/* #endregion */
-
-/* #region Stars Active */
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
