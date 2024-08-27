@@ -7,7 +7,7 @@
 .stars {
   width: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .stars__star {
@@ -21,11 +21,9 @@
 }
 
 
-/* Tests fail without right margin for the last .stars__star in the row
-  .stars__star:last-of-type {
-    margin-right: 0;
-} */
-
+.stars__star:last-of-type {
+  margin-right: 0;
+}
 
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
