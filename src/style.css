@@ -1,1 +1,40 @@
 /* add styles here */
+body {
+  margin: 0;
+}
+
+/* .stars-block__content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+} */
+
+.stars-block__list {
+  padding: 2px 2px 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 4px;
+}
+
+.stars-block__item {
+  height: 16px;
+  width: 16px;
+}
+
+.icon {
+  display: block;
+  height: 12px;
+  width: 12px;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.icon--active {
+  background-image: url(./images/star-active.svg);
+}
+
+.icon--inactive {
+  background-image: url(./images/star.svg);
+}
