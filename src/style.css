@@ -13,7 +13,7 @@
 .all-stars {
   width: 96px;
   height: 116px;
-margin: 22px;
+  margin: 22px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -23,7 +23,7 @@ border: 1px solid red;
 .stars {
   height: 16px;
   display: flex;
-  justify-content: space-around;
+
   border: 1px solid green;
 }
 
@@ -35,10 +35,10 @@ border: 1px solid red;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-
+    margin: 0 4px 0 0;
 background-position: center;
     background-repeat: no-repeat;
-    margin: 0 2px;
+
 }
 
 .star {
@@ -49,10 +49,18 @@ background-position: center;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    margin: 0 2px;
+    margin: 0 4px 0 0;
 background-position: center;
     background-repeat: no-repeat;
 
+}
+
+.star-active:last-child {
+  margin-right: 0;
+}
+
+.star:last-child {
+  margin-right: 0;
 }
 
 
