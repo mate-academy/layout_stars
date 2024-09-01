@@ -1,1 +1,59 @@
 /* add styles here */
+* {
+  margin: 0;
+}
+
+.body {
+  width: 140px;
+  height: 160px;
+  border: 1px solid black;
+
+}
+
+.all-stars {
+  width: 96px;
+  height: 116px;
+margin: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+border: 1px solid red;
+}
+
+.stars {
+  height: 16px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid green;
+}
+
+.star-active {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star-active.svg);
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 2px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 0 2px;
+background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
