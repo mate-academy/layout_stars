@@ -1,58 +1,46 @@
 /* add styles here */
 * {
   margin: 0;
+  display: flex;
 }
 
 .body {
   width: 140px;
   height: 160px;
-  border: 1px solid black;
-
 }
 
 .all-stars {
   width: 96px;
   height: 116px;
   margin: 22px;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
-border: 1px solid red;
 }
 
 .stars {
   height: 16px;
-  display: flex;
-
-  border: 1px solid green;
 }
 
 .star-active {
   width: 16px;
   height: 16px;
   background-image: url(images/star-active.svg);
-
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    margin: 0 4px 0 0;
-background-position: center;
-    background-repeat: no-repeat;
-
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 4px 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .star {
   width: 16px;
   height: 16px;
   background-image: url(images/star.svg);
-
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    margin: 0 4px 0 0;
-background-position: center;
-    background-repeat: no-repeat;
-
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 4px 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .star-active:last-child {
@@ -62,6 +50,3 @@ background-position: center;
 .star:last-child {
   margin-right: 0;
 }
-
-
-
