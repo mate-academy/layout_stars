@@ -3,13 +3,13 @@ body {
   margin: 0;
 }
 
-/* .stars-block__content {
+/* .stars__content {
   display: flex;
   flex-direction: column;
   gap: 4px;
 } */
 
-.stars-block__list {
+.stars__line {
   padding: 2px 2px 0;
   margin: 0;
   list-style: none;
@@ -17,7 +17,7 @@ body {
   gap: 4px;
 }
 
-.stars-block__item {
+.stars__star {
   height: 14px;
   width: 16px;
 }
