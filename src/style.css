@@ -5,17 +5,15 @@ body {
 
 .stars {
   display: flex;
-  gap: 4px;
 }
 
 .stars__star {
-  height: 12px;
-  width: 12px;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  margin: 2px;
 }
 
 .stars--1 :first-child,
