@@ -9,18 +9,19 @@ body {
 }
 
 .stars__star {
-  height: 16px;
-  width: 16px;
+  height: 12px;
+  width: 12px;
   background-image: url(images/star.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 2px;
 }
 
-.stars--1:first-child,
-.stars--2:nth-child(-n + 2),
-.stars--3:nth-child(-n + 3),
-.stars--4:nth-child(-n + 4),
-.stars--5:nth-child(-n + 5) {
+.stars--1 :first-child,
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
+.stars--4 :nth-child(-n + 4),
+.stars--5 :nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
 }
