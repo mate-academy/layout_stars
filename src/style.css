@@ -1,7 +1,6 @@
 /* add styles here */
 * {
   margin: 0;
-  display: flex;
 }
 
 .body {
@@ -10,6 +9,7 @@
 }
 
 .all-stars {
+  display: flex;
   width: 96px;
   height: 116px;
   margin: 22px;
@@ -18,6 +18,7 @@
 }
 
 .stars {
+  display: flex;
   height: 16px;
 }
 
