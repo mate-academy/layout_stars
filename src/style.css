@@ -1,27 +1,12 @@
 /* add styles here */
 
-.body {
-  margin: 0;
-  width: 140px;
-  height: 160px;
-}
-
-.all-stars {
-  display: flex;
-  width: 96px;
-  margin: 22px;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .stars {
   display: flex;
-  height: 16px;
 }
 
 .stars__star {
   width: 16px;
-
+  height: 16px;
   background-image: url(images/star.svg);
   box-sizing: border-box;
   align-items: center;
