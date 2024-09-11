@@ -12,7 +12,7 @@
   width: 16px;
   height: 16px;
   background-image: url(images/star.svg);
-  background-position: 50%;
+  background-position: center;
   background-repeat: no-repeat;
   margin-right: 4px;
 }
