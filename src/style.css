@@ -1,12 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  width: 140px;
 }
 
 .stars {
   display: flex;
-  padding-left: 20px;
   background-image: none;
 }
 
