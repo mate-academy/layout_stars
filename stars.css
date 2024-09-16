@@ -1,0 +1,30 @@
+.container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  width: 96px;
+  overflow: hidden;
+}
+
+.stars__star {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.check__box {
+  display: inline-block;
+  position: absolute;
+  width: 13px;
+  height: 12px;
+  background-image: url(../src/images/star.svg);
+}
+
+.stars__star:checked + .check__box {
+  background-image: url(../src/images/star-active.svg);
+}
+
