@@ -25,6 +25,7 @@
   background-image: url(./images/star-active.svg);
 }
 
+.stars--0 :last-child,
 .stars--1 :last-child,
 .stars--2 :last-child,
 .stars--3 :last-child,
