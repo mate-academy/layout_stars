@@ -1,11 +1,7 @@
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
 }
 
 .stars {
@@ -14,6 +10,7 @@ body {
 }
 
 .stars__star {
+  font-family: Arial, sans-serif;
   width: 16px;
   height: 16px;
   margin-right: 4px;
