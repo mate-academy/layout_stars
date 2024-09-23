@@ -10,7 +10,6 @@
   justify-content: space-between;
   align-items: center;
   height: 116px;
-  width: 96px;
 }
 
 .stars {
@@ -27,6 +26,7 @@
   list-style-type: none;
   height: 16px;
   width: 16px;
+  margin: 2px;
 }
 
 .stars__star:first-child {
