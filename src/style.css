@@ -9,6 +9,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 116px;
+  width: 96px;
 }
 
 .stars {
@@ -16,7 +18,7 @@
   justify-content: center;
   flex-direction: row;
   align-items: stretch;
-  margin: 0;
+  box-sizing: border-box;
 }
 
 .stars__star {
@@ -25,7 +27,6 @@
   list-style-type: none;
   height: 16px;
   width: 16px;
-  margin: 2px;
 }
 
 .stars__star:first-child {
@@ -55,8 +56,3 @@
 .stars--1 .stars__star:nth-child(1) {
   background-image: url(../stars/yellow_star.png);
 }
-
-
-
-
-
