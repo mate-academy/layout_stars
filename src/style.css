@@ -4,14 +4,6 @@
   padding: 0;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 116px;
-} */
-
 .stars {
   display: flex;
   justify-content: center;
@@ -36,4 +28,3 @@
 .stars__star:last-child {
   margin-right: 0;
 }
-
