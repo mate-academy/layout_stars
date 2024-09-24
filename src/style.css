@@ -1,18 +1,14 @@
 /* #region head */
-html {
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 /* #endregion */
 
-/* #region starts */
-
+/* #region stars */
 .stars {
   display: flex;
   align-items: center;
