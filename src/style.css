@@ -4,13 +4,13 @@
   padding: 0;
 }
 
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 116px;
-}
+} */
 
 .stars {
   display: flex;
@@ -29,13 +29,13 @@
   margin: 2px;
 }
 
-.stars__star:first-child {
+/* .stars__star:first-child {
   margin-left: 0;
 }
 
 .stars__star:last-child {
   margin-right: 0;
-}
+} */
 
 .stars--5 .stars__star {
   background-image: url(../stars/yellow_star.png);
