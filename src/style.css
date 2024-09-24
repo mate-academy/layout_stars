@@ -5,7 +5,7 @@ html {
   box-sizing: border-box;
 }
 
-.body {
+body {
   margin: 0;
 }
 
@@ -13,22 +13,8 @@ html {
 
 /* #region starts */
 
-/* .all__stars {
-  display: flex;
-  height: 100vh;
-  width: 100vh;
-  box-sizing: border-box;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
 .stars {
   display: flex;
-
-  /* width: fit-content;
-  justify-content: flex-start;
-  margin-bottom: 10px; */
 }
 
 .stars__star {
