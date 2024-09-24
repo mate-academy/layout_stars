@@ -29,13 +29,13 @@
   margin: 2px;
 }
 
-/* .stars__star:first-child {
+ .stars__star:first-child {
   margin-left: 0;
 }
 
 .stars__star:last-child {
   margin-right: 0;
-} */
+} 
 
 .stars--0 .stars__star {
   padding-top: 0;
