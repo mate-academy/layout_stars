@@ -10,16 +10,13 @@
 }
 
 .stars__star {
-  display: flex;
+  box-sizing: border-box;
+  background-image: url(/src/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 16px;
   height: 16px;
-  background-image: url('/src/images/star.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  align-items: center;
-  margin: 4px;
-  border-radius: 0.5px;
+  margin-right: 4px;
 }
 
 .stars__star.active {
