@@ -1,5 +1,4 @@
-* {
-  box-sizing: border-box;
+body {
   margin: 0;
   padding: 0;
 }
@@ -10,6 +9,8 @@
   flex-direction: row;
   align-items: stretch;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .stars__star {

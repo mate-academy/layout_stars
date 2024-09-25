@@ -29,4 +29,4 @@ Follow
 - [x] Yellow stars are added with container modifier + pseudo-selector (NO extra classes)
 - [x] Each BEM block has its own separate file
 - [x] All `Typical Mistakes` from `BEM` lesson theory are checked.
-- [x] Code follows all the [Code Style Rulq
+- [x] Code follows all the Code Style Rules!
