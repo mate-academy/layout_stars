@@ -1,1 +1,85 @@
-/* add styles here */
+body {
+  width: 140px;
+  height: 160px;
+  top: -318px;
+  left: -435px;
+  background: #f3f3f3;
+}
+
+.container {
+  padding: 22px;
+  top: 22px;
+  display: flex;
+  border: 1px solid transparent;
+  flex-wrap: wrap;
+  background: #ffffff;
+}
+
+.element {
+  width: 16px;
+  height: 16px;
+  margin: auto;
+  background-image: url('images/star-active.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--1 {
+  background-image: url('images/star.svg');
+}
+
+.stars--2 {
+  background-image: url('images/star.svg');
+}
+
+.stars--3 {
+  background-image: url('images/star.svg');
+}
+
+.stars--4 {
+  background-image: url('images/star.svg');
+}
+
+.stars--5 {
+  background-image: url('images/star.svg');
+}
+
+.stars--7 {
+  background-image: url('images/star.svg');
+}
+
+.stars--8 {
+  background-image: url('images/star.svg');
+}
+
+.stars--9 {
+  background-image: url('images/star.svg');
+}
+
+.stars--10 {
+  background-image: url('images/star.svg');
+}
+
+.stars--13 {
+  background-image: url('images/star.svg');
+}
+
+.stars--14 {
+  background-image: url('images/star.svg');
+}
+
+.stars--15 {
+  background-image: url('images/star.svg');
+}
+
+.stars--19 {
+  background-image: url('images/star.svg');
+}
+
+.stars--20 {
+  background-image: url('images/star.svg');
+}
+
+.stars--25 {
+  background-image: url('images/star.svg');
+}
