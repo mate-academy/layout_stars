@@ -1,1 +1,29 @@
-/* add styles here */
+.stars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.stars__row {
+  display: flex;
+  gap: 5px;
+}
+
+.stars__star {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-size: cover;
+  background-image: url('../src/images/star.svg');
+}
+
+.stars--yellow .stars__row:nth-child(2) .stars__star:nth-child(-n+1),
+.stars--yellow .stars__row:nth-child(3) .stars__star:nth-child(-n+2),
+.stars--yellow .stars__row:nth-child(4) .stars__star:nth-child(-n+3),
+.stars--yellow .stars__row:nth-child(5) .stars__star:nth-child(-n+4),
+.stars--yellow .stars__row:nth-child(6) .stars__star:nth-child(-n+5) {
+  background-image: url('../src/images/star-active.svg');
+}
+
