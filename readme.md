@@ -6,6 +6,7 @@ Follow
 > Here are the [Layout Tasks Instructions](https://mate-academy.github.io/layout_task-guideline)
 
 ## Requirements:
+
 - Reset browser's default `margin`
 - Add 6 `stars` blocks with 5 `stars__star` elements each.
 - Add `stars--0`, `stars--1`, `stars--2` ... `stars--5` modifiers to the blocks one per each
@@ -21,8 +22,8 @@ Follow
 
 ❗️ Replace `<your_account>` with your Github username and copy the links to `Pull Request` description:
 
-- [DEMO LINK](https://<your_account>.github.io/layout_stars/)
-- [TEST REPORT LINK](https://<your_account>.github.io/layout_stars/report/html_report/)
+- [DEMO LINK](https://monikaiengibarian.github.io/layout_stars/)
+- [TEST REPORT LINK](https://monikaiengibarian.github.io/layout_stars/report/html_report/)
 
 ❗️ Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.
 
