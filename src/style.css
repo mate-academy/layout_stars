@@ -1,16 +1,7 @@
-/* add styles here */
-:root{
-  --background-image: url(./images/star.svg);
-  --background-activeimage: url(./images/star-active.svg);
-}
-
-*{
-  box-sizing: border-box;
-}
-
-html{
+body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .stars {
@@ -20,14 +11,14 @@ html{
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: var(--background-image);
+  background-image: url(./images/star.svg);
   background-position: center;
   margin-right: 4px;
   background-repeat: no-repeat;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0) {
-  background-image: var(--background-activeimage);
+  background-image: url(./images/star-active.svg);
 }
 
 .stars--1 .stars__star:nth-child(1),
@@ -35,6 +26,5 @@ html{
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: var(--background-activeimage);
+  background-image: url(./images/star-active.svg);
 }
-
