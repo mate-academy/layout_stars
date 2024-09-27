@@ -14,7 +14,7 @@ body {
 }
 
 .stars__star {
-  background-image: url(../stars/white_star.png);
+  background-image: url(images/star.svg);
   background-repeat: no-repeat;
   list-style-type: none;
   height: 16px;
