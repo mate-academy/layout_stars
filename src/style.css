@@ -40,3 +40,7 @@
 .stars--5 .stars__star:nth-child(5) {
   background-image: url(/src/images/star-active.svg);
 }
+
+.stars :last-child {
+  margin-right: 0;
+}
