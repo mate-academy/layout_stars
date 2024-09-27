@@ -2,19 +2,13 @@
   margin: 0;
 }
 
-section {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
 .stars {
   display: flex;
+  margin: 0;
 }
 
 .stars__star {
+  margin: 0;
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
