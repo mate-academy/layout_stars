@@ -1,4 +1,5 @@
 .stars--5 .stars__star {
   background-image: url(images/star-active.svg);
-  margin-bottom: 2px;
+  
+/*  margin-bottom: 2px; */
 }
