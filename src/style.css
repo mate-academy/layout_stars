@@ -19,14 +19,14 @@ body {
   list-style-type: none;
   height: 16px;
   width: 16px;
-  margin: 0 2px 2px;
+  margin: 0 2px;
   padding: 0;
 }
 
-.stars__star:first-child {
+/* .stars__star:first-child {
   margin-left: 0;
 }
 
 .stars__star:last-child {
   margin-right: 0;
-}
+} */
