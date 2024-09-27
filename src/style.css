@@ -20,6 +20,7 @@ body {
   height: 16px;
   width: 16px;
   margin: 0 2px;
+  padding: 0;
 }
 
 .stars__star:first-child {
