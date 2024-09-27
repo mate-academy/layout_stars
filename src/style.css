@@ -19,7 +19,7 @@ body {
   list-style-type: none;
   height: 16px;
   width: 16px;
-  margin: 2px;
+  margin: 0 2px;
 }
 
 .stars__star:first-child {
