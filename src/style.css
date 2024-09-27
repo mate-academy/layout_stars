@@ -9,7 +9,6 @@ body {
   flex-direction: row;
   align-items: stretch;
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
 }
 
@@ -20,7 +19,6 @@ body {
   height: 16px;
   width: 16px;
   margin: 0 2px;
-  padding-top: 2px;
 }
 
 .stars__star:first-child {
