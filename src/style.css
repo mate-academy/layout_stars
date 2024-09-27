@@ -15,7 +15,7 @@ body {
 
 .stars__star {
   position: relative;
-  top: 2px;
+  top: 1px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   list-style-type: none;
