@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 2px;
+  padding-top: 2px;
 }
 
 .stars {
@@ -21,7 +21,6 @@ body {
   height: 16px;
   width: 16px;
   margin: 0 2px;
-  padding: 2px;
 }
 
 /* .stars__star:first-child {
