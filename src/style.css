@@ -17,6 +17,7 @@ body {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   list-style-type: none;
+  vertical-align: middle;
   height: 16px;
   width: 16px;
   margin: 0 2px;
