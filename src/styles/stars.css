@@ -1,21 +1,21 @@
 :root {
   --star-size: 16px;
   --star-margin: 4px;
-  --star-inactive: url('../images/star.svg');
-  --star-active: url('../images/star-active.svg');
+  --star-inactive: url('/src/images/star.svg');
+  --star-active: url('/src/images/star-active.svg');
 }
 
 .stars {
   display: flex;
-  padding: 2px 0;
 }
 
 .stars__star {
   width: var(--star-size);
   height: var(--star-size);
   background-image: var(--star-inactive);
-  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  margin-right: var(--star-margin);
 }
 
 .stars__star:not(:last-child) {
