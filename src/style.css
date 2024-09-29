@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  padding-top: 2px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .stars {
@@ -9,24 +10,19 @@ body {
   flex-direction: row;
   align-items: center;
   box-sizing: border-box;
-  line-height: 0;
-  padding: 0;
+  padding-inline-start: 0;
+  list-style-type: none;
   margin: 0;
 }
 
 .stars__star {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  list-style-type: none;
   height: 16px;
   width: 16px;
-  margin: 0 2px;
-}
-
-/* .stars__star:first-child {
-  margin-left: 0;
+  margin-right: 4px;
 }
 
 .stars__star:last-child {
   margin-right: 0;
-} */
+}
