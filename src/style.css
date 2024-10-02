@@ -1,13 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .stars {
   margin: 0;
 }
 
-.stars ul {
+.stars__list {
   list-style: none;
   padding: 0;
   display: flex;
