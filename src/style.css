@@ -19,6 +19,10 @@ html {
   background-image: url('./images/star.svg');
 }
 
+.stars__star:last-child {
+  margin-right: 0;
+}
+
 .stars.stars--1 > .stars__star:nth-child(-n + 1),
 .stars.stars--2 > .stars__star:nth-child(-n + 2),
 .stars.stars--3 > .stars__star:nth-child(-n + 3),
