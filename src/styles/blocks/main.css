@@ -10,16 +10,12 @@ main {
   flex-direction: column;
   justify-content: center;
   contain: content;
-  width: 96px;
-  height: 116px;
-  padding-top: 22px;
-  padding-left: 22px;
-  padding-bottom: 22px;
 }
 
 .stars {
   display: flex;
   justify-content: center;
+  margin: 0 22px;
 }
 
 .stars__star {
@@ -27,8 +23,10 @@ main {
   width: 16px;
   height: 16px;
   background-position: center;
-  padding-left: 4px;
   background-repeat: no-repeat;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  border-radius: 0.5px;
 }
 
 .stars--0 .stars__star {
