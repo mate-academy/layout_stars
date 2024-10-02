@@ -1,5 +1,5 @@
 /* add styles here */
-body {
+.page__body {
   margin: 0;
 }
 
@@ -13,7 +13,7 @@ body {
   background-position: center;
   width: 16px;
   height: 16px;
-  margin-right: 4px;
+  margin: 0 4px 0 0;
 }
 
 .stars__star:last-child {
