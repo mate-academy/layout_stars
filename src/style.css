@@ -1,20 +1,13 @@
-* {
+body {
+  display: block;
+  unicode-bidi: isolate;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  display: block;
-}
-
-/* Блок зірок */
 .stars {
   display: flex;
-}
-
-div {
-  unicode-bidi: isolate;
 }
 
 .stars__star {
