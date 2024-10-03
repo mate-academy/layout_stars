@@ -1,5 +1,5 @@
 .body {
-  margin: 0;
+  margin-top: 0;
 }
 
 .stars {
@@ -16,7 +16,7 @@
 }
 
 .rating-star:last-child {
-  margin-right: 0;
+  margin-right: 4px;
 }
 
 .stars--1 .rating-star:nth-child(-n + 1) {
