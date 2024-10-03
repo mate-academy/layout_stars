@@ -16,7 +16,8 @@
 }
 
 .rating-star:last-child {
-  margin-right: 4px;
+  margin-right: 0;
+  margin-top: 0;
 }
 
 .stars--1 .rating-star:nth-child(-n + 1) {
