@@ -10,7 +10,7 @@ body {
   width: 16px;
   height: 16px;
   margin-right: 4px;
-
+  font-family: Arial, sans-serif;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
