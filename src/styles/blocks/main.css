@@ -2,20 +2,20 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin: 0;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  contain: content;
+  margin: 0;
+  height: 116px;
+  width: 96px;
 }
 
 .stars {
   display: flex;
   justify-content: center;
-  margin: 0 22px;
 }
 
 .stars__star {
@@ -24,9 +24,8 @@ main {
   height: 16px;
   background-position: center;
   background-repeat: no-repeat;
-  margin-left: 4px;
-  margin-bottom: 4px;
-  border-radius: 0.5px;
+  padding-left: 4px;
+  margin: 0;
 }
 
 .stars--0 .stars__star {
@@ -47,4 +46,8 @@ main {
 
 .stars--4 .stars__star:nth-child(n + 5) {
   background-image: url(../../images/star.svg);
+}
+
+.stars .stars__star:first-child {
+  padding-left: 0;
 }
