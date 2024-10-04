@@ -4,8 +4,8 @@ body {
 }
 
 .stars__container {
-  width: 96px;
-  height: 116px;
+  min-width: 96px;
+  min-height: 116px;
   border-radius: 0.5px;
   position: absolute;
   display: flex;
