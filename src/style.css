@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: block;
-}
-
 .stars {
   display: flex;
 }
@@ -15,10 +11,8 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
-  background-repeat: no-repeat;
-  background-image: url('/src/images/star.svg');
   margin-right: 4px;
-  background-position: 50%;
+  background: url('/src/images/star.svg') no-repeat 50%;
 }
 
 .stars--1 .stars__star:nth-child(1),
