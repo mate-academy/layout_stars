@@ -135,17 +135,17 @@
 
   GOOD example
   ```html
-  <img alt="Samsung Galaxy S22 2022 8/128GB Green" />
+  <div alt="Samsung Galaxy S22 2022 8/128GB Green" />
   ```
 
   REALLY BAD example
   ```html
-  <img alt="image" />
+  <div alt="image" />
   ```
 
   STILL BAD example
   ```html
-  <img alt="phone" />
+  <div alt="phone" />
   ```
 </details>
 
