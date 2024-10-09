@@ -16,7 +16,7 @@
 
 /* this margin is used instead `gap` property */
 .stars__star:not(:last-child) {
-  margin-right: 6;
+  margin-right: 6px;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
