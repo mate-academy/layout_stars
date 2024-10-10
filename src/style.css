@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
 }
 
-.stars__star:not(last-child) {
+.stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
