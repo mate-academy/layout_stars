@@ -1,11 +1,10 @@
-body {
+.page {
   margin: 0;
 }
 
 .stars {
   display: flex;
   justify-content: space-between;
-  width: 96px;
   padding-right: 4px;
 }
 
