@@ -1,4 +1,4 @@
-body {
+.body {
   margin: 0;
 }
 
@@ -15,8 +15,12 @@ body {
   background-repeat: no-repeat;
 }
 
-.stars--0 > * {
+.stars--0 > .stars__star {
   background-image: url(images/star.svg);
+}
+
+.stars--5 > .stars__star {
+  background-image: url(images/star-active.svg);
 }
 
 .stars--1 .stars__star:nth-child(1) {
@@ -49,10 +53,6 @@ body {
 
 .stars--4 .stars__star:nth-child(1n + 5) {
   background-image: url(images/star.svg);
-}
-
-.stars--5 > * {
-  background-image: url(images/star-active.svg);
 }
 
 .stars .stars__star:last-child {
