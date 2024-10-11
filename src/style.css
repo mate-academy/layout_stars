@@ -2,19 +2,16 @@
 
 .page__body {
   margin: 0;
-  width: 100px;
-  height: 116px;
 }
 
 .stars {
-  display: flex;
+  justify-content: align-items;
 }
 
 /* #endregion */
 
 /* #region gray stars */
 .stars__star {
-  display: block;
   width: 16px;
   height: 16px;
   background-image: url(images/star.svg);
