@@ -2,8 +2,8 @@
 
 .page__body {
   margin: 0;
-  gap: 0;
-  opacity: 0;
+  width: 100px;
+  height: 116px;
 }
 
 .stars {
@@ -20,6 +20,7 @@
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 4px;
 }
 
 /* #endregion */
@@ -34,9 +35,6 @@
 }
 
 /* #endregion */
-
-/* #region margins-zero */
-/* stylelint-disable-next-line no-descending-specificity */
-.stars .stars__star:first-of-type {
-  margin-left: 4px;
+.stars .stars__star:last-child {
+  margin-right: 0;
 }
