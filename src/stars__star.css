@@ -1,0 +1,14 @@
+/* stars__star.css */
+.stars__star {
+  width: 16px; /* Defina a largura conforme o design do Figma */
+  height: 16px; /* Defina a altura conforme o design do Figma */
+  background-image: url('images/star.svg'); /* Ajuste o caminho da imagem conforme necessário */
+  background-repeat: no-repeat;
+  display: inline-block; /* Para permitir o uso do background-image */
+  margin-top: 0; /* Defina a distância entre as estrelas conforme o design do Figma */
+  margin-left: 0; /* Defina a distância entre as estrelas conforme o design do Figma */
+}
+
+.stars__star:not(:first-child) {
+  margin-left: 4px; /* Defina a distância horizontal entre as estrelas */
+}
