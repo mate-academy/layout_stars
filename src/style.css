@@ -1,10 +1,4 @@
 /* add styles here */
-html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   padding: 0;
   margin: 0;
@@ -12,7 +6,6 @@ body {
 
 .stars {
   display: flex;
-  margin-bottom: 0;
 }
 
 .stars__star {
