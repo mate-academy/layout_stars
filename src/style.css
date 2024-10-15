@@ -1,5 +1,4 @@
-/* add styles here */
-body {
+.body {
   margin: 0;
 }
 
@@ -8,10 +7,8 @@ body {
 }
 
 .stars__star {
-  /* box-sizing: border-box; */
   width: 16px;
   height: 16px;
-  border-radius: 0.5px;
   background-image: url(./images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
