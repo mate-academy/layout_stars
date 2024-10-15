@@ -18,14 +18,6 @@ body {
   background-position: center;
 }
 
-.stars--0 .stars__star {
-  margin-top: 0;
-}
-
-.stars--5 .stars__star {
-  margin-bottom: 0;
-}
-
 .stars__star:first-child {
   margin-left: 0;
 }
