@@ -4,13 +4,7 @@
   padding-left: 0;
   list-style-type: none;
   justify-content: flex-start;
-
-  /* start */
-
-  /* justify-content: space-between; */
   width: fit-content;
-
-  /* end */
 }
 
 .stars__star {
@@ -18,22 +12,11 @@
   background: url(./images/star.svg) center no-repeat;
   height: 16px;
   width: 16px;
+}
 
-  /* #region alternative options */
-
-  /* margin: 0; */
+.stars__star:not(:last-child) {
   margin-right: 4px;
-
-  /* #endregion */
 }
-
-/* #region alternative options */
-
-.stars__star:last-child {
-  margin-right: 0;
-}
-
-/* #endregion */
 
 .stars--0 :nth-child(-n + 0) {
   background-image: url(./images/star-active.svg);
