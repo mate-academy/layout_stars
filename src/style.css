@@ -1,4 +1,4 @@
-body {
+.page {
   margin: 0;
 }
 
@@ -18,30 +18,20 @@ body {
 
 .stars--1:nth-child(1) {
   background-image: url('./images/star-active.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .stars--2:nth-child(2) {
   background-image: url('./images/star-active.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .stars--3:nth-child(3) {
   background-image: url('./images/star-active.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .stars--4:nth-child(4) {
   background-image: url('./images/star-active.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .stars--5:nth-child(5) {
   background-image: url('./images/star-active.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
