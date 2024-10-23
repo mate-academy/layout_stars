@@ -1,0 +1,10 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+
+  /* height: 116px;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 22px;
+  width: 96px; */
+}
