@@ -1,0 +1,37 @@
+/* add styles here */
+@import 'blocks/stars--0.css';
+@import 'blocks/stars--1.css';
+@import 'blocks/stars--2.css';
+@import 'blocks/stars--3.css';
+@import 'blocks/stars--4.css';
+@import 'blocks/stars--5.css';
+
+:root {
+  --star-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main * {
+  display: flex;
+  flex-direction: row;
+}
+
+.main > * div:nth-child(n + 2) {
+  margin-left: 4px;
+}
+
+.main > * > .stars__star {
+  height: var(--star-size);
+  width: var(--star-size);
+  background-repeat: no-repeat;
+  background-position: center;
+}
