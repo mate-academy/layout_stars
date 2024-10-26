@@ -1,24 +1,6 @@
 /* add styles here */
-* {
+html {
   box-sizing: border-box;
   margin: 0;
 }
 
-.stars {
-  display: flex;
-  color: #f3f3f3;
-}
-
-.stars__star {
-  width: 16px;
-  height: 16px;
-  background-image: url(images/star.svg);
-  background-size: 16px 16px;
-  margin-right: 6px;
-  margin-top: 6px;
-}
-
-.active {
-  background-image: url(images/star-active.svg);
-  color: #ffde6a;
-}
