@@ -1,1 +1,34 @@
 /* add styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars-block {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url('../src/images/star.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+
+.stars__star--active {
+  background-image: url('../src/images/star-active.svg');
+}
+
+.stars-block .stars__star:last-child {
+  margin-right: 0;
+}
