@@ -2,24 +2,13 @@
   margin: 0;
 }
 
-.container {
-  height: 96px;
-
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
 .stars {
-  width: 96px;
-
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
 }
 
 .stars__star {
-  margin: 2px 1.5px 1.5px 2px;
+  margin: 2px 5px 2px 2px;
   background-image: url(./images/star.svg);
   width: 13px;
   height: 12px;
