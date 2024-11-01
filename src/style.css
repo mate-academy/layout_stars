@@ -1,17 +1,19 @@
-* {
+
+body, html, section {
   margin: 0;
+  padding: 0;
 }
 
 .stars {
   display: flex;
-  width: fit-content;
 }
 
 .stars__star {
-  width: 16px;
-  height: 16px;
-  background-image: url("./images/star.svg");
+  width: 20px;
+  height: 20px;
+  background-image: url('./images/star.svg');
   background-size: cover;
+  margin-right: 5px;
 }
 
 .stars--0 .stars__star:nth-child(-n+0),
@@ -20,6 +22,5 @@
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
-  background-image: url("./images/star-active.svg");
+  background-image: url('./images/star-active.svg');
 }
-
