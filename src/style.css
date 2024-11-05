@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .stars {
   display: flex;
 }
