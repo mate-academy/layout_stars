@@ -22,10 +22,6 @@ body {
   margin: 2px 6px 2px 2px;
 }
 
-.star:last-child {
-  margin-right: 0;
-}
-
 .stars--1 .star:nth-child(-n + 1),
 .stars--2 .star:nth-child(-n + 2),
 .stars--3 .star:nth-child(-n + 3),
