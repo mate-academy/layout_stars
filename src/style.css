@@ -13,7 +13,6 @@ body {
   height: 16px;
   padding-left: 0;
   padding-right: 4px;
-  background-position: center;
   background-repeat: no-repeat;
   background-image: url(/src/images/star.svg);
 }
