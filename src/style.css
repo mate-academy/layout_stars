@@ -1,23 +1,21 @@
 body {
   margin: 0;
-  background-color: #fff;
 }
 
 .stars {
   display: flex;
-  flex-direction: row;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
-  padding-left: 0;
-  padding-right: 4px;
+  margin-right: 4px;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: url(/src/images/star.svg);
 }
 
-.stars--1 :nth-child(-n + 1) {
+.stars--1 :nth-child(1) {
   background-image: url(/src/images/star-active.svg);
 }
 
