@@ -1,3 +1,5 @@
+![epp-new-2](https://github.com/user-attachments/assets/824bba7e-85a5-46d2-b5d8-912ae66ee5b8)
+![detection-101](https://github.com/user-attachments/assets/97e44d0a-8355-485d-9241-6a3b7952331d)
 # Stars block
 
 Implement the [Stars Block](https://www.figma.com/file/ojkArVazq7vsX0nbpn9CxZ/Moyo-%2F-Catalog-(ENG)?node-id=11325%3A2960) used in a card and catalog.
