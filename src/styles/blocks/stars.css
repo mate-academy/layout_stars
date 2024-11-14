@@ -1,0 +1,32 @@
+.stars {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.stars__star {
+  width: 96px;
+  height: 16px;
+  background-image: url(../../images/Stars.png);
+  background-repeat: no-repeat;
+}
+
+.stars--1 {
+  background-position-y: -20px;
+}
+
+.stars--2 {
+  background-position-y: -40px;
+}
+
+.stars--3 {
+  background-position-y: -60px;
+}
+
+.stars--4 {
+  background-position-y: -80px;
+}
+
+.stars--5 {
+  background-position-y: -100px;
+}
