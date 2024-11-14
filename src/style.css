@@ -1,14 +1,12 @@
 /* add styles here */
-body {
+* {
   margin: 0;
   padding: 0;
+  block-size: border-box;
 }
 
 .stars {
-  margin: 0;
-  padding: 0;
   display: flex;
-  flex-direction: row;
 }
 
 .stars__star {
