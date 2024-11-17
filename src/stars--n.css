@@ -1,0 +1,17 @@
+.stars--1 > .stars_star:nth-child(1),
+.stars--2 > .stars_star:nth-child(1),
+.stars--2 > .stars_star:nth-child(2),
+.stars--3 > .stars_star:nth-child(1),
+.stars--3 > .stars_star:nth-child(2),
+.stars--3 > .stars_star:nth-child(3),
+.stars--4 > .stars_star:nth-child(1),
+.stars--4 > .stars_star:nth-child(2),
+.stars--4 > .stars_star:nth-child(3),
+.stars--4 > .stars_star:nth-child(4),
+.stars--5 > .stars_star:nth-child(1),
+.stars--5 > .stars_star:nth-child(2),
+.stars--5 > .stars_star:nth-child(3),
+.stars--5 > .stars_star:nth-child(4),
+.stars--5 > .stars_star:nth-child(5) {
+  background-image: url(images/star-yellow.png);
+}
