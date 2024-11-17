@@ -1,0 +1,7 @@
+.stars_star {
+  background-image: url(images/star-grey.png);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  margin-right: 20px;
+}
