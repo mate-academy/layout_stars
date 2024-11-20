@@ -1,1 +1,33 @@
 /* add styles here */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for each star */
+.star {
+  display: inline-flex;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  align-self: center;
+  background-position: center;
+}
+
+.stars {
+  display: flex;
+}
+
+.star:not(:last-child) {
+  margin-right: 4px;
+}
+
+/* Active stars based on .stars--N classes */
+.stars--1 .star:nth-child(-n + 1),
+.stars--2 .star:nth-child(-n + 2),
+.stars--3 .star:nth-child(-n + 3),
+.stars--4 .star:nth-child(-n + 4),
+.stars--5 .star:nth-child(-n + 5) {
+  background-image: url(images/star-active.svg); /* Active star */
+}
