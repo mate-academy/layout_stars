@@ -23,7 +23,7 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 
 ❗️ Replace `<your_account>` with your Github username and copy the links to `Pull Request` description:
 
-- [DEMO LINK](https://poligrafi1.github.io/layout_stars/)
+- [DEMO LINK](https://poligrafi1.github.io/layout_stars/src)
 - [TEST REPORT LINK](https://poligrafi1.github.io/layout_stars/report/html_report/)
 
 ❗️ Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.

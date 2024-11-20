@@ -1,54 +1,28 @@
+@import 'styles/stars1.css';
+@import 'styles/stars2.css';
+@import 'styles/stars3.css';
+@import 'styles/stars4.css';
+@import 'styles/stars5.css';
+
 .page {
   margin: 0;
-  width: 140px;
-  height: 160px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main {
-  flex-wrap: wrap;
-  width: 96px;
-  height: 100%;
-  
-  justify-content: center;
-  display: block;
 }
 
 .stars {
   display: flex;
-  margin-top: auto;
   align-items: center;
-  justify-content: space-between;
-
 }
 
 .stars__star {
   background-repeat: no-repeat;
   background-position: center;
+
   width: 16px;
   height: 16px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
 }
 
-.stars--1 .stars__star:nth-child(-n + 1) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--2 .stars__star:nth-child(-n + 2) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--3 .stars__star:nth-child(-n + 3) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--4 .stars__star:nth-child(-n + 4) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url(images/star-active.svg);
+.stars__star:last-child {
+  margin-right: 0;
 }
