@@ -1,34 +1,13 @@
-body,
-div,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-li,
-a,
-img,
-table,
-th,
-td {
+.body {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  font: inherit;
-  vertical-align: baseline;
 }
 
-.stars__container {
+.stars {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 96px;
-  height: 116px;
+  justify-content: center;
 }
 
 .stars__item {
@@ -37,17 +16,13 @@ td {
   background-image: url(/src/images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.stars {
-  display: flex;
-  justify-content: space-between;
+  margin-right: 4px;
 }
 
 .stars--1 .stars__item:nth-child(1),
 .stars--2 .stars__item:nth-child(-n + 2),
 .stars--3 .stars__item:nth-child(-n + 3),
 .stars--4 .stars__item:nth-child(-n + 4),
-.stars--5 .stars__item:nth-child(-n + 5) {
+.stars--5 .stars__item:nth-child(n) {
   background-image: url(/src/images/star-active.svg);
 }
