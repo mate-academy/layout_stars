@@ -1,22 +1,8 @@
-.page {
-  --active-star: url(/src/images/star-active.svg);
-}
-
-.page__body {
-  margin: 0;
-}
-
-.main {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-}
-
 .stars {
   display: flex;
 }
 
-.stars--1 :first-child {
+.stars--1 :nth-child(-n + 1) {
   background-image: var(--active-star);
 }
 
@@ -39,7 +25,7 @@
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url(images/star.svg);
+  background-image: url(../../images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
