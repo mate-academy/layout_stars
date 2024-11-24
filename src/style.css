@@ -1,18 +1,14 @@
 .page {
-  --active-star: url(images/star-active.svg);
+  --active-star: url(/src/images/star-active.svg);
 }
 
 .page__body {
-  width: 140px;
-  height: 160px;
   margin: 0;
 }
 
 .main {
-  padding: 22px;
   display: flex;
   flex-flow: column wrap;
-  height: 116px;
   justify-content: space-between;
 }
 
