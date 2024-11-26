@@ -1,1 +1,39 @@
-/* add styles here */
+html {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.stars__star {
+  background-image: url(../src/images/star.svg);
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  margin-right: 4px;
+}
+
+.star--1 .stars__star:nth-child(-n + 1) {
+  background-image: url(../src/images/star-active.svg);
+}
+
+.star--2 .stars__star:nth-child(-n + 2) {
+  background-image: url(../src/images/star-active.svg);
+}
+
+.star--3 .stars__star:nth-child(-n + 3) {
+  background-image: url(../src/images/star-active.svg);
+}
+
+.star--4 .stars__star:nth-child(-n + 4) {
+  background-image: url(../src/images/star-active.svg);
+}
+
+.star--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(../src/images/star-active.svg);
+}
