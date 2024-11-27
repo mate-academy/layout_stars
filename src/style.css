@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
@@ -16,12 +15,11 @@ body {
   margin-right: 4px;
 }
 
-.stars_star:nth-child(5n) {
+.stars_star:last-child {
   margin-right: 0;
 }
 
-.stars--0 .stars_star:nth-child(-n + 0),
-.stars--1 .stars_star:nth-child(-n + 1),
+.stars--1 .stars_star:first-child,
 .stars--2 .stars_star:nth-child(-n + 2),
 .stars--3 .stars_star:nth-child(-n + 3),
 .stars--4 .stars_star:nth-child(-n + 4),
