@@ -1,1 +1,28 @@
-/* add styles here */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.star__line {
+  display: flex;
+}
+
+.star__line :last-child {
+  margin-right: 0;
+}
+
+.srar__style {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.star--active {
+  background-image: url(/src/images/star-active.svg);
+}
+
+.star--pasive {
+  background-image: url(/src/images/star.svg);
+}
