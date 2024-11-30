@@ -23,6 +23,6 @@ body {
   background-image: url(/src/images/star-active.svg);
 }
 
-.star--pasive {
+.star--passive {
   background-image: url(/src/images/star.svg);
 }
