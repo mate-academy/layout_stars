@@ -1,1 +1,40 @@
-/* add styles here */
+.page {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  margin: 4px;
+  background-image: url(images/star-active.svg);
+  background-size: cover;
+}
+
+.stars--0 .stars__star {
+  background-image: url(images/star.svg);
+}
+
+.stars--1 > .stars__star {
+  background-image: url(images/star.svg);
+}
+
+.stars--2 > .stars__star {
+  background-image: url(images/star.svg);
+}
+
+.stars--3 > .stars__star {
+  background-image: url(images/star.svg);
+}
+
+.stars--4 > .stars__star {
+  background-image: url(images/star.svg);
+}
+
+.stars--5 .stars__star {
+  background-image: url(images/star-active.svg);
+}
