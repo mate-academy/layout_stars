@@ -1,4 +1,8 @@
 /* add styles here */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -13,7 +17,7 @@ body {
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  padding-right: 4px;
+  margin-right: 4px;
 }
 
 .stars__star:last-child {
