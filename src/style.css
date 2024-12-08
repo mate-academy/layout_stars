@@ -7,28 +7,20 @@ body {
   margin: 0;
 }
 
-.all-stars {
-  /* margin: 22px; */
-  margin-right: 22px;
-  margin-bottom: 22px;
-  width: max-content;
-}
-
 .stars {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  background-position: center;
 }
 
-.stars:not(:last-child) {
+/* .stars:not(:last-child) {
   margin-bottom: 4px;
-}
+} */
 
 .stars__star {
   width: 16px;
   height: 16px;
   background-image: url(/src/images/star.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .stars__star:not(:last-child) {
