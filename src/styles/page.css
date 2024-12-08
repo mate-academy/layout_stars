@@ -1,0 +1,8 @@
+.page {
+  margin: 0;
+}
+
+.page__stars-container {
+  width: 96px;
+  height: 116px;
+}
