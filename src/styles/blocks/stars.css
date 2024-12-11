@@ -1,0 +1,17 @@
+.stars {
+  height: 16px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 -1px;
+}
+
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
+  display: flex;
+}
