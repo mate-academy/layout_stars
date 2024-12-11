@@ -1,21 +1,17 @@
 .stars {
+  height: 16px;
   display: flex;
+  align-items: center;
   list-style: none;
   padding: 0;
-  margin-left: 22px;
-
+  margin: 0 0 0 -1px;
 }
 
-.stars--0 {
-margin-top: 22px;
-margin-bottom: 0;
-}
-
-.stars--1, .stars--2, .stars--3, .stars--4, .stars--5 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.stars--0, .stars--1, .stars--2, .stars--3, .stars--4, .stars--5 {
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
+.stars--5 {
   display: flex;
 }
