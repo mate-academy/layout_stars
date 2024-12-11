@@ -1,40 +1,18 @@
-/* #region Body */
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-/* #endregion */
-
-/* #region Box */
-.box {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-/* #endregion */
-
-/* #region Stars */
 .stars {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 4px;
-}
-
-.stars:last-child {
-  margin-bottom: 0;
 }
 
 .stars__star {
-  height: 14px;
-  width: 14px;
+  height: 16px;
+  width: 16px;
   background-image: url('./images/star.svg');
-  background-size: cover;
   margin-right: 4px;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.stars--0 {
+  margin-top: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
@@ -44,5 +22,3 @@ body {
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url('./images/star-active.svg');
 }
-
-/* #endregion */
