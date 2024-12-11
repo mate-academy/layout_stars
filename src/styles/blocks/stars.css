@@ -1,0 +1,11 @@
+.stars {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.stars--0, .stars--1, .stars--2, .stars--3, .stars--4, .stars--5 {
+  display: flex;
+}
