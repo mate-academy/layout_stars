@@ -1,58 +1,6 @@
-/* #region page */
-.page {
-  margin: 0;
-}
-
-body {
-  margin: 0;
-}
-
-.container-block {
-  margin: 22px;
-  width: 96px;
-  height: 116px;
-  display: flex;
-  flex-direction: column;
-}
-
-.stars {
- display: flex;
-}
-
-.stars__star {
-  width: 12px;
-  height: 12px;
-  background-image: url(images/star.svg);
-  background-size: cover;
-  margin-bottom: 4px;
-}
-
-.stars__star:not(:first-child) {
-  margin-left: 4px;
-}
-
-/* #endregion */
-
-/* #region star--0 */
-
-/* #endregion */
-
-/* #region star--1 */
-
-/* #endregion */
-
-/* #region star--2 */
-
-/* #endregion */
-
-/* #region star--3 */
-
-/* #endregion */
-
-/* #region star--4 */
-
-/* #endregion */
-
-/* #region star--5 */
-
-/* #endregion */
+@import "page.css";
+@import "stars-stars--1";
+@import "stars-stars--2";
+@import "stars-stars--3";
+@import "stars-stars--4";
+@import "stars-stars--5";
