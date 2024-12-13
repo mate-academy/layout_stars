@@ -7,24 +7,23 @@ body {
 }
 
 .container-block {
-  margin: 22px;
-  width: 96px;
-  height: 116px;
+  width: 100px;
+  height: 96px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .stars {
- display: flex;
- justify-content: space-between;
+  display: flex;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
-  background-size: 85%;
+  background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
 }
