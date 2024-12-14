@@ -20,7 +20,7 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 
 ## Checklist
 
-❗️ Replace `<your_account>` with your Github username and copy the links to `Pull Request` description:
+❗️ Replace `DDanilcheno1706` with your Github username and copy the links to `Pull Request` description:
 
 - [DEMO LINK](https://DDanilcheno1706.github.io/layout_stars/)
 - [TEST REPORT LINK](https://DDanilcheno1706.github.io/layout_stars/report/html_report/)
