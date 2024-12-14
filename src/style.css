@@ -4,27 +4,19 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: white;
-
-  padding: 24px;
-  min-width: 140px;
-  min-height: 160px;
-}
-
 .stars {
   display: flex;
 }
 
 .stars__star {
+  background-image: url('images/star.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+
   width: 16px;
   height: 16px;
 
-  background-image: url('images/star.svg');
-  background-repeat: no-repeat;
-
   margin-right: 4px;
-  margin-bottom: 4px;
 }
 
 .stars__star:last-child {
