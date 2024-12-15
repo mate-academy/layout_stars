@@ -1,1 +1,33 @@
 /* add styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px;
+}
+
+.stars {
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 10px;
+ 
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-size: cover;
+  margin-right: 4px;
+}
+
+.stars__star:hover {
+  background-image: url(images/star-active.svg);
+  color: #ffde6a;
+}
