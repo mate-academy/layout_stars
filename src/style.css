@@ -1,11 +1,8 @@
 /* add styles here */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,10 +10,10 @@ body {
 }
 
 .stars {
-  display: inline-block;
+  display: flex;
   align-items: center;
   margin-bottom: 10px;
- 
+
 }
 
 .stars__star {
@@ -27,7 +24,28 @@ body {
   margin-right: 4px;
 }
 
-.stars__star:hover {
-  background-image: url(images/star-active.svg);
-  color: #ffde6a;
+.stars stars--0 .stars__star:nth-child(n+0) {
+background-image: url(images/star-active.svg);
 }
+
+.stars stars--1 .stars__star:nth-child(n+1) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars stars--2  .stars__star:nth-child(n+2) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars stars--3 .stars__star:nth-child(n+3) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars stars--4 .stars__star:nth-child(n+4) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars stars--5 .stars__star:nth-child(n+5) {
+  background-image: url(images/star-active.svg);
+}
+
+
