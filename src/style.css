@@ -1,30 +1,29 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0;
+
+  box-sizing: border-box;
 }
 
 .stars {
   display: flex;
-  margin-bottom: 4px;
-}
 
-.stars:last-child {
-  margin-bottom: 0;
+  padding: 2px;
 }
 
 .stars__star {
-  width: 16px;
+  width: 13px;
   height: 12px;
   background-image: url('./images/star.svg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 4px;
-}
 
-.stars__star:last-child {
-  margin-right: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+
+  &:not(:last-child) {
+    margin-right: 7px;
+  }
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
