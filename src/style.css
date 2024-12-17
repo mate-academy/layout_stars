@@ -1,22 +1,19 @@
 /* add styles here */
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .stars {
   display: flex;
-  width: 16px;
-  height: 16px;
-  align-items: center;
 }
 
 .stars__star {
   background-image: url(images/star.svg);
-  background-size: cover;
+  background-position: center;
   margin-right: 4px;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0) {
