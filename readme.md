@@ -1,6 +1,6 @@
 # Stars
 
-### Describtion
+### Description
 
 - Added "5 stars" blocks to HTML Body
 
