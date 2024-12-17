@@ -1,9 +1,9 @@
 /* add styles here */
-.body {
+body {
   margin: 0;
 }
 
-.star {
+.stars.{
   display: flex;
 }
 
