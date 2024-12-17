@@ -6,8 +6,6 @@ body {
 .stars {
   display: flex;
   flex-direction: row;
-  align-content: space-between;
-  margin-left: 2px;
 }
 
 .stars__star {
@@ -15,15 +13,11 @@ body {
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  justify-content: center;
+  background-position: center;
 }
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
-}
-
-.stars--0 {
-  margin-top: 2px;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0),
