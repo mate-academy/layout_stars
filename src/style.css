@@ -1,25 +1,33 @@
+/* стилі для блоку body */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   background-color: #fff;
 }
 
-.stars {
-  display: flex;
-  gap: 5px;
-}
+/* стилі для блоку stars__star */
 
 .stars__star {
   width: 22px;
   height: 22px;
   background-image: url('images/star-gray.png');
   background-size: cover;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* стилі для блоку stars */
+
+.stars {
+  display: flex;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
