@@ -1,0 +1,3 @@
+.stars--0:not() {
+  background-image: url(images/star-active.svg);
+}
