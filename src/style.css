@@ -3,8 +3,8 @@
 }
 
 body {
-  width: 48px;
-  height: 58px;
+  width: 96px;
+  height: 116px;
   display: flex;
   flex-wrap: wrap;
 }
