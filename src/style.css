@@ -6,10 +6,8 @@
 
 .stars {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  margin: 0;
 }
 
 .stars__star {
@@ -18,6 +16,7 @@
   background-image: url(../src/images/star.svg);
   background-repeat: no-repeat;
   margin-right: 4px;
+  background-position: center;
 }
 
 .stars__star:last-child {
