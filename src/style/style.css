@@ -1,6 +1,5 @@
-@import url(./blocks/star.css);
+@import 'blocks/star.css';
 
 body {
   margin: 0;
 }
-
