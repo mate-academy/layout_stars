@@ -1,29 +1,50 @@
 body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .stars-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 30px);
-    gap: 10px;
-  }
-  
-  .star {
-    width: 30px;
-    height: 30px;
+}
 
-    background-repeat: no-repeat;
-  }
-  
-  .star.yellow {
-    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 13 12"><path fill="%23FFDE6A" d="M5.792.356a.515.515 0 0 1 .98 0l1.13 3.477a.515.515 0 0 0 .49.356h3.656c.499 0 .707.639.303.932l-2.958 2.15a.515.515 0 0 0-.187.575l1.13 3.477a.515.515 0 0 1-.793.576L6.585 9.75a.515.515 0 0 0-.606 0L3.022 11.9a.515.515 0 0 1-.793-.577l1.13-3.477a.515.515 0 0 0-.188-.576L.213 5.121a.515.515 0 0 1 .303-.932h3.656a.515.515 0 0 0 .49-.356L5.792.356z"/></svg>');
-  }
-  
-  .star.grey {
-    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 13 12"><path fill="%23E5E5E5" d="M5.792.356a.515.515 0 0 1 .98 0l1.13 3.477a.515.515 0 0 0 .49.356h3.656c.499 0 .707.639.303.932l-2.958 2.15a.515.515 0 0 0-.187.575l1.13 3.477a.515.515 0 0 1-.793.576L6.585 9.75a.515.515 0 0 0-.606 0L3.022 11.9a.');
-  
+.stars {
+  display: flex;
+  justify-content: flex-start; 
+  width: fit-content; 
+  margin: 0; 
+}
+
+.stars__star {
+  width: 40px; 
+  height: 40px; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px; 
+  background-image: url(images/star.svg);
+}
+
+
+.stars--0 .stars__star:nth-child(-n+0) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--1 .stars__star:nth-child(-n+1) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--2 .stars__star:nth-child(-n+2) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--3 .stars__star:nth-child(-n+3) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url(images/star-active.svg);
+}
