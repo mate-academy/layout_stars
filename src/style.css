@@ -37,10 +37,10 @@ body {
   background-image: url(./images/star-active.svg);
 }
 
-.stars__star :first-child {
+.stars__star:first-child {
   margin-left: 0;
 }
 
-.stars__star :last-child {
+.stars__star:last-child {
   margin-right: 0;
 }
