@@ -1,10 +1,10 @@
-/* add styles here */
 body {
   margin: 0;
 }
 
 .stars {
   display: flex;
+  margin-right: 0;
 }
 
 .stars__star {
@@ -15,6 +15,10 @@ body {
   height: 16px;
   width: 16px;
   margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 :nth-child(1),
