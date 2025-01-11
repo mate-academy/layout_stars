@@ -1,4 +1,4 @@
-/* add styles here */
+/* region star */
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +7,6 @@ body {
 
 .stars {
   display: flex;
-  gap: 4px;
 }
 
 .stars__star {
@@ -16,10 +15,7 @@ body {
   background-position: center;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-}
-
-.stars__star:last-child {
-  margin-right: 0;
+  margin-right: 4px;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0) {
@@ -45,3 +41,5 @@ body {
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url('./images/star-active.svg');
 }
+
+/* endregion */
