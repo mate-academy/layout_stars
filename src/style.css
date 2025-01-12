@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.stars--1:last-child {
+.stars__star:last-child {
   margin-right: 0;
 }
 
