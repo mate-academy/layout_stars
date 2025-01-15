@@ -4,7 +4,7 @@ body {
 
 .stars {
   display: flex;
-  gap: 4px;
+  margin-right: 4px;
 }
 
 .stars__star {
