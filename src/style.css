@@ -1,6 +1,6 @@
 /* add styles here */
-html{
-  --url-image-ativo: url(/src/images/star-active.svg)
+html {
+  --url-image-ativo: url(/src/images/star-active.svg);
 }
 
 body {
@@ -39,3 +39,4 @@ body {
 .stars--5 :nth-child(-n + 5) {
   background-image: var(--url-image-ativo);
 }
+
