@@ -1,4 +1,4 @@
-* {
+.body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +17,7 @@
   margin-right: 4px;
 }
 
-.stars__star :last-child {
+.stars__star:last-child {
   margin-left: 0;
 }
 
