@@ -1,1 +1,64 @@
-/* add styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.stars__star--active {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star-active.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.stars--0 {
+  display: grid;
+  grid-template-columns: repeat(5, 16px);
+  gap: 4px;
+  margin-bottom: 0;
+}
+
+.stars--1 {
+  display: grid;
+  grid-template-columns: repeat(5, 16px);
+  gap: 4px;
+}
+
+.stars--2 {
+  display: grid;
+  grid-template-columns: repeat(5, 16px); /* 5 estrelas por linha */
+  gap: 4px; /* Espaço de 4px entre as estrelas */
+}
+
+.stars--3 {
+  display: grid;
+  grid-template-columns: repeat(5, 16px); /* 5 estrelas por linha */
+  gap: 4px; /* Espaço de 4px entre as estrelas */
+}
+
+.stars--4 {
+  display: grid;
+  grid-template-columns: repeat(5, 16px); /* 5 estrelas por linha */
+  gap: 4px; /* Espaço de 4px entre as estrelas */
+}
+
+.stars--5 {
+  display: grid;
+  grid-template-columns: repeat(5, 16px); /* 5 estrelas por linha */
+  gap: 4px; /* Espaço de 4px entre as estrelas */
+}
