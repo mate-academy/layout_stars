@@ -1,59 +1,39 @@
-* {
+body {
   margin: 0;
-}
-
-main {
-  width: 96px;
-  height: 116px;
-
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
 }
 
 .stars {
   display: flex;
-  justify-content: space-around;
 }
 
 .stars__star {
-  width: 12px;
-  height: 12px;
+  height: 16px;
+  width: 16px;
   background-image: url(./images/star.svg);
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--1 :first-child {
-  width: 12px;
-  height: 12px;
-  background-size: cover;
   background-image: url(./images/star-active.svg);
 }
 
 .stars--2 :nth-child(-n + 2) {
-  width: 12px;
-  height: 12px;
-  background-size: cover;
   background-image: url(./images/star-active.svg);
 }
 
 .stars--3 :nth-child(-n + 3) {
-  width: 12px;
-  height: 12px;
-  background-size: cover;
   background-image: url(./images/star-active.svg);
 }
 
 .stars--4 :nth-child(-n + 4) {
-  width: 12px;
-  height: 12px;
-  background-size: cover;
   background-image: url(./images/star-active.svg);
 }
 
-/* .stars--5 :nth-child(-n + 5) {
-  width: 12px;
-  height: 12px;
-  background-size: cover;
+.stars--5 :nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
-} */
+}
