@@ -1,0 +1,18 @@
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url(../../images/star.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: 16px;
+  margin-left: 4px;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
