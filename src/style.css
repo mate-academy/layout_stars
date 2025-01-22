@@ -8,20 +8,18 @@
 }
 
 .stars__star {
-  background-image: url(./images/star.svg);
   width: 16px;
   height: 16px;
-  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 1px 5px;
+  background-image: url('./images/star.svg');
+  margin-right: 4px;
 }
 
 .stars__star--active {
   background-image: url(./images/star-active.svg);
   width: 16px;
   height: 16px;
-  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
