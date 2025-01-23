@@ -1,8 +1,4 @@
 /* add styles here */
-body {
-  margin: 0;
-}
-
 .stars {
   display: flex;
 }
@@ -16,7 +12,7 @@ body {
   margin-right: 4px;
 }
 
-.stars--0 .stars__star:nth-child(-n + 0) {
+.stars--0 .stars__star:nth-child(1) {
   background-image: url(/src/images/star-active.svg);
 }
 
