@@ -11,7 +11,8 @@
 .stars__star {
   width: 12px; /* Ajuste para o tamanho da estrela no Figma */
   height: 12px;
-  position: block;
+  display: block;
+  position: relative;
   background-image: url('./images/star.svg');
   background-size: cover;
   background-repeat: no-repeat;
