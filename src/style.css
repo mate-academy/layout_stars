@@ -27,7 +27,7 @@ body {
 }
 
 /* #region stars active */
-.stars--0 .stars__star:nth-child(-n + 0) {
+.stars--0 .stars__star {
   background-image: url(./images/star.svg);
 }
 
