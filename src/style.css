@@ -29,7 +29,6 @@ body {
   margin-right: 0;
 }
 
-.stars--0 .stars__container:nth-child(-n + 0) .stars__star,
 .stars--1 .stars__container:nth-child(-n + 1) .stars__star,
 .stars--2 .stars__container:nth-child(-n + 2) .stars__star,
 .stars--3 .stars__container:nth-child(-n + 3) .stars__star,
@@ -37,3 +36,4 @@ body {
 .stars--5 .stars__container:nth-child(-n + 5) .stars__star {
   background-image: url('images/star-active.svg');
 }
+
