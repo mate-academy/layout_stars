@@ -25,11 +25,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
-  margin-bottom: 4px;
 }
 
 .stars .stars--0 {
-  background-image: url(images/star.svg);
+  background-image: url(images/star-active.svg);
 }
 
 .stars--5 .stars__star {
