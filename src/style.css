@@ -18,8 +18,8 @@ body {
 }
 
 .stars__star {
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 12px;
   background-image: url(/src/images/star.svg);
   background-size: cover;
   background-repeat: no-repeat;
