@@ -16,7 +16,7 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 - The star size and the distance should be taken from Figma
 - Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
 - Don't add vertical margins between blocks.
-- DON'T use `gap` property for `flex` container because it does not work in testss
+- DON'T use `gap` property for `flex` container because it does not work in tests
 
 ## Checklist
 
