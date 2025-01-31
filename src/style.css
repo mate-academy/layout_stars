@@ -9,9 +9,10 @@ body {
 
 .stars__star {
   background-image: url(images/star.svg);
-  background-size: cover;
-  width: 12px;
-  height: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
   margin-right: 4px;
 }
 
