@@ -22,22 +22,22 @@ body {
   margin-top: 4px;
 }
 
-.stars--active-1>:nth-child(1) {
+.stars--1>:nth-child(1) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--active-2>:nth-child(-n + 2) {
+.stars--2>:nth-child(-n + 2) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--active-3>:nth-child(-n + 3) {
+.stars--3>:nth-child(-n + 3) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--active-4>:nth-child(-n + 4) {
+.stars--4>:nth-child(-n + 4) {
   background-image: url(images/star-active.svg);
 }
 
-.stars--active-5>:nth-child(-n + 5) {
+.stars--5>:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
 }
