@@ -1,1 +1,37 @@
 /* add styles here */
+html {
+  margin: 0;
+  background-color: gray;
+}
+
+.container {
+  width: 96px;
+  height: 116px;
+  background-color: black;
+}
+
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:16px;
+  height: 16px;
+  margin: 2px;
+}
+
+.stars--1 {
+  position: absolute;
+  background-image: url(images/star-active.svg);
+  background-position: center;
+  background-repeat: 200%;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+}
