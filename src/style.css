@@ -1,1 +1,39 @@
-/* add styles here */
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 116px;
+  width: 96px;
+  background-color: #ffff;
+}
+
+.stars-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars-block {
+  display: flex;
+}
+
+.star {
+  background-image: url('/src/images/star-active.svg');
+  background-size: cover;
+  width: 13px;
+  height: 13px;
+  border-radius: 0.5px;
+  margin-right: 7px;
+  margin-bottom: 4px;
+}
+
+.star--empty {
+  background-image: url('/src/images/star.svg');
+  width: 13px;
+  height: 13px;
+  border-radius: 0.5px;
+  background-size: cover;
+  margin-right: 7px;
+  margin-bottom: 4px;
+}
