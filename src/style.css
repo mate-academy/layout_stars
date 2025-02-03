@@ -1,39 +1,42 @@
-* {
+body {
   margin: 0;
 }
 
-body {
+.container {
   display: flex;
-  height: 116px;
+  flex-direction: row;
+  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+  flex-wrap: wrap;
+  background-color: #fff;
+  height: 96px;
   width: 96px;
-  background-color: #ffff;
+  flex-shrink: 0;
 }
 
-.stars-grid {
+.stars {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.stars-block {
-  display: flex;
-}
-
-.star {
-  background-image: url('/src/images/star-active.svg');
-  background-size: cover;
-  width: 13px;
-  height: 13px;
-  border-radius: 0.5px;
-  margin-right: 7px;
-  margin-bottom: 4px;
-}
-
-.star--empty {
+.stars__star {
   background-image: url('/src/images/star.svg');
-  width: 13px;
-  height: 13px;
-  border-radius: 0.5px;
-  background-size: cover;
-  margin-right: 7px;
-  margin-bottom: 4px;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  flex-shrink: 0;
+  background-position: center;
+}
+
+.stars--0 {
+  background-color: #fff;
+}
+
+.stars--1 .stars__star:first-child,
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('/src/images/star-active.svg');
 }
