@@ -1,1 +1,18 @@
 /* add styles here */
+.stars {
+  display: flex;
+  align-items: center;
+}
+body {
+  margin: 0;
+}
+.stars__star {
+  background-image: url(images/star.svg);
+  width: 16px;
+  height: 16px;
+}
+.stars--0 {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
