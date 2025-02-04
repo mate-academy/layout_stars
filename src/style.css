@@ -2,21 +2,8 @@ body {
   margin: 0;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
-  flex-wrap: wrap;
-  background-color: #fff;
-  height: 96px;
-  width: 96px;
-  flex-shrink: 0;
-}
-
 .stars {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .stars__star {
@@ -27,10 +14,6 @@ body {
   margin-right: 4px;
   flex-shrink: 0;
   background-position: center;
-}
-
-.stars--0 {
-  background-color: #fff;
 }
 
 .stars--1 .stars__star:first-child,
