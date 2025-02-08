@@ -1,17 +1,14 @@
 :root {
-  --star-size: 16px;
-  --star-spacing: 4px;
-  --row-spacing: 0.5px;
-  --font-primary: Arial, sans-serif, serif;
+  --star-size: 16px; /* Taken from Figma */
+  --star-spacing: 4px; /* Taken from Figma */
 }
 
-/* Скидання стилів */
+/* Reset default margin */
 html,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-primary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,38 +16,37 @@ body {
   background-color: white;
 }
 
-/* Контейнер */
-.rating {
+/* Container for all star rows */
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--row-spacing);
 }
 
-/* Рядки */
+/* Star row */
 .stars {
   display: flex;
-  width: fit-content;
-  margin-bottom: var(--row-spacing);
+  justify-content: flex-start;
+  align-items: center;
 }
 
-/* Окремі зірки */
+/* Star element */
 .stars__star {
   width: var(--star-size);
   height: var(--star-size);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: var(--star-spacing);
-  background-image: url('/src/images/star.svg'); /* Абсолютний шлях */
+  background-image: url('/src/images/star.svg'); /* Default star */
 }
 
-.stars__star:last-child {
-  margin-right: 0;
+/* Set spacing between stars without using `gap` */
+.stars__star + .stars__star {
+  margin-left: var(--star-spacing);
 }
 
-/* Активні зірки через модифікатори */
+/* Modifier to activate first N stars */
 .stars--0 .stars__star:nth-child(-n + 0) {
   background-image: url('/src/images/star-active.svg');
 }
