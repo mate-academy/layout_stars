@@ -36,15 +36,21 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('/src/images/star.svg'); /* Default star */
+  background-image: url('images/star.svg'); /* Default star */
   flex-shrink: 0;
   margin-right: var(--star-spacing);
 }
 
-.stars--1 .stars__star:first-child,
+/* Remove spacing from last star */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Activate first N stars based on modifier */
+.stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('/src/images/star-active.svg');
+  background-image: url('images/star-active.svg');
 }
