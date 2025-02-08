@@ -1,7 +1,8 @@
 :root {
   --star-size: 16px;
-  --star-spacing: 4px; /* Відстань між зірками */
-  --row-spacing: 0.75px; /* Точне мікро-налаштування */
+  --star-spacing: 4px;
+  --row-spacing: 0.5px;
+  --font-primary: Arial, sans-serif, serif;
 }
 
 /* Скидання стилів */
@@ -10,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-primary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,53 +20,57 @@ body {
 }
 
 /* Контейнер */
-.main {
+.rating {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: calc(5 * (var(--star-size) + var(--star-spacing)));
-  height: calc(5 * (var(--star-size) + var(--row-spacing)));
-  line-height: 0;
+  gap: var(--row-spacing);
 }
 
 /* Рядки */
 .stars {
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: max-content; /* Запобігає розтягуванню */
-  white-space: nowrap; /* Усуває зайві пробіли */
-  letter-spacing: -0.5px; /* Мінімізує мікророзбіжності */
-  margin: 0;
-  padding: 0;
+  display: flex;
+  width: fit-content;
+  margin-bottom: var(--row-spacing);
 }
 
 /* Окремі зірки */
 .stars__star {
-  display: block;
   width: var(--star-size);
   height: var(--star-size);
-  background-image: url('images/star.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 1;
-  padding: 0;
-  margin: 0;
+  margin-right: var(--star-spacing);
+  background-image: url('/src/images/star.svg'); /* Абсолютний шлях */
 }
 
-/* Активні зірки */
-.stars__star.active {
-  background-image: url('images/star-active.svg');
+.stars__star:last-child {
+  margin-right: 0;
 }
 
-/* Відстань між зірками */
-.stars__star + .stars__star {
-  margin-left: var(--star-spacing);
+/* Активні зірки через модифікатори */
+.stars--0 .stars__star:nth-child(-n + 0) {
+  background-image: url('/src/images/star-active.svg');
 }
 
-/* Відстань між рядками */
-.stars + .stars {
-  margin-top: var(--row-spacing);
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background-image: url('/src/images/star-active.svg');
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url('/src/images/star-active.svg');
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url('/src/images/star-active.svg');
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url('/src/images/star-active.svg');
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('/src/images/star-active.svg');
 }
