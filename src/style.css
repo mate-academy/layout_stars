@@ -15,17 +15,10 @@ body {
   background-color: white;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .stars {
   display: flex;
   justify-content: flex-start;
-  align-items: self-start;
+  align-items: center;
   margin: 0; /* Ensure no extra margins */
   padding: 0; /* Remove any default padding */
   line-height: 1; /* Prevent extra line spacing */
