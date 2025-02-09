@@ -36,10 +36,6 @@ body {
   margin-right: var(--star-spacing);
 }
 
-/* Remove spacing from last star */
-.stars .star__star:last-child {
-  margin-right: 0; /* Видаляє марджін для останньої зірки в ряду */
-}
 
 /* Activate first N stars based on modifier */
 .stars--1 .stars__star:nth-child(-n + 1),
