@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-flow: wrap row;
+  background-color: #fff;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
