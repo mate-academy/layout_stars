@@ -8,36 +8,30 @@ html,
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: white;
+  box-sizing: border-box;
 }
 
+/* Stars block */
 .stars {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  margin: 0; /* Ensure no extra margins */
-  padding: 0; /* Remove any default padding */
-  line-height: 1; /* Prevent extra line spacing */
+  height: var(--star-size);
 }
 
-/* Star element */
+/* Individual star */
 .stars__star {
   position: relative;
   width: var(--star-size);
   height: var(--star-size);
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('images/star.svg'); /* Default star */
-  flex-shrink: 0;
+  background-image: url('images/star.svg'); /* Default inactive star */
   margin-right: var(--star-spacing);
 }
 
+/* ✅ REMOVE last-child margin fix that caused issues */
 
-/* Activate first N stars based on modifier */
+/* Activate first N stars using modifiers */
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
