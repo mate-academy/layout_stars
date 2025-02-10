@@ -1,1 +1,41 @@
-/* add styles here */
+:root {
+  --star-size: 16px; /* Taken from Figma */
+  --star-spacing: 4px; /* Taken from Figma */
+}
+
+/* Reset default margin */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stars block */
+.stars {
+  display: flex;
+  align-items: center;
+  height: var(--star-size);
+}
+
+/* Individual star */
+.stars__star {
+  position: relative;
+  width: var(--star-size);
+  height: var(--star-size);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/star.svg'); /* Default inactive star */
+  margin-right: var(--star-spacing);
+}
+
+/* ✅ REMOVE last-child margin fix that caused issues */
+
+/* Activate first N stars using modifiers */
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('images/star-active.svg');
+}
