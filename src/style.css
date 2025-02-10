@@ -6,24 +6,24 @@ html {
   box-sizing: border-box;
 }
 
-.stars {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: fit-content;
-}
-
-.stars-margin {
+.tablet_h {
   margin: 2px 0 0;
 }
 
+.stars {
+  display: flex;
+  align-items: end;
+
+  width: fit-content;
+}
+
 .stars__star {
-  width: 16px; /* Ajuste o tamanho conforme o Figma */
-  height: 16px; /* Ajuste o tamanho conforme o Figma */
-  background-image: url('images/star.svg'); /* Caminho para a imagem de estrela */
+  width: 16px;
+  height: 16px;
+  background-image: url('images/star.svg');
   background-size: auto;
   background-repeat: no-repeat;
-  margin: 0 2px;
+  margin: 2px 2px 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
@@ -34,38 +34,3 @@ html {
   background-image: url('images/star-active.svg');
   background-size: auto;
 }
-
-/* .stars--1 .stars__star:nth-child(1) {
-  background-image: url('images/star-active.svg');
-  background-size: auto;
-}
-
-.stars--2 .stars__star:nth-child(1),
-.stars--2 .stars__star:nth-child(2) {
-  background-image: url('images/star-active.svg');
-  background-size: auto;
-}
-
-.stars--3 .stars__star:nth-child(1),
-.stars--3 .stars__star:nth-child(2),
-.stars--3 .stars__star:nth-child(3) {
-  background-image: url('images/star-active.svg');
-  background-size: auto;
-}
-
-.stars--4 .stars__star:nth-child(1),
-.stars--4 .stars__star:nth-child(2),
-.stars--4 .stars__star:nth-child(3),
-.stars--4 .stars__star:nth-child(4) {
-  background-image: url('images/star-active.svg');
-  background-size: auto;
-}
-
-.stars--5 .stars__star:nth-child(1),
-.stars--5 .stars__star:nth-child(2),
-.stars--5 .stars__star:nth-child(3),
-.stars--5 .stars__star:nth-child(4),
-.stars--5 .stars__star:nth-child(5) {
-  background-image: url('images/star-active.svg');
-  background-size: auto;
-} */
