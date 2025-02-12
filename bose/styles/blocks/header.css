@@ -1,0 +1,41 @@
+.header{
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: url(../../img/header-bg-mobile.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.header_title{
+    margin: 0;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    position: relative;
+}
+
+.header_waves{
+    height: 57px;
+    width: 48px;
+    background-image: url(../../img/sound-waves.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 20px;
+}
+
+.header_bottom {
+    padding: 0 20px 40px;
+}

@@ -1,0 +1,28 @@
+.page{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #292929;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.page__body {
+    margin: 0;
+}
+
+.page__menu{
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.page__menu:target{
+    opacity: 1;
+    pointer-events: all;
+}
