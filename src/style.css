@@ -1,50 +1,34 @@
-/* Reset de margens e padding */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Bloco principal: stars */
 .stars {
-  display: flex; /* Alinha as estrelas em linha */
+  display: flex;
   position: relative;
 }
 
-/* Estilo das estrelas */
 .stars__star {
-  width: 12px; /* Substitua pelo tamanho da estrela especificado no Figma */
-  height: 12px;
   position: relative;
-  margin-right: 8px; /* Espaçamento horizontal entre estrelas */
+  margin-right: 8px;
   margin-bottom: 4px;
-}
-
-.stars__star::before {
-  content: '';
+  top: 2px;
+  left: 2px;
   display: inline-block;
-  width: 12px; /* Tamanho da estrela */
-  height: 12px; /* Tamanho da estrela */
-  background-image: url('./images/star.svg'); /* Todas as estrelas amarelas por padrão */
+  width: 12px;
+  height: 12px;
+  background-image: url('./images/star.svg');
   background-size: cover;
-  margin-left: 2px;
 }
 
-.stars--1 .stars__star:nth-of-type(-n + 1)::before {
-  background-image: url('./images/star-active.svg'); /* 1 estrela amarela */
+.stars__star:nth-of-type(5) {
+  margin-right: 0;
 }
 
-.stars--2 .stars__star:nth-of-type(-n + 2)::before {
-  background-image: url('./images/star-active.svg'); /* 2 estrelas amarelas */
-}
-
-.stars--3 .stars__star:nth-of-type(-n + 3)::before {
-  background-image: url('./images/star-active.svg'); /* 3 estrelas amarelas */
-}
-
-.stars--4 .stars__star:nth-of-type(-n + 4)::before {
-  background-image: url('./images/star-active.svg'); /* 4 estrelas amarelas */
-}
-
-.stars--5 .stars__star:nth-of-type(-n + 5)::before {
-  background-image: url('./images/star-active.svg'); /* 5 estrelas amarelas */
+.stars--1 .stars__star:nth-of-type(-n + 1),
+.stars--2 .stars__star:nth-of-type(-n + 2),
+.stars--3 .stars__star:nth-of-type(-n + 3),
+.stars--4 .stars__star:nth-of-type(-n + 4),
+.stars--5 .stars__star:nth-of-type(-n + 5) {
+  background-image: url('./images/star-active.svg');
 }
