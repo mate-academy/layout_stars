@@ -19,7 +19,7 @@
   background-image: url('./images/star.svg');
   background-size: contain; /* Ensure proper scaling */
   background-repeat: no-repeat;
-  margin-right: 4px;
+  margin: 4px;
 }
 
 /* Active stars */
