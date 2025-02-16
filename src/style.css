@@ -15,19 +15,20 @@
 
 /* Style for each individual star */
 .stars__star {
-  width: 24px;
-  height: 24px;
-  background-image: url('./images/star.svg'); /* Default inactive star */
-  background-size: cover;
+  width: 18px;  /* Reduced size */
+  height: 18px; /* Reduced size */
+  background-image: url('./images/star.svg');
+  background-size: contain;  /* Ensure proper scaling */
   background-repeat: no-repeat;
-  margin-right: 4px;
+  margin-right: 4px; /* Space between stars */
 }
 
+
 /* Active stars */
-.stars--1 .stars__star:nth-child(-n+1),
-.stars--2 .stars__star:nth-child(-n+2),
-.stars--3 .stars__star:nth-child(-n+3),
-.stars--4 .stars__star:nth-child(-n+4),
-.stars--5 .stars__star:nth-child(-n+5) {
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url('./images/star-active.svg'); /* Active star */
 }
