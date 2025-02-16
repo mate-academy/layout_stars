@@ -15,12 +15,12 @@
 
 /* Style for each individual star */
 .stars__star {
-  width: 18px;  /* Reduced size */
-  height: 18px; /* Reduced size */
+  width: 16px;  /* Further reduced */
+  height: 16px; /* Further reduced */
   background-image: url('./images/star.svg');
-  background-size: contain;  /* Ensure proper scaling */
+  background-size: contain; /* Ensure proper scaling */
   background-repeat: no-repeat;
-  margin-right: 4px; /* Space between stars */
+  margin-right: 3px; /* Adjust spacing */
 }
 
 
