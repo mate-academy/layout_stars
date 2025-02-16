@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.stars {
+  display: flex;
+  justify-content: flex-start;
+}
