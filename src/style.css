@@ -15,14 +15,13 @@
 
 /* Style for each individual star */
 .stars__star {
-  width: 16px;  /* Further reduced */
+  width: 16px; /* Further reduced */
   height: 16px; /* Further reduced */
   background-image: url('./images/star.svg');
   background-size: contain; /* Ensure proper scaling */
   background-repeat: no-repeat;
   margin-right: 3px; /* Adjust spacing */
 }
-
 
 /* Active stars */
 .stars--1 .stars__star:nth-child(-n + 1),
