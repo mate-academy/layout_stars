@@ -10,7 +10,6 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-bottom: 10px; /* Space between blocks */
 }
 
 /* Style for each individual star */
@@ -20,7 +19,7 @@
   background-image: url('./images/star.svg');
   background-size: contain; /* Ensure proper scaling */
   background-repeat: no-repeat;
-  margin-right: 3px; /* Adjust spacing */
+  margin: 4px; /* Adjust spacing */
 }
 
 /* Active stars */
