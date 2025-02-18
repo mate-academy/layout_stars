@@ -10,33 +10,35 @@ body {
 .stars__star {
   width: 16px; /* Largura da estrela (ajuste conforme o Figma) */
   height: 16px; /* Altura da estrela (ajuste conforme o Figma) */
-  background-image: url('images/star_empty.svg'); /* Imagem da estrela vazia */
+  border-radius: 0.5px;
+  background-image: url('../src/images/star.svg'); /* Imagem da estrela vazia */
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   margin-right: 4px; /* Espaçamento entre as estrelas (ajuste conforme o Figma) */
 }
 
 /* Estilos para as estrelas preenchidas */
-.stars--0 .stars__star:nth-child(n + 1) {
-  background-image: url('../src/images/star.svg'); /* Imagem da estrela vazia */
+.stars--0 .stars__star:nth-child(-n + 0) {
+  background-image: url('../src/images/star-active.svg'); /* Imagem da estrela vazia */
 }
 
 .stars--1 .stars__star:nth-child(-n + 1) {
-  background-image: url('../src/images/star.svg'); /* Imagem da estrela cheia */
+  background-image: url('../src/images/star-active.svg'); /* Imagem da estrela cheia */
 }
 
 .stars--2 .stars__star:nth-child(-n + 2) {
-  background-image: url('../src/images/star.svg'); /* Imagem da estrela cheia */
+  background-image: url('../src/images/star-active.svg'); /* Imagem da estrela cheia */
 }
 
 .stars--3 .stars__star:nth-child(-n + 3) {
-  background-image: url('../src/images/star.svg'); /* Imagem da estrela cheia */
+  background-image: url('../src/images/star-active.svg'); /* Imagem da estrela cheia */
 }
 
 .stars--4 .stars__star:nth-child(-n + 4) {
-  background-image: url('../src/images/star.svg'); /* Imagem da estrela cheia */
+  background-image: url('../src/images/star-active.svg'); /* Imagem da estrela cheia */
 }
 
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('../src/images/star.svg'); /* Imagem da estrela cheia */
+  background-image: url('../src/images/star-active.svg'); /* Imagem da estrela cheia */
 }
