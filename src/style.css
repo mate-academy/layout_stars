@@ -7,14 +7,13 @@ body {
 
 .stars {
   display: flex;
-  padding-top: 2px;
 }
 
 .stars__star {
   background-image: url(/src/images/star.svg);
   width: 16px;
   height: 16px;
-  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   margin-right: 4px;
 }
