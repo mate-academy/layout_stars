@@ -1,1 +1,50 @@
 /* add styles here */
+/* Reset default browser margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Stars Block */
+.stars {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Individual Star */
+.stars__star {
+  width: 20px;
+  height: 20px;
+  background-image: url('src/images/star.svg'); /* Replace with the path to your inactive star image */
+  background-size: cover;
+}
+
+/* Active Stars */
+.stars--0 .stars__star:nth-child(1),
+.stars--1 .stars__star:nth-child(1),
+.stars--1 .stars__star:nth-child(2),
+.stars--2 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(2),
+.stars--2 .stars__star:nth-child(3),
+.stars--3 .stars__star:nth-child(1),
+.stars--3 .stars__star:nth-child(2),
+.stars--3 .stars__star:nth-child(3),
+.stars--3 .stars__star:nth-child(4),
+.stars--4 .stars__star:nth-child(1),
+.stars--4 .stars__star:nth-child(2),
+.stars--4 .stars__star:nth-child(3),
+.stars--4 .stars__star:nth-child(4),
+.stars--4 .stars__star:nth-child(5) {
+  background-image: url('src/images/star-active.svg'); /* Replace with the path to your active star image */
+}
+
+/* No vertical margins between blocks */
+.stars {
+  margin-bottom: 0;
+}
