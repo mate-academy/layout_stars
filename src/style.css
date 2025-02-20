@@ -1,1 +1,37 @@
-/* add styles here */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/src/images/star.svg);
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Псевдоселектори для жовтих зірочок */
+.stars--1 .stars__star:nth-of-type(1)::before,
+.stars--2 .stars__star:nth-of-type(-n + 2)::before,
+.stars--3 .stars__star:nth-of-type(-n + 3)::before,
+.stars--4 .stars__star:nth-of-type(-n + 4)::before,
+.stars--5 .stars__star:nth-of-type(-n + 5)::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(/src/images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
