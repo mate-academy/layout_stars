@@ -9,10 +9,6 @@ body {
   padding: 0;
 }
 
-/* .frame {
-  margin: 22px;
-} */
-
 .stars {
   display: flex;
   list-style: none;
