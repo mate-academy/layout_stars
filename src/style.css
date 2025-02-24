@@ -1,1 +1,28 @@
-/* add styles here */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
