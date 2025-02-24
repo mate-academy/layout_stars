@@ -1,0 +1,19 @@
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url('../../images/star.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.stars :not(.stars :first-child) {
+  margin-left: 4px;
+}
+
+.stars:not(.stars--0) .stars__star {
+  margin-top: 4px;
+}
