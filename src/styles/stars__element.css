@@ -1,4 +1,4 @@
-.star__element {
+.stars__element {
   width: 16px;
   height: 16px;
   display: flex;
@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.star__element::before {
+.stars__element::before {
   content: '';
   width: 12px;
   height: 12px;
