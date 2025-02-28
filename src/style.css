@@ -1,1 +1,25 @@
 /* add styles here */
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.png);
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.stars__star--active {
+  background-image: url(images/star-yellow.png);
+}
+
+.stars:not(:last-child) {
+  margin-bottom: 0;
+}
