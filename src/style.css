@@ -15,6 +15,6 @@ body {
   margin-right: 4px;
 }
 
-.stars__star__active {
+.stars__star--active {
   background-image: url(images/star-active.svg);
 }
