@@ -1,0 +1,21 @@
+.stars {
+  display: flex;
+  width: 92px;
+  height: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2px;
+}
+
+.stars__star {
+  background-image: url(../../images/star.svg);
+  width: 12px;
+  height: 12px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+.star--active {
+  background-image: url(../../images/star-active.svg);
+}
