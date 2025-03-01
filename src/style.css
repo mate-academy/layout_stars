@@ -1,6 +1,12 @@
 /* add styles here */
 body {
   margin: 0;
+  padding: 0;
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .stars {
@@ -8,18 +14,21 @@ body {
 }
 
 .stars__star {
-  width: 16px;
   height: 16px;
-  background-image: url(images/star.png);
-  background-size: cover;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  width: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/star.svg);
 }
 
-.stars__star--active {
-  background-image: url(images/star-yellow.png);
+.stars__star:nth-child(n + 2) {
+  margin-left: 4px;
 }
 
-.stars:not(:last-child) {
-  margin-bottom: 0;
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
 }
