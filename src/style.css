@@ -1,1 +1,97 @@
-/* add styles here */
+@import '.src/blocks/general.css';
+
+
+
+
+/* #region general */
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  max-width: fit-content;
+}
+
+/* #endregion */
+
+/* #region stars */
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.stars__star {
+  background-image: url('images/star.svg');
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 4px 0 0;
+  object-fit: contain;
+  background-position: 50%;
+}
+
+/* #endregion */
+
+/* #region zero */
+
+.stars--0 .stars__star:nth-child(-n + 0) {
+  object-fit: contain;
+  background-position: 50%;
+  background-image: url('images/star-active.svg');
+}
+
+/* #endregion */
+
+/* #region one */
+
+.stars--1 .stars__star:nth-child(-n + 1) {
+  object-fit: contain;
+  background-position: 50%;
+  background-image: url('images/star-active.svg');
+}
+
+/* #endregion */
+
+/* #region two */
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  object-fit: contain;
+  background-position: 50%;
+  background-image: url('images/star-active.svg');
+}
+
+/* #endregion */
+
+/* #region three */
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  object-fit: contain;
+  background-position: 50%;
+  background-image: url('images/star-active.svg');
+}
+
+/* #endregion */
+
+/* #region four */
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  object-fit: contain;
+  background-position: 50%;
+  background-image: url('images/star-active.svg');
+}
+
+/* #endregion */
+
+/* #region five */
+
+/* stylelint-disable-next-line no-descending-specificity */
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  object-fit: contain;
+  background-position: 50%;
+  background-image: url('images/star-active.svg');
+}
+
+/* #endregion */
