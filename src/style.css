@@ -1,1 +1,54 @@
-/* add styles here */
+/* center the container */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* container for all stars blocks */
+.container {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+/* stars block */
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars__wrapper {
+  width: 12px;
+  height: 12px;
+  padding: 2px;
+}
+
+/* individual star */
+.stars__star {
+  transform: translateX(-2px);
+  width: 100%;
+  height: 100%;
+  background-image: url('images/star.svg'); /* star */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* activ star */
+.stars__star.active {
+  background-image: url(images/star-active.svg); /* activ star */
+}
+
+.stars > * {
+  margin: 0 2px;
+}
+
+.stars :first-child {
+  margin-left: 0;
+}
+
+.stars :last-child {
+  margin-right: 0;
+}
