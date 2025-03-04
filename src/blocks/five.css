@@ -1,5 +1,5 @@
 .stars--5 .stars__star:nth-child(-n + 5) {
   object-fit: contain;
   background-position: 50%;
-  background-image: url('images/star-active.svg');
+  background-image: url('../images/star-active.svg');
 }
