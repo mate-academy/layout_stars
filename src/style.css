@@ -15,19 +15,29 @@ body {
 }
 
 .stars__star {
-  width: 16px;
   height: 16px;
-  margin: 0 2px;
+  width: 16px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.stars__star--active {
-  width: 16px;
-  height: 16px;
-  margin: 2px;
+.stars--1 :first-child {
   background-image: url(images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.stars--2 :nth-child(-n + 2) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--3 :nth-child(-n + 3) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--4 :nth-child(-n + 4) {
+  background-image: url(images/star-active.svg);
+}
+
+.stars--5 :nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
 }
