@@ -1,53 +1,27 @@
 body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f4f4f4;
 }
 
-/* Контейнер для звезд */
 .stars {
   display: flex;
-  width: 130px; /* Подогнано под Figma */
-  margin-bottom: 8px; /* Расстояние между блоками */
 }
 
-/* Общий стиль звезд */
-.stars::before {
-  content: '★★★★★'; /* 5 звезд */
-  font-size: 24px;
-  letter-spacing: 5px; /* Расстояние между звездами */
-  background-image: linear-gradient(to right, gold 0%, gold 0%);
-  background-clip: text;
-  color: rgba(0, 0, 0, 0.1); /* Серый цвет неактивных звезд */
+.stars__star {
+  background-image: url(images/star.svg);
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-/* Активные звезды (желтые) */
-.stars--0::before {
-  background-size: 0% 100%;
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
-.stars--1::before {
-  background-size: 20% 100%;
-}
-
-.stars--2::before {
-  background-size: 40% 100%;
-}
-
-.stars--3::before {
-  background-size: 60% 100%;
-}
-
-.stars--4::before {
-  background-size: 80% 100%;
-}
-
-.stars--5::before {
-  background-size: 100% 100%;
+.stars--1 > .stars__star:nth-child(1),
+.stars--2 > .stars__star:nth-child(-n + 2),
+.stars--3 > .stars__star:nth-child(-n + 3),
+.stars--4 > .stars__star:nth-child(-n + 4),
+.stars--5 > .stars__star:nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
 }
