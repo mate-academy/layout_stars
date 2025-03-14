@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  top: 0;
+  height: 16px;
+  width: 16px;
+  background: url(../images/star.svg) no-repeat center;
+  border-radius: 1px;
+  background-repeat: no-repeat;
+}
+
+.star:not(:last-child) {
+  margin-right: 4px;
+}
