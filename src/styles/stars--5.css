@@ -1,3 +1,0 @@
-.stars--5 .star:nth-child(-n + 5) {
-  background: url(../images/star-active.svg) no-repeat center;
-}
