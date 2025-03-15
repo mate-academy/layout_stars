@@ -1,8 +1,8 @@
-.stars--1 .stars__element:nth-child(1)::before,
-.stars--2 .stars__element:nth-child(-n + 2)::before,
-.stars--3 .stars__element:nth-child(-n + 3)::before,
-.stars--4 .stars__element:nth-child(-n + 4)::before,
-.stars--5 .stars__element:nth-child(-n + 5)::before {
+.stars--1 .stars__element:nth-child(1),
+.stars--2 .stars__element:nth-child(-n + 2),
+.stars--3 .stars__element:nth-child(-n + 3),
+.stars--4 .stars__element:nth-child(-n + 4),
+.stars--5 .stars__element:nth-child(-n + 5) {
   z-index: 2;
   background-image: url('../images/star-active.svg');
 }

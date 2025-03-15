@@ -1,20 +1,9 @@
 .stars__element {
   width: 16px;
   height: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 4px;
-  position: relative;
-}
-
-.stars__element::before {
-  content: '';
-  width: 12px;
-  height: 12px;
   background-image: url('../images/star.svg');
-  background-size: cover;
   background-repeat: no-repeat;
-  display: block;
-  z-index: 1;
+  background-position: center;
+  list-style: none;
+  margin-right: 4px;
 }
