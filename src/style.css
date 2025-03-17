@@ -1,7 +1,8 @@
 /* add styles here */
 html,
 body,
-div {
+.stars,
+.stars__star {
   margin: 0;
   padding: 0;
 }
@@ -22,7 +23,7 @@ div {
 }
 
 .stars--1 .stars__star:nth-child(-n + 1) {
-  background-image: url('/src/images/star-active.svg');
+  background-image: url('./images/star-active.svg');
 }
 
 .stars--2 .stars__star:nth-child(-n + 2) {
