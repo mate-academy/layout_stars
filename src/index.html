@@ -1,18 +1,98 @@
+<!--#region head-->
 <!doctype html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <title>Stars</title>
-    <link
-      rel="stylesheet"
-      href="./style.css"
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>BANG & OLUFSEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <h1>Stars</h1>
+<!--endregion-->
+  <body class="page__body">
+    <header class="header">
+      <div class=".top-bar">
+        <a href="#" class="top-bar__logo">
+          <img src="images/logo.png" alt="Bang & Olufsen logo">
+        </a>
+
+        <div class="top-bar__icons">
+          <a href="#" class="icon icon--phone"></a>
+          <a href="#menu" class="icon icon--menu"></a>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <div class="header__waves"></div>
+      </div>
+
+        <h1 class="header__title">
+          Your senses.
+          <br>
+          Set free.</h1>
+    </header>
+
+    <aside class="page__menu menu" id="menu">
+      <div class=".top-bar menu__top" id="menu">
+        <div class="menu__top">
+          <a href="# top-bar__logo">
+            <img src="images/logo.png" alt="Bang & Olufsen logo">
+          </a>
+
+          <a href="#" class="icon icon--close"></a>
+        </div>
+      </div>
+      <div class="menu__content"></div>
+        <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#recomended">Recommended</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#categories">Categories</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#how-to-buy">How to buy</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+      <a href="tel:+1 234 5555-55-55" class="menu__phone-number">
+        +1 234 5555-55-55
+      </a>
+
+      <a href="tel:+1 234 5555-55-55" class="menu__call-to-order">
+        Call to order
+      </a>
+    </aside>
+
+    <main class="main">
+      <section class="recommended" id="recomended">
+        <h2>Recommended</h2>
+      </section>
+
+      <section class="categories" id="categories">
+        <h2>Browse Bang & Olufse produkt by categories</h2>
+      </section>
+
+      <section class="About Us">
+        <h2>Why buy direct from Bang & Olufse</h2>
+      </section>
+
+      <section class="Contact Us">
+        <h2>Contact Us</h2>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
   </body>
 </html>
