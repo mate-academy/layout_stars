@@ -1,68 +1,52 @@
-/* #region body */
-
+/* #region body style */
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
 /* #endregion */
 
-/* #region style of container */
-
-.stars {
-  display: flex;
-}
-
-/* #endregion */
-
-/* #region style of starts element */
-
+/* #region stars element style */
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url(images/star.svg);
+  background-image: url('images/star.svg'); /* Default state: inactive stars */
   background-size: cover;
   margin: 4px;
 }
 
 /* #endregion */
 
-/* #region modifier for-1 */
+/* #region modifiers for active stars */
 
+/* stars--0: No active stars */
+.stars--0 .stars__star:nth-child(-n + 0) {
+  background-image: url('images/star.svg'); /* All stars inactive */
+}
+
+/* stars--1: First star active */
 .stars--1 .stars__star:nth-child(-n + 1) {
-  background-image: url(images/star-active.svg);
+  background-image: url('images/star-active.svg'); /* First star active */
 }
 
-/* #endregion */
-
-/* #region modifier for-2 */
-
+/* stars--2: First two stars active */
 .stars--2 .stars__star:nth-child(-n + 2) {
-  background-image: url(images/star-active.svg);
+  background-image: url('images/star-active.svg'); /* First two stars active */
 }
 
-/* #endregion */
-
-/* #region modifier for-3  */
-
+/* stars--3: First three stars active */
 .stars--3 .stars__star:nth-child(-n + 3) {
-  background-image: url(images/star-active.svg);
+  background-image: url('images/star-active.svg'); /* First three stars active */
 }
 
-/* #endregion */
-
-/* #region modifier for-4 */
-
+/* stars--4: First four stars active */
 .stars--4 .stars__star:nth-child(-n + 4) {
-  background-image: url(images/star-active.svg);
+  background-image: url('images/star-active.svg'); /* First four stars active */
 }
 
-/* #endregion */
-
-/* #region modifier for-5 */
-
+/* stars--5: All stars active */
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url(images/star-active.svg);
+  background-image: url('images/star-active.svg'); /* All stars active */
 }
 
 /* #endregion */
