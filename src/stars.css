@@ -1,9 +1,3 @@
-.stars {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 .stars--0,
 .stars--1,
 .stars--2,
