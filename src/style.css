@@ -1,1 +1,33 @@
 /* add styles here */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.rating {
+  width: 140px;
+  height: 160px;
+
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+}
+
+
+.stars__star {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+}
+
+
+.stars--N {
+  display: flex;
+  background-image: url(images/star-active.svg);
+}
