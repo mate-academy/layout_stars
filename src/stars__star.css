@@ -1,12 +1,4 @@
 /* add styles here */
-.layout{
-  margin: 0;
-}
-
-.stars {
-  display: flex;
-}
-
 .stars__star {
   width: 16px;
   height: 16px;
@@ -28,3 +20,5 @@
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
 }
+
+
