@@ -12,7 +12,7 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 - Add `stars--0`, `stars--1`, `stars--2` ... `stars--5` modifiers to the blocks one per each
 - Don't add any other classes to the elements.
 - The block with `stars--N` modifier should have exactly `N` first stars active.
-- .
+- use `background-image` for stars (see `images` folder). Don't use `<img>` or `<svg>` tags.
 - The star size and the distance should be taken from Figma
 - Use `display: flex` for the `stars` block to avoid an issue with extra spaces between individual stars
 - Don't add vertical margins between blocks.
