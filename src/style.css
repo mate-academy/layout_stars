@@ -3,61 +3,58 @@
 } */
 
 body {
-  margin: 0;
+  margin: 22px;
   padding: 0;
-
-  border: solid 2px red;
-  width: 500px;
-  height: 500px;
 }
 
-.stars{
+.stars {
   display: flex;
 }
 
 .stars--0 {
-  border: dashed 2px rgb(0, 38, 255);
+  justify-content: space-between;
   width: 96px;
-  height: 40px;
 }
 
-
-.stars--1{
-  border: dashed 2px rgb(14, 26, 27);
-  width:96px;
-  height: 40px;
-}
-
-.stars--2{
-  border: dashed 2px rgb(255, 0, 217);
+.stars--1 {
+  justify-content: space-between;
   width: 96px;
-  height: 40px;
 }
 
-.stars--3{
-  border: dashed 2px rgb(255, 38, 0);
-  width:96px;
-  height: 40px;
+.stars--2 {
+  justify-content: space-between;
+  width: 96px;
 }
 
-.stars--4{
-  border: dashed 2px rgb(13, 0, 255);
-  width:96px;
-  height: 40px;
+.stars--3 {
+  justify-content: space-between;
+  width: 96px;
 }
 
-.stars--5{
-  border: dashed 2px rgb(47, 255, 0);
-  width:96px;
-  height: 40px;
+.stars--4 {
+  justify-content: space-between;
+  width: 96px;
 }
 
-.stars__star{
+.stars--5 {
+  justify-content: space-between;
+  width: 96px;
+}
+
+.stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 16px;
   height: 16px;
+  justify-content: space-between;
+}
 
-  background-color: aquamarine;
+.stars__star__active {
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+  justify-content: space-between;
 }
