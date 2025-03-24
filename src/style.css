@@ -2,10 +2,12 @@ body {
   margin: 0;
 }
 
+/* BEM block: stars */
 .stars {
   display: flex;
 }
 
+/* BEM element: stars__star */
 .stars__star {
   width: 16px;
   height: 16px;
@@ -15,10 +17,12 @@ body {
   background-position: center;
 }
 
+/* Remove margin-right for the last star */
 .stars__star:last-child {
   margin-right: 0;
 }
 
+/* Active stars styles */
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
