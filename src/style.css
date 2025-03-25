@@ -1,1 +1,41 @@
 /* add styles here */
+body {
+  margin: 0;
+}
+
+.block {
+  display: block;
+  width: 140px;
+  height: 160px;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.stars {
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  
+  /* margin-left: 22px;
+  margin-right: 22px; */
+}
+
+/* .stars--0 {
+  top: -318px;
+  padding-top: 22px;
+}
+
+.stars--5 {
+  padding-bottom: 22px;
+} */
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+
+  /* margin: 4px; */
+  object-fit: cover;
+  background-color: url(images/star-active.svg);
+}
+
