@@ -1,50 +1,30 @@
-/* html{
-
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
   padding: 0;
-  width: 96px;
-  display: inline-block;
-  justify-content: space-between;
 }
 
 .stars {
   display: flex;
 }
 
-.stars--0 {
-  width: 96px;
-  justify-content: space-between;
-}
-
-.stars--1 {
-  width: 96px;
-  justify-content: space-between;
-}
-
-.stars--2 {
-  width: 96px;
-  justify-content: space-between;
-}
-
-.stars--3 {
-  width: 96px;
-  justify-content: space-between;
-}
-
-.stars--4 {
-  width: 96px;
-  justify-content: space-between;
-}
-
+.stars--0,
+.stars--1,
+.stars--2,
+.stars--3,
+.stars--4,
 .stars--5 {
   width: 96px;
   justify-content: space-between;
 }
 
-.stars__star {
+.stars__star,
+.stars__star__active {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -55,9 +35,4 @@ body {
 
 .stars__star__active {
   background-image: url(./images/star-active.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-  width: 16px;
-  height: 16px;
 }
