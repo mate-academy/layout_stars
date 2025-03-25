@@ -5,6 +5,9 @@
 body {
   margin: 0;
   padding: 0;
+  width: 96px;
+  display: inline-block;
+  justify-content: space-between;
 }
 
 .stars {
@@ -13,26 +16,32 @@ body {
 
 .stars--0 {
   width: 96px;
+  justify-content: space-between;
 }
 
 .stars--1 {
   width: 96px;
+  justify-content: space-between;
 }
 
 .stars--2 {
   width: 96px;
+  justify-content: space-between;
 }
 
 .stars--3 {
   width: 96px;
+  justify-content: space-between;
 }
 
 .stars--4 {
   width: 96px;
+  justify-content: space-between;
 }
 
 .stars--5 {
   width: 96px;
+  justify-content: space-between;
 }
 
 .stars__star {
@@ -51,14 +60,4 @@ body {
   background-size: auto;
   width: 16px;
   height: 16px;
-}
-
-.stars__star,
-.stars__star__active:first-child {
-  margin-left: 0;
-}
-
-.stars__star,
-.stars__star__active:last-child {
-  margin-right: 0;
 }
