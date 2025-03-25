@@ -12,27 +12,22 @@ body {
 }
 
 .stars--0 {
-  justify-content: space-between;
   width: 96px;
 }
 
 .stars--1 {
-  justify-content: space-between;
   width: 96px;
 }
 
 .stars--2 {
-  justify-content: space-between;
   width: 96px;
 }
 
 .stars--3 {
-  justify-content: space-between;
   width: 96px;
 }
 
 .stars--4 {
-  justify-content: space-between;
   width: 96px;
 }
 
@@ -43,19 +38,19 @@ body {
 .stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: auto;
   width: 16px;
   height: 16px;
-  margin: 2px 2px 0;
 }
 
 .stars__star__active {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: auto;
   width: 16px;
   height: 16px;
-  margin: 2px 2px 0;
 }
 
 .stars__star,
