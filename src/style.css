@@ -3,7 +3,7 @@
 } */
 
 body {
-  margin: 22px;
+  margin: 0;
   padding: 0;
 }
 
@@ -37,24 +37,33 @@ body {
 }
 
 .stars--5 {
-  justify-content: space-between;
   width: 96px;
 }
 
 .stars__star {
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   width: 16px;
   height: 16px;
-  justify-content: space-between;
+  margin: 2px 2px 0;
 }
 
 .stars__star__active {
   background-image: url(./images/star-active.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   width: 16px;
   height: 16px;
-  justify-content: space-between;
+  margin: 2px 2px 0;
+}
+
+.stars__star,
+.stars__star__active:first-child {
+  margin-left: 0;
+}
+
+.stars__star,
+.stars__star__active:last-child {
+  margin-right: 0;
 }
