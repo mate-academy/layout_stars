@@ -1,31 +1,25 @@
 /* add styles here */
 body {
-  margin: 0;
-  padding: 0;
-}
-
-.rating {
-  width: 140px;
-  height: 160px;
-
+  margin: 2px;
+  margin-left: 1px;
 }
 
 .stars {
   display: flex;
-  flex-direction: row;
-  width: 140px;
+  gap: 4px;
 }
 
+.stars:first-child {
+  margin-top: 0;
+}
 
 .stars__star {
-  display: flex;
-  width: 16px;
-  height: 16px;
-  margin-right: 4px;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-}
 
+  width: 16px;
+  height: 16px;
+}
 
 .stars--N {
   display: flex;
