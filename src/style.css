@@ -1,1 +1,18 @@
 /* add styles here */
+
+/*
+  [x]Redefinir o navegador padrão margin
+  []Adicionar 6 starsblocos com 5 stars__starelementos cada.
+  []Adicionar stars--0, stars--1, stars--2... stars--5modificadores para os blocos um por cada
+  []Não adicione nenhuma outra classe aos elementos.
+  []O bloco com stars--Nmodificador deve ter exatamente Nprimeiras estrelas ativas.
+  []usar background-imagepara estrelas (ver imagespasta). Não use <img> ou <svg>etiquetas.
+  []O tamanho da estrela e a distância devem ser obtidos do Figma
+  []NÃO use gappropriedade para flexcontainer porque não funciona em testes
+  []Usar display: flexpara o starsbloco para evitar um problema com espaços extras entre estrelas individuais
+  []Não adicione margens verticais entre blocos.
+*/
+
+body {
+  margin: 0;
+}
