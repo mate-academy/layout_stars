@@ -10,7 +10,7 @@ body {
   display: flex;
   width: 16px;
   height: 16px;
-  background-image: url(images/star-active.svg);
+  background-image: url(images/star-actives.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
@@ -22,5 +22,5 @@ body {
 .stars--3 .stars__star:nth-of-type(n + 4),
 .stars--4 .stars__star:nth-of-type(n + 5),
 .stars--5 .stars__star:nth-of-type(n + 6) {
-  background-image: url(images/star.svg);
+  background-image: url(images/stars.svg);
 }
