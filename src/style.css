@@ -21,7 +21,6 @@ html {
 .stars {
   display: flex;
   width: 96px;
-  margin-bottom: 4px;
 }
 
 .stars__star {
