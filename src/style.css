@@ -1,5 +1,6 @@
 /* add styles here */
-* {
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +8,7 @@
 
 /* #region stars */
 .stars {
-  display: flax;
+  display: flex;
 }
 
 .stars__star {
@@ -18,7 +19,8 @@
   display: inline-block;
   margin-right: 4px;
   padding-bottom: 4px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
@@ -27,7 +29,6 @@
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
-  color: #ffde6a;
 }
 
 /* #endregion */
