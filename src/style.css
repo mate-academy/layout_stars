@@ -6,6 +6,16 @@ html {
 }
 
 /* #region stars */
+
+.frame {
+  width: 140px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .stars {
   display: flex;
 }
