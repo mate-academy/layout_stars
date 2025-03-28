@@ -1,1 +1,30 @@
-/* add styles here */
+/* Reset browser default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the stars block */
+.stars {
+  display: flex; /* Using flexbox to align stars horizontally */
+}
+
+/* Styling individual stars */
+.stars__star {
+  width: 16px; /* Set width of each star based on Figma measurements */
+  height: 16px; /* Set height of each star based on Figma */
+  background-image: url('./images/star.svg'); /* Default empty star */
+  background-position: center; /* Ensure background fits within the div */
+  background-repeat: no-repeat;
+  margin-right: 4px; /* Distance between stars from Figma */
+}
+
+/* Modifier classes to activate stars dynamically */
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg'); /* Change to filled star */
+}
