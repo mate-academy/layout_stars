@@ -1,1 +1,34 @@
 /* add styles here */
+
+/* #region Page */
+body {
+  margin: 0;
+}
+
+/* #endregion */
+
+/* #region Stars */
+.content--stars > div {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+
+  background-repeat: no-repeat;
+
+  background-position: 2px;
+
+  margin-right: 0.3rem;
+}
+
+.stars--element--0 {
+  background-image: url('images/star.svg');
+}
+
+.stars--element--1 {
+  background-image: url('images/star-active.svg');
+}
+
+/* #endRegion */
