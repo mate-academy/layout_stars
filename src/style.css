@@ -1,66 +1,41 @@
 /* add styles here */
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fff;
-  color: #161616;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background: #d12d35;
-  color: #fff;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.menu-toggle {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.menu {
-  display: none;
-  background: #161616;
-  padding: 10px;
-}
-
-.menu ul {
-  list-style: none;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.menu ul li {
-  margin: 10px 0;
-}
-
-.menu ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.hero {
-  text-align: center;
-  padding: 40px 20px;
-  background: #f7f7f7;
-}
-
-.gallery {
+body {
+  font-family: Arial, sans-serif;
   display: flex;
-  gap: 10px;
-  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fff;
 }
 
-.gallery-item img {
-  width: 100%;
-  border-radius: 8px;
+.stars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stars__block {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
+
+.star--active {
+  background-image: url('yellow-star.svg');
+}
+
+.star--empty {
+  background-image: url('gray-star.svg');
 }
