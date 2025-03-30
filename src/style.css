@@ -6,22 +6,32 @@ html {
 }
 
 /* #region stars */
-
 .frame {
   width: 140px;
   height: 160px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-bottom: 4px;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 4px;
+}
+
+.stars-wrapper {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  display: flex;
+  flex-direction: column;
+  width: 112px;
+  height: auto;
 }
 
 .stars {
   display: flex;
-  width: 96px;
+  margin-bottom: 4px;
 }
 
 .stars__star {
@@ -29,14 +39,9 @@ html {
   height: 16px;
   width: 16px;
   border-radius: 0.5px;
-  display: inline-block;
   margin-right: 4px;
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-.stars + .stars {
-  margin-top: 4px;
 }
 
 .stars__star:last-child {
