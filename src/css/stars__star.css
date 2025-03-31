@@ -1,13 +1,5 @@
-body {
-  margin: 0;
-}
-
-.stars {
-  display: flex;
-}
-
 .stars__star {
-  background-image: url(images/star.svg);
+  background-image: url(../images/star.svg);
   width: 16px;
   height: 16px;
   margin-right: 4px;
@@ -16,5 +8,5 @@ body {
 }
 
 .stars__star--active {
-  background-image: url(images/star-active.svg);
+  background-image: url(../images/star-active.svg);
 }
