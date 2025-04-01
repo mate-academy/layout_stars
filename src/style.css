@@ -18,6 +18,10 @@ body {
   margin-right: 4px;
 }
 
+.star.active {
+  background-image: url(../src/images/star-active.svg);
+}
+
 .star:first-child {
   padding-top: 0;
 }
@@ -26,10 +30,3 @@ body {
   margin-right: 0;
 }
 
-.stars--1 .star:nth-child(1),
-.stars--2 .star:nth-child(-n + 2),
-.stars--3 .star:nth-child(-n + 3),
-.stars--4 .star:nth-child(-n + 4),
-.stars--5 .star:nth-child(-n + 5) {
-  background-image: url(../src/images/star-active.svg);
-}
