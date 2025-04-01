@@ -22,10 +22,6 @@ body {
   background-image: url(../src/images/star-active.svg);
 }
 
-.star:first-child {
-  padding-top: 0;
-}
-
 .star:last-child {
   margin-right: 0;
 }
