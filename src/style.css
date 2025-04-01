@@ -33,9 +33,9 @@ body {
 }
 
 .star--active {
-  background-image: url('yellow-star.svg');
+  background-image: url(images/star-active.svg);
 }
 
 .star--empty {
-  background-image: url('gray-star.svg');
+  background-image: url(images/star.svg);
 }
