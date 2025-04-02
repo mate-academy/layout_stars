@@ -1,28 +1,17 @@
 html {
   --star-size: 16px;
-  --stars-gap: 4px;
 }
 
 body {
   margin: 0;
 }
 
-.container {
-  margin: 25px;
-
-  display: flex;
-  flex-direction: column;
-  gap: var(--stars-gap);
-}
-
-.stars {
-  display: flex;
-  gap: var(--stars-gap);
-}
-
 .stars__star {
   height: var(--star-size);
   width: var(--star-size);
+
+  padding: 2px;
+
   background-image: url(./images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
