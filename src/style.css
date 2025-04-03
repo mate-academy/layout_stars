@@ -1,1 +1,38 @@
-/* add styles here */
+/* #region page */
+.page__body {
+  margin: 0;
+  padding: 22px;
+  display: flex;
+
+  width: 96px;
+  height: 116px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #endregion */
+
+/* #region stars */
+.stars {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.stars__star {
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url('./images/star.svg');
+  background-size: cover;
+  display: inline-block;
+}
+
+.stars__star--active {
+  background-image: url('./images/star-active.svg');
+}
+
+/* #endregion */
