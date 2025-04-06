@@ -18,7 +18,7 @@ body {
   margin: 2px 4px;
 }
 
-.stars__star:first-of-type:first-of-type {
+.stars__star:first-of-type {
   margin-left: 0;
 }
 
