@@ -21,11 +21,9 @@
   margin-right: 0;
 }
 
-.stars--2 > .stars__star:nth-child(-n + 2) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--1 > .stars__star:nth-child(1) {
+.stars--2 > .stars__star:nth-child(-n + 2),
+.stars--1 > .stars__star:nth-child(1),
+..... {
   background-image: url(./images/star-active.svg);
 }
 
