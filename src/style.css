@@ -1,5 +1,5 @@
 /* add styles here */
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +14,6 @@
   width: 16px;
   background-image: url('/src/images/star.svg');
   background-repeat: no-repeat;
-  background-size: сover;
   background-position: center;
   margin-right: 4px;
 }
