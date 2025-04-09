@@ -1,1 +1,56 @@
-/* add styles here */
+/* Reset ідеально */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+img,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  width: fit-content;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url('./images/star.svg');
+  background-repeat: no-repeat;
+  background-size: 16px 16 px;
+  background-position: center;
+  vertical-align: top;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Активні зірки */
+
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg') !important;
+}
