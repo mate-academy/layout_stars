@@ -6,7 +6,6 @@
 
 .stars {
   display: flex;
-  margin-right: 4px;
 }
 
 .stars__star {
@@ -15,7 +14,6 @@
   background-image: url(../src/images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
   margin-right: 4px;
 }
 
