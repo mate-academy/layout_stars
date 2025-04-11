@@ -1,6 +1,6 @@
 .stars {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
@@ -20,4 +20,3 @@
 .stars__star.active {
   background-image: url(images/star-active.svg);
 }
-
