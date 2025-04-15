@@ -1,1 +1,32 @@
 /* add styles here */
+.stars {
+  display: flex;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background-size: contain;
+  list-style: none;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url('./images/star-inactive.svg');
+  background-repeat: no-repeat;
+  margin-right: 4px;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Active stars modifiers */
+.stars--1 .stars__star:nth-child(1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg');
+}
