@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    padding: 32px;
+   
     
   }
   
@@ -15,8 +15,7 @@ body {
   }
   
   .stars__star {
-    top: 42;
-    left: 42;
+ 
     width: 16px;
     height: 16px;
     background-image: url('./images/star.svg');
