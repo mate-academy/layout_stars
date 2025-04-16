@@ -1,4 +1,19 @@
 html {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-container {
+  width: 140;
+  height: 160;
+  padding: 22px;
+  margin-top: 30vh;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
 }
