@@ -1,20 +1,25 @@
-html {
+body {
   margin: 0;
-  padding: 0;
+}
+
+.stars {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.star-container {
-  width: 140;
-  height: 160;
-  padding: 22px;
-  margin-top: 30vh;
-  background-color: #111111;
-}
-
-.star {
+.stars__star {
+  display: inline-flex;
   width: 16px;
   height: 16px;
+  margin-right: 4px;
+  background-image: url('images/star.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
 }
