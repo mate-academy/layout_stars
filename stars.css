@@ -1,0 +1,12 @@
+.stars {
+
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  list-style-type: none;
+  background-size: cover;
+   position: relative;
+}
+li:hover {
+  background-image: url(images/star-active.svg);
+}

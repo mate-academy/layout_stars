@@ -1,0 +1,10 @@
+.stars-box {
+  display: flex;
+  width: 96px;
+  height: 116px;
+  top: 22px;
+  left: 22px;
+  flex-direction: column;
+  justify-content: space-between;
+
+}

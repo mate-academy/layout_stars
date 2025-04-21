@@ -1,0 +1,7 @@
+.stars-list {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+
+}
