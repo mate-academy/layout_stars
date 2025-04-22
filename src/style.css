@@ -9,7 +9,7 @@ body {
 
 /* #region backgroun */
 
-.bacground-block {
+.background-block {
   background: #fff;
 }
 
@@ -23,8 +23,8 @@ body {
 }
 
 .stars__star {
-  width: 16;
-  height: 16;
+  width: 16px;
+  height: 16px;
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
