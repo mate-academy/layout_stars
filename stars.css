@@ -7,6 +7,6 @@
   background-size: cover;
    position: relative;
 }
-li:hover {
+.stars:hover {
   background-image: url(images/star-active.svg);
 }
