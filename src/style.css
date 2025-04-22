@@ -1,1 +1,42 @@
-/* add styles here */
+/* #region body */
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
+/* #endregion */
+
+/* #region backgroun */
+
+.bacground-block {
+  background: #fff;
+}
+
+/* #endregion */
+
+/* #region stars */
+
+.stars {
+  display: flex;
+  margin: 0;
+}
+
+.stars__star {
+  width: 16;
+  height: 16;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 4px;
+  background-image: url(./images/star.svg);
+}
+
+/* #endregion */
+
+/* #region image */
+
+.stars__star.active {
+  background-image: url(./images/star-active.svg);
+}
+
+/* #endregion */
