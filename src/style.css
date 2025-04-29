@@ -1,13 +1,14 @@
 /* add styles here */
 body {
   margin: 0;
-  padding-top: 2px;
+  box-sizing: border-box;
 }
 
 .stars {
   display: flex;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   padding-left: 2px;
+  padding-top: 2px;
 }
 
 .stars__star {
