@@ -5,7 +5,7 @@
 .star {
   width: 16px;
   height: 16px;
-  border-radius: 0, 5px;
+  border-radius: 0 5px;
   background-image: url('images/star.svg'); /* caminho para estrela vazia */
   background-size: cover;
 }
