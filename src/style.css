@@ -1,1 +1,20 @@
-/* add styles here */
+.stars {
+  display: flex;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  border-radius: 0, 5px;
+  background-image: url('images/star.svg'); /* caminho para estrela vazia */
+  background-size: cover;
+}
+
+/* Estrelas ativas por quantidade */
+.stars--1 .star:nth-child(-n + 1),
+.stars--2 .star:nth-child(-n + 2),
+.stars--3 .star:nth-child(-n + 3),
+.stars--4 .star:nth-child(-n + 4),
+.stars--5 .star:nth-child(-n + 5) {
+  background-image: url('images/star-active.svg'); /* caminho para estrela cheia */
+}
