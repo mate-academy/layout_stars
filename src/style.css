@@ -32,6 +32,7 @@ body {
 .stars--2 .stars__star:nth-child(1) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--2 .stars__star:nth-child(2) {
   background-image: url(./images/star-active.svg);
 }
@@ -39,9 +40,11 @@ body {
 .stars--3 .stars__star:nth-child(1) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--3 .stars__star:nth-child(2) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--3 .stars__star:nth-child(3) {
   background-image: url(./images/star-active.svg);
 }
@@ -49,12 +52,15 @@ body {
 .stars--4 .stars__star:nth-child(1) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--4 .stars__star:nth-child(2) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--4 .stars__star:nth-child(3) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--4 .stars__star:nth-child(4) {
   background-image: url(./images/star-active.svg);
 }
@@ -62,15 +68,19 @@ body {
 .stars--5 .stars__star:nth-child(1) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--5 .stars__star:nth-child(2) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--5 .stars__star:nth-child(3) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--5 .stars__star:nth-child(4) {
   background-image: url(./images/star-active.svg);
 }
+
 .stars--5 .stars__star:nth-child(5) {
   background-image: url(./images/star-active.svg);
 }
