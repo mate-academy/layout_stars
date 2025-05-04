@@ -1,18 +1,149 @@
+<!-- #region head -->
 <!doctype html>
-<html lang="en">
+<html
+  lang="en"
+  class="page"
+>
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, initial-scale=1.0"
     />
-    <title>Stars</title>
+    <title>THE MET</title>
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
-      href="./style.css"
+      href="./styles/main.scss"
     />
+    <script
+      src="scripts/main.js"
+      defer
+    ></script>
   </head>
-  <body>
-    <h1>Stars</h1>
+  <!--#endregion-->
+  <!-- #region header -->
+  <body class="page__body">
+    <header class="header">
+      <div class="header__top">
+        <a href="#">
+          <img
+            src="images/logo.png"
+            alt="Logo THE MET"
+          />
+        </a>
+
+        <div class="header__icons">
+          <a
+            href="#"
+            class="icon icon--phone"
+          >
+            <img
+              src="images/icon-phone-call.png"
+              alt="Icon Phone Call"
+            />
+          </a>
+          <a
+            href="#menu"
+            class="icon icon--menu"
+          >
+            <img
+              src="images/icon-burger-menu.png"
+              alt="Icon Menu"
+            />
+          </a>
+        </div>
+      </div>
+
+      <h1 class="header__title">
+        Welcome
+        <br />
+        to The MET
+      </h1>
+    </header>
+    <!-- #endregion -->
+    <!-- #region menu -->
+    <aside
+      class="menu page__menu"
+      id="menu"
+    >
+      <div class="menu__top">
+        <a href="#">
+          <img
+            src="images/logo.png"
+            alt="Logo THE MET"
+          />
+        </a>
+
+        <div class="icon">
+          <a
+            href="#"
+            class="icon--close"
+          >
+            <img
+              src="images/icon-close.png"
+              alt="Icon close"
+            />
+          </a>
+        </div>
+      </div>
+
+      <ul class="menu__list">
+        <li class="menu__list__item">Home</li>
+        <li class="menu__list__item">About Us</li>
+        <li class="menu__list__item">Now on view</li>
+        <li class="menu__list__item">Explore Online</li>
+        <li class="menu__list__item">Contacts</li>
+      </ul>
+
+      <ul class="menu__bottom">
+        <li class="menu__bottom__item">The Met Fifth Avenue</li>
+        <li class="menu__bottom__item">+1 212-535-7710</li>
+        <li class="menu__bottom__item">The Met Cloisters</li>
+        <li class="menu__bottom__item">+1 212-923-3700</li>
+        <li class="menu__bottom__item">
+          <div class="menu__bottom__item__end">call to order</div>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- #endredion -->
+
+    <!-- #region main -->
+    <main>
+      <section>
+        <h2>Recomended</h2>
+      </section>
+
+      <section>
+        <h2>Recomended</h2>
+      </section>
+
+      <section>
+        <h2>Recomended</h2>
+      </section>
+
+      <section>
+        <h2>Recomended</h2>
+      </section>
+    </main>
+    <!--#endregion-->
+
+    <!-- #region footer -->
+    <footer></footer>
+    <!--#endregion-->
   </body>
 </html>
