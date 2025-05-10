@@ -4,8 +4,13 @@
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  padding: 0 2px;
-  background-size: contain;
-  box-sizing: border-box;
-  border-radius: 50%;
+  margin: 0 2px;
+}
+
+.stars__star:first-child {
+  margin: 0 2px 0 0;
+}
+
+.stars__star:last-child {
+  margin: 0 0 0 2px;
 }
