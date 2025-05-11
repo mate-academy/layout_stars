@@ -1,1 +1,39 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+:root {
+  --star-size: 16px; /* CSS-змінна для розмірів зірки */
+  --star-spacing: 4px; /* CSS-змінна для відступу між зірками */
+}
+
+/* #region stars */
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: var(--star-size); /* Ширина зірки */
+  height: var(--star-size); /* Висота зірки */
+  background-image: url('images/star.svg');
+  background-repeat: no-repeat; /* Зображення не буде повторюватися */
+  background-position: center;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: var(
+    --star-spacing
+  ); /* Відступ справа для кожної зірки, крім останньої */
+}
+
+.stars--0 .stars__star:nth-child(-n + 0),
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('images/star-active.svg');
+}
+
+/* #endregion */
