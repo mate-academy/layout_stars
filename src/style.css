@@ -19,7 +19,7 @@ body {
   background-position: 50%;
 }
 
-.stars__stars:last-child {
+.stars__star:last-child {
   margin-bottom: 0;
 }
 
