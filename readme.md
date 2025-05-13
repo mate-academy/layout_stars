@@ -1,8 +1,6 @@
 # Stars block
 
-Implement the [Stars Block](https://www.figma.com/file/ojkArVazq7vsX0nbpn9CxZ/Moyo-%2F-Catalog-(ENG)?node-id=11325%3A2960) used in a card and catalog. // The first link doesn't works.
-
-Implement the [Stars Block] (https://www.figma.com/design/ojkArVazq7vsX0nbpn9CxZ/Moyo---Catalog--ENG-?node-id=11325-2960&p=f&t=V3ssJowFJTYVQaJA-0) used in a card and catalog.
+Implement the [Stars Block](https://www.figma.com/file/ojkArVazq7vsX0nbpn9CxZ/Moyo-%2F-Catalog-(ENG)?node-id=11325%3A2960) used in a card and catalog.
 
 Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 
