@@ -20,7 +20,8 @@ body > ul > li > ul {
   width: 16px;
   height: 16px;
   background-image: url('./images/star.svg');
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin-right: 4px;
 }
 
