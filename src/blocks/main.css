@@ -1,0 +1,10 @@
+/* #region Main */
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+
+/* #endregion */
