@@ -1,1 +1,43 @@
 /* add styles here */
+/* 1) reset default margins */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 2) base block */
+.stars {
+  display: flex;            /* avoid text-node gaps */
+  list-style: none;         /* if you ever switch to <ul> */
+}
+
+/* 3) element */
+.stars__star {
+  /* replace these with the exact Figma values: */
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+
+  background-image: url('../images/star-empty.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* remove extra margin on last star */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* 4) modifiers to color the first N stars */
+/* yellow (active) star image */
+@media all {
+  .stars--1 .stars__star:nth-child(-n+1),
+  .stars--2 .stars__star:nth-child(-n+2),
+  .stars--3 .stars__star:nth-child(-n+3),
+  .stars--4 .stars__star:nth-child(-n+4),
+  .stars--5 .stars__star:nth-child(-n+5) {
+    background-image: url('../images/star-filled.svg');
+  }
+}
+
+
