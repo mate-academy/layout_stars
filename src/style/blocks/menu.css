@@ -1,0 +1,41 @@
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #e5e5e5;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu__top {
+  margin-bottom: 32px;
+}
+
+.menu__nav {
+  margin-bottom: 40px;
+}
+
+.menu__content {
+  padding-inline: 20px;
+  
+}
+
+.menu__phone-number {
+  display: block;
+  margin-bottom: 16px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.menu__call-to-order {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: inherit;
+  
+  padding-bottom: 7px;
+  border-bottom: 1px solid #292929;
+  width: fit-content;
+}

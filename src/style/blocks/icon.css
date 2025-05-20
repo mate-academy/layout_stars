@@ -1,0 +1,18 @@
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../imagens/icons/Icon-Burger-menu.png);
+}
+
+.icon-phone {
+  background-image: url(../../imagens/icons/icon-phone.png);
+}
+
+.icon-menu {
+  background-image: url(../../imagens/icons/Icon-Burger-menu.png);
+}
+
+.icon-close {
+  background-image: url(../../imagens/icons/icon_close.png);
+}
