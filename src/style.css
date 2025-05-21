@@ -1,58 +1,42 @@
 /* add styles here */
 body {
   margin: 0;
-  width: 140px;
-  height: 160px;
+  padding: 0;
+  width: 96px;
+  height: 96px;
 }
 
-.stars{
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-  margin: 10px;
+.stars {
+  margin: 0;
   padding: 2px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.stars__star{
+.stars__star {
   width: 16px;
   height: 16px;
-  background-image: url("./images/star.svg");
-  background-size: cover;
+  background-image: url('./images/star.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.stars--1 .stars__star:nth-child(1){
-  width: 16px;
-  height: 16px;
-  background-image: url("./images/star-active.svg");
-  background-size: cover;
+.stars--1 .stars__star:nth-child(1) {
+  background-image: url('./images/star-active.svg');
 }
 
-.stars--2 .stars__star:nth-child(-n + 2){
-  width: 16px;
-  height: 16px;
-  background-image: url("./images/star-active.svg");
-  background-size: cover;
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url('./images/star-active.svg');
 }
 
-
-.stars--3 .stars__star:nth-child(-n + 3){
-  width: 16px;
-  height: 16px;
-  background-image: url("./images/star-active.svg");
-  background-size: cover;
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url('./images/star-active.svg');
 }
 
-.stars--4 .stars__star:nth-child(-n + 4){
-  width: 16px;
-  height: 16px;
-  background-image: url("./images/star-active.svg");
-  background-size: cover;
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url('./images/star-active.svg');
 }
 
-.stars--5 .stars__star:nth-child(-n + 5){
-  width: 16px;
-  height: 16px;
-  background-image: url("./images/star-active.svg");
-  background-size: cover;
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg');
 }
-
