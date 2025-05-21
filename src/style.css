@@ -1,1 +1,21 @@
 /* add styles here */
+body {
+  margin: 0;
+}
+
+.container{
+  padding: 20px;
+}
+
+.stars{
+  display: flex;
+  list-style-type: none;
+}
+
+.stars__star{
+  padding: 2;
+  width: 16px;
+  height: 16px;
+  background-image: url("./images/star.svg");
+  background-size: cover;
+}
