@@ -1,36 +1,4 @@
-/* add styles here */
-.stars--0 {
-  width: 16px;
-  height: 16px;
-  display: flex;
-}
-
-.stars--1 {
-  width: 16px;
-  height: 16px;
-  display: flex;
-}
-
-.stars--2 {
-  width: 16px;
-  height: 16px;
-  display: flex;
-}
-
-.stars--3 {
-  width: 16px;
-  height: 16px;
-  display: flex;
-}
-
-.stars--4 {
-  width: 16px;
-  height: 16px;
-  display: flex;
-}
-
-.stars--5 {
-  width: 16px;
-  height: 16px;
-  display: flex;
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
 }
