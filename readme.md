@@ -6,7 +6,8 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 
 > Here are the [Layout Tasks Instructions](https://mate-academy.github.io/layout_task-guideline)
 
-## Requirements:
+## Requirements
+
 - Reset browser's default `margin`
 - Add 6 `stars` blocks with 5 `stars__star` elements each.
 - Add `stars--0`, `stars--1`, `stars--2` ... `stars--5` modifiers to the blocks one per each
