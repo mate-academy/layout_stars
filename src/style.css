@@ -10,7 +10,7 @@ body {
   background-image: url(../src/images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 96;
+  width: 96px;
   height: 116px;
   margin-right: 4px;
 }
