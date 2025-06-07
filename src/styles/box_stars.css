@@ -1,0 +1,6 @@
+.box_stars {
+  display: flex;
+  height: 116px;
+  width: 100px;
+  flex-direction: column;
+}
