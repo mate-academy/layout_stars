@@ -13,51 +13,35 @@ ul {
   margin: 0;
 }
 
-/* .stars-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 160px;
-  width: 140px;
-  background-color: #fff;
-} */
-
 .stars-list {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-
-  /* height: 116px; */
-  width: 96px;
   background-color: #fff;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
 }
 
 .stars__star {
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   background-image: url(images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.stars__star:last-child {
+  margin: 0;
 }
 
 .stars--1 :first-child {
   background-image: url(./images/star-active.svg);
 }
 
-.stars--2 :nth-child(-n + 2) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--3 :nth-child(-n + 3) {
-  background-image: url(./images/star-active.svg);
-}
-
+.stars--2 :nth-child(-n + 2),
+.stars--3 :nth-child(-n + 3),
 .stars--4 :nth-child(-n + 4) {
   background-image: url(./images/star-active.svg);
 }
