@@ -1,22 +1,11 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
-  background-color: #ccc;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.stars-list {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
 }
 
 .stars {
