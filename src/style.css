@@ -13,22 +13,23 @@ ul {
   margin: 0;
 }
 
-.stars-container {
+/* .stars-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 160px;
   width: 140px;
   background-color: #fff;
-}
+} */
 
 .stars-list {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  
+
   /* height: 116px; */
   width: 96px;
+  background-color: #fff;
 }
 
 .stars {
