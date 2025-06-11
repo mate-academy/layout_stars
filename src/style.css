@@ -26,7 +26,8 @@ ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  height: 116px;
+  
+  /* height: 116px; */
   width: 96px;
 }
 
