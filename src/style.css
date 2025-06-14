@@ -1,2 +1,3 @@
-@import 'url(page.css)';
-@import 'url(stars.css)';
+/* stylelint-disable import-notation */
+@import url(page.css);
+@import url(stars.css);
