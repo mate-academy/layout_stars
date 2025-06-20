@@ -30,4 +30,4 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 - [ ] Yellow stars are added with container modifier + pseudo-selector (NO extra classes)
 - [ ] Each BEM block has its own separate file
 - [ ] All `Typical Mistakes` from `BEM` lesson theory are checked.
-- [ ] Code follows all the [Code Style Rules ❗️](./checklist.md)
+- [ ] Code follows all the [Code Style Rules ❗️]
