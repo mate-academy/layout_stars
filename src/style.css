@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+ html * {
+padding: 0;
+margin: 0;
+}
+
 .stars {
   display: flex;
 }
