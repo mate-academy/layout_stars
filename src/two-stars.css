@@ -1,9 +1,0 @@
-.stars--2 > .stars__star {
-  background-image: url(./images/star.svg);
-}
-
-.stars--2 > .stars__star:nth-child(1),
-.stars--2 > .stars__star:nth-child(2) {
-  background-image: url(./images/star-active.svg);
-}
-

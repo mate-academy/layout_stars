@@ -1,7 +1,3 @@
 /* stylelint-disable import-notation */
 @import url('./block.css');
-@import url('./one-stars.css');
-@import url('./two-stars.css');
-@import url('./three-stars.css');
-@import url('./four-stars.css');
-@import url('./five-stars.css');
+@import url('./stars.css');
