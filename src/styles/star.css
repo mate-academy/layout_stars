@@ -1,0 +1,11 @@
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars__star:not(:first-of-type) {
+  margin-left: 4px;
+}
