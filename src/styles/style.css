@@ -1,0 +1,7 @@
+@import './stars.css';
+@import './stars__star.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
