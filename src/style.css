@@ -36,7 +36,7 @@
 
 /* stars 2 */
 
-.stars--2 .stars__star:nth-of-type(-n + 2) {
+.stars--2 .stars__star:nth-of-type(-n+2) {
   background: url('images/star-active.svg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 
 /* stars 3 */
 
-.stars--3 .stars__star:nth-of-type(-n + 3) {
+.stars--3 .stars__star:nth-of-type(-n+3) {
   background: url('images/star-active.svg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@
 
 /* stars 4 */
 
-.stars--4 .stars__star:nth-of-type(-n + 4) {
+.stars--4 .stars__star:nth-of-type(-n+4) {
   background: url('images/star-active.svg');
   background-position: center center;
   background-repeat: no-repeat;
