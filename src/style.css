@@ -1,7 +1,7 @@
 /* Reset browser margin */
 body {
   margin: 0;
-  font-family: Arial, sans-serif; /* Add font-family fallback */
+  font-family: Inter, Arial, sans-serif; /* Add font-family fallback */
 }
 
 .stars {
