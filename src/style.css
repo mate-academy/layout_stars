@@ -34,7 +34,6 @@
   background-repeat: no-repeat;
 }
 
-
 /* stars 2 */
 
 .stars--2 .stars__star:nth-of-type(-n + 2) {
@@ -51,7 +50,6 @@
   background-repeat: no-repeat;
 }
 
-
 /* stars 4 */
 
 .stars--4 .stars__star:nth-of-type(-n + 4) {
@@ -59,7 +57,6 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
-
 
 /* stars 5 */
 
