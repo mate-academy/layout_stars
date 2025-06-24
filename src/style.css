@@ -1,1 +1,70 @@
-/* add styles here */
+/* stylelint-disable no-descending-specificity */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background: url('images/star.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* stars 1 */
+
+.stars--1 .stars__star:nth-of-type(1) {
+  background: url('images/star-active.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+/* stars 2 */
+
+.stars--2 .stars__star:nth-of-type(-n + 2) {
+  background: url('images/star-active.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* stars 3 */
+
+.stars--3 .stars__star:nth-of-type(-n + 3) {
+  background: url('images/star-active.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+/* stars 4 */
+
+.stars--4 .stars__star:nth-of-type(-n + 4) {
+  background: url('images/star-active.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+/* stars 5 */
+
+.stars--5 .stars__star {
+  background: url('images/star-active.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
