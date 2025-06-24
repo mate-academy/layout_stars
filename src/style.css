@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
 }
 
-.stars:last-child {
+.star:last-child {
   margin-right: 0;
 }
 
