@@ -14,10 +14,6 @@ body {
 }
 
 .stars-container {
-  width: 140px;
-  height: 160px;
-  background-color: white;
-  padding: 0;
   display: flex;
 
   flex-direction: column;
