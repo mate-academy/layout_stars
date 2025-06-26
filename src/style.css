@@ -4,10 +4,7 @@
 
 body {
   margin: 0;
-}
-
-.stars {
-  display: flex;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 .stars__star {
