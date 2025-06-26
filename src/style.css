@@ -10,17 +10,11 @@ body {
     width: 16px;
     height: 16px;
     background-image: url('images/star.svg');
-    /* background-size: cover; */
     background-repeat: no-repeat;
 }
 
 .stars__star:not(:last-child) {
     margin-right: 2px;
-}
-
-
-.stars--0 .stars__star {
-
 }
 
 .stars--1 .stars__star:nth-child(-n + 1) {
