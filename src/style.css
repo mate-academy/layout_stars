@@ -1,1 +1,13 @@
 /* add styles here */
+
+@import "stars.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
