@@ -1,6 +1,7 @@
 /* add styles here */
 body {
   margin: 0;
+  box-sizing: border-box;
 }
 
 .stars {
@@ -12,10 +13,12 @@ body {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 4px;
+}
+
+.stars__star:not(:first-child) {
+  margin-left: 4px;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0),
