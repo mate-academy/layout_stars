@@ -22,7 +22,7 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 
 ❗️ Replace `<your_account>` with your Github username and copy the links to `Pull Request` description:
 
-- [DEMO LINK](https://github.com/michelam-pseudo/layout_stars/blob/stars_BEM/src/index.htmlhttps://<your_account>.github.io/layout_stars/)
+- [DEMO LINK](https://github.com/michelam-pseudo/layout_stars/blob/stars_BEM/src/index.html)
 - [TEST REPORT LINK](https://github.com/michelam-pseudo/layout_stars/blob/stars_BEM/report/html_report/index.html)
 
 ❗️ Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.
