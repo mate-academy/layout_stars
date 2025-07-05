@@ -1,9 +1,19 @@
 /* add styles here */
 
+body {
+  margin: 0;
+}
+
 .stars {
   display: flex;
   flex-direction: row;
   list-style: none;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.stars:last-child {
+  margin-bottom: 0;
 }
 
 .stars__star {
