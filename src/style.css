@@ -1,9 +1,7 @@
-@import "./blocks/stars.css";
+@import 'blocks/stars.css';
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-
