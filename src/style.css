@@ -1,1 +1,36 @@
 /* add styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stars container */
+.stars {
+  display: flex;
+  margin-bottom: 10px; /* tylko odstęp między blokami, NIE pionowy padding */
+}
+
+/* Pojedyncza gwiazdka */
+.stars__star {
+  width: 16px; /* dopasuj do Figma, np. 16x16px */
+  height: 16px;
+  background-image: url('images/star.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 4px; /* odstęp między gwiazdkami (zamiast gap) */
+}
+
+/* Ostatnia gwiazdka bez marginesu */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Aktywne gwiazdki (nadpisane przez modyfikatory) */
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('images/star-active.svg');
+}
