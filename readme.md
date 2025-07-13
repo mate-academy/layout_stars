@@ -25,7 +25,7 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 - [DEMO LINK](https://mesu96.github.io/layout_stars/)
 - [TEST REPORT LINK](https://mesu96.github.io/layout_stars/report/html_report/)
 
-❗️ Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.
+❗️  Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.
 
 - [x] Yellow stars are added with container modifier + pseudo-selector (NO extra classes)
 - [x] Each BEM block has its own separate file
