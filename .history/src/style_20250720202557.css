@@ -1,0 +1,10 @@
+/* add styles here */
+.html {
+  margin: 0;
+}
+
+.stars__star {
+  width: 16px;
+  h16px
+  background-image: url(images/star.svg);
+}

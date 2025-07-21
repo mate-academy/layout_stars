@@ -1,0 +1,34 @@
+html {
+  margin: 0;
+}
+
+.stars-list {
+  margin: 22px;
+  background-color: pink;
+  width: 96px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars + .stars {
+  margin-top: 4px;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
