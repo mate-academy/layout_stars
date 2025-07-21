@@ -10,8 +10,9 @@ body {
   width: 16px;
   height: 16px;
   background-image: url(images/star.svg);
+  background-size: 16px 16px;
   background-repeat: no-repeat;
-  background-position: center;
+  bgp
 
   margin-right: 4px;
 }
