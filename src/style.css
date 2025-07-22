@@ -18,10 +18,10 @@ body {
   margin-right: 4px;
 }
 
-.star--1 .stars_star:nth-child(-n + 1),
-.star--2 .stars_star:nth-child(-n + 2),
-.star--3 .stars_star:nth-child(-n + 3),
-.star--4 .stars_star:nth-child(-n + 4),
-.star--5 .stars_star:nth-child(-n + 5) {
+.star--1 .stars__star:nth-child(-n + 1),
+.star--2 .stars__star:nth-child(-n + 2),
+.star--3 .stars__star:nth-child(-n + 3),
+.star--4 .stars__star:nth-child(-n + 4),
+.star--5 .stars__star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
 }
