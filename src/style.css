@@ -1,5 +1,5 @@
 body {
-  margin: 0 auto;
+  margin: 0;
 }
 
 .stars {
@@ -18,10 +18,10 @@ body {
   margin-right: 4px;
 }
 
-.stars__star--1 :nth-child(-n + 1),
-.stars__star--2 :nth-child(-n + 2),
-.stars__star--3 :nth-child(-n + 3),
-.stars__star--4 :nth-child(-n + 4),
-.stars__star--5 :nth-child(-n + 5) {
+.star--1 .stars_star:nth-child(-n + 1),
+.star--2 .stars_star:nth-child(-n + 2),
+.star--3 .stars_star:nth-child(-n + 3),
+.star--4 .stars_star:nth-child(-n + 4),
+.star--5 .stars_star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
 }
