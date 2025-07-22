@@ -1,1 +1,27 @@
-/* add styles here */
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.stars {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.stars__star {
+  width: 24px;
+  height: 24px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/18/Five-pointed_star.svg');
+  background-size: cover;
+  filter: grayscale(100%) brightness(0.7); /* desativa visualmente */
+}
+
+/* Ativa as estrelas conforme o modificador */
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  filter: none; /* estrela "ativa" */
+}
