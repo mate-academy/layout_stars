@@ -1,1 +1,42 @@
-/* add styles here */
+.container {
+  width: 180px;
+  border: 2px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  gap: 4px;
+}
+
+.row img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 160px;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(200, 200, 200, 0.15),
+    rgba(200, 200, 200, 0.15) 20px,
+    transparent 20px,
+    transparent 40px
+  ),
+  repeating-linear-gradient(
+    0deg,
+    rgba(200, 200, 200, 0.15),
+    rgba(200, 200, 200, 0.15) 20px,
+    transparent 20px,
+    transparent 40px
+  );
+  z-index: -1;
+}
