@@ -4,9 +4,7 @@ body {
 
 }
 
-.stars {
-  display: flex;
-}
+
 
 .stars__star {
   background-image: url(./images/star.svg);
