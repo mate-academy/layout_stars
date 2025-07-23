@@ -1,1 +1,8 @@
-/* add styles here */
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Import bloków BEM */
+@import url('./stars.css');
