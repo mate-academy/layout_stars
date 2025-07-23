@@ -5,11 +5,10 @@
 }
 
 .stars__star {
-  width: 24px;
+  width: 24px; /* zgodnie z Figma */
   height: 24px;
   background-image: url('./images/star.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-right: 8px;
 }
 
@@ -24,4 +23,3 @@
 .stars--5 .stars__star:nth-child(-n+5) {
   background-image: url('./images/star-active.svg');
 }
-
