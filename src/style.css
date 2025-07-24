@@ -6,4 +6,4 @@ body {
   color: #333;
 }
 
-@import './blocks/stars/star.css';
+@import './blocks/stars/stars.css';
