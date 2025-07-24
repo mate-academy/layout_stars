@@ -1,1 +1,170 @@
-/* add styles here */
+/* #region page */
+.page {
+  font-family: inter, sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #292929;
+
+  scroll-behavior: smooth;
+}
+
+.page__body {
+  margin: 0;
+}
+
+.page__menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page__menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* #endregion */
+
+/* #region header */
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__waves {
+  height: 76px;
+  width: 63px;
+  margin-bottom: 16px;
+  background-image: url(icons/sound-waves.png);
+}
+
+.header__title {
+  margin: 0;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+
+.header__bottom {
+  padding: 0 20px 40px;
+}
+
+/* #endregion */
+
+/* #region menu */
+.top-bar {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.top-bar__logo {
+  display: flex;
+}
+
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #e5e5e5;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu__top {
+  margin-bottom: 32px;
+}
+
+.menu__nav {
+  margin-bottom: 40px;
+}
+
+.menu__content {
+  padding-inline: 20px;
+}
+
+.menu__phone-number {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 27px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu__call-to-order {
+  display: block;
+  width: fit-content;
+  margin-bottom: 16px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #292929;
+  color: inherit;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+}
+
+.nav__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+}
+
+/* #endregion */
+
+/* #region nav */
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* #endregion */
+
+/* #region icon */
+.icon {
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+.icon--phone {
+  background-image: url(icons/icon-phone-call.png);
+}
+
+.icon--menu {
+  background-image: url(icons/Icon-Burger-menu.png);
+}
+
+.icon--close {
+  background-image: url(icons/Icon-Close.png);
+}
+
+/* #endregion */
+
+/* #region footer */
+
+/* #endregion */
