@@ -1,3 +1,5 @@
+@import './blocks/stars/stars.css';
+
 body {
   margin: 0;
   padding: 0;
@@ -5,5 +7,3 @@ body {
   background-color: #fefefe;
   color: #333;
 }
-
-@import './blocks/stars/stars.css';
