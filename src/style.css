@@ -14,17 +14,12 @@
 
 /* pojedyncza gwiazdka */
 .stars__star {
-  width: 16px;          /* rozmiar gwiazdek z Figma */
-  height: 16px;
+  width: 15px; /* rozmiar gwiazdek z Figma */
+  height: 15px;
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 4px;    /* odstęp z Figma */
-}
-
-/* usuwamy margin po ostatniej gwiazdce */
-.stars__star:last-child {
-  margin-right: 0;
+  margin: 1px 4px 0 2px; /* odstęp z Figma */
 }
 
 /* aktywne gwiazdki */
