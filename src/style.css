@@ -8,10 +8,6 @@ body {
   margin: 0;
 }
 
-.star-active {
-  background-image: url(images/star-active.svg);
-}
-
 .stars {
   display: flex;
   align-items: center;
