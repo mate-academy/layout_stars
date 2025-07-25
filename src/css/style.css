@@ -1,0 +1,30 @@
+/* Reset de margem padrão do navegador */
+body {
+  margin: 0;
+}
+
+/* Bloco de estrelas (container) */
+.estrelas {
+  display: flex;
+  padding: 10px 0; /* Apenas para visualização, pode remover se o Figma não tiver */
+}
+
+/* Estrela individual */
+.estrelas__estrela {
+  width: 24px;         /* Substitua conforme o Figma */
+  height: 24px;        /* Substitua conforme o Figma */
+  background-image: url('.image/star.svg'); /* Caminho base para estrela vazia */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 4px;   /* Substitua conforme o Figma */
+}
+
+/* Estrelas ativas — sobrescreve o fundo da estrela vazia */
+.estrelas__estrela.ativa {
+  background-image: url('.image/star.svg');
+}
+
+/* Remove margem da última estrela para não gerar espaço extra */
+.estrelas__estrela:last-child {
+  margin-right: 0;
+}
