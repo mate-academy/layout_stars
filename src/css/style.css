@@ -1,42 +1,8 @@
+
+@import url('./estrelas.css');
+
 /* Reset da margem padrão do navegador */
 body {
   margin: 20px;
 }
 
-/* Container de estrelas */
-.estrelas {
-  display: flex;
-  padding: 04px;
-  justify-content: center; /* Centraliza as estrelas */
-  align-items: center; /* Alinha verticalmente */
-}
-
-/* Estrelas base: cinza (desativadas) */
-.estrelas__estrela {
-  width: 16px; /* Ajustado conforme o Figma */
-  height: 16px;
-
-  background-image: url('./images/star.svg'); /* estrela vazia */
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-right: 16px; /* Ajuste conforme o Figma */
-}
-
-/* Estrelas ativas — sobrescreve o fundo da estrela vazia */
-.estrelas__estrela.ativa {
-  background-image: url('.image/star.svg');
-}
-
-/* Remove margem da última estrela */
-.estrelas__estrela:last-child {
-  margin-right: 0;
-}
-
-/* Estrelas ativas: altera imagem com base no modificador do container */
-.estrelas--1 .estrelas__estrela:nth-child(-n + 1),
-.estrelas--2 .estrelas__estrela:nth-child(-n + 2),
-.estrelas--3 .estrelas__estrela:nth-child(-n + 3),
-.estrelas--4 .estrelas__estrela:nth-child(-n + 4),
-.estrelas--5 .estrelas__estrela:nth-child(-n + 5) {
-  background-image: url(./images/star-active.svg); /* mostra a estrela colorida */
-}
