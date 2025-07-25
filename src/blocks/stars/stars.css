@@ -2,30 +2,25 @@
   display: flex;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
 }
 
-/* Pojedyncza gwiazdka */
 .stars__star {
-  width: 16px; /* zgodnie z Figma */
+  width: 16px;
   height: 16px;
-  background-image: url('../images/star.svg');
+  background-image: url('../../images/star.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  margin-right: 4px; /* odstęp poziomy */
-  margin-bottom: 4px; /* odstęp pionowy */
+  margin-right: 8px;
 }
 
-/* Usuwamy margin po ostatniej gwiazdce w rzędzie */
-.stars__star:nth-child(5) {
+.stars__star:last-child {
   margin-right: 0;
 }
 
-/* Modyfikatory — aktywne gwiazdki */
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('../images/star-active.svg');
+  background-image: url('../../images/star-active.svg');
 }
