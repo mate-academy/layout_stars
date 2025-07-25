@@ -1,6 +1,6 @@
 /* Container de estrelas */
 .estrelas {
-  display: flex; /*Para evitar problemas com espaços extras*/
+  display: flex; /* Para evitar problemas com espaços extras */
   padding: 04px;
   justify-content: center; /* Centraliza as estrelas */
   align-items: center; /* Alinha verticalmente */
