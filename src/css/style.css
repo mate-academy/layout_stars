@@ -1,0 +1,8 @@
+
+@import url './estrelas.css';
+
+/* Reset da margem padrão do navegador */
+body {
+  margin: 20px;
+}
+
