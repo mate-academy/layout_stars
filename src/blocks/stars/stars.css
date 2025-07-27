@@ -12,7 +12,6 @@ body {
   width: 24px;
   height: 24px;
   background-image: url('../../images/star.svg');
-  background-size: cover;
   margin-right: 8px;
 }
 
