@@ -1,1 +1,8 @@
+/* Reset browser's default margin */
+
+/* Import the stars component styles */
 @import './blocks/stars/stars.css';
+
+body {
+  margin: 0;
+}
