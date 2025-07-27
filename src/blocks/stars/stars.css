@@ -1,55 +1,33 @@
+/* #region Body */
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Flex container for stars */
+/* #endregion */
+
+/* #region Stars */
 .stars {
   display: flex;
-
-  /* Ensure no vertical margins between blocks */
-  margin-bottom: 0;
-  margin-left: 2;
 }
 
 .stars__star {
-  background-position: center;
-  width: 24px;
   height: 16px;
-
-  background-image: url('../../images/star.svg'); /* Path to inactive star image */
-
-  /* background-size: 14px 14px; */
+  width: 16px;
+  margin-right: 4px;
+  background-image: url('../../images/star.svg');
+  background-position: center;
   background-repeat: no-repeat;
-  margin-right: 8px; /* Adjust this to your Figma star spacing */
 }
 
-/* Remove margin from the very last star to prevent extra space */
-.stars__star:last-child {
-  margin-right: 6;
-}
-
-/* Modifiers for active stars: Each modifier activates N first stars */
-
-.stars--0 .stars__star:nth-child(-n + 0) {
-  background-image: url('../../images/star-active.svg');
-}
-
-.stars--1 .stars__star:nth-child(-n + 1) {
-  background-image: url('../../images/star-active.svg');
-}
-
-.stars--2 .stars__star:nth-child(-n + 2) {
-  background-image: url('../../images/star-active.svg');
-}
-
-.stars--3 .stars__star:nth-child(-n + 3) {
-  background-image: url('../../images/star-active.svg');
-}
-
-.stars--4 .stars__star:nth-child(-n + 4) {
-  background-image: url('../../images/star-active.svg');
-}
-
+/* Gwiazdki aktywne dla modyfikatorów */
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url('../../images/star-active.svg');
 }
+
+/* #endregion */
