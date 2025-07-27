@@ -10,11 +10,11 @@
 }
 
 .stars__star {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   background-image: url('../../images/star-inactive.png');
   background-size: cover;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 .stars__star:last-child {
