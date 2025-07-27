@@ -11,7 +11,7 @@ body {
 .stars__star {
   width: 24px;
   height: 24px;
-  background-image: url('../../images/star-inactive.svg');
+  background-image: url('../../images/star.svg');
   background-size: cover;
   margin-right: 8px;
 }
