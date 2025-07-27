@@ -8,21 +8,24 @@ body {
 
   /* Ensure no vertical margins between blocks */
   margin-bottom: 0;
+  margin-left: 2;
 }
 
 .stars__star {
+  background-position: center;
   width: 24px;
-  height: 24px;
+  height: 16px;
 
   background-image: url('../../images/star.svg'); /* Path to inactive star image */
-  background-size: contain;
+
+  /* background-size: 14px 14px; */
   background-repeat: no-repeat;
   margin-right: 8px; /* Adjust this to your Figma star spacing */
 }
 
 /* Remove margin from the very last star to prevent extra space */
 .stars__star:last-child {
-  margin-right: 0;
+  margin-right: 6;
 }
 
 /* Modifiers for active stars: Each modifier activates N first stars */
