@@ -11,13 +11,13 @@ body {
 }
 
 .stars__star {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 
   background-image: url('../../images/star.svg'); /* Path to inactive star image */
   background-size: contain;
   background-repeat: no-repeat;
-  margin-right: 4px; /* Adjust this to your Figma star spacing */
+  margin-right: 8px; /* Adjust this to your Figma star spacing */
 }
 
 /* Remove margin from the very last star to prevent extra space */
