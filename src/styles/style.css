@@ -1,3 +1,2 @@
-@import 'blocks/page.css';
-@import 'blocks/stars.css';
-@import 'blocks/stars__star.css';
+@import './blocks/stars.css';
+@import './blocks/stars__star.css';
