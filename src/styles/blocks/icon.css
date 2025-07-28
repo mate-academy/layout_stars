@@ -2,8 +2,7 @@
   display: block;
   height: 24px;
   width: 24px;
-
-  /* background-image: url(../../images/icons/icon--menu.png); */
+  background-image: url(../../images/icons/icon--menu.png);
 }
 
 .icon--phone {

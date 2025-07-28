@@ -10,13 +10,20 @@
   justify-content: space-between;
 }
 
+.header__waves {
+  height: 75px;
+  width: 63px;
+  margin-bottom: 16px;
+  background-image: url(../../images/icons/icon--sounds-wave.png);
+}
+
 .header__title {
   margin: 0;
   font-style: italic;
   font-weight: 800;
   font-size: 32px;
   line-height: 100%;
-  letter-spacing: -1, 5px;
+  letter-spacing: -1.5px;
 }
 
 .header__bottom {
