@@ -16,7 +16,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 0.3;
-  border: 1px solid red; /* DEBUG - remova depois */
+  /* border removido */
 }
 
 /* ativa as primeiras N estrelas conforme modificador */
