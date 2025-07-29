@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.stars {
+  display: flex;
+  margin: 0;
+}
+
+.stars__star {
+  width: 32px;
+  height: 32px;
+  background-image: url('/images/star.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.3;
+  border: 1px solid red; /* DEBUG - remova depois */
+}
+
+/* ativa as primeiras N estrelas conforme modificador */
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  opacity: 1;
+}
