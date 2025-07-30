@@ -51,5 +51,18 @@
         <div class="stars__star"></div>
       </section>
     </main>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const starSections = document.querySelectorAll('.stars');
+        console.log('Star Sections:', starSections.length);
+
+        starSections.forEach((section, index) => {
+          console.log(`Section ${index}:`, section.classList);
+          const stars = section.querySelectorAll('.stars__star');
+          console.log(`Stars in section ${index}:`, stars.length);
+        });
+      });
+    </script>
   </body>
 </html>
