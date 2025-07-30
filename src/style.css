@@ -6,10 +6,7 @@ div {
   padding: 0;
 }
 
-.stars {
-  display: flex;
-  align-items: center;
-}
+
 
 .stars__star {
   background-image: url('images/star.svg');
