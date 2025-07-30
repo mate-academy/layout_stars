@@ -12,11 +12,11 @@ body, html {
 .stars__star {
   width: 32px;
   height: 32px;
-  background-image: url('../images/star.svg'); /* ajustar caminho */
+  background-image: url('../images/star.svg'); /* ajuste caminho se precisar */
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 0.3;
-  margin-right: 8px; /* ajustar conforme Figma */
+  margin-right: 8px;
 }
 
 .stars__star:last-child {
