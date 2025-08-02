@@ -1,15 +1,12 @@
-/* Reset browser margin */
 body {
   margin: 0;
 }
 
-/* Flex container for each star row */
 .stars {
   display: flex;
   justify-content: center;
 }
 
-/* Base star style */
 .stars__star {
   width: 16px;
   height: 16px;
@@ -19,8 +16,6 @@ body {
   margin-right: 4px;
 }
 
-
-/* Modifiers: Activate first N stars */
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
