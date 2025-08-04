@@ -8,13 +8,14 @@ body {
 .stars {
   display: flex;
   flex-flow: row nowrap;
-  width: 107px;
 }
 
 .stars__star {
-  height: 12px;
-  width: 12px;
-  margin: 2px 4px;
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .stars:first-child {
