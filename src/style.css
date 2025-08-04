@@ -1,1 +1,36 @@
 /* add styles here */
+.page {
+  margin: 0;
+}
+
+.wrapper {
+  height: 116px;
+  width: 96px;
+  margin: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(images/star.svg);
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center, center, center;
+}
+
+.stars--0 .stars__star:nth-child(-n + 0),
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(images/star-active.svg);
+}
