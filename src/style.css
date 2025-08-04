@@ -1,1 +1,6 @@
 /* add styles here */
+body {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+}
