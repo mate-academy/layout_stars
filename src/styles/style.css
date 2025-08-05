@@ -1,0 +1,7 @@
+/* add styles here */
+@import './stars.css';
+@import './stars-star.css';
+
+body {
+  margin: 0;
+}

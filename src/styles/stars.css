@@ -1,0 +1,8 @@
+.stars {
+  display: flex;
+  padding: 0;
+}
+
+.stars:last-child {
+  margin-bottom: 0;
+}
