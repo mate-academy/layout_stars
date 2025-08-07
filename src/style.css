@@ -1,1 +1,3 @@
-/* add styles here */
+@import 'page.css';
+@import 'stars.css';
+@import 'stars_modifier.css';
