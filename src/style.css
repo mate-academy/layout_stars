@@ -6,7 +6,6 @@ body {
   display: flex;
 }
 
-/* Each star element */
 .stars__star {
   width: 16px;
   height: 16px;
@@ -16,12 +15,10 @@ body {
   margin-right: 4px;
 }
 
-/* Remove margin-right from last star to avoid extra space */
 .stars__star:last-child {
   margin-right: 0;
 }
 
-/* Active stars for each modifier */
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
