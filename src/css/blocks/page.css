@@ -1,0 +1,7 @@
+.page {
+  box-sizing: border-box;
+}
+
+.page__content {
+  margin: 0;
+}
