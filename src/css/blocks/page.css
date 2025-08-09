@@ -1,18 +1,7 @@
 .page {
   box-sizing: border-box;
-
-  height: 100vh;
-  width: 100vw;
 }
 
 .page__content {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-
-  place-self: center;
-  justify-content: center;
-
   margin: 0;
-  height: 100%;
 }

@@ -1,16 +1,21 @@
 .stars {
   display: flex;
-  flex-wrap: wrap;
-  max-width: 126px;
-  margin: 0 auto;
 }
 
-.stars__elements {
+.stars__star {
   width: 16px;
   height: 16px;
   background-image: url(../../images/star.svg);
+  background-position: center;
   background-repeat: no-repeat;
-  margin: 4px 4px 0;
+}
+
+.stars :nth-child(-n + 4) {
+  margin-right: 4px;
+}
+
+.stars--0 :nth-child(n) {
+  background-image: url(../../images/star.svg);
 }
 
 .stars--1 :first-child {
