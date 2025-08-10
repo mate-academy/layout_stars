@@ -1,8 +1,8 @@
 .stars {
   --star-size: 16px;
   --star-spacing: 4px;
-  --star-empty: url('/src/images/star.svg');
-  --star-full: url('/src/images/star-active.svg');
+  --star-empty: url('../../images/star.svg');
+  --star-full: url('../../images/star-active.svg');
 
   display: flex;
 }
