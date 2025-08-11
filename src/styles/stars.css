@@ -1,11 +1,10 @@
 /* add styles here */
 body {
-  --stars-margin: 8px; /* Но в макеті 4px */
+  --stars-margin: 4px; /* Но в макеті 4px */
   --stars-size: 12px;
 }
 
 .stars {
-  padding: 2px;
   display: flex;
 }
 
