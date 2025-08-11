@@ -1,0 +1,6 @@
+.stars {
+  display: flex;
+  margin: 0;
+  height: 12px;
+  padding: 2px 0;
+}
