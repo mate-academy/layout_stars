@@ -9,7 +9,6 @@ body {
 .frame__content {
   display: flex;
   flex-direction: column;
-  gap: 4px;
 }
 
 .stars {
@@ -17,6 +16,7 @@ body {
   flex-direction: row;
   align-items: center;
   width: fit-content;
+  column-gap: 4px;
 }
 
 .stars > div {
@@ -25,10 +25,6 @@ body {
   background-image: url(./images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.stars > div:not(:last-child) {
-  margin-right: 4px;
 }
 
 .stars--1 div:nth-child(-n + 1) {
