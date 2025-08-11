@@ -1,0 +1,35 @@
+/* add styles here */
+body {
+  --stars-margin: 8px; /* Но в макеті 4px */
+  --stars-size: 12px;
+}
+
+.stars {
+  padding: 2px;
+  display: flex;
+}
+
+.stars__star {
+  width: var(--stars-size);
+  height: var(--stars-size);
+  margin-right: var(--stars-margin);
+
+  box-sizing: border-box;
+
+  background-image: url('../images/star.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('../images/star-active.svg');
+}
