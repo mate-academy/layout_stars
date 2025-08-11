@@ -1,12 +1,13 @@
 /* add styles here */
 body {
   --stars-margin: 4px; /* Но в макеті 4px */
-  --stars-size: 12px;
+  --stars-size: 16px;
 
   margin: 0;
 }
 
 .stars {
+  /* padding: 2px 2px 0; */
   display: flex;
 }
 
@@ -20,7 +21,6 @@ body {
   background-image: url('../images/star.svg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .stars__star:last-child {
