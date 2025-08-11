@@ -1,8 +1,0 @@
-.stars__star {
-  height: 16px;
-  width: 16px;
-  margin-right: 4px; /* однаковий відступ з усіх боків */
-  background-image: url(./images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
