@@ -1,5 +1,6 @@
 .stars {
   display: flex;
+  height: 18px;
   align-items: center;
   margin: 0;
 }
