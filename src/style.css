@@ -1,1 +1,17 @@
-/* add styles here */
+.head{
+  margin: 0;
+  padding: 0;
+}
+
+.stars_star{
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/star-active.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars{
+  display: flex;
+}
