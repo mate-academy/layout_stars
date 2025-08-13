@@ -1,19 +1,7 @@
-.head{
-  margin: 0;
-  padding: 0;
-}
-
-.stars_star{
-  width: 16px;
-  height: 16px;
-  background-image: url(./images/star-active.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-
-
-.stars{
-  display: flex;
-}
+@import './blocks/main.css';
+@import './blocks/stars.css';
+@import './blocks/stars_1.css';
+@import './blocks/stars_2.css';
+@import './blocks/stars_3.css';
+@import './blocks/stars_4.css';
+@import './blocks/stars_5.css';
