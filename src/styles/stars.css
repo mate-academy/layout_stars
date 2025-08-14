@@ -3,15 +3,14 @@
   align-items: center;
   line-height: 0;
   font-size: 0;
-
-  /* padding needed for visual tests to pass */
-  padding: 1.5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px 0;
 }
 
 .stars__star {
   display: block;
   width: 13px;
-  height: 13px;
+  height: 12px;
   background-image: url('../images/star.svg');
   background-repeat: no-repeat;
   flex: 0 0 13px;
