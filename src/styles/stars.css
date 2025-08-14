@@ -1,18 +1,10 @@
-html,
-body {
-  margin: 0;
-  font-size: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .stars {
   display: flex;
   align-items: center;
   line-height: 0;
   font-size: 0;
+
+  /* padding needed for visual tests to pass */
   padding: 1.5px 0;
 }
 
@@ -20,7 +12,7 @@ body {
   display: block;
   width: 13px;
   height: 13px;
-  background-image: url('./images/star.svg');
+  background-image: url('../images/star.svg');
   background-repeat: no-repeat;
   flex: 0 0 13px;
 }
@@ -38,5 +30,5 @@ body {
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('./images/star-active.svg');
+  background-image: url('../images/star-active.svg');
 }
