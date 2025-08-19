@@ -1,1 +1,68 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+.main {
+  width: 140px;
+  height: 160px;
+
+  align-content: center;
+}
+
+.container {
+  width: 96px;
+  height: 116px;
+  margin: 22px;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-repeat: no-repeat;
+}
+
+.stars--1 .stars__star:nth-child(-n + 1) {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-image: url(images/star-active.svg);
+  background-repeat: no-repeat;
+}
