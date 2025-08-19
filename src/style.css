@@ -5,8 +5,6 @@ body {
 .main {
   width: 140px;
   height: 160px;
-
-  align-content: center;
 }
 
 .container {
@@ -27,6 +25,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
 .stars--1 .stars__star:nth-child(-n + 1) {
   background-image: url(images/star-active.svg);
 }
@@ -45,4 +47,8 @@ body {
 
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
+}
+
+.stars:not(:last-child) {
+  margin-bottom: 8px;
 }
