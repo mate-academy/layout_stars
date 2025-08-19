@@ -5,12 +5,21 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  flex-direction: column;
+
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightgray;
+  height: 116px;
+  width: 96px;
+}
+
 
 .stars {
   display: flex;
-  align-items: center;
 }
 
 .stars__star {
@@ -31,4 +40,8 @@ body {
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
+}
+
+.start--0 :first-child {
+  margin-left: 0;
 }
