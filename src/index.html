@@ -1,18 +1,143 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <title>Stars</title>
-    <link
-      rel="stylesheet"
-      href="./style.css"
-    />
-  </head>
-  <body>
-    <h1>Stars</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Avaliação por Estrelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Avaliação por Estrelas</h1>
+        
+        <div class="description">
+            <p>Este é um exemplo de implementação de um sistema de classificação por estrelas usando apenas HTML e CSS, conforme especificado nos requisitos.</p>
+        </div>
+        
+        <div class="instructions">
+            <h3>Instruções de Layout</h3>
+            <ul>
+                <li>Reset do margin padrão do navegador</li>
+                <li>6 blocos de estrelas com 5 elementos estrela cada</li>
+                <li>Modificadores stars--0 a stars--5 para controlar as estrelas ativas</li>
+                <li>Use background-image para as estrelas (não use &lt;img&gt; ou &lt;svg&gt;)</li>
+                <li>Use display: flex para o bloco de estrelas</li>
+                <li>Não use a propriedade gap para o flex container</li>
+            </ul>
+        </div>
+        
+        <div class="cards-container">
+            <div class="card">
+                <h3>Produto 1</h3>
+                <p>Uma descrição breve do produto e suas características principais.</p>
+                <div class="stars stars--0">
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                </div>
+                <div class="rating-text">0 estrelas (Sem avaliação)</div>
+            </div>
+            
+            <div class="card">
+                <h3>Produto 2</h3>
+                <p>Uma descrição breve do produto e suas características principais.</p>
+                <div class="stars stars--1">
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                </div>
+                <div class="rating-text">1 estrela (Péssimo)</div>
+            </div>
+            
+            <div class="card">
+                <h3>Produto 3</h3>
+                <p>Uma descrição breve do produto e suas características principais.</p>
+                <div class="stars stars--2">
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                </div>
+                <div class="rating-text">2 estrelas (Regular)</div>
+            </div>
+            
+            <div class="card">
+                <h3>Produto 4</h3>
+                <p>Uma descrição breve do produto e suas características principais.</p>
+                <div class="stars stars--3">
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                </div>
+                <div class="rating-text">3 estrelas (Bom)</div>
+            </div>
+            
+            <div class="card">
+                <h3>Produto 5</h3>
+                <p>Uma descrição breve do produto e suas características principais.</p>
+                <div class="stars stars--4">
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                </div>
+                <div class="rating-text">4 estrelas (Muito Bom)</div>
+            </div>
+            
+            <div class="card">
+                <h3>Produto 6</h3>
+                <p>Uma descrição breve do produto e suas características principais.</p>
+                <div class="stars stars--5">
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                </div>
+                <div class="rating-text">5 estrelas (Excelente)</div>
+            </div>
+        </div>
+        
+        <div class="code-block">
+            <h3>Exemplo de Código HTML</h3>
+            <pre><code>&lt;div class="stars stars--3"&gt;
+    &lt;div class="stars__star"&gt;&lt;/div&gt;
+    &lt;div class="stars__star"&gt;&lt;/div&gt;
+    &lt;div class="stars__star"&gt;&lt;/div&gt;
+    &lt;div class="stars__star"&gt;&lt;/div&gt;
+    &lt;div class="stars__star"&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            
+            <h3>Exemplo de Código CSS</h3>
+            <pre><code>.stars {
+    display: flex;
+}
+
+.stars__star {
+    width: 24px;
+    height: 24px;
+    background-image: url('estrela-inativa.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 4px;
+}
+
+.stars--3 .stars__star:nth-child(-n+3) {
+    background-image: url('estrela-ativa.svg');
+}</code></pre>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Implementação de Sistema de Estrelas para Cards e Catálogos</p>
+    </footer>
+</body>
 </html>
