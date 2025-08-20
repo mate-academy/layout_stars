@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,11 +14,11 @@
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: fit;
+  background-size: contain;
 }
 
 .stars__star:not(:last-child) {
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 .stars--5 .stars__star,
