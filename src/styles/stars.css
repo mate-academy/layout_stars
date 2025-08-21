@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   display: flex;
-  background-color: white;
 }
 
 .stars__star {
@@ -15,11 +14,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-  border-radius: 0.5px;
 }
 
-.stars--0 .stars__star:nth-child() {
-  background-image: url(../images/star-active.svg);
+.stars--0 .stars__star {
+  background-image: url(../images/star.svg);
 }
 
 .stars--1 .stars__star:nth-child(1) {
