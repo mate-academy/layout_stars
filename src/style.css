@@ -1,87 +1,67 @@
 /* add styles here */
-.head {
-  margin: 0;
-  padding: 0;
-}
-
 .body {
+  padding: 0;
+  margin: 0;
   display: flex;
+  width: 96px;
+  height: 116px;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
-  height: 116px;
-  width: 96px;
-}
-
-.main {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  height: 160px;
-  width: 140px;
-}
-
-.main__content {
-  height: 116px;
-  width: 96px;
-  padding: 0;
 }
 
 .stars {
   display: flex;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
-  align-items: center;
 }
 
+
 .stars__star {
+  display: flex;
   background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  height: 16px;
   width: 16px;
-  display: flex;
-  justify-content: space-between;
+  height: 16px;
   padding: 0 4px 4px 0;
 }
 
-.stars--0 {
-  display: flex;
-  height: 16px;
+
+
+.star--1 .stars__star:nth-child(-n+1) {
   width: 16px;
-  background-image: url(images/star.svg);
+  height: 16px;
+  display: flex;
+  background-image: url(images/star-active.svg);
+
 }
 
-.stars--1 {
-  display: flex;
-  height: 16px;
+.star--2 .stars__star:nth-child(-n+2) {
   width: 16px;
+  height: 16px;
+  display: flex;
   background-image: url(images/star-active.svg);
+
 }
 
-.stars--2 {
-  display: flex;
-  height: 16px;
+.star--3 .stars__star:nth-child(-n+3) {
   width: 16px;
+  height: 16px;
+  display: flex;
   background-image: url(images/star-active.svg);
+
 }
 
-.stars--3 {
-  display: flex;
-  height: 16px;
+.star--4 .stars__star:nth-child(-n+4) {
   width: 16px;
+  height: 16px;
+  display: flex;
   background-image: url(images/star-active.svg);
+
 }
 
-.stars--4 {
-  display: flex;
-  height: 16px;
+.star--5 .stars__star:nth-child(-n+5) {
   width: 16px;
+  height: 16px;
+  display: flex;
   background-image: url(images/star-active.svg);
-}
 
-.stars--5 {
-  display: flex;
-  height: 16px;
-  width: 16px;
-  background-image: url(images/star-active.svg);
 }
