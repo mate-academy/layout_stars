@@ -1,7 +1,6 @@
 /* add styles here */
 body {
   margin: 0;
-  padding: 0;
 }
 
 .stars {
@@ -18,7 +17,7 @@ body {
 }
 
 .stars__star:last-child {
-  margin-right: o;
+  margin-right: 0;
 }
 
 .stars--0 {
