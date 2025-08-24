@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.stars-block {
+.main {
   display: flex;
   flex-flow: row wrap;
   background-color: #fff;
@@ -20,8 +20,8 @@ body {
 .stars__star {
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
-  width: 16px;
   height: 16px;
+  width: 16px;
   margin-right: 4px;
   flex-shrink: 0;
   background-position: center;
