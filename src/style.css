@@ -3,14 +3,6 @@ body {
   padding: 0;
 }
 
-.starbox {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-}
-
 .stars {
   display: flex;
   margin: 0;
