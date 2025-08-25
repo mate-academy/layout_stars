@@ -1,1 +1,45 @@
-/* add styles here */
+:root {
+  --active-star: url(/src/images/star-active.svg);
+}
+
+body {
+  margin: 0;
+  display: block;
+}
+
+.star {
+  background-image: url(./images/star.svg);
+  width: 16px;
+  height: 16px;
+  border-radius: 0.5px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars .star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars--1 .star:first-child {
+  background-image: var(--active-star);
+}
+
+.stars--2 .star:nth-child(-n + 2) {
+  background-image: var(--active-star);
+}
+
+.stars--3 .star:nth-child(-n + 3) {
+  background-image: var(--active-star);
+}
+
+.stars--4 .star:nth-child(-n + 4) {
+  background-image: var(--active-star);
+}
+
+.stars--5 .star:nth-child(-n + 5) {
+  background-image: var(--active-star);
+}
