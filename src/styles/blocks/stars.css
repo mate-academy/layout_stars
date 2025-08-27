@@ -14,12 +14,6 @@
   margin-left: 4px;
 }
 
-.stars--0 .stars__star:nth-child(-n) {
-  background-image: url(../../images/star-active.svg);
-  height: var(--star-height);
-  width: var(--star-width);
-}
-
 .stars--1 .stars__star:nth-child(-n + 1) {
   background-image: url(../../images/star-active.svg);
   height: var(--star-height);
@@ -44,7 +38,7 @@
   width: var(--star-width);
 }
 
-.stars--5 .stars__star:nth-child(n) {
+.stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(../../images/star-active.svg);
   height: var(--star-height);
   width: var(--star-width);
