@@ -1,0 +1,23 @@
+.main__stars {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../images/star.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars__star--active {
+  background-image: url(../../images/star-active.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
