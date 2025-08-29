@@ -1,1 +1,18 @@
 /* add styles here */
+body {
+  margin: 1px;
+  padding: 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  width: 16px;
+  height: auto;
+}
