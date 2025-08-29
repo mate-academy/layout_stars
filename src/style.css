@@ -1,1 +1,37 @@
-/* add styles here */
+body {
+  background: #f0f0f0; /* світлий фон для контрасту */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.stars {
+  display: flex;
+  gap: 5px; /* відстань між зірками */
+}
+
+.stars__star {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #ccc; /* порожня зірка */
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  ); /* форма п’ятикутної зірки */
+}
+
+.stars__star.filled {
+  background: gold; /* заповнена зірка */
+}
