@@ -1,1 +1,26 @@
-/* add styles here */
+body {
+  margin: 22px;
+}
+
+.stars {
+  display: grid;
+  grid-template-columns: repeat(5, 16px);
+  gap: 4px;
+}
+
+.star--0,
+.star--1 {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.star--0 {
+  background-image: url(images/star.svg);
+}
+
+.star--1 {
+  background-image: url(images/star-active.svg);
+}
