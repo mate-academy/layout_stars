@@ -1,27 +1,40 @@
 .stars::before {
-  content: "★★★★★";
+  content: '★★★★★';
   font-size: 32px;
   letter-spacing: 4px;
 
   /* Degradê baseado na variável --percent */
-  background: linear-gradient(90deg, gold var(--percent, 0%), lightgray var(--percent, 0%));
+  background: linear-gradient(
+    90deg,
+    gold var(--percent, 0%),
+    lightgray var(--percent, 0%)
+  );
 
   /* Faz o degradê aparecer no texto */
   -webkit-background-clip: text; /* Chrome, Safari */
-  background-clip: text;         /* Padrão */
+  background-clip: text; /* Padrão */
 
   /* Faz o texto ficar transparente para mostrar o degradê */
   -webkit-text-fill-color: transparent;
   color: lightgray; /* fallback para navegadores que não suportam background-clip:text */
 }
 
-.stars--0 { --percent: 0%; }
-.stars--1 { --percent: 20%; }
-.stars--2 { --percent: 40%; }
-.stars--3 { --percent: 60%; }
-.stars--4 { --percent: 80%; }
-.stars--5 { --percent: 100%; }
+.stars--0 {
+  --percent: 0%;
+}
+.stars--1 {
+  --percent: 20%;
+}
+.stars--2 {
+  --percent: 40%;
+}
+.stars--3 {
+  --percent: 60%;
+}
+.stars--4 {
+  --percent: 80%;
+}
+.stars--5 {
+  --percent: 100%;
+}
 /* meia estrela */
-
-
-
