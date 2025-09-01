@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .stars::before {
   content: '★★★★★';
   font-size: 32px;
@@ -38,3 +39,31 @@
   --percent: 100%;
 }
 /* meia estrela */
+=======
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 32px; /* substitua pelo valor exato do Figma */
+  height: 32px; /* substitua pelo valor exato do Figma */
+  background-image: url('./images/star-inactive.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px; /* substitua pelo espaçamento do Figma */
+}
+
+/* Remover margem da última estrela */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Estrelas ativas com base no modificador */
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.png');
+}
+>>>>>>> e648a9d (add task solution)
