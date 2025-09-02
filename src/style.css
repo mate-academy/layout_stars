@@ -1,5 +1,5 @@
 body {
-  background: #f0f0f0; /* світлий фон для контрасту */
+  background: #f0f0f0; /* світлий фон */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,29 +9,16 @@ body {
 }
 
 .stars {
-  display: flex;
-  gap: 5px; /* відстань між зірками */
+  width: 120px;  /* ширина блоку з 5 зірок */
+  height: 24px;  /* висота зірок */
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.stars__star {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background: #ccc; /* порожня зірка */
-  clip-path: polygon(
-    50% 0%,
-    61% 35%,
-    98% 35%,
-    68% 57%,
-    79% 91%,
-    50% 70%,
-    21% 91%,
-    32% 57%,
-    2% 35%,
-    39% 35%
-  ); /* форма п’ятикутної зірки */
-}
-
-.stars__star.filled {
-  background: gold; /* заповнена зірка */
-}
+/* Відносний шлях до твоїх картинок */
+.stars--0 { background-image: url('../../reference/stars-0.png'); }
+.stars--1 { background-image: url('../../reference/stars-1.png'); }
+.stars--2 { background-image: url('../../reference/stars-2.png'); }
+.stars--3 { background-image: url('../../reference/stars-3.png'); }
+.stars--4 { background-image: url('../../reference/stars-4.png'); }
+.stars--5 { background-image: url('../../reference/stars-5.png'); }
