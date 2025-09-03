@@ -1,69 +1,28 @@
-<<<<<<< HEAD
-.stars::before {
-  content: '★★★★★';
-  font-size: 32px;
-  letter-spacing: 4px;
-
-  /* Degradê baseado na variável --percent */
-  background: linear-gradient(
-    90deg,
-    gold var(--percent, 0%),
-    lightgray var(--percent, 0%)
-  );
-
-  /* Faz o degradê aparecer no texto */
-  -webkit-background-clip: text; /* Chrome, Safari */
-  background-clip: text; /* Padrão */
-
-  /* Faz o texto ficar transparente para mostrar o degradê */
-  -webkit-text-fill-color: transparent;
-  color: lightgray; /* fallback para navegadores que não suportam background-clip:text */
-}
-
-.stars--0 {
-  --percent: 0%;
-}
-.stars--1 {
-  --percent: 20%;
-}
-.stars--2 {
-  --percent: 40%;
-}
-.stars--3 {
-  --percent: 60%;
-}
-.stars--4 {
-  --percent: 80%;
-}
-.stars--5 {
-  --percent: 100%;
-}
-/* meia estrela */
-=======
 .stars {
-  display: flex;
+  display: flex; /* Evita espaços extras entre estrelas */
+  margin-bottom: 0; /* Não adicionar margem vertical entre blocos */
 }
 
 .stars__star {
-  width: 32px; /* substitua pelo valor exato do Figma */
-  height: 32px; /* substitua pelo valor exato do Figma */
-  background-image: url('./images/star-inactive.png');
+  width: 32px; /* Tamanho da estrela (ajuste conforme Figma) */
+  height: 32px;
+  margin-right: 8px; /* Espaço entre estrelas */
+  background-image: url('./images/star-inactive.svg'); /* inativa por padrão */
   background-size: contain;
   background-repeat: no-repeat;
-  margin-right: 8px; /* substitua pelo espaçamento do Figma */
 }
 
 /* Remover margem da última estrela */
 .stars__star:last-child {
-  margin-right: 0;
+  margin-right: 0; /* Remove margem da última estrela */
 }
 
-/* Estrelas ativas com base no modificador */
+/* Ativa as primeiras N estrelas */
+.stars--0 .stars__star:nth-child(-n + 0),
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('./images/star-active.png');
+  background-image: url('./images/star-active.svg'); /* ativa */
 }
->>>>>>> e648a9d (add task solution)
