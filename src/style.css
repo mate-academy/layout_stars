@@ -7,7 +7,7 @@
   width: 32px; /* Tamanho da estrela (ajuste conforme Figma) */
   height: 32px;
   margin-right: 8px; /* Espaço entre estrelas */
-  background-image: url('./images/star-inactive.svg'); /* inativa por padrão */
+  background-image: url('./images/star.svg'); /* inativa por padrão */
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -24,5 +24,5 @@
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('./images/star-active.svg'); /* ativa */
+  background-image: url('./images/star-active.svg');
 }

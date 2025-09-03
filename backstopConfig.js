@@ -7,7 +7,9 @@ const { basicScenario } = backstop;
 const basic = {
   ...basicScenario,
   label: 'Elementary test',
-  referenceUrl: basicScenario.referenceUrl + '/stars/',
+  referenceUrl: 'http://localhost:1234',
+
+
 };
 
 const config = {
@@ -16,8 +18,8 @@ const config = {
   viewports: [
     {
       name: 'tablet_h',
-      width: 100,
-      height: 100,
+      width: 768,
+      height: 600,
     },
   ],
   scenarios: [
@@ -30,31 +32,37 @@ const config = {
       ...basic,
       label: 'stars--0',
       selectors: ['.stars--0'],
+      delay: 500,
     },
     {
       ...basic,
       label: 'stars--1',
       selectors: ['.stars--1'],
+      delay: 500,
     },
     {
       ...basic,
       label: 'stars--2',
       selectors: ['.stars--2'],
+      delay: 500,
     },
     {
       ...basic,
       label: 'stars--3',
       selectors: ['.stars--3'],
+      delay: 500,
     },
     {
       ...basic,
       label: 'stars--4',
       selectors: ['.stars--4'],
+      delay: 500,
     },
     {
       ...basic,
       label: 'stars--5',
       selectors: ['.stars--5'],
+      delay: 500,
     },
   ],
 };
