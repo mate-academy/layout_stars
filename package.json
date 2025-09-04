@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Create reusable stars block",
   "scripts": {
+    "test:ui": "backstop test",
+    "approve:ui": "node scripts/approve-backstop.js",
     "init": "mate-scripts init",
     "start": "mate-scripts start",
     "format": "prettier --ignore-path .prettierignore --write ./src/**/*.{html,css,scss}",

@@ -7,18 +7,3 @@ body {
   padding: 40px;
   font-family: sans-serif;
 }
-
-.stars {
-  width: 120px;  /* ширина блоку з 5 зірок */
-  height: 24px;  /* висота зірок */
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-/* Відносний шлях до твоїх картинок */
-.stars--0 { background-image: url('../../reference/stars-0.png'); }
-.stars--1 { background-image: url('../../reference/stars-1.png'); }
-.stars--2 { background-image: url('../../reference/stars-2.png'); }
-.stars--3 { background-image: url('../../reference/stars-3.png'); }
-.stars--4 { background-image: url('../../reference/stars-4.png'); }
-.stars--5 { background-image: url('../../reference/stars-5.png'); }
