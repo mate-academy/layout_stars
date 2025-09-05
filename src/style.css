@@ -3,7 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
+  margin: 0;
   padding: 40px;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif; /* доданий конкретний резервний шрифт */
 }

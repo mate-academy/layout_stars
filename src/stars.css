@@ -1,6 +1,5 @@
 .stars {
   display: flex;
-  width: 120px; /* 5 зірок по 24px */
   height: 24px;
 }
 
@@ -10,6 +9,10 @@
   background: url('../reference/stars.png') no-repeat;
   background-position: 0 0; /* для неактивної зірки (сірий стан) */
   margin-right: 2px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
