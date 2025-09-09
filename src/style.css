@@ -1,3 +1,7 @@
+* {
+  font-family: Inter, "system-ui -apple-system" "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,11 +14,13 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
+  background-repeat: no-repeat;
+  background-size: 13px 13px;
+  background-position: center;
 }
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
-  margin-bottom: 4px;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1) {
