@@ -1,1 +1,34 @@
-/* add styles here */
+:root {
+  --star-size: 16px;
+  --icon-w: 13px;
+  --icon-h: 12px;
+}
+
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: var(--star-size);
+  height: var(--star-size);
+  background-image: url('./images/star.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: var(--icon-w) var(--icon-h);
+}
+
+.stars__star + .stars__star {
+  margin-left: 4px;
+}
+
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg');
+}
