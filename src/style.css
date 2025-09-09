@@ -1,13 +1,11 @@
 @import './stars.css';
 
-.page {
+html {
   margin: 0;
   padding: 0;
 }
 
-.page__body {
+body {
   margin: 0;
   padding: 0;
 }
-
-
