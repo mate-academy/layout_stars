@@ -17,7 +17,7 @@ body {
   height: var(--star-size);
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center;
   background-size: var(--icon-w) var(--icon-h);
 }
 
