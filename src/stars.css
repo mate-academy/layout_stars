@@ -8,7 +8,7 @@
   background-image: url(./images/star.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: fit;
 }
 
 .stars__star:not(:last-child) {
