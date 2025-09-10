@@ -4,17 +4,18 @@ body {
 
 .stars {
   display: flex;
-  justify-content: space-between;
   margin: 0;
-  width: fit-content;
 }
 
 .stars__star {
-  margin-right: 4px;
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
