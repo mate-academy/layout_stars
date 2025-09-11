@@ -8,7 +8,9 @@
   margin-right: 4px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 16px 16px;
+
+  /* background-size: 16px 16px; */
+
   background-image: url(images/star.svg);
 }
 
