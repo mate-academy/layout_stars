@@ -1,34 +1,9 @@
 /* add styles here */
-@import './stars-1.css';
-@import './stars-2.css';
-@import './stars-3.css';
-@import './stars-4.css';
-@import './stars-5.css';
+@import './stars.css';
+@import './stars__star.css';
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.stars {
-  display: flex;
-  align-items: flex-start;
-}
-
-.stars__star {
-  height: 16px;
-  width: 16px;
-  background-image: url(../images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-right: 4px;
-}
-
-.stars__star:last-child {
-  margin-right: 0;
-}
-
-.stars__star:not(:last-child) {
-  margin-right: 4px;
 }
