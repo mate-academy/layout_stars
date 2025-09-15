@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 
-.container {
+main {
   flex-direction: column;
   display: flex;
 }
