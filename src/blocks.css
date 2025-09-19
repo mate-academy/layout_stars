@@ -10,6 +10,11 @@
   background-repeat: no-repeat;
   background-image: url('images/star.svg');
   margin-right: 4px;
+  background-size: auto;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0) {
