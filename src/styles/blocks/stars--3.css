@@ -1,0 +1,5 @@
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url(/src/images/star-active.svg);
+  width: 16px;
+  height: 16px;
+}
