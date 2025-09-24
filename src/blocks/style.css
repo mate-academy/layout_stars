@@ -1,0 +1,7 @@
+@import './stars.css';
+
+body {
+  margin: 0; /* add styles here */
+}
+
+/* stylelint-disable-next-line CssSyntaxError */
