@@ -2,8 +2,15 @@ body {
   margin: 0;
 }
 
+.rating-block {
+  margin: 22px;
+}
+
 .stars {
   display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .stars__star {
@@ -12,6 +19,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(./images/star.svg);
+  background-size: 16px 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  position: relative;
+  opacity: 1;
 }
 
 .stars__star:not(:last-child) {
@@ -22,7 +34,7 @@ body {
   margin-right: 0;
 }
 
-.stars--1 .stars__star:nth-child(1),
+.stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
