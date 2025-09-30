@@ -12,7 +12,6 @@ body {
   height: 16px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
   margin-right: 4px;
 }
 
@@ -23,4 +22,3 @@ body {
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(images/star-active.svg);
 }
-
