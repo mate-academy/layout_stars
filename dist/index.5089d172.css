@@ -1,0 +1,2 @@
+*,:before,:after{box-sizing:border-box;margin:0;padding:0}.stars{display:flex}.stars__star{background-image:url(star.822d561e.svg);background-position:50%;background-repeat:no-repeat;background-size:13px 12px;width:16px;height:16px}.stars__star+.stars__star{margin-left:4px}.stars--1 .stars__star:first-child,.stars--2 .stars__star:nth-child(-n+2),.stars--3 .stars__star:nth-child(-n+3),.stars--4 .stars__star:nth-child(-n+4),.stars--5 .stars__star:nth-child(-n+5){background-image:url(star-active.edda4c43.svg)}
+/*# sourceMappingURL=index.5089d172.css.map */
