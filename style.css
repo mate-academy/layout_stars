@@ -29,7 +29,7 @@ body {
     height: 20px;
 
 
-    background-image: url('src/images/star.invisible.png');
+    background-image: url('src/images/star.svg');
 
     background-size: cover;
     margin-right: 4px;
@@ -45,5 +45,5 @@ body {
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
-    background-image: url('src/images/Star.png');
+    background-image: url('src/images/star-active.svg');
 }
