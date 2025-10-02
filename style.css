@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.stars-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.stars {
+    display: flex;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+
+.stars__star {
+    width: 20px;
+    height: 20px;
+
+
+    background-image: url('src/images/star.invisible.png');
+
+    background-size: cover;
+    margin-right: 4px;
+}
+
+.stars__star:last-child {
+    margin-right: 0;
+}
+
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+    background-image: url('src/images/Star.png');
+}
