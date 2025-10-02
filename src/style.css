@@ -16,7 +16,6 @@ body {
   height: 16px;
   margin-right: 4px;
   background-image: url('images/star.svg'); /* неактивна зірка */
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
