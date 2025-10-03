@@ -1,0 +1,6 @@
+/* stylelint-disable import-notation */
+@import url('../styles/blocks/body.css');
+@import url("../styles/stars/stars.css");
+@import url('../styles/stars/stars__star.css');
+
+
