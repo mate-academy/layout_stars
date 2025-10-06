@@ -1,5 +1,5 @@
+@import "./blocks/stars/stars.css";
+
 body {
   margin: 0;
 }
-
-@import "./blocks/stars/stars.css";
