@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-@import './blocks/stars/stars.css';
+@import './blocks/stars/s/stars.css';
 
 .stars__star:first-child {
   margin: 0;
