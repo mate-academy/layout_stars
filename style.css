@@ -1,49 +1,62 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Reseta a margem padrão do navegador */
 body {
-    display: flex;
-    flex-direction: column;
+  margin: 0;
 }
 
-
-.stars-container {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-
+/* Estilo do bloco principal de estrelas */
 .stars {
-    display: flex;
-    height: 20px;
-    margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+
+  /* Propriedades de Layout/Modelo de Caixa */
+  margin: 0;
 }
 
-
+/* Estilo para cada estrela individual */
 .stars__star {
-    width: 20px;
-    height: 20px;
+  /* Dimensões e Layout/Modelo de Caixa vêm primeiro */
+  width: 20px;
+  height: 20px;
+  margin-right: 4px; /* Espaçamento entre as estrelas (tomada como 4px) */
 
-
-    background-image: url('src/images/star.svg');
-
-    background-size: cover;
-    margin-right: 4px;
+  /* Propriedades de Fundo (Background) vêm em seguida, sem linhas vazias entre elas */
+  background-image: url('images/star-empty.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
+/* Remove a margem da última estrela para não haver espaço extra */
 .stars__star:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
+/*
+ * Modificadores para ativar as estrelas:
+ * As regras usam `nth-child` para mudar o fundo das primeiras N estrelas.
+ */
 
-.stars--1 .stars__star:nth-child(-n+1),
-.stars--2 .stars__star:nth-child(-n+2),
-.stars--3 .stars__star:nth-child(-n+3),
-.stars--4 .stars__star:nth-child(-n+4),
-.stars--5 .stars__star:nth-child(-n+5) {
-    background-image: url('src/images/star-active.svg');
+/* stars--5: todas as 5 estrelas ativas */
+.stars--5 .stars__star {
+  background-image: url('images/star-full.svg');
+}
+
+/* stars--4: 4 estrelas ativas */
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url('images/star-full.svg');
+}
+
+/* stars--3: 3 estrelas ativas */
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url('images/star-full.svg');
+}
+
+/* stars--2: 2 estrelas ativas */
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url('images/star-full.svg');
+}
+
+/* stars--1: 1 estrela ativa */
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background-image: url('images/star-full.svg');
 }
