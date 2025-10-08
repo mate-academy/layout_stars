@@ -1,82 +1,26 @@
 /* add styles here */
-.container {
+
+.stars {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  width: 96px;
-  height: 115px;
-
 }
-
-/* #region stars */
-
-.stars--0 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.stars--1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.stars--2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.stars--3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.stars--4 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.stars--5 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-/* #endregion */
 
 .stars__star {
   display: block;
-  background-image: url("./images/icons/icon-stars--gray.png");
+  background-image: url('./images/icons/icon-stars--gray.png');
   width: 16px;
   height: 15px;
-
+  background-position: center;
 }
 
-.stars--N {
-  display: block;
-  width: 16px;
-  height: 15px;
+.stars__star:not(:last-child)  {
+   margin-right: 4px
+}
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
   background-image: url("./images/icons/icon-stars--yellow.png");
 }
-
