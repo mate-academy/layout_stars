@@ -9,6 +9,10 @@
   margin-right: 4px;
 }
 
+.stars__star:last-child {
+  margin-right: 0;
+}
+
 .stars {
   display: flex;
 }
