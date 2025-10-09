@@ -15,9 +15,9 @@ body {
 /* Estilo para cada estrela individual */
 .stars__star {
   /* Dimensões e Layout/Modelo de Caixa vêm primeiro */
-  width: 20px;
-  height: 20px;
-  margin-right: 4px; /* Espaçamento entre as estrelas (tomada como 4px) */
+  width: 16px;
+  height: 16px;
+  margin-right: 20px; /* Espaçamento entre as estrelas (tomada como 4px) */
 
   /* Propriedades de Fundo (Background) vêm em seguida, sem linhas vazias entre elas */
   background-image: url('images/star.png');
@@ -58,5 +58,5 @@ body {
 
 /* stars--1: 1 estrela ativa */
 .stars--1 .stars__star:nth-child(-n + 1) {
-  background-image: url('images/star-active.png');
+    background-image: url('images/star-active.png');
 }
