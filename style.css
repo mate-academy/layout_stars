@@ -15,6 +15,7 @@ body {
 /* Estilo para cada estrela individual */
 .stars__star {
   /* Dimensões e Layout/Modelo de Caixa vêm primeiro */
+  vertical-align: top;
   width: 20px;
   height: 20px;
   margin-right: 4px; /* Espaçamento entre as estrelas (tomada como 4px) */
