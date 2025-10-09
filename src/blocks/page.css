@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.frame {
+  box-sizing: border-box;
+}
