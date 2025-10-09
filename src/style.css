@@ -20,7 +20,7 @@ body {
   margin-right: 4px; /* Espaçamento entre as estrelas (tomada como 4px) */
 
   /* Propriedades de Fundo (Background) vêm em seguida, sem linhas vazias entre elas */
-  background-image: url('images/star.svg');
+  background-image: url('images/star.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -38,25 +38,25 @@ body {
 
 /* stars--5: todas as 5 estrelas ativas */
 .stars--5 .stars__star {
-  background-image: url('images/star-active.svg');
+  background-image: url('images/star-active.png');
 }
 
 /* stars--4: 4 estrelas ativas */
 .stars--4 .stars__star:nth-child(-n + 4) {
-  background-image: url('images/star-active.svg');
+  background-image: url('images/star-active.png');
 }
 
 /* stars--3: 3 estrelas ativas */
 .stars--3 .stars__star:nth-child(-n + 3) {
-  background-image: url('images/star-active.svg');
+  background-image: url('images/star-active.png');
 }
 
 /* stars--2: 2 estrelas ativas */
 .stars--2 .stars__star:nth-child(-n + 2) {
-  background-image: url('images/star-active.svg');
+  background-image: url('images/star-active.png');
 }
 
 /* stars--1: 1 estrela ativa */
 .stars--1 .stars__star:nth-child(-n + 1) {
-    background-image: url('images/star-active.svg');
+  background-image: url('images/star-active.png');
 }
