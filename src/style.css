@@ -1,1 +1,36 @@
-/* add styles here */
+/* Reset browser's default margin */
+body {
+  margin: 0;
+}
+
+/* Base styles for all stars blocks */
+.stars {
+  display: flex; /* avoids extra spaces between inline elements */
+}
+
+/* Base star element */
+.stars__star {
+  width: 13px; /* replace with Figma value */
+  height: 12px;
+  background-image: url('images/star.svg');
+  margin-right: 4px; /* replace with Figma spacing */
+  margin-left: 3px;
+  margin-bottom: 4px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Add manual horizontal spacing (no gap) */
+.stars__star:not(:last-child) {
+  /* margin-bottom: 0; */
+}
+
+/* Active stars based on modifier */
+.stars--0 .stars__star:nth-child(-n + 0),
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('images/star-active.svg');
+}
