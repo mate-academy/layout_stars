@@ -1,4 +1,3 @@
-.stars-container {
-  width: 96px;
-  height: 116px;
+html {
+  box-sizing: border-box;
 }
