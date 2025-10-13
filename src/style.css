@@ -1,1 +1,52 @@
-/* add styles here */
+/* #region body */
+.body {
+  margin: 0;
+
+  --star: url(/src/images/star.svg);
+  --star-active: url(/src/images/star-active.svg);
+}
+
+/* #endregion */
+
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  
+  background-image: var(--star);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+/* #region pseudo-selectors */
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars--1 :first-child {
+  background-image: var(--star-active);
+}
+
+.stars--2 :not(:nth-child(n + 3)) {
+  background-image: var(--star-active);
+}
+
+.stars--3 :not(:nth-child(n + 4)) {
+  background-image: var(--star-active);
+}
+
+.stars--4 :not(:last-child):nth-child(n) {
+  background-image: var(--star-active);
+}
+
+.stars--5 :nth-child(n) {
+  background-image: var(--star-active);
+}
+
+/* #endregion */
