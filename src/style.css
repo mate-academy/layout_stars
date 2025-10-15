@@ -1,1 +1,8 @@
 /* add styles here */
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
