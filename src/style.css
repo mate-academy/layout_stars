@@ -1,1 +1,42 @@
-/* add styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container de estrelas */
+.stars {
+  display: flex;
+  align-items: center; /* garante alinhamento vertical perfeito */
+  justify-content: flex-start;
+}
+
+/* Estrela padrão */
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px; /* espaçamento idêntico ao original */
+  background-image: url(./images/star.svg);
+  background-size: auto; /* mantém proporção exata do SVG */
+  background-repeat: no-repeat;
+  background-position: center center; /* centralização precisa */
+}
+
+/* Opcional — evita margem extra na última estrela */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Estado base (0 estrelas ativas) */
+.stars--0 .stars__star {
+  background-image: url(./images/star.svg);
+}
+
+/* Estados ativos */
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(./images/star-active.svg);
+}
