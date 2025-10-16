@@ -4,7 +4,6 @@
   align-items: center;
 }
 
-/* margin: 22px */
 .stars__star {
   display: flex;
   background-image: url(../../images/star.svg);
