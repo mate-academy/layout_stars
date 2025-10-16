@@ -1,1 +1,9 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+.stars-rating {
+  width: 140px;
+  height: 160px;
+  background-color: red;
+}
