@@ -1,47 +1,6 @@
+@import './blocks/stars/stars.css';
+
 /* add styles here */
 body {
   margin: 0;
-}
-
-.stars {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-/* margin: 22px */
-.stars__star {
-  display: flex;
-  background-image: url(/src/images/star.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 16px;
-  height: 16px;
-
-  margin-right: 4px;
-}
-
-.stars--0 :nth-child(-n + 0) {
-  margin-top: 2px;
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--1 :nth-child(-n + 1) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--2 :nth-child(-n + 2) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--3 :nth-child(-n + 3) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--4 :nth-child(-n + 4) {
-  background-image: url(./images/star-active.svg);
-}
-
-.stars--5 :nth-child(-n + 5) {
-  background-image: url(./images/star-active.svg);
 }
