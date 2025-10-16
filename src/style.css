@@ -1,1 +1,6 @@
+@import './blocks/stars/stars.css';
+
 /* add styles here */
+body {
+  margin: 0;
+}
