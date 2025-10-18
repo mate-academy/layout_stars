@@ -8,14 +8,12 @@
   background-position: center;
   width: 16px;
   height: 16px;
-  margin-right: 4px;
 }
 
-.stars__star:last-child {
-  margin-right: 0;
+.stars__star + .stars__star {
+  margin-left: 4px;
 }
 
-.stars--0 .stars__star:nth-child(-n),
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
