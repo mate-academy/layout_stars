@@ -2,22 +2,6 @@
   margin: 0;
 }
 
-.stars {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.stars__star {
-  width: 16px;
-  height: 16px;
-  margin-right: 4px;
-  background-image: url('../src/images/star.svg');
-  background-position: center;
-  object-fit: cover;
-  background-repeat: no-repeat;
-}
-
 .stars__star:last-child {
   margin-right: 0;
 }
