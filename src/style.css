@@ -19,7 +19,7 @@
 }
 
 .stars__star:last-child {
-  margin-right: o;
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
