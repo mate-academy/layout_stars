@@ -1,5 +1,5 @@
 /* add styles here */
-@import url(blocks/stars.css);
+@import 'blocks/stars.css';
 
 body {
   box-sizing: border-box;
