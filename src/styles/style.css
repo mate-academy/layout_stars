@@ -1,0 +1,8 @@
+/* add styles here */
+@import 'blocks/stars.css';
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
