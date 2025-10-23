@@ -3,12 +3,12 @@ html {
   padding: 0;
 }
 
-.stars {
+body {
   margin: 0;
   padding: 0;
 }
 
-.star {
+.stars {
   display: flex;
 }
 
