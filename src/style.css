@@ -3,31 +3,28 @@ html {
   padding: 0;
 }
 
-.stars {
+.container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  width: 96px;
   margin: 0;
   padding: 0;
 }
 
-.star {
+.stars {
   display: flex;
 }
 
 .stars__star {
   background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 16px;
   height: 16px;
-  background-repeat: no-repeat;
-  background-position: left center;
   margin-left: 4px;
 }
 
-.stars__star + .stars__star {
-  margin-left: 4px;
+.stars__star:first-child {
+  margin-left: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1) {
