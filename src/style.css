@@ -1,1 +1,34 @@
-/* add styles here */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  height: 116px;
+}
+
+.star-not-active {
+  background-image: url('./images/star.svg');
+}
+
+.star-active {
+  background-image: url('./images/star-active.svg');
+}
+
+.star {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 16px;
+  width: 16px;
+}
+
+.star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars--set {
+  display: flex;
+  flex-direction: row;
+}
