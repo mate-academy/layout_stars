@@ -1,3 +1,7 @@
+.stars {
+  display: flex;
+}
+
 .stars__star {
   transform-origin: center;
   width: 16px;
