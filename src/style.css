@@ -4,12 +4,13 @@
 
 .stars {
   display: flex;
+  padding: 2px;
 }
 
 .stars__star {
   background-image: url(images/star.svg);
   background-size: cover;
-  margin-right: 4px;
+  margin-right: 8px;
   height: 12px;
   width: 12px;
 }
