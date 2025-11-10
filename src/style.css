@@ -1,11 +1,24 @@
+html,
 body {
   margin: 0;
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .stars {
   display: flex;
   width: fit-content;
+  margin: 0;
+  padding: 0;
 }
 
 .stars__star {
@@ -16,8 +29,8 @@ body {
   background-position: center;
 }
 
-.stars__star:not(:last-child) {
-  margin-right: 4px;
+.stars__star + .stars__star {
+  margin-left: 4px;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
