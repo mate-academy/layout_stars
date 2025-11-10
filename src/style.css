@@ -1,61 +1,28 @@
-/* Сброс стандартных отступов браузера */
-* {
+html {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/* Контейнер stars */
 .stars {
-  /* Требование теста: display: flex */
   display: flex;
-  margin: 0;
-  padding: 0;
-  width: 96px; /* 5 * 16px + 4 * 4px = 96px */
+  gap: 4px;
+  margin-bottom: 8px;
 }
 
-/* Стиль отдельной звезды */
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url(./images/star.svg);
+  background-image: url(../src/images/star.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-color: transparent;
 }
 
-/* Горизонтальный отступ между соседними звездами */
-.stars__star + .stars__star {
-  margin-left: 4px; /* Отступ 4px из Figma */
-}
-
-/* --- ЛОГИКА АКТИВАЦИИ ЗВЕЗД (ЖЕЛТЫЕ) --- */
-
-/* stars--0: ВСЕ серые (по умолчанию) */
-.stars--0 .stars__star {
-  background-image: url(./images/star.svg);
-}
-
-/* stars--5: Все 5 звезд активные. */
-.stars--5 .stars__star {
-  background-image: url(./images/star-active.svg);
-}
-
-/* stars--4: Активны первые 4 звезды. */
-.stars--4 .stars__star:nth-child(-n + 4) {
-  background-image: url(./images/star-active.svg);
-}
-
-/* stars--3: Активны первые 3 звезды. */
-.stars--3 .stars__star:nth-child(-n + 3) {
-  background-image: url(./images/star-active.svg);
-}
-
-/* stars--2: Активны первые 2 звезды. */
-.stars--2 .stars__star:nth-child(-n + 2) {
-  background-image: url(./images/star-active.svg);
-}
-
-/* stars--1: Активна только 1 звезда. */
-.stars--1 .stars__star:nth-child(-n + 1) {
-  background-image: url(./images/star-active.svg);
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(../src/images/star-active.svg);
 }
