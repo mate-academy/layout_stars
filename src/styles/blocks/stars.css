@@ -1,0 +1,50 @@
+/* #region Stars */
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url(/src/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars:last-child {
+  margin-bottom: 0;
+}
+
+/* Remove margin da última estrela */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Modifier: stars--1 (1 estrela ativa) */
+.stars--1 .stars__star:nth-child(1) {
+  background-image: url(/src/images/star-active.svg);
+}
+
+/* Modifier: stars--2 (2 estrela ativa) */
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url(/src/images/star-active.svg);
+}
+
+/* Modifier: stars--3 (3 estrela ativa) */
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url(/src/images/star-active.svg);
+}
+
+/* Modifier: stars--4 (4 estrela ativa) */
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url(/src/images/star-active.svg);
+}
+
+/* Modifier: stars--5 (5 estrela ativa) */
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(/src/images/star-active.svg);
+}
+
+/* #endregion */
