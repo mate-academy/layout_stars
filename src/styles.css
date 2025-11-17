@@ -1,4 +1,4 @@
-/* Reset padrão */
+/* Reset de margens e box-sizing */
 html,
 body {
   margin: 0;
@@ -12,11 +12,11 @@ body {
   width: fit-content;
 }
 
-/* Estilo base das estrelas */
+/* Estilo base das estrelas (vazias) */
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url('./images/star-filled.png');
+  background-image: url(images/star-empty.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -26,11 +26,11 @@ body {
   margin-left: 4px;
 }
 
-/* Modificadores para ativar estrelas */
+/* Estrelas ativas (preenchidas) com base no modificador */
 .stars--1 .stars__star:nth-child(-n + 1),
 .stars--2 .stars__star:nth-child(-n + 2),
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('./images/star-empty.png');
+  background-image: url(images/star-filled.png);
 }
