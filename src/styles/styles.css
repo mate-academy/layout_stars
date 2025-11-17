@@ -1,4 +1,4 @@
-/* Reset de margens e box-sizing */
+/* Reset global */
 html,
 body {
   margin: 0;
@@ -6,7 +6,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Bloco de estrelas */
 .stars {
   display: flex;
   width: fit-content;
@@ -16,7 +15,7 @@ body {
 .stars__star {
   width: 16px;
   height: 16px;
-  background-image: url(images/star-empty.png);
+  background-image: url('../images/star-empty.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -32,5 +31,5 @@ body {
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url(images/star-filled.png);
+  background-image: url('../images/star-filled.png');
 }
