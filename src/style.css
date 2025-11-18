@@ -1,4 +1,4 @@
-* {
+html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,73 +6,9 @@
 
 body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #f0f0f0;
-  font-family: sans-serif;
-}
-
-header {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-/* Główna ramka */
-.main-frame {
-  width: 140px;
-  height: 160px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Ramka hover */
-.hover-frame {
-  width: 96px;
-  height: 116px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* równy odstęp między wierszami */
-  align-items: center;
-  border: 1px solid transparent;
-  padding: 4px;
-  transition: border-color 0.3s;
-}
-
-.hover-frame:hover {
-  border-color: #3498db; /* podświetlenie na niebiesko */
-}
-
-/* Wiersze gwiazdek */
-.stars {
-  display: flex;
-  flex-direction: row; /* gwiazdki poziomo */
-  justify-content:space-between;
-  width: 100%;
-}
-
-/* Gwiazdki */
-.stars__star {
-  width: 12px;
-  height: 12px;
-  background-image: url('images/star.svg');
-  background-size: cover;
-  margin-right: 2px;
-}
-
-.stars__star:last-child {
-  margin-right: 0;
-}
-
-/* Aktywne gwiazdki w każdym wierszu */
-.stars--1 .stars__star:nth-child(-n+1),
-.stars--2 .stars__star:nth-child(-n+2),
-.stars--3 .stars__star:nth-child(-n+3),
-.stars--4 .stars__star:nth-child(-n+4),
-.stars--5 .stars__star:nth-child(-n+5) {
-  background-image: url('images/star-active.svg');
+  font-family: Arial, 'Helvetica Neue', sans-serif;
 }
