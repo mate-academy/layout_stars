@@ -1,7 +1,3 @@
-.page {
-  margin: 0;
-}
-
 .stars {
   display: flex;
   padding: 2px;
@@ -24,7 +20,7 @@
 }
 
 .stars--2 .stars__star:nth-of-type(-n + 2) {
-  background-image: url(../images/star-active.svg)
+  background-image: url(../images/star-active.svg);
 }
 
 .stars--3 .stars__star:nth-of-type(-n + 3) {
