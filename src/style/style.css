@@ -1,0 +1,9 @@
+@import 'stars.css';
+
+:root {
+  --star-size: 16px;
+}
+
+.page__body {
+  margin: 0;
+}
