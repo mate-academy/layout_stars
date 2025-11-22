@@ -5,7 +5,6 @@
   margin:4px;
   flex-direction: row;
   border-radius: 0.5px;
-
 }
 .stars-block {
   width: 96px;        
@@ -14,7 +13,6 @@
   align-items: flex-start;
   border-radius: 0.5px;
 }
-
  .stars__star {
   width: 16px;
   height: 16px;
@@ -29,7 +27,6 @@
 .stars__star:last-child {
 margin-right: 0;
 }
-
 .stars__star:nth-child(-n+1) {
 background-image: url('images/star.svg');
 }
@@ -38,7 +35,6 @@ background-image: url('images/star.svg');
 .stars--3 .stars__star:nth-child(-n+3),
 .stars--4 .stars__star:nth-child(-n+4),
 .stars--5 .stars__star:nth-child(-n+5) {
-background-image: url("images/star-active.svg");
-  
+background-image: url("images/star-active.svg"); 
 }
 
