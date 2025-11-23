@@ -1,0 +1,14 @@
+.stars {
+  width: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 4px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stars:first-child {
+  padding-top: 0;
+}
