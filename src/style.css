@@ -1,4 +1,4 @@
-html,
-body {
-  margin: 0;
-}
+@import './blocks/main.css';
+@import './blocks/stars-list.css';
+@import './blocks/stars.css';
+@import './blocks/stars__star.css';
