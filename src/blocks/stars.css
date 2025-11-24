@@ -3,9 +3,9 @@
   padding: 2px;
 }
 
-.stars:first-child {
+/* .stars:first-child {
   padding-top: 0;
-}
+} */
 
 .stars__star {
   width: 12px;

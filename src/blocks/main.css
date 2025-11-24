@@ -1,4 +1,5 @@
 html,
 body {
+  flex-shrink: 1;
   margin: 0;
 }
