@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+}
