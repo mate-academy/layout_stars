@@ -1,7 +1,5 @@
 body {
   margin: 0;
-}
-
-.stars {
-  display: flex;
+  padding: 0;
+  box-sizing: border-box;
 }
