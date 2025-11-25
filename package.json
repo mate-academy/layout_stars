@@ -2,6 +2,7 @@
   "name": "stars",
   "version": "1.0.0",
   "description": "Create reusable stars block",
+  "homepage": "https://agacia1515w-ops.github.io/layout_stars",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
