@@ -1,1 +1,11 @@
-/* add styles here */
+.page__body {
+  margin: 0;
+}
+
+.page__container {
+  display: flex;
+  flex-direction: column;
+  width: 96px;
+  height: 116px;
+  margin: auto;
+}
