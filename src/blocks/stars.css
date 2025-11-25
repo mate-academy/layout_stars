@@ -5,10 +5,9 @@
 .stars__star {
   background-image: url('../images/star.svg');
   background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  margin-right: 4px;
-  
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
 
 .stars__star:last-child {
