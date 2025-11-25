@@ -1,17 +1,17 @@
-html, body {
-font-family: Arial, 'Helvetica Neue', sans-serif;
-flex-direction: column;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+html,
+body {
+  font-family: Arial, 'Helvetica Neue', sans-serif;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 body {
-min-height: 140px;
-display: flex;
-align-items: flex-start; 
-gap: 0;
-padding: 20px;
+  min-height: 140px;
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  padding: 20px;
 }
-
