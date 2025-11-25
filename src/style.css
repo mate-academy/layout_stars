@@ -1,10 +1,8 @@
-.page__body {
+body {
   margin: 0;
 }
 
-.page__container {
+.page__body {
   display: flex;
   flex-direction: column;
-  margin: auto;
-  padding: 22px;
 }
