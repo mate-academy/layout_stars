@@ -8,10 +8,10 @@
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  padding-bottom: 4px;
+  
 }
 
-.stars_star:last-child {
+.stars__star:last-child {
   margin-right: 0;
 }
 
