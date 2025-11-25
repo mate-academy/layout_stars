@@ -6,7 +6,7 @@ body {
 }
 
 .stars {
-  display: inline-flex;
+  display: flex;
   width: fit-content;
   margin: 0;
   line-height: 0;
