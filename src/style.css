@@ -32,6 +32,3 @@ body {
   background-image: url(./images/star-active.svg);
 }
 
-.stars + .stars {
-  margin-top: 4px;
-}
