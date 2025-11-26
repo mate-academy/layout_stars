@@ -1,6 +1,5 @@
 .stars {
   display: flex;
-  background-position: center;
 }
 
 .stars__star {
@@ -8,9 +7,7 @@
   height: 16px;
   background-image: url('images/star.svg');
   box-sizing: border-box;
-
-  /* background-size: contain; */
-
+  background-position: center;
   background-repeat: no-repeat;
 }
 
