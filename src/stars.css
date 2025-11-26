@@ -1,5 +1,5 @@
 /* add styles here */
-body {
+html, body {
   margin: 0;
 }
 
@@ -16,7 +16,7 @@ body {
   margin-right: 4px;
 }
 
-.start__star:last-child {
+.stars__star:last-child {
   margin-right: 0;
 }
 
