@@ -1,21 +1,19 @@
 .stars {
   display: flex;
-  padding: 2px;
+  box-sizing: border-box;
+  height: 16px;
 }
 
-/* .stars:first-child {
-  padding-top: 0;
-} */
-
 .stars__star {
-  width: 12px;
-  height: 12px;
+  height: 16px;
+  width: 16px;
   background-image: url('../images/star.svg');
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .stars__star:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 4px;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
