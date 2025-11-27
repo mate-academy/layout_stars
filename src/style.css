@@ -9,8 +9,6 @@ body {
 /* #region Stars */
 .stars {
   display: flex;
-  width: 100px;
-  justify-content: space-between;
 }
 
 .stars__star {
@@ -47,8 +45,8 @@ body {
 
 /* #endregion */
 
-/* #region Last Row Right Correction */
-.stars > .stars__star:last-child {
+/* #region Spaces Between Stars */
+.stars > .stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
