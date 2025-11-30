@@ -1,9 +1,7 @@
+@import "./style_stars/stars.css";
+
 body {
   margin: 0;
-}
-
-.stars {
-  display: flex;
 }
 
 .stars__star {
@@ -13,7 +11,7 @@ body {
   height: 16px;
   margin-right: 4px;
   background-image: url(images/star.svg);
-  border-radius: 1px;
+  border-radius: 0.5px;
 }
 
 .stars__star:last-child {
