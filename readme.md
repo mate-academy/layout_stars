@@ -27,7 +27,7 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 
 ❗️ Copy this `Checklist` to the `Pull Request` description after links, and put `- [x]` before each point after you checked it.
 
-- [ ] Yellow stars are added with container modifier + pseudo-selector (NO extra classes)
-- [ ] Each BEM block has its own separate file
-- [ ] All `Typical Mistakes` from `BEM` lesson theory are checked.
-- [ ] Code follows all the [Code Style Rules ❗️](./checklist.md)
+- [x] Yellow stars are added with container modifier + pseudo-selector (NO extra classes)
+- [x] Each BEM block has its own separate file
+- [x] All `Typical Mistakes` from `BEM` lesson theory are checked.
+- [x] Code follows all the [Code Style Rules ❗️](./checklist.md)
