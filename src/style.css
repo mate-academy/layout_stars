@@ -1,8 +1,6 @@
+@import './style/stars.css';
+
 body {
   box-sizing: border-box;
   margin: 0;
 }
-
-@import './style/body.css';
-@import './style/stars.css';
-
