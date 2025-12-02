@@ -1,1 +1,49 @@
-/* add styles here */
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.rating-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 22px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.stars__star {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  margin-top: 2px;
+
+  background-image: url('../src/images/star.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background-image: url('../src/images/star-active.svg');
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url('../src/images/star-active.svg');
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url('../src/images/star-active.svg');
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url('../src/images/star-active.svg');
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('../src/images/star-active.svg');
+}
+
