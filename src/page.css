@@ -1,0 +1,29 @@
+.page {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container-block {
+  width: 100px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url(images/star.svg);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
