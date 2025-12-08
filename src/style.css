@@ -1,1 +1,23 @@
-/* add styles here */
+.stars {
+  width: 180px;
+  border: 2px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.stars__row {
+  display: flex;
+  gap: 4px;
+}
+
+.stars__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.stars__icon--active {
+    
+}
