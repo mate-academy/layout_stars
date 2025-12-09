@@ -1,1 +1,4 @@
-/* add styles here */
+@import './normalize.css';
+@import './stars.css';
+@import './stars__star.css';
+@import './modifacation.css';
