@@ -1,1 +1,34 @@
 /* add styles here */
+@import "styles/stars1.css";
+@import "styles/stars2.css";
+@import "styles/stars3.css";
+@import "styles/stars4.css";
+@import "styles/stars5.css";
+
+.body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  height: 116px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96px;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-size: contain;
+}
+
