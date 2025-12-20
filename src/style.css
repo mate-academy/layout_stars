@@ -1,1 +1,12 @@
-/* add styles here */
+@import './stars.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.star-container {
+  display: flex;
+  flex-direction: column;
+}
