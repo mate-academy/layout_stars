@@ -11,4 +11,9 @@ body {
   background-repeat: no-repeat;
   height: 16px;
   width: 16px;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
 }
