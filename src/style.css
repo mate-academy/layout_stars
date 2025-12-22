@@ -1,1 +1,38 @@
-/* add styles here */
+/* 1. Reset browser's default margin */
+body {
+  margin: 0;
+}
+
+/* 2. Stars block container */
+.stars {
+  display: flex; /* Requirement: Use flex to avoid extra spaces */
+}
+
+/* 3. Individual star element */
+.stars__star {
+  /* Update these dimensions and margins based on your Figma measurements */
+  width: 16px;
+  height: 16px;
+  margin-right: 4px; /* Use margin instead of gap as per requirements */
+
+  /* Default inactive star image */
+  background-image: url('../images/star.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Remove margin from the last star to be precise */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* 4. Logic for active stars based on modifiers */
+/* The :nth-child(-n+N) selector selects the first N elements */
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url('../images/star--active.svg');
+}
