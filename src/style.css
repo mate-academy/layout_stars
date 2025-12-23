@@ -1,1 +1,17 @@
 /* add styles here */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stars__star {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 96px;
+  max-height: 100%;
+}
