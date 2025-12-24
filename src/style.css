@@ -1,1 +1,28 @@
-/* add styles here */
+@import 'styles/stars1.css';
+@import 'styles/stars2.css';
+@import 'styles/stars3.css';
+@import 'styles/stars4.css';
+@import 'styles/stars5.css';
+
+.page {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.stars__star {
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url(images/star.svg);
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
