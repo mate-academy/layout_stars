@@ -1,1 +1,42 @@
 /* add styles here */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; */
+
+  background-color: #e5e5e5;
+}
+
+.container {
+  width: 96px;
+  background-color: white;
+  padding: 22px;
+}
+
+.stars {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+
+.stars__star.active {
+  background-image: url(images/star-active.svg);
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
