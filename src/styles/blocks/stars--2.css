@@ -1,0 +1,7 @@
+.stars--2 > .stars__star:nth-of-type(-n + 2) {
+  background-image: url(../../images/star-active.svg);
+}
+
+.stars--2 > .stars__star:nth-of-type(n + 3) {
+  background-image: url(../../images/star.svg);
+}

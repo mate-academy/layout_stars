@@ -1,0 +1,19 @@
+.stars__container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
