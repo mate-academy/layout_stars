@@ -1,1 +1,38 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+h1 {
+  display: none;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.5px;
+  margin-left: 4px;
+}
+
+.star--active {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.5px;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
