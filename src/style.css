@@ -1,5 +1,5 @@
 /* reset */
-body {
+.page {
   margin: 0;
 }
 
@@ -18,8 +18,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .stars__star:last-child {
