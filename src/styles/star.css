@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.stars:last-child {
-  padding-bottom: 0;
-}
-
 .stars__star {
   box-sizing: border-box;
   background-image: url(../images/star.svg);
