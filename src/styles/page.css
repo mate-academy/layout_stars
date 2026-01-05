@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Recommended for easier layout calculations */
+}
+
+/* .frame {
+  width: 140px;
+  height: 160px;
+  padding: 22px;
+} */
