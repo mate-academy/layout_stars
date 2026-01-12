@@ -1,1 +1,9 @@
 /* add styles here */
+
+@import 'stars.css';
+@import 'container.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
