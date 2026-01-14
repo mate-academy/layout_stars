@@ -1,0 +1,14 @@
+/* add styles here */
+.html {
+  margin: 0;
+}
+
+.sters
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url(images/star.svg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
