@@ -1,1 +1,15 @@
 /* add styles here */
+body {
+  margin: 0 auto;
+  display: flex;
+}
+
+.main-block {
+  flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+}
+
+@import "url(./block/stars.css)";
+
+
