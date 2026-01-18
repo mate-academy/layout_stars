@@ -1,1 +1,57 @@
-/* add styles here */
+/* Reset browser default margin */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Wrapper for stars */
+.stars-container {
+  display: flex;
+  justify-content: center; /* Centers the container horizontally */
+  align-items: center; /* Centers the container vertically if height is defined */
+  padding: 20px; /* Adds spacing between the container and the edges of the page */
+  background-color: #f0f0f0; /* Optional background for better visibility */
+}
+
+/* General star block styles */
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url(../../layout_stars/src/images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+/* Star activation */
+.stars--0 .stars__star:nth-child(-n + 0) {
+  background-image: url('../../layout_stars/src/images/star-active.svg');
+}
+
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background-image: url('../../layout_stars/src/images/star-active.svg');
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url('../../layout_stars/src/images/star-active.svg');
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url('../../layout_stars/src/images/star-active.svg');
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url('../../layout_stars/src/images/star-active.svg');
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('../../layout_stars/src/images/star-active.svg');
+}
