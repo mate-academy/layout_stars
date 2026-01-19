@@ -3,6 +3,6 @@
   flex-direction: column;
 }
 
-.main_stars:first-of-type {
+.main__stars:first-of-type {
   margin-top: 0;
 }
