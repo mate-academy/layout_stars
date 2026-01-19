@@ -16,10 +16,6 @@
   background-image: url(../images/star-active.svg);
 }
 
-/* .stars--1 .stars_star:nth-child(-n + 1) {
-  background-image: url(../images/star-active.svg);
-} */
-
 .stars--1 .stars__star:nth-child(-n + 1) {
   background-image: url(../images/star-active.svg);
 }
