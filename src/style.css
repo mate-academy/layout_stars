@@ -1,1 +1,48 @@
-/* add styles here */
+:root {
+  --star-bg: url(/src/images/star.svg);
+  --star-bg-active: url(/src/images/star-active.svg);
+}
+
+body {
+  margin: 0;
+}
+
+/* .stars-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 96px;
+  height: 116px;
+  padding: 22px;
+} */
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars .stars__star:not(:last-child){
+  margin-right: 4px;
+
+}
+
+.stars--0 .stars__star:nth-child(n),
+.stars--1 .stars__star:nth-child(n + 2),
+.stars--2 .stars__star:nth-child(n + 3),
+.stars--3 .stars__star:nth-child(n + 4),
+.stars--4 .stars__star:nth-child(n + 5) {
+  background-image: var(--star-bg);
+}
+
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: var(--star-bg-active);
+}
