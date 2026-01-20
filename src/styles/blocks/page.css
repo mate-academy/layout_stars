@@ -1,0 +1,7 @@
+.page {
+  --active-star: url(/src/images/star-active.svg);
+}
+
+.page__body {
+  margin: 0;
+}
