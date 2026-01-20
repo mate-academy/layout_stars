@@ -1,1 +1,34 @@
-/* add styles here */
+/* Zamiast selektora uniwersalnego * użyjemy stylowania dla elementów body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ustawienie dla bloków z gwiazdkami */
+.stars {
+  display: flex;
+}
+
+/* Ustawienia dla pojedynczej gwiazdki */
+.stars__star {
+  background-image: url(./images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+}
+
+/* Dodanie odstępu między gwiazdkami, ale tylko od drugiej gwiazdki */
+.stars__star:not(:first-child) {
+  margin-left: 4px;
+}
+
+/* Aktywne gwiazdki - różne dla poszczególnych bloków z klasą stars--N */
+.stars--0 .stars__star:nth-last-child(n + 6),
+.stars--1 .stars__star:nth-last-child(n + 5),
+.stars--2 .stars__star:nth-last-child(n + 4),
+.stars--3 .stars__star:nth-last-child(n + 3),
+.stars--4 .stars__star:nth-last-child(n + 2),
+.stars--5 .stars__star:nth-last-child(n + 1) {
+  background-image: url(./images/star-active.svg);
+}
