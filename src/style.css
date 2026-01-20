@@ -1,1 +1,6 @@
-/* add styles here */
+/* stylelint-disable import-notation */
+@import url(./stars.css);
+
+body {
+  margin: 0;
+}
