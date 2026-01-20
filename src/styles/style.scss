@@ -1,0 +1,42 @@
+body {
+  display: inline-block;
+}
+
+.stars {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4px;
+}
+
+.stars:last-child {
+  margin-bottom: 0;
+}
+
+.stars__star {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  margin-left: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+@for $i from 1 through 6 {
+  .stars--#{$i} {
+    @for $j from 1 through $i {
+      .stars__star:nth-child(#{$j}) {
+        background-image: url(../images/star-active.svg);
+      }
+    }
+  }
+}
