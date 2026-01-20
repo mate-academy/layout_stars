@@ -1,0 +1,7 @@
+@import "/src/styles/stars.css";
+@import "/src/styles/stars__star.css";
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
