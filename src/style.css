@@ -1,1 +1,173 @@
-/* add styles here */
+/* #region Reset Css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* #endregion */
+
+/* #region Stars 0 */
+
+.stars--0 {
+  display: flex;
+}
+
+/* #endregion */
+
+/* #region Stars 1 */
+.stars--1 {
+  display: flex;
+}
+
+.stars--1__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 0 2px;
+}
+
+/* #endregion */
+
+/* #region Stars 2 */
+.stars--2 {
+  display: flex;
+}
+
+.stars--2__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 0 2px;
+}
+
+/* #endregion */
+
+/* #region Stars 3 */
+
+.stars--3 {
+  display: flex;
+}
+
+.stars--3__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 0 2px;
+}
+
+/* #endregion */
+
+/* #region Stars 4 */
+.stars--4 {
+  display: flex;
+}
+
+.stars--4__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 0 2px;
+}
+
+/* #endregion */
+
+/* #region Stars 5 */
+.stars--5 {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.stars--5__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star-active.svg);
+  background-repeat: no-repeat;
+  margin: 0 2px;
+  background-position: left;
+}
+
+/* #endregion */
+
+/* #region not Active */
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/star.svg);
+  background-repeat: no-repeat;
+  margin: 0 2px;
+  background-position: left;
+}
+
+/* #endregion */
