@@ -1,0 +1,45 @@
+/* Reset básico */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Contêiner de estrelas */
+.stars {
+  display: flex;
+  justify-content: center; /* Centraliza as estrelas */
+  align-items: center;
+  margin: 20px 0; /* Espaçamento entre seções */
+  padding: 10px;
+}
+
+/* Estilo individual da estrela */
+.stars__star {
+  width: 32px;
+  height: 32px;
+  background-image: url('../images/star.svg');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.3;
+  margin-right: 8px;
+  display: inline-block;
+  transition: opacity 0.3s ease; /* Transição suave */
+  border: 1px solid transparent; /* Removendo debug e consolidando seletores */
+}
+
+/* Removendo seletor duplicado e consolidando */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Ativa as primeiras N estrelas conforme modificador */
+.stars--0 .stars__star,
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  opacity: 1;
+}

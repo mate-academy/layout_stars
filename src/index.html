@@ -1,18 +1,68 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <title>Stars</title>
-    <link
-      rel="stylesheet"
-      href="./style.css"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloco de Estrelas</title>
+    <link rel="stylesheet" href="css/stars.css" />
   </head>
   <body>
-    <h1>Stars</h1>
+    <main>
+      <section class="stars stars--0">
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+      </section>
+      <section class="stars stars--1">
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+      </section>
+      <section class="stars stars--2">
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+      </section>
+      <section class="stars stars--3">
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+      </section>
+      <section class="stars stars--4">
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+      </section>
+      <section class="stars stars--5">
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+        <div class="stars__star"></div>
+      </section>
+    </main>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const starSections = document.querySelectorAll('.stars');
+        console.log('Star Sections:', starSections.length);
+
+        starSections.forEach((section, index) => {
+          console.log(`Section ${index}:`, section.classList);
+          const stars = section.querySelectorAll('.stars__star');
+          console.log(`Stars in section ${index}:`, stars.length);
+        });
+      });
+    </script>
   </body>
 </html>
