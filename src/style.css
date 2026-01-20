@@ -1,1 +1,2 @@
-/* add styles here */
+@import './blocks/body.css';
+@import './blocks/stars.css';
