@@ -1,0 +1,43 @@
+.stars {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 126px;
+  margin: 0 auto;
+}
+
+.stars__elements {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../images/star.svg);
+  background-repeat: no-repeat;
+  margin: 2px;
+}
+
+.stars--0 :nth-child(n) {
+  background-image: url(../../images/star.svg);
+}
+
+.stars--1 :first-child {
+  background-image: url(../../images/star-active.svg);
+  cursor: pointer;
+}
+
+.stars--2 :not(:nth-child(n + 3)) {
+  background-image: url(../../images/star-active.svg);
+  cursor: pointer;
+}
+
+.stars--3 :not(:nth-child(n + 4)) {
+  background-image: url(../../images/star-active.svg);
+  cursor: pointer;
+}
+
+.stars--4 :not(:last-child) {
+  background-image: url(../../images/star-active.svg);
+  cursor: pointer;
+}
+
+.stars--5 :nth-child(n) {
+  background-image: url(../../images/star-active.svg);
+  cursor: pointer;
+}
