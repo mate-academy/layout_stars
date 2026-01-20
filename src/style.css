@@ -1,1 +1,62 @@
-/* add styles here */
+body {
+  margin: 0;
+  line-height: 0;
+}
+
+/* Block */
+.stars {
+  display: flex;
+  align-items: center;
+  height: 16px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Element */
+.stars__star {
+  /* Tamanho da estrela restaurado para 16px (13px era muito pequeno) */
+  width: 16px;
+  height: 16px;
+
+  background-image: url('./images/star.svg');
+  background-repeat: no-repeat;
+  background-size: 13px 13px;
+  background-position: center;
+
+  /* Espaçamento horizontal entre estrelas */
+  margin-right: 4px;
+
+  /* Previne deformação */
+  flex-shrink: 0;
+}
+
+/* Remove espaço da última estrela da linha */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* Modifiers (Não precisa mexer, a lógica está correta) */
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background-image: url('./images/star-active.svg');
+  background-size: 13px 12px;
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url('./images/star-active.svg');
+  background-size: 13px 12px;
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url('./images/star-active.svg');
+  background-size: 13px 12px;
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url('./images/star-active.svg');
+  background-size: 13px 12px;
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg');
+  background-size: 13px 12px;
+}
