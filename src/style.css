@@ -1,1 +1,28 @@
-/* add styles here */
+.stars {
+  display: flex; /* Evita espaços extras entre estrelas */
+  margin-bottom: 0; /* Não adicionar margem vertical entre blocos */
+}
+
+.stars__star {
+  width: 32px; /* Tamanho da estrela (ajuste conforme Figma) */
+  height: 32px;
+  margin-right: 8px; /* Espaço entre estrelas */
+  background-image: url('./images/star.svg'); /* inativa por padrão */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Remover margem da última estrela */
+.stars__star:last-child {
+  margin-right: 0; /* Remove margem da última estrela */
+}
+
+/* Ativa as primeiras N estrelas */
+.stars--0 .stars__star:nth-child(-n + 0),
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg');
+}
