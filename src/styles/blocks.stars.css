@@ -1,0 +1,16 @@
+/* #region Stars */
+.stars {
+  display: flex;
+  justify-content: space-evenly;
+  height: 17px;
+}
+
+.stars__star {
+  display: flex;
+  flex-direction: row;
+  background-image: url(/src/images/star.svg);
+  width: 12px;
+  height: 12px;
+}
+
+/* #endregion */

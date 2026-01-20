@@ -1,0 +1,6 @@
+/* #region Star 0 */
+.stars--1 .stars__star:nth-child(1) {
+  background-image: url(/src/images/star-active.svg);
+}
+
+/* #endregion */
