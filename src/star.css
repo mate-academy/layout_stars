@@ -1,0 +1,21 @@
+.star {
+  width: 32px;
+  height: 32px;
+  background-image: url('./images/star.svg');
+  background-size: cover;
+  margin-right: 8px;
+}
+
+/* Usuwamy margines po ostatniej gwieździe */
+.star:last-child {
+  margin-right: 0;
+}
+
+/* Aktywne gwiazdy */
+.stars--1 .star:nth-child(-n + 1),
+.stars--2 .star:nth-child(-n + 2),
+.stars--3 .star:nth-child(-n + 3),
+.stars--4 .star:nth-child(-n + 4),
+.stars--5 .star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg');
+}
