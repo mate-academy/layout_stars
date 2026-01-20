@@ -1,1 +1,89 @@
 /* add styles here */
+
+html {
+  width: 140px;
+  height: 160px;
+
+  --activestar: url('/src/images/star-active.svg');
+  --nonactivestar: url('/src/images/star.svg');
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars__star {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  margin-inline: 4px;
+  margin-block: 2px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+/* .stars > .stars__star:last-child {
+  margin-inline-end: 0;
+} */
+
+.stars > .stars__star:first-child {
+  margin-inline-start: 0;
+}
+
+.stars > .stars__star::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.stars--0 > .stars__star::after {
+  background-image: var(--nonactivestar);
+}
+
+.stars--1 > .stars__star:first-child::after {
+  background-image: var(--activestar);
+}
+
+.stars--1 > .stars__star:nth-child(n + 2)::after {
+  background-image: var(--nonactivestar);
+}
+
+.stars--2 > .stars__star:nth-child(-n + 2)::after {
+  background-image: var(--activestar);
+}
+
+.stars--2 > .stars__star:nth-child(n + 3)::after {
+  background-image: var(--nonactivestar);
+}
+
+.stars--3 > .stars__star:nth-child(-n + 3)::after {
+  background-image: var(--activestar);
+}
+
+.stars--3 > .stars__star:nth-child(n + 4)::after {
+  background-image: var(--nonactivestar);
+}
+
+.stars--4 > .stars__star:nth-child(-n + 4)::after {
+  background-image: var(--activestar);
+}
+
+.stars--4 > .stars__star:nth-child(n + 5)::after {
+  background-image: var(--nonactivestar);
+}
+
+.stars--5 > .stars__star:nth-child(-n + 5)::after {
+  background-image: var(--activestar);
+}
+
+.stars--5 > .stars__star:nth-child(n + 6)::after {
+  background-image: var(--nonactivestar);
+}
