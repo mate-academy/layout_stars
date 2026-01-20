@@ -1,0 +1,19 @@
+.stars--0 :first-child {
+  background-image: url(../images/star.svg);
+}
+
+.stars--0 :nth-child(2) {
+  background-image: url(../images/star.svg);
+}
+
+.stars--0 :nth-child(3) {
+  background-image: url(../images/star.svg);
+}
+
+.stars--0 :nth-child(4) {
+  background-image: url(../images/star.svg);
+}
+
+.stars--0 :last-child {
+  background-image: url(../images/star.svg);
+}

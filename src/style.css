@@ -1,1 +1,9 @@
-/* add styles here */
+@import './styles/body.css';
+@import './styles/stars.css';
+@import './styles/stars__star.css';
+@import './styles/stars--0.css';
+@import './styles/stars--1.css';
+@import './styles/stars--2.css';
+@import './styles/stars--3.css';
+@import './styles/stars--4.css';
+@import './styles/stars--5.css';
