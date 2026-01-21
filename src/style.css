@@ -1,1 +1,32 @@
-/* add styles here */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars__block {
+  display: flex;
+  align-items: center;
+}
+
+.stars__star {
+  background-image: url(images/star.svg);
+
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
