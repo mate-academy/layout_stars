@@ -1,1 +1,9 @@
-/* add styles here */
+body {
+  background: #f0f0f0; /* світлий фон */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, sans-serif; /* доданий конкретний резервний шрифт */
+}
