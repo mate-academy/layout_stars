@@ -1,1 +1,6 @@
 /* add styles here */
+@import 'stars';
+
+body {
+  margin: 0;
+}
