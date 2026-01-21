@@ -1,0 +1,7 @@
+.stars--1 div:nth-child(1) {
+  background-image: url(../../images/star-active.svg);
+}
+
+.stars--1 div:nth-child(n + 2) {
+  background-image: url(../../images/star.svg);
+}
