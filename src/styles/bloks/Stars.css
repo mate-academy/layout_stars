@@ -1,0 +1,15 @@
+.stars {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.stars__stars {
+  background-image: url('../../images/star-active.svg');
+  background-size: 13px 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-inline-end: 4px;
+}

@@ -1,0 +1,19 @@
+.stars--0 div {
+  background-image: url('../../images/star.svg');
+}
+
+.stars--1 div:nth-child(1n + 2) {
+  background-image: url('../../images/star.svg');
+}
+
+.stars--2 div:nth-child(1n + 3) {
+  background-image: url('../../images/star.svg');
+}
+
+.stars--3 div:nth-child(1n + 4) {
+  background-image: url('../../images/star.svg');
+}
+
+.stars--4 div:nth-child(1n + 5) {
+  background-image: url('../../images/star.svg');
+}
