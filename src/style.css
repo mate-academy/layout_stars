@@ -1,1 +1,49 @@
-/* add styles here */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+  background-image: url('./images/star.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 8px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--1 .stars__star:nth-child(-n+1),
+.stars--2 .stars__star:nth-child(-n+2),
+.stars--3 .stars__star:nth-child(-n+3),
+.stars--4 .stars__star:nth-child(-n+4),
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url('./images/star-active.svg');
+}
