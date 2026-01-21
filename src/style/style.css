@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 100px;
+  max-width: 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.stars_star {
+  background-image: url(/src/images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  margin-right: 4px;
+
+  width: 16px;
+  height: 16px;
+}
+
+.stars--1 > :nth-child(1) {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url(/src/images/star-active.svg);
+}
+
+.stars--2 > :nth-child(-n + 2) {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url(/src/images/star-active.svg);
+}
+
+.stars--3 > :nth-child(-n + 3) {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url(/src/images/star-active.svg);
+}
+
+.stars--4 > :nth-child(-n + 4) {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url(/src/images/star-active.svg);
+}
+
+.stars--5 > :nth-child(-n + 5) {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url(/src/images/star-active.svg);
+}
