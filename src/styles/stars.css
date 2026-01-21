@@ -1,0 +1,7 @@
+.stars {
+  display: flex;
+}
+
+.stars:not(:first-child) {
+  margin-top: 4px;
+}
