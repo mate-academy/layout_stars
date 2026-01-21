@@ -1,1 +1,11 @@
 /* add styles here */
+@import 'stars.css';
+
+body {
+  margin: 0;
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+}
