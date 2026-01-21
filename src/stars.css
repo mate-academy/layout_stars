@@ -1,0 +1,31 @@
+/* stars.css */
+.stars {
+  display: flex; /* Usar flexbox para evitar espaços extras */
+  margin: 0; /* Sem margens verticais entre blocos */
+  margin-top: 0;
+}
+
+/* Modificadores para ativar estrelas */
+.stars--0 .stars__star:nth-child(n + 1) {
+  background-image: url('images/star.svg');
+}
+
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url('images/star-active.svg');
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('images/star-active.svg');
+}
