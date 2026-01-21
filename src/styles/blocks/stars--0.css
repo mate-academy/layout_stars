@@ -1,0 +1,9 @@
+.stars--0 .stars__star:nth-child(-n + 0) {
+  background-image: url(../../images/star-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stars--0 .stars__star:last-child {
+  margin-right: 0;
+}
