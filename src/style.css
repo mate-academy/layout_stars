@@ -1,1 +1,30 @@
 /* add styles here */
+body {
+  margin: 0;
+}
+
+:root {
+  --star-width: 16px;
+  --star-height: 16px;
+}
+
+/* The block with stars--N modifier should have exactly N first stars active. */
+
+/* use background-image for stars (see images folder). Don't use <img> or <svg> tags. */
+
+.stars {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stars__star {
+  background-image: url('./images/star.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: var(--star-width);
+  height: var(--star-height);
+  margin: 0 4px 0 0;
+}
+
+
+
