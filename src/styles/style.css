@@ -1,0 +1,10 @@
+@import './blocks/stars.css';
+@import './blocks/stars--1.css';
+@import './blocks/stars--2.css';
+@import './blocks/stars--3.css';
+@import './blocks/stars--4.css';
+@import './blocks/stars--5.css';
+
+body {
+  margin: 0;
+}
