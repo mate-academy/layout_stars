@@ -1,1 +1,5 @@
-/* add styles here */
+@import 'body.css';
+@import 'box_stars.css';
+@import 'stars__star.css';
+@import 'stars--n.css';
+@import 'stars.css';
