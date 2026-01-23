@@ -1,1 +1,11 @@
-/* add styles here */
+.star-block  {
+  display: flex;
+}
+
+.star-block__item--active {
+  color: gold;
+}
+
+.star-block__item {
+  cursor: pointer;
+}
