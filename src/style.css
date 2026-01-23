@@ -16,3 +16,14 @@ body {
   display: inline;
   margin: 4px;
 }
+
+.stars-block__item--active {
+  background-image: url("/src/images/star-active.svg");
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline;
+  margin: 4px;
+}
