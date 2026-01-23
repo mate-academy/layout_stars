@@ -1,11 +1,18 @@
-.star-block  {
+body {
+  margin: 0;
+}
+
+.stars-block  {
   display: flex;
 }
 
-.star-block__item--active {
-  color: gold;
-}
-
-.star-block__item {
-  cursor: pointer;
+.stars-block__item {
+  background-image: url("/src/images/star.svg");
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline;
+  margin: 5px;
 }
