@@ -1,1 +1,63 @@
 /* add styles here */
+
+/* CSS reset: remove browser default margin and set box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* add styles here */
+.container {
+  width: 96px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .stars:nth-child(-n + 5) {
+  margin-bottom: 4px;
+} */
+
+.stars__star {
+  background-image: url('./images/star.svg');
+  background-size: auto 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+/* .stars__star:nth-child(-n + 4) {
+  margin-right: 4px;
+} */
+
+.stars--1 .stars__star:nth-child(1) {
+  background-image: url('./images/star-active.svg');
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url('./images/star-active.svg');
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url('./images/star-active.svg');
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url('./images/star-active.svg');
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url('./images/star-active.svg');
+}
