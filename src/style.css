@@ -3,7 +3,7 @@ body {
 }
 
 .stars {
-  display: flex;
+  display: block;
 }
 
 .stars__star {
@@ -12,6 +12,7 @@ body {
   height: 16px;
   display: inline-block;
   margin-right: 8px;
+  background-size: cover;
 }
 
 .stars__star:last-child {
