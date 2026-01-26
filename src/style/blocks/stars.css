@@ -14,7 +14,7 @@
   background-position: center;
 }
 
-.stars .stars__star:not(:first-child) {
+.stars__star:not(:first-child) {
   margin-left: 4px;
 }
 
