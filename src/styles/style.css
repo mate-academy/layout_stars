@@ -1,0 +1,16 @@
+/* stylelint-disable import-notation */
+
+/* #region page */
+
+/* #endregion */
+
+/* #region stars */
+
+/* #endregion */
+
+/* #region active */
+
+/* #endregion */
+
+@import url(/src/styles/blocks/page.css);
+@import url(/src/styles/blocks/stars.css);

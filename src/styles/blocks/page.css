@@ -1,0 +1,8 @@
+.page {
+  line-height: 100%;
+}
+
+.page__body {
+  margin: 0;
+  padding: 0;
+}
