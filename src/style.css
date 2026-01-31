@@ -15,10 +15,6 @@ body {
   margin-right: 4px;
 }
 
-.stars__star:active {
-  background-image: url(images/star-active.svg);
-}
-
 .stars {
   display: flex;
 }
