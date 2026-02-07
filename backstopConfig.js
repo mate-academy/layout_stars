@@ -1,25 +1,29 @@
 'use strict';
-// https://github.com/garris/BackstopJS#advanced-scenarios
 
 const backstop = require('@mate-academy/backstop-config');
 const { basicScenario } = backstop;
 
+const PAGE_URL = 'https://peloso31.github.io/layout_stars/src/';
+
 const basic = {
   ...basicScenario,
-  label: 'Elementary test',
-  referenceUrl: basicScenario.referenceUrl + '/stars/',
+  url: PAGE_URL,
+  referenceUrl: PAGE_URL,
 };
 
-const config = {
+module.exports = {
   ...backstop,
+
   fileNameTemplate: '{scenarioLabel}',
+
   viewports: [
     {
-      name: 'tablet_h',
-      width: 100,
-      height: 100,
+      name: 'desktop',
+      width: 140,
+      height: 160,
     },
   ],
+
   scenarios: [
     {
       ...basic,
@@ -58,5 +62,3 @@ const config = {
     },
   ],
 };
-
-module.exports = config;
