@@ -1,0 +1,8 @@
+html {
+  --star: url(/src/images/star.svg);
+  --star-active: url(/src/images/star-active.svg);
+}
+
+body {
+  margin: 0;
+}
