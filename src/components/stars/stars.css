@@ -1,0 +1,15 @@
+/* add styles here */
+
+.stars {
+  display: flex;
+  align-items: center;
+
+  /*
+  width: 96px;
+  overflow: hidden;
+  */
+
+  /*
+  border: solid 1px black;
+ */
+}
