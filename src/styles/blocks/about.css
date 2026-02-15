@@ -1,0 +1,34 @@
+.about .stars--4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #fcfaef;
+}
+
+.about__image {
+  width: 320px;
+  height: 200px;
+  padding: 0 20px;
+  object-fit: cover;
+  margin-top: 96px;
+}
+
+.about__title {
+  margin-top: 48px;
+  font-size: 32px;
+  line-height: 33px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.about__description {
+  margin-top: 24px;
+  width: 280px;
+  height: 176px;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  text-align: left;
+  padding: 0 20px 48px;
+}

@@ -1,0 +1,32 @@
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-weight: 700;
+  color: #1b2129;
+}
+
+.menu__phone-number {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 2px;
+  padding-bottom: 1px;
+  display: block;
+  font-weight: 700;
+}
+
+.menu__call-to-order {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 2px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #1b2129;
+  display: block;
+  width: fit-content;
+  font-weight: 700;
+}

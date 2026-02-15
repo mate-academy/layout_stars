@@ -1,0 +1,23 @@
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(../../images/header-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.header__title {
+  padding-left: 20px;
+  padding-bottom: 40px;
+  line-height: 100%;
+  color: #fff;
+  margin: 0;
+}

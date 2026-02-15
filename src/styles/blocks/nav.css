@@ -1,0 +1,25 @@
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
+.nav__list {
+  list-style: none;
+  padding-top: 32px;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav__call {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

@@ -1,18 +1,377 @@
 <!doctype html>
-<html lang="en">
+<html
+  lang="en"
+  class="page"
+>
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <title>Stars</title>
+    <title>B&O</title>
     <link
       rel="stylesheet"
-      href="./style.css"
+      href="styles/style.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
     />
   </head>
-  <body>
-    <h1>Stars</h1>
+  <body class="page__body stars">
+    <header class="header stars--0">
+      <div class="top-bar">
+        <a href="#">
+          <img
+            src="images/logoB&O.png"
+            alt="B&O logo"
+          />
+        </a>
+
+        <div class="header__icons">
+          <a
+            href="#"
+            class="icon icon--phone"
+          ></a>
+
+          <a
+            href="#menu"
+            class="icon icon--menu"
+          ></a>
+        </div>
+      </div>
+
+      <div class="header__bottom">
+        <h1 class="header__title">
+          Your senses.
+          <br />
+          Set free.
+        </h1>
+      </div>
+    </header>
+
+    <aside
+      class="page__menu menu stars--1"
+      id="menu"
+    >
+      <div class="top-bar">
+        <a href="#">
+          <img
+            src="images/logoB&O.png"
+            alt="B&O logo"
+          />
+        </a>
+
+        <div class="header__icons">
+          <a
+            href="#"
+            class="icon icon--close"
+          ></a>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#"
+            >
+              Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#recommended"
+            >
+              Recommended
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#categories"
+            >
+              Categories
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#about"
+            >
+              About Us
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#contacts"
+            >
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="nav__call">
+        <a
+          href="tel:+12345555555"
+          class="menu__phone-number"
+        >
+          +1 234 5555-55-55
+        </a>
+
+        <a
+          href="tel:+12345555555"
+          class="menu__call-to-order"
+        >
+          Call to Order
+        </a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <section
+        class="recommended stars--2"
+        id="recommended"
+      >
+        <h2 class="recommended__title">Recommended</h2>
+
+        <div class="recommended__item">
+          <div class="recommended__image">
+            <img
+              src="images/beosound-a5.png"
+              alt="caixa de som beosound a5"
+            />
+          </div>
+          <h3 class="recommended__item-title">BEOSOUND A5</h3>
+          <p class="recommended__item-description">
+            Huge sound anywhere – in the home or outdoors. Beosound A5 is a
+            Wi-Fi and Bluetooth speaker with long-lasting battery and wireless
+            charging built in.
+          </p>
+          <p>$ 1299.00</p>
+        </div>
+
+        <div class="recommended__item">
+          <div class="recommended__image">
+            <img
+              src="images/beoplay.png"
+              alt="fone de ouvido beoplay hx"
+            />
+          </div>
+          <h3 class="recommended__item-title">BEOPLAY HX</h3>
+          <p class="recommended__item-description">
+            Wireless noise-cancelling headphones. Listen in comfort whether
+            you're on a call, working from home or taking a moment for yourself.
+          </p>
+          <p>$ 499.00</p>
+        </div>
+
+        <div class="recommended__item">
+          <div class="recommended__image">
+            <img
+              src="images/beosound-theatre.png"
+              alt="caixa de som beosound theatre"
+            />
+          </div>
+          <h3 class="recommended__item-title">BEOSOUND THEATRE</h3>
+          <p class="recommended__item-description">
+            Four patent-pending acoustic innovations in one sleek soundbar
+            envelop you in sound from every angle. Made to fit any TV, and last
+            for generations.
+          </p>
+          <p>$ 3199.00</p>
+        </div>
+      </section>
+
+      <section
+        class="categories stars--3"
+        id="categories"
+      >
+        <div>
+          <h2 class="categories__title">
+            Sound. Vision.
+            <br />
+            It’s your pick.
+          </h2>
+        </div>
+
+        <div class="categories__section">
+          <div class="categories__block">
+            <div class="categories__items">
+              <img
+                src="images/box1.png"
+                alt="caixa de som 1"
+              />
+            </div>
+            <div class="categories__items">
+              <img
+                src="images/box2.png"
+                alt="caixa de som 2"
+              />
+            </div>
+          </div>
+          <p class="categories__items-title">Portable speakers</p>
+        </div>
+
+        <div class="categories__section">
+          <div class="categories__block">
+            <div class="categories__items">
+              <img
+                src="images/earphone.png"
+                alt="fone de ouvido 1"
+              />
+            </div>
+            <div class="categories__items">
+              <img
+                src="images/earphone2.png"
+                alt="fone de ouvido 2"
+              />
+            </div>
+          </div>
+          <p class="categories__items-title">Earphones</p>
+        </div>
+
+        <div class="categories__section">
+          <div class="categories__block">
+            <div class="categories__items">
+              <img
+                src="images/speaker-round.png"
+                alt="speaker arco"
+              />
+            </div>
+            <div class="categories__items">
+              <img
+                src="images/speaker-base.png"
+                alt="speaker base"
+              />
+            </div>
+          </div>
+          <p class="categories__items-title">Smart Home</p>
+        </div>
+        <button class="categories__view-all-button">
+          <a
+            href="#recommended"
+            class="categories__view-all"
+          >
+            View All
+          </a>
+        </button>
+      </section>
+
+      <section
+        class="about stars--4"
+        id="about"
+      >
+        <div class="about__image">
+          <img
+            src="images/vitrola.png"
+            alt="Vitrola Beosystem"
+          />
+        </div>
+        <h2 class="about__title">
+          Timeless, for 50
+          <br />
+          years and
+          <br />
+          counting
+        </h2>
+        <p class="about__description">
+          Bang & Olufsen is expanding its Recreated Classics Program with the
+          launch of Beosystems – a limited edition music system that transcends
+          time by bridging the gap between one of our iconic designs from 1972
+          and today’s cutting-edge digital technology.
+        </p>
+      </section>
+
+      <section
+        class="contacts stars--5"
+        id="contacts"
+      >
+        <h2>Contact us</h2>
+        <form
+          class="contacts__form"
+          action="#"
+          method="post"
+        >
+          <div class="contacts__field">
+            <label
+              for="name"
+              class="contacts__label"
+            ></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="contacts__input"
+              placeholder="Name"
+              required
+            />
+          </div>
+
+          <div class="contacts__field">
+            <label
+              for="email"
+              class="contacts__label"
+            ></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="contacts__input"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div class="contacts__field">
+            <label
+              for="message"
+              class="contacts__label"
+            ></label>
+            <textarea
+              id="message"
+              name="message"
+              class="contacts__textarea"
+              placeholder="Message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="contacts__button"
+          >
+            Send
+          </button>
+        </form>
+      </section>
+      <p class="footer__text-title">Phone</p>
+      <p class="footer__text-description">+1 234 5555-55-55</p>
+      <p class="footer__text-title">Email</p>
+      <p class="footer__text-description">hello@bang&olufsen.com</p>
+      <p class="footer__text-title">Phone</p>
+      <p class="footer__text-description">
+        400 first ave.
+        <br />
+        suite 700
+        <br />
+        Minneapolis, MN 55401
+      </p>
+    </main>
   </body>
 </html>
