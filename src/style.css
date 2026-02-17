@@ -8,7 +8,7 @@ body {
 }
 
 .stars__star {
-  background-image: url(/src/images/star.svg);
+  background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 16px;
