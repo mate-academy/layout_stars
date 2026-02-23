@@ -1,0 +1,61 @@
+/* #region stars */
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars__star {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../images/star.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+.stars--1 .stars__star:nth-child(-n + 1) {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../images/star-active.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* #endregion */
