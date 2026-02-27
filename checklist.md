@@ -2,7 +2,7 @@
 <details>
   <summary>Use <b>2 spaces</b> for indentation in your file (not a <code>tab</code> character)</summary>
 
-  > to make sure your formatting will look the same everiwhere
+  - [x] > to make sure your formatting will look the same everiwhere
 </details>
 
 <details>
