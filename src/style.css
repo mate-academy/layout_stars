@@ -1,1 +1,29 @@
 /* add styles here */
+
+/* #region html, body */
+html, body {
+    margin: 0;
+}
+
+/* #endregion */
+
+/* #region stars */
+.stars {
+    display: flex;
+}
+
+/* #region stars__star */
+.stars__star {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background-image: url('./images/star.svg');
+    background-size: contain;
+    display: inline-block;
+}
+
+.stars__star:not(:last-child){
+    margin-right: 4px;
+}
+
+/* #endregion */
