@@ -1,9 +1,9 @@
 .stars__star {
-  width: 13px;
-  height: 13px;
+  width: 16px;
+  height: 16px;
   background-image: url('../../images/star.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: center;
   display: block;
 }
 
