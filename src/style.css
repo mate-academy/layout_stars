@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .stars {
   display: flex;
 }
@@ -11,8 +15,7 @@ body {
 .stars__star {
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
-  background-size: 16px 16px;
-  background-position: center;
+  background-position: cover;
   width: 16px;
   height: 16px;
 }
