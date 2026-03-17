@@ -5,7 +5,7 @@
 .stars__star {
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
-  background-position: cover;
+  background-size: contain;
   width: 16px;
   height: 16px;
 }
