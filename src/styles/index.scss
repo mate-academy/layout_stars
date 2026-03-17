@@ -1,3 +1,143 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+// Stars component styles
+.stars {
+  display: flex;
+  gap: 4px;
+
+  &__star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+
+    &::before {
+      content: '★';
+      position: absolute;
+      font-size: 20px;
+      color: #e0e0e0;
+    }
+
+    &--active::before {
+      color: #ffb800;
+    }
+  }
+}
+
+// Card component - BEM naming
+.card {
+  width: 200px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+
+  &__image-container {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  &__title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  &__product-code {
+    font-size: 10px;
+    color: #999;
+    margin-bottom: 8px;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  &__reviews {
+    font-size: 10px;
+    color: #666;
+    font-weight: 500;
+  }
+
+  &__price-section {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  &__price-label {
+    font-size: 10px;
+    color: #666;
+    font-weight: 400;
+  }
+
+  &__price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  &__buy-link {
+    display: block;
+    padding: 10px 16px;
+    background-color: #3da5d9;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 2px solid #3da5d9;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      background-color: white;
+      color: #3da5d9;
+      border-color: #3da5d9;
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+  }
 }
