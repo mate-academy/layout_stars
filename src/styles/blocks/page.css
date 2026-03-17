@@ -1,0 +1,8 @@
+.page__body {
+  margin: 0;
+}
+
+.page__rating {
+  display: inline-flex;
+  flex-direction: column;
+}
