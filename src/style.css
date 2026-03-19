@@ -13,7 +13,6 @@ body {
   background-position: center;
   height: 16px;
   width: 16px;
-  justify-content: center;
 }
 
 .stars__star:not(:last-child) {
