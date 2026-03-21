@@ -1,39 +1,13 @@
-/* add styles here */
-html, body, h1 {
+@import './styles/blocks/stars.css';
+
+html,
+body {
   margin: 0;
+  padding: 0;
 }
 
-
-.container {
-  display: block;
-}
-
-.stars {
-  display: flex;
-  align-items: center;
-  margin-top: 0;    /* Refuerza que no haya margen arriba */
-  margin-bottom: 0; /* Refuerza que no haya margen abajo */
-}
-
-.stars__star {
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  background-image: url('./images/star.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-
-}
-
-.stars__star:last-child {
-  margin-right: 0;
-}
-
-.stars--1 .stars__star:nth-child(-n+1),
-.stars--2 .stars__star:nth-child(-n+2),
-.stars--3 .stars__star:nth-child(-n+3),
-.stars--4 .stars__star:nth-child(-n+4),
-.stars--5 .stars__star:nth-child(-n+5) {
-
-  background-image: url('./images/star-active.svg');
+.page__title {
+  margin: 16px;
+  font-family: sans-serif;
+  font-size: 24px;
 }
