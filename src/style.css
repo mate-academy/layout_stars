@@ -1,28 +1,25 @@
-.stars {
-  --rating: 0;
+:root {
   --star-size: 16px;
   --star-gap: 6px;
   --star-active: url(/src/images/star-active.svg);
   --star-empty: url(/src/images/star.svg);
+}
 
+.stars {
   display: flex;
 }
 
 .stars__star {
   display: block;
+
   margin-right: var(--star-gap);
   width: var(--star-size);
   height: var(--star-size);
-  background: var(--star-empty) no-repeat center;
-  line-height: 0;
+  background: var(--star-empty) no-repeat center / contain;
 }
 
-.stars__star:nth-child(-n + 1) {
-  background-image: var(--star-active, var(--star-empty));
-}
-
-[class*='stars--'] .stars__star {
-  background-image: var(--star-empty);
+.stars__star:last-child {
+  margin-right: 0;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
