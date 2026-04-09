@@ -1,5 +1,5 @@
 /* add styles here */
-
+@import "stars.css";
 /* #region body */
 body {
   margin: 0;
@@ -8,4 +8,4 @@ body {
 
 /* #endregion */
 
-@import "stars.css";
+
