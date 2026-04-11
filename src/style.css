@@ -1,10 +1,8 @@
-/* add styles here */
-@import "./blocks/stars/stars.css";
+@import './blocks/stars/stars.css';
 
 /* #region body */
 body {
   margin: 0;
-  padding: 0;
 }
 
 /* #endregion */
