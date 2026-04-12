@@ -1,6 +1,7 @@
-@import './stars.css';
+@import './blocks/stars/stars.css';
 
 /* #region body */
+
 body {
   margin: 0;
 }
