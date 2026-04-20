@@ -1,1 +1,34 @@
-/* add styles here */
+/* коментарі пишу для себе */
+body {
+  margin: 0; /* прибрали всі зовнішні відступи усіх блоків */
+  font-family: Inter, Arial, sans-serif;
+}
+
+.stars {
+  display: flex; /* встановли розміщення елементів */
+}
+
+.stars__star {
+  width: 16px;
+  height: 16px;
+
+  background-image: url('./images/star.svg');
+  background-repeat: no-repeat; /* відключаємо повторнення елементів */
+  background-position: center; /* центруємо */
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px; /* внутрішні відступи по горизонталі (не ключаємо крайній елемент) */
+}
+
+/* .stars--1 - модифікатор, я нього беремо номер
+.stars__star - клас в якому міняємо картинку
+:nth-child(-n+1) - обчислюємо кількість елементів ( nth-child бере всі елементи ..stars--N),
+                   рахує зліва на право */
+.stars--1 .stars__star:nth-child(-n + 1),
+.stars--2 .stars__star:nth-child(-n + 2),
+.stars--3 .stars__star:nth-child(-n + 3),
+.stars--4 .stars__star:nth-child(-n + 4),
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(./images/star-active.svg);
+}
