@@ -1,0 +1,32 @@
+/* add styles here */
+
+/* #region inport */
+@import './blocks/stars--0.css';
+@import './blocks/stars--1.css';
+@import './blocks/stars--2.css';
+@import './blocks/stars--3.css';
+@import './blocks/stars--4.css';
+@import './blocks/stars--5.css';
+
+/* #endregion */
+
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars__star {
+  background-image: url(../../src/images/star.svg);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+
+.stars__star:not(:last-of-type) {
+  margin-right: 4px;
+}
