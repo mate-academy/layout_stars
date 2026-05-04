@@ -1,0 +1,31 @@
+/* add styles here */
+@import './blocks/stars--1.css';
+@import './blocks/stars--2.css';
+@import './blocks/stars--3.css';
+@import './blocks/stars--4.css';
+@import './blocks/stars--5.css';
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  display: block;
+  background-image: url(../images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__star:not(:first-child) {
+  margin-left: 4px;
+}
