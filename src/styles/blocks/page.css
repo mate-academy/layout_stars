@@ -1,0 +1,26 @@
+.page__body {
+  margin: 0;
+}
+
+.page {
+  font-family: Cinzel, serif;
+  color: #161616;
+  line-height: 27px;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.page__menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page__menu:target {
+  opacity: 1;
+  pointer-events: all;
+}

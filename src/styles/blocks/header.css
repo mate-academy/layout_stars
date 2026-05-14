@@ -1,0 +1,33 @@
+.header {
+  box-sizing: border-box;
+  padding: 25px 20px 288px;
+  height: 100vh;
+  background-image: url(../../images/header-bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__icon {
+  display: flex;
+  gap: 24px;
+}
+
+.header--title {
+  font-family: Cinzel, serif;
+  position: absolute;
+  top: 210px;
+  left: 50%;
+  width: 280px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1.5px;
+}
