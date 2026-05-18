@@ -1,18 +1,125 @@
+<!-- #region head -->
 <!doctype html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <title>Stars</title>
+    <title>THE MET</title>
     <link
       rel="stylesheet"
-      href="./style.css"
+      href="./styles/style.css"
     />
   </head>
-  <body>
-    <h1>Stars</h1>
+  <!-- #endregion -->
+
+  <body class="page__body">
+    <!-- #region header -->
+    <header class="header">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin="anonymous"
+/>
+      <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link
+  rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin="anonymous"
+/>
+      <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+      <div class="header__top">
+        <a href="#">
+          <img src="images/logo.png" alt="the met">
+        </a>
+        <div class="header__icon">
+          <a href="#" class="icon icon--phone"></a>
+          <a href="#menu" class="icon icon--menu"></a>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <h1 class="header--title">Welcome to The MET</h1>
+      </div>
+    </header>
+    <!-- #endregion -->
+
+    <!-- #region aside -->
+    <aside class="page__menu menu" id="menu">
+      <div class="menu__content">
+        <div class="menu__top">
+          <a href="#">
+            <img src="images/logo.png" alt="the met">
+          </a>
+          <a href="#" class="icon icon--close"></a>
+        </div>
+      </div>
+      <nav class="nav menu__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#about-us">About us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#now-on-view">Now on view</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#explore-online">Explore online</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="menu__contacts">
+        <div class="menu__phones">
+          <p class="menu__tel">
+            The Met Fifth Avenue<br>
+           +1 212-535-7710
+          </p>
+          <p class="menu__tel">
+            The Met Cloisters<br>
+            +1 212-923-3700
+          </p>
+        </div>
+
+        <a href="tel:+12125357710" class="menu__call-to-order">
+         Call to order
+        </a>
+      </div>
+    </aside>
+    <!-- #endregion -->
+
+    <!-- #region main -->
+    <main class="main">
+      <section class="museum-hours" id="about-us">
+        <h2>Museum hours</h2>
+      </section>
+
+      <section class="view" id="now-on-view">
+        <h2>Now On View</h2>
+      </section>
+
+      <section class="explore" id="explore-online">
+        <h2>More to Explore Online</h2>
+      </section>
+
+      <section class="contact" id="contacts">
+        <h2>Contact us</h2>
+      </section>
+    </main>
+    <!-- #endregion -->
+
+    <!-- #region footer -->
+    <footer class="footer">
+
+    </footer>
+    <!-- #endregion -->
   </body>
 </html>
