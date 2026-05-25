@@ -19,11 +19,7 @@
   background-image: url(images/star-active.svg);
 }
 
-.stars:nth-of-type(5) .stars__star:not(:last-of-type) {
-  background-image: url(images/star-active.svg);
-}
-
-.stars:nth-of-type(4) .stars__star:nth-child(-n + 3) {
+.stars:nth-of-type(2) .stars__star:nth-child(-n + 1){
   background-image: url(images/star-active.svg);
 }
 
@@ -31,6 +27,12 @@
   background-image: url(images/star-active.svg);
 }
 
-.stars:nth-of-type(2) .stars__star:nth-child(-n + 1){
+.stars:nth-of-type(4) .stars__star:nth-child(-n + 3) {
   background-image: url(images/star-active.svg);
 }
+
+.stars:nth-of-type(5) .stars__star:not(:last-of-type) {
+  background-image: url(images/star-active.svg);
+}
+
+
