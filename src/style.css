@@ -6,7 +6,12 @@ body {
   display: flex;
 }
 
+.stars--0:first-of-type {
+  margin-top: 32px;
+}
+
 .stars__star {
+  display: block;
   width: 16px;
   height: 16px;
   margin-right: 4px;
@@ -37,5 +42,4 @@ body {
 
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
-
 }
