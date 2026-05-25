@@ -1,14 +1,4 @@
 /* add styles here */
-body {
-  background-color: #ccc;
-}
-
-.container {
-  box-sizing: border-box;
-  width: fit-content;
-  padding: 32px 22px;
-  background-color: #fff;
-}
 
 .stars {
   display: flex;
