@@ -6,7 +6,6 @@
 .stars {
   margin: 0;
   display: flex;
-  width: 96px;
 }
 
 .stars__star {
