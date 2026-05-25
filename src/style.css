@@ -1,1 +1,30 @@
 /* add styles here */
+body {
+  background-color: #ccc;
+}
+
+.container {
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 32px 22px;
+  background-color: #fff;
+}
+
+.stars {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.stars__star {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  margin: 0 2px;
+
+  background-image: url(../src/images/star.svg);
+  background-repeat: no-repeat;
+}
+
+.active {
+  background-image: url(../src/images/star-active.svg);
+}
