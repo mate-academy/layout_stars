@@ -31,3 +31,4 @@ Hold `Alt` key (`Option` on MacOS) to measure distances in Figma.
 - [ ] Each BEM block has its own separate file
 - [ ] All `Typical Mistakes` from `BEM` lesson theory are checked.
 - [ ] Code follows all the [Code Style Rules ❗️](./checklist.md)
+
