@@ -1,0 +1,3 @@
+.stars--1 > :first-child {
+  background-image: url(../images/star-active.svg);
+}
