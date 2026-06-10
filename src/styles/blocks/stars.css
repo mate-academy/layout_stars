@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+}
