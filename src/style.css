@@ -1,8 +1,8 @@
 /* 1. Redefinir as configurações padrão do navegador (reset) */
-html {
+body{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 /* 2. Container das Estrelas (Bloco pai) */
@@ -30,7 +30,10 @@ html {
 }
 
 /* 4. Modificadores e Pseudo-seletores para as estrelas amarelas */
-/* stars--0 */ /* Implicitamente vazia devido ao estilo padrão */
+
+/* stars--0 */
+
+/* Implicitamente vazia devido ao estilo padrão */
 
 /* stars--1: Seleciona a 1ª estrela */
 .stars--1 .stars__star:nth-child(-n+1) {
