@@ -1,1 +1,61 @@
-/* add styles here */
+/* 1. Redefinir as configurações padrão do navegador (reset) */
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+/* 2. Container das Estrelas (Bloco pai) */
+.stars {
+  display: flex; /* Remove espaços extras entre elementos inline */
+  flex-wrap: nowrap;
+}
+
+/* 3. Elemento individual da estrela */
+.stars__star {
+  display: block;
+  width: 24px;   /* Ajuste conforme o Figma */
+  height: 24px;  /* Ajuste conforme o Figma */
+  background-image: url('images/star.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  /* Distância entre estrelas (sem usar 'gap') */
+  margin-right: 6px;
+}
+
+/* Remove a margem direita do último item para alinhamento perfeito */
+.stars__star:last-child {
+  margin-right: 0;
+}
+
+/* 4. Modificadores e Pseudo-seletores para as estrelas amarelas */
+
+/* stars--0 */
+
+/* Implicitamente vazia devido ao estilo padrão */
+
+/* stars--1: Seleciona a 1ª estrela */
+.stars--1 .stars__star:nth-child(-n+1) {
+  background-image: url('images/star-active.svg');
+}
+
+/* stars--2: Seleciona as 2 primeiras estrelas */
+.stars--2 .stars__star:nth-child(-n+2) {
+  background-image: url('images/star-active.svg');
+}
+
+/* stars--3: Seleciona as 3 primeiras estrelas */
+.stars--3 .stars__star:nth-child(-n+3) {
+  background-image: url('images/star-active.svg');
+}
+
+/* stars--4: Seleciona as 4 primeiras estrelas */
+.stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url('images/star-active.svg');
+}
+
+/* stars--5: Seleciona as 5 primeiras estrelas */
+.stars--5 .stars__star:nth-child(-n+5) {
+  background-image: url('images/star-active.svg');
+}
