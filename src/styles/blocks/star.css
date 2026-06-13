@@ -1,24 +1,5 @@
-/* #region page */
-
-.page {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* #endregion */
-
-/* #region main */
-
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 .stars {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .stars__star {
@@ -44,5 +25,3 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/* #endregion */
