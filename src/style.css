@@ -1,1 +1,5 @@
-/* add styles here */
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
