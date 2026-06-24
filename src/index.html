@@ -1,18 +1,106 @@
+<!-- #region Head -->
 <!doctype html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <title>Stars</title>
+    <title>B&O</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="./style.css"
     />
   </head>
-  <body>
-    <h1>Stars</h1>
+  <!-- #endregion -->
+  <body class="page__body">
+    <header class="header">
+      <div class="top-bar">
+        <!-- #region Посилання на домашню сторінку -->
+        <a href="#" class="top-bar__logo">
+          <!-- alt= - це альтернативний текст, зокрема назва компанії -->
+          <img src="images/logo.png" alt="B&O Logo" />
+        </a>
+
+        <div class="top-bar__icons">
+         <a href="tel:+1 234 5555-55-55"class= "icon icon--phone"></a>
+         <a href="#menu"class= "icon icon--menu"></a>
+      </div>
+        <!-- #endregion -->
+      </div>
+      <div class="header__bottom">
+        <h1>
+          Your senses.
+          <br>
+          Set free.</h1>
+      </div>
+    </header>
+
+<aside class="page__menu menu" id="menu">
+        <div class="top-bar menu__top">
+          <a href="#" class="top-bar__logo">
+            <img src="images/logo.png" alt="B&O Logo" />
+          </a>
+          <a href="#" class="icon icon--close"></a>
+        </div>
+
+
+<div class="menu__content">
+          <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#recomended">Recommended</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#categories">Categories</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact-us">Contact Us</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <a href="tel:+1 234 5555-55-55" class="menu__phone-number">
+          +1 234 5555-55-55
+        </a>
+
+        <a href="tel:+1 234 5555-55-55" class="menu__call-to-order">
+          Call to Order
+        </a>
+</div>
+</aside>
+
+    <main class="main">
+      <section class="recommended" id="recomended">
+        <h2>Recommended</h2>
+      </section>
+
+      <section class="categories" id="categories">
+        <h2>Sound. Vision. It’s your pick.</h2>
+      </section>
+
+      <section class="about-us" id="about-us">
+        <h2>Timeless, for 50 years and counting</h2>
+      </section>
+
+      <section class="contact-us" id="contact-us">
+        <h2>Contact Us</h2>
+      </section>
+
+    </main>
+    <footer class="footer">
+
+    </footer>
   </body>
 </html>
