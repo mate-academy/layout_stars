@@ -1,0 +1,10 @@
+@import 'blocks/stars.css';
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
