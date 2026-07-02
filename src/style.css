@@ -1,1 +1,8 @@
-/* add styles here */
+@import './styles/stars.css';
+
+/* #region Body */
+body {
+  margin: 0;
+}
+
+/* #endregion */
