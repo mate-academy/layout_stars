@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   height: 16px;
-  width: 16px;
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
@@ -16,7 +15,6 @@
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 16px 16px;
 }
 
 .stars__star:last-child {
@@ -29,5 +27,4 @@
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(./images/star-active.svg);
-  background-size: 16px 16px;
 }
