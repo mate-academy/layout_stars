@@ -1,1 +1,98 @@
-/* add styles here */
+body {
+  margin: 0;
+}
+
+.stars {
+  position: relative;
+  display: flex;
+  width: 96px;
+}
+
+.stars__star {
+  background-image: url(./images/star.svg);
+  background-size: 13px 13px;
+  height: 13px;
+  width: 13px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 7px;
+}
+
+.stars--0::after {
+  background-position: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url(./images/star-active.svg);
+  height: 13px;
+  background-size: 13px 13px;
+  background-repeat: repeat-x;
+  width: 0;
+}
+
+.stars--1::after {
+  background-position: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url(./images/star-active.svg);
+  height: 13px;
+  background-size: 13px 13px;
+  background-repeat: repeat-x;
+  width: 13px;
+}
+
+.stars--2::after {
+  background-position: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url(./images/star-active.svg);
+  height: 13px;
+  background-size: 13px 13px;
+  background-repeat: repeat-x;
+  width: 28px;
+}
+
+.stars--3::after {
+  background-position: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url(./images/star-active.svg);
+  height: 13px;
+  background-size: 13px 13px;
+  background-repeat: repeat-x;
+  width: 44px;
+}
+
+.stars--4::after {
+  background-position: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url(./images/star-active.svg);
+  height: 13px;
+  background-size: 13px 13px;
+  background-repeat: repeat-x;
+  width: 60px;
+}
+
+.stars--5::after {
+  background-position: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url(./images/star-active.svg);
+  height: 13px;
+  background-size: 13px 13px;
+  background-repeat: repeat-x;
+  width: 76px;
+}
