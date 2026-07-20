@@ -3,11 +3,15 @@
   height: 16px;
   background-image: url(./images/star.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .stars {
   display: flex;
-  justify-content: space-between;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
 }
 
 .stars--0 .stars__star:nth-child(-n + 0) {
