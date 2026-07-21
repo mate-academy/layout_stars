@@ -20,6 +20,7 @@ body {
   justify-content: space-between;
 }
 
+
 .stars--0 .stars__star {
   background-image: url(./images/star.svg);
 }
