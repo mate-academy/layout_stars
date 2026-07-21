@@ -13,7 +13,7 @@ body {
   background-image: url(./images/star-active.svg);
 }
 
-body > div {
+.stars > div {
   /* height: 96px; */
   width: 96px;
   display: flex;
@@ -21,38 +21,25 @@ body > div {
 }
 
 .stars--0 .stars__star {
-  width: 16px;
-  height: 16px;
   background-image: url(./images/star.svg);
 }
 
 .stars--1 .stars__star:nth-child(n + 2) {
-  width: 16px;
-  height: 16px;
   background-image: url(./images/star.svg);
 }
 
 .stars--2 .stars__star:nth-child(n + 3) {
-  width: 16px;
-  height: 16px;
   background-image: url(./images/star.svg);
 }
 
 .stars--3 .stars__star:nth-child(n + 4) {
-  width: 16px;
-  height: 16px;
   background-image: url(./images/star.svg);
 }
 
 .stars--4 .stars__star:nth-child(n + 5) {
-  width: 16px;
-  height: 16px;
   background-image: url(./images/star.svg);
 }
 
 .stars--5 .stars__star:nth-child(n + 6) {
-  width: 16px;
-  height: 16px;
   background-image: url(./images/star.svg);
 }
-
