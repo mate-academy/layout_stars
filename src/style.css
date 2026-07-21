@@ -1,8 +1,7 @@
 @import 'stars.css';
 
 html,
-body,
-div {
+body {
   box-sizing: border-box;
 }
 
