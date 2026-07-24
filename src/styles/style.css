@@ -1,0 +1,16 @@
+/* add styles here */
+
+@import './blocks/stars.css';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+  box-sizing: border-box;
+  width: 96px;
+  padding: 0;
+  background-color: #fff;
+} */
