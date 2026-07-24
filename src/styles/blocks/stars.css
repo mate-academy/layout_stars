@@ -1,7 +1,5 @@
 .stars {
   display: flex;
-  box-sizing: border-box;
-  padding: 0;
   background-color: #fff;
 }
 
