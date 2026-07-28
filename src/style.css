@@ -1,11 +1,6 @@
 /* #region base */
 .page__body {
-  display: flex;
-  flex-direction: column;
-  width: 96px;
-  height: 96px;
   margin: 0;
-  box-sizing: border-box;
 }
 
 /* #endregion */
