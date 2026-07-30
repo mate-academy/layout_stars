@@ -1,1 +1,6 @@
-/* add styles here */
+@import url(/src/styles/stars.css);
+
+.page {
+  margin: 0;
+  font-family: sans-serif;
+}
