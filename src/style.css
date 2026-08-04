@@ -1,1 +1,10 @@
-/* add styles here */
+@import './stars.css';
+
+body {
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
