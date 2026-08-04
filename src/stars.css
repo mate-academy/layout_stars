@@ -1,13 +1,11 @@
 .stars {
   display: flex;
-  flex: 1;
-  padding: 2px 0;
 }
 
 .stars__star {
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: center;
   width: 16px;
   height: 16px;
 }
