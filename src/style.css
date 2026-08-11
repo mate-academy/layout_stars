@@ -1,8 +1,7 @@
 /* add styles here */
-@import "./stars.css";
+@import "./style/stars.css";
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
