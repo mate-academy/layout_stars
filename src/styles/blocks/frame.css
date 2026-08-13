@@ -1,7 +1,3 @@
-.page__body {
-  margin: 0;
-}
-
 .frame {
   display: flex;
   flex-direction: column;
