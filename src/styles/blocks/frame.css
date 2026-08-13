@@ -1,0 +1,9 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+  height: fit-content;
+}
