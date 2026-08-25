@@ -1,33 +1,34 @@
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
 }
 
 .stars {
   display: flex;
-  padding: 0 4px;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
+  padding-left: 0 4px;
+  margin: 5px;
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
 }
 
 .stars__star:not(:last-child) {
   margin-right: 4px;
 }
 
-.stars--1 .stars__star:nth-child(-n + 1),
-.stars--2 .stars__star:nth-child(-n + 2),
-.stars--3 .stars__star:nth-child(-n + 3),
-.stars--4 .stars__star:nth-child(-n + 4),
-.stars--5 .stars__star:nth-child(-n + 5) {
+.stars--1 .stars__star:nth-child(-n + 1)::after,
+.stars--2 .stars__star:nth-child(-n + 2)::after,
+.stars--3 .stars__star:nth-child(-n + 3)::after,
+.stars--4 .stars__star:nth-child(-n + 4)::after,
+.stars--5 .stars__star:nth-child(-n + 5)::after {
+  content: '';
+  position: absolute;
+  inset: 0;
   background-image: url('./images/star-active.svg');
+  background-repeat: no-repeat;
 }
