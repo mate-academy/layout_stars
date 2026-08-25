@@ -14,6 +14,7 @@
     "postinstall": "npm run update",
     "test": "npm run lint && npm run test:only"
   },
+  "homepage": "https://barzuledi62-ui.github.io/layout_stars/",
   "keywords": [],
   "author": "Mate Academy",
   "license": "GPL-3.0",
