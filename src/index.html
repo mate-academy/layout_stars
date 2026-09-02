@@ -2,17 +2,381 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, initial-scale=1.0"
     />
-    <title>Stars</title>
+
+    <title>THE MET</title>
+
     <link
       rel="stylesheet"
-      href="./style.css"
+      href="src/styles/main.scss"
     />
+
+    <script
+      src="src/scripts/main.js"
+      defer
+    ></script>
   </head>
+
   <body>
-    <h1>Stars</h1>
+    <header
+      class="header"
+      id="home"
+    >
+      <div class="header__top">
+        <a
+          class="logo"
+          href="#home"
+        >
+          THE<br />
+          MET
+        </a>
+
+        <div class="header__icons">
+          <a
+            class="header__phone"
+            href="tel:+12125357710"
+          >
+            ☎
+          </a>
+
+          <a
+            class="header__menu-button"
+            href="#menu"
+          >
+            ☰
+          </a>
+        </div>
+      </div>
+
+      <h1 class="header__title">
+        WELCOME<br />
+        TO THE MET
+      </h1>
+    </header>
+
+    <aside
+      class="menu"
+      id="menu"
+    >
+      <div class="menu__top">
+        <a
+          class="logo"
+          href="#home"
+        >
+          THE<br />
+          MET
+        </a>
+
+        <a
+          class="menu__close"
+          href="#home"
+        >
+          ×
+        </a>
+      </div>
+
+      <nav class="menu__nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#now-on-view">NOW ON VIEW</a>
+        <a href="#explore">EXPLORE ONLINE</a>
+        <a href="#contacts">CONTACTS</a>
+      </nav>
+
+      <div class="menu__contacts">
+        <p>
+          THE MET FIFTH AVENUE<br />
+          +1 212-535-7710
+        </p>
+
+        <p>
+          THE MET CLOISTERS<br />
+          +1 212-923-3700
+        </p>
+
+        <a href="tel:+12125357710">CALL TO ORDER</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section
+        class="museum-hours"
+        id="about"
+      >
+        <p class="museum-hours__subtitle">PLAN YOUR VISIT</p>
+
+        <h2 class="section-title section-title--left">
+          MUSEUM HOURS
+        </h2>
+
+        <h3 class="museum-hours__place">
+          THE MET FIFTH AVENUE
+        </h3>
+
+        <div class="museum-hours__row">
+          <strong>10 AM - 5 PM</strong>
+          <span>SUN, MON, TUE, THU</span>
+        </div>
+
+        <div class="museum-hours__row">
+          <strong>10 AM - 9 PM</strong>
+          <span>FRI, SAT</span>
+        </div>
+
+        <div class="museum-hours__row">
+          <strong>CLOSED</strong>
+          <span>WEN</span>
+        </div>
+
+        <p class="museum-hours__closed">
+          <strong>CLOSED ON</strong><br />
+          THANKSGIVING DAY, DEC 25, JAN 1, AND THE FIRST MONDAY IN MAY.
+        </p>
+
+        <h3 class="museum-hours__place">
+          THE MET CLOISTERS
+        </h3>
+
+        <div class="museum-hours__row">
+          <strong>10 AM - 4.30 PM</strong>
+          <span>THU - TUE</span>
+        </div>
+
+        <div class="museum-hours__row">
+          <strong>CLOSED</strong>
+          <span>WEN</span>
+        </div>
+
+        <p class="museum-hours__closed">
+          <strong>CLOSED ON</strong><br />
+          THANKSGIVING DAY, DEC 25, JAN 1
+        </p>
+      </section>
+
+      <section
+        class="now-on-view"
+        id="now-on-view"
+      >
+        <h2 class="section-title">NOW ON VIEW</h2>
+
+        <p class="section-description">
+          EXPLORE EXHIBITION GALLERY GUIDES, VIDEOS, ARTICLES, AND MORE.
+        </p>
+
+        <article class="exhibition">
+          <div class="exhibition__gallery exhibition__gallery--two">
+            <img
+              src="src/images/Layer 46@1,5x.png"
+              alt="Old Masters"
+            />
+
+            <img
+              src="src/images/Layer 47@1,5x.png"
+              alt="Portrait"
+            />
+          </div>
+
+          <h3 class="red-title">
+            A NEW LOOK AT OLD MASTERS
+          </h3>
+
+          <p class="exhibition__date">
+            DECEMBER 12, 2020 – THROUGH SPRING 2023
+          </p>
+        </article>
+
+        <article class="exhibition">
+          <div class="exhibition__gallery exhibition__gallery--three">
+            <img
+              src="src/images/Layer 48@1,5x-2.png"
+              alt="Mandala"
+            />
+
+            <img
+              src="src/images/Layer 48@1,5x.png"
+              alt="Bodhisattva"
+            />
+
+            <img
+              src="src/images/Layer 50@1,5x.png"
+              alt="Buddhist art"
+            />
+          </div>
+
+          <h3 class="red-title">
+            BODHISATTVAS OF WISDOM, COMPASSION, AND POWER
+          </h3>
+
+          <p class="exhibition__date">
+            MARCH 27, 2021 – OCTOBER 30, 2022
+          </p>
+        </article>
+
+        <article class="exhibition">
+          <div class="exhibition__gallery exhibition__gallery--two">
+            <img
+              src="src/images/Layer 49@1,5x.png"
+              alt="Decorative figurine"
+            />
+
+            <img
+              src="src/images/Layer 51@1,5x.png"
+              alt="Decorative arts"
+            />
+          </div>
+
+          <h3 class="red-title">
+            INSPIRING WALT DISNEY: THE ANIMATION OF FRENCH DECORATIVE ARTS
+          </h3>
+
+          <p class="exhibition__date">
+            DECEMBER 10, 2021 – MARCH 6, 2022
+          </p>
+        </article>
+
+        <a
+          class="button"
+          href="#now-on-view"
+        >
+          VIEW ALL EXHIBITIONS
+        </a>
+      </section>
+
+      <section
+        class="explore"
+        id="explore"
+      >
+        <h2 class="section-title">
+          MORE TO EXPLORE<br />
+          ONLINE
+        </h2>
+
+        <article class="explore-card">
+          <img
+            class="explore-card__image"
+            src="src/images/Layer 51@1,5x-2.png"
+            alt="Collection areas"
+          />
+
+          <h3 class="explore-card__title">
+            COLLECTION AREAS
+          </h3>
+
+          <p class="explore-card__text">
+            These collection areas study, exhibit, and care for the objects in
+            The Met collection.
+          </p>
+        </article>
+
+        <article class="explore-card">
+          <img
+            class="explore-card__image"
+            src="src/images/Layer 51@1,5x-3.png"
+            alt="Travel"
+          />
+
+          <h3 class="explore-card__title">
+            TRAVEL
+          </h3>
+
+          <p class="explore-card__text">
+            Travel with The Met connects the Museum's wide and diverse audience
+            to art, inspiration, and historical perspective.
+          </p>
+        </article>
+
+        <article class="explore-card">
+          <img
+            class="explore-card__image"
+            src="src/images/Layer 51@1,5x-4.png"
+            alt="Virtual group tours"
+          />
+
+          <h3 class="explore-card__title">
+            VIRTUAL GROUP TOURS
+          </h3>
+
+          <p class="explore-card__text">
+            Request a guided tour, reserve admission and lead your own small
+            group, or request a live virtual tour led by a Museum guide.
+          </p>
+        </article>
+      </section>
+
+      <section
+        class="contacts"
+        id="contacts"
+      >
+        <h2 class="section-title">
+          CONTACT US
+        </h2>
+
+        <div class="contacts__place">
+          <h3>THE MET FIFTH AVENUE</h3>
+
+          <p class="contacts__label">Phone</p>
+          <a href="tel:+12125357710">
+            +1 212-535-7710
+          </a>
+
+          <p class="contacts__label">Address</p>
+          <p>
+            1000 Fifth Avenue<br />
+            New York, NY 10028
+          </p>
+        </div>
+
+        <div class="contacts__place">
+          <h3>THE MET CLOISTERS</h3>
+
+          <p class="contacts__label">Phone</p>
+          <a href="tel:+12129233700">
+            +1 212-923-3700
+          </a>
+
+          <p class="contacts__label">Address</p>
+          <p>
+            99 Margaret Corbin Drive<br />
+            Fort Tryon Park<br />
+            New York, NY 10040
+          </p>
+        </div>
+
+        <form
+          class="contact-form"
+          action="#"
+        >
+          <input
+            type="text"
+            placeholder="Name"
+          />
+
+          <input
+            type="email"
+            placeholder="Email"
+          />
+
+          <textarea placeholder="Message"></textarea>
+
+          <button
+            class="button"
+            type="submit"
+          >
+            SEND
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img
+        src="src/images/image 1.png"
+        alt="The Met"
+      />
+    </footer>
   </body>
 </html>
