@@ -2,8 +2,15 @@ body {
   margin: 0;
 }
 
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .stars {
   display: flex;
+  align-items: center;
 }
 
 .stars__star {
