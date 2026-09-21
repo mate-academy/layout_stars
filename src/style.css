@@ -1,1 +1,27 @@
-/* add styles here */
+html {
+  margin: 0;
+}
+
+.stars {
+display: grid;
+  grid-template-columns: repeat(5, 16px);
+  grid-template-rows: repeat(6, 16px);
+  column-gap: 4px;
+  row-gap: inherit;
+
+  width: 96px;
+  height: 96px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+
+  font-size: 16px;
+  line-height: 16px;
+  color: #e5e5e5;
+}
+
+.star--active {
+  color: #ffd700;
+}
