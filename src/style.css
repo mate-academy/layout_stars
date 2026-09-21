@@ -1,54 +1,19 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
 }
 
-.card {
-  position: relative;
-
-  width: 140px;
-  height: 160px;
-}
-
-.stars-container {
-  position: absolute;
-  top: 32px;
-  left: 22px;
-
-  display: flex;
-  flex-direction: column;
-
-  width: 96px;
-  height: 96px;
-}
-
 .stars {
   display: flex;
-
-  height: 16px;
-  line-height: 1;
 }
 
 .stars__star {
-  /* Відповідає за вирівнювання фонового зображення по центру */
-  display: inline-block;
-
   width: 16px;
   height: 16px;
   margin-right: 4px;
 
-  border-radius: 0.5px;
-
-  /* Точне вирівнювання SVG строго по центру елемента */
-  background-image: url('./images/star.svg');
+  background-image: url(images/star.svg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 16px 16px;
+  background-position: center;
 }
 
 .stars__star:last-child {
@@ -60,7 +25,5 @@ body {
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('./images/star-active.svg');
-  background-position: center center;
-  background-size: 16px 16px;
+  background-image: url(images/star-active.svg);
 }
