@@ -1,1 +1,5 @@
-/* add styles here */
+@import './blocs/stars.css';
+
+body {
+  margin: 0;
+}
