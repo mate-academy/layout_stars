@@ -1,7 +1,3 @@
-@import url(.//blocks/pages.css);
-
-@import url(.//blocks/stars.css);
-
-@import url(.//blocks/starsN.css);
-
-
+@import 'blocks/pages.css';
+@import 'blocks/stars.css';
+@import 'blocks/starsN.css';
