@@ -1,1 +1,155 @@
 /* add styles here */
+
+.page {
+  font-family: 'Space Grotesk', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.page__body {
+  margin: 0;
+}
+
+.page__menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page__menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(../../images/background-image.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__bottom {
+  padding: 0 20px 40px;
+  h1 {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #292929;
+  }
+}
+
+.top-bar__icons {
+  display: flex;
+  gap: 24px;
+}
+
+
+
+.top-bar {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar__logo {
+  display: flex;
+}
+
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #e5e6e8;
+  font-weight: 700;
+}
+
+.menu__top {
+  margin-bottom: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__content {
+  padding-inline: 20px;
+}
+
+.menu__nav {
+  margin-bottom: 48px;
+}
+
+.menu__phone-number {
+  display: block;
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 140%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu__call-to-order {
+  display: block;
+  width: fit-content;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #292929;
+  font-size: 16px;
+  line-height: 140%;
+  color: inherit;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+
+
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+
+
+.icon--phone {
+  background-image: url(../../images/icon-phone.png);
+}
+
+.icon--menu {
+  background-image: url(../../images/icon-burger-menu.png);
+}
+
+.icon--close {
+  background-image: url(../../images/icon-close.png);
+}
+
+.nav__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
