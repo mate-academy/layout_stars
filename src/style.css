@@ -15,7 +15,7 @@ html {
   background-position: center;
 }
 
- .stars--5 .stars__star {
+ .stars--5 .stars__star:nth-child(-n+5) {
   background-image: url(/src/images/star-active.svg);
 }
 
