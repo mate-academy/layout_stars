@@ -24,12 +24,10 @@
   pointer-events: all;
 }
 
-
-
 .header {
   box-sizing: border-box;
   height: 100vh;
-  background-image: url(../../images/background-image.png);
+  background-image: url(../images/background-image.png);
   background-size: cover;
   background-position: center;
 
@@ -56,8 +54,6 @@
   display: flex;
   gap: 24px;
 }
-
-
 
 .top-bar {
   padding: 24px 20px;
@@ -113,26 +109,22 @@
   text-decoration: none;
 }
 
-
-
 .icon {
   display: block;
   height: 24px;
   width: 24px;
 }
 
-
-
 .icon--phone {
-  background-image: url(../../images/icon-phone.png);
+  background-image: url(../images/icon-phone.png);
 }
 
 .icon--menu {
-  background-image: url(../../images/icon-burger-menu.png);
+  background-image: url(../images/icon-burger-menu.png);
 }
 
 .icon--close {
-  background-image: url(../../images/icon-close.png);
+  background-image: url(../images/icon-close.png);
 }
 
 .nav__link {
@@ -151,5 +143,3 @@
   flex-direction: column;
   gap: 32px;
 }
-
-

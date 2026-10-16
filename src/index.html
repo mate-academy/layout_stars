@@ -1,6 +1,9 @@
 <!-- #region head -->
 <!doctype html>
-<html lang="en" class="page">
+<html
+  lang="en"
+  class="page"
+>
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -8,100 +11,181 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Landing Page</title>
-<!--#region fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
-
-<!--#endregion fonts-->
-     <link
-      rel="stylesheet"
-      href="src/styles/main.scss"
+    <!--#region fonts-->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--#endregion fonts-->
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <!--
     <script
-      src="src/scripts/main.js"
+      src="./scripts/main.js"
       defer
     ></script>
+  -->
   </head>
   <!-- #endregion -->
   <body class="page__body">
-  <header class="header">
-    <div class="top-bar">
-      <a href="#" class="top-bar__logo">
-        <img src="images/Logo.png" alt="nothing">
-      </a>
+    <header class="header">
+      <div class="top-bar">
+        <a
+          href="#"
+          class="top-bar__logo"
+        >
+          <img
+            src="../images/Header.png"
+            alt="nothing"
+          />
+        </a>
 
-      <div class="top-bar__icons">
-        <a href="#" class="icon icon--phone"></a>
-        <a href="#menu" class="icon icon--menu"></a>
+        <div class="top-bar__icons">
+          <a
+            href="#"
+            class="icon icon--phone"
+          ></a>
+          <a
+            href="#menu"
+            class="icon icon--menu"
+          ></a>
+        </div>
       </div>
-    </div>
-    <div class="header__bottom">
-      <h1>Bring joy back to the everyday</h1>
-    </div>
-  </header>
+      <div class="header__bottom">
+        <h1>Bring joy back to the everyday</h1>
+      </div>
+    </header>
 
-<aside class="page__menu menu" id="menu">
-  <div class="menu__content">
+    <aside
+      class="page__menu menu"
+      id="menu"
+    >
+      <div class="menu__content">
+        <div class="menu__top">
+          <a
+            href="#"
+            class="top-bar__logo"
+          >
+            <img
+              src="../images/Header.png"
+              alt="nothing"
+            />
+          </a>
+          <a
+            href="#"
+            class="icon icon--close"
+          ></a>
+        </div>
 
-    <div class="top-bar menu__top">
-      <a href="#"  class="top-bar__logo">
-        <img src="images/Logo.png" alt="nothing">
-      </a>
-      <a href="#" class="icon icon--close"></a>
-    </div>
+        <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#products"
+              >
+                Products
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#store"
+              >
+                Store
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#login"
+              >
+                Login
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link"
+                href="#cart"
+              >
+                Cart(0)
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-    <nav class="nav menu__nav">
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a class="nav__link" href="#products">Products</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#store">Store</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#login">Login</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#cart">Cart(0)</a>
-        </li>
-      </ul>
-    </nav>
+        <a
+          href="tel:+12345555555"
+          class="menu__phone-number"
+        >
+          +1 234 5555-55-55
+        </a>
+        <a
+          href="#"
+          class="menu__call-to-order"
+        >
+          CALL TO ORDER
+        </a>
+      </div>
+    </aside>
 
-    <a href="tel:+12345555555" class="menu__phone-number">
-      +1 234 5555-55-55
-    </a>
-    <a href="#" class="menu__call-to-order">
-      CALL TO ORDER
-    </a>
+    <main class="main">
+      <section
+        class="products"
+        id="products"
+      >
+        <h2>Products</h2>
+      </section>
 
-  </div>
-</aside>
+      <section
+        class="store"
+        id="store"
+      >
+        <h2>Store</h2>
+      </section>
 
-  <main class="main">
-    <section class="products" id="products">
-      <h2>Products</h2>
-    </section>
+      <section
+        class="login"
+        id="login"
+      >
+        <h2>Login</h2>
+      </section>
 
-    <section class="store" id="store">
-      <h2>Store</h2>
-    </section>
+      <section
+        class="cart"
+        id="cart"
+      >
+        <h2>Cart</h2>
+      </section>
+    </main>
 
-    <section class="login" id="login">
-      <h2>Login</h2>
-    </section>
-
-    <section class="cart" id="cart">
-      <h2>Cart</h2>
-    </section>
-  </main>
-
-
-  <footer></footer>
+    <footer></footer>
   </body>
 </html>
+
