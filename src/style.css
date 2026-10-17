@@ -1,4 +1,4 @@
-html {
+body {
   margin: 0;
 }
 
@@ -13,6 +13,10 @@ html {
   background-image: url(/src/images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.stars__star:not(:last-child){
+  margin-right: 4px;
 }
 
  .stars--5 .stars__star:nth-child(-n+5) {
