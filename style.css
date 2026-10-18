@@ -1,0 +1,63 @@
+/* #region page */
+html {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+body {
+  margin: 0;
+}
+/* #endregion */
+
+/* #region header */
+.header {
+  box-sizing: border-box;
+  padding: 24px 20px;
+  height: 100vh;
+  background-image: url(images/header-bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_title{
+  font-size: 36px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+/* #endregion */
+
+/* #region icon */
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone {
+  background-image: url(images/phone-icon.png);
+}
+
+.icon--menu {
+  background-image: url(images/menu-icon.png);
+}
+/* #endregion */
+
+/* #region footer */
+.footer {
+
+}
+/* #endregion */
