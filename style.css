@@ -19,23 +19,15 @@
   pointer-events: none;
 }
 /* #endregion */
-
 /* #region header */
 .header {
   box-sizing: border-box;
-  padding: 24px 20px;
   height: 100vh;
   background-image: url(images/header-bg-mobile.png);
   background-size: cover;
   background-position: center;
-
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.header_top {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -45,34 +37,49 @@
   margin: 0;
 }
 
-.header__icons {
+.header_bottom {
+  padding: 0 20px 48px;
+}
+/* #endregion */
+/* #region top-bar*/
+.top-bar__icons {
   display: flex;
   gap: 24px;
 }
+.top-bar {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* #endregion */
 /* #region menu */
+
 .menu {
   box-sizing: border-box;
-  padding: 24px 20px;
+
   height: 100vh;
   background-color: #ECECEC;
   font-weight: 700;
   text-transform: uppercase;
 }
-
+.menu_top {
+  margin-bottom: 32px;
+}
+.top-bar__logo {
+  display: flex;
+}
 .page__menu:target {
   opacity: 1;
   pointer-events: all;
 }
 
-.menu_top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .menu__nav {
   margin-bottom: 48px;
+}
+
+.menu__content {
+  padding-inline: 20px;
 }
 
 .menu__phone-number {
@@ -97,7 +104,7 @@
   padding-bottom: 8px;
   border-bottom: 1px solid #1B2129;
 }
-/* enregion */
+/* #endregion */
 /* #region icon */
 .icon {
   display: block;
@@ -134,7 +141,7 @@
   flex-direction: column;
   gap: 39px;
 }
-/* endregion */
+/* #endregion */
 /* #region footer */
 .footer {
 
