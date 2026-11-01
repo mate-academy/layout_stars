@@ -1,0 +1,8 @@
+/* stylelint-disable declaration-empty-line-before */
+/* stylelint-disable rule-empty-line-before */
+@import 'stars.css';
+@import 'stars_star.css';
+
+body {
+  margin: 0;
+}

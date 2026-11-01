@@ -1,12 +1,4 @@
-/* stylelint-disable declaration-empty-line-before */
 /* stylelint-disable rule-empty-line-before */
-body {
-  margin: 0;
-}
-.stars {
-  display: flex;
-}
-
 .stars__star {
   width: 96px;
   height: 96px;
