@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "layout_landing-page",
   "version": "1.0.0",
   "description": "Landing page",
@@ -9,6 +10,16 @@
     "style-format": "npx stylelint 'src/**/*.scss' --fix --allow-empty-input",
     "format": "prettier --ignore-path .prettierignore --write './src/**/*.{html,css,scss}'",
     "lint": "npm run style-format && npm run format && mate-scripts lint",
+=======
+  "name": "stars",
+  "version": "1.0.0",
+  "description": "Create reusable stars block",
+  "scripts": {
+    "init": "mate-scripts init",
+    "start": "mate-scripts start",
+    "format": "prettier --ignore-path .prettierignore --write './src/**/*.{html,css,scss}'",
+    "lint": "npm run format && mate-scripts lint",
+>>>>>>> 814417d3ab314bbf7f9031b16ae6a965dcfb1188
     "test:only": "mate-scripts test",
     "build": "mate-scripts build",
     "deploy": "mate-scripts deploy",
@@ -19,6 +30,7 @@
   "keywords": [],
   "author": "Mate Academy",
   "license": "GPL-3.0",
+<<<<<<< HEAD
   "devDependencies": {
     "@linthtml/linthtml": "^0.9.6",
     "@mate-academy/eslint-config": "latest",
@@ -54,6 +66,28 @@
       "jest": false,
       "backstop": false,
       "cypress": true
+=======
+  "dependencies": {},
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.9.6",
+    "@mate-academy/backstop-config": "latest",
+    "@mate-academy/bemlint": "latest",
+    "@mate-academy/linthtml-config": "latest",
+    "@mate-academy/scripts": "^1.8.6",
+    "@mate-academy/stylelint-config": "latest",
+    "backstopjs": "6.3.23",
+    "jest": "^29.7.0",
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.2",
+    "stylelint": "^16.7.0",
+    "stylelint-scss": "^6.4.1"
+  },
+  "mateAcademy": {
+    "projectType": "layout",
+    "linters": {
+      "javascript": false,
+      "bem": false
+>>>>>>> 814417d3ab314bbf7f9031b16ae6a965dcfb1188
     }
   }
 }
