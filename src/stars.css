@@ -3,7 +3,7 @@
 }
 
 .stars :first-child {
-  margin-left: 2;
+  margin-left: 1px;
 }
 
 .stars__star {
