@@ -2,14 +2,10 @@
   display: flex;
 }
 
-.stars :first-child {
-  margin-left: 1px;
-}
-
 .stars__star {
   height: 16px;
   width: 16px;
-  margin: 0 4px;
+  margin-inline: 4px;
   background-image: url(images/star.svg);
   background-size: cover;
 }
